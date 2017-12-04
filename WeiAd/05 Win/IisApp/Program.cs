@@ -16,8 +16,7 @@ namespace IisApp
             {
                 AddDomains();
             }
-            else
-            {
+            else {
             }
 
             Console.Write("运行结束。");
