@@ -9,7 +9,6 @@ C:\Projects\WeiAd\05 Win\WeTest\bin\Debug\WeTest.exe.config
 C:\Projects\WeiAd\05 Win\WeTest\bin\Debug\WeTest.exe
 C:\Projects\WeiAd\05 Win\WeTest\bin\Debug\WeTest.pdb
 C:\Projects\WeiAd\05 Win\WeTest\bin\Debug\Newtonsoft.Json.dll
-C:\Projects\WeiAd\05 Win\WeTest\obj\Debug\WeTest.csprojResolveAssemblyReference.cache
 C:\Projects\WeiAd\05 Win\WeTest\obj\Debug\WeTest.csproj.CoreCompileInputs.cache
 C:\Projects\WeiAd\05 Win\WeTest\obj\Debug\WeTest.exe
 C:\Projects\WeiAd\05 Win\WeTest\obj\Debug\WeTest.pdb
