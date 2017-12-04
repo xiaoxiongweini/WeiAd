@@ -1,0 +1,19 @@
+﻿1、新增CPS订单状态等字段
+2、各帐户类型文件夹独立
+
+alter table [CustomerInfo]
+add CheckState int default(0) not null;
+
+alter table [CustomerInfo]
+add CheckRemark varchar(500);
+
+alter table [CustomerInfo]
+add IsExport int default(0) not null;
+
+alter table [CustomerInfo]
+add ExportUserId int default(0) not null;
+
+alter table [CustomerInfo]
+add ExportDate datetime default(getdate()) not null;
+
+-----------------------------------------------20170821--------------------------------

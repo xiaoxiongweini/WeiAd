@@ -1,0 +1,70 @@
+-------------start 2017/7/25 9:40:38-------------/Login.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/7/25 9:40:38-------------
+-------------start 2017/7/25 9:40:41-------------/Admin/Index.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/7/25 9:40:41-------------
+-------------start 2017/7/25 9:40:47-------------/Admin/Server/DomainList.aspx
+SELECT TOP 10 * FROM [DomainInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [DomainInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/7/25 9:40:47-------------
+-------------start 2017/7/25 9:40:52-------------/Admin/Server/SerList.aspx
+SELECT TOP 10 * FROM [ServerInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [ServerInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/7/25 9:40:52-------------
+-------------start 2017/7/25 9:40:55-------------/Admin/Server/DomainList.aspx
+SELECT TOP 10 * FROM [DomainInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [DomainInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/7/25 9:40:55-------------
+-------------start 2017/7/25 9:43:26-------------/Admin/Server/SerList.aspx
+SELECT TOP 10 * FROM [ServerInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [ServerInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/7/25 9:43:26-------------
+-------------start 2017/7/25 9:43:41-------------/Admin/Server/DomainList.aspx
+SELECT TOP 10 * FROM [DomainInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [DomainInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/7/25 9:43:41-------------
+-------------start 2017/7/25 9:43:53-------------/Admin/Server/SerList.aspx
+SELECT TOP 10 * FROM [ServerInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [ServerInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/7/25 9:43:53-------------
+-------------start 2017/7/25 9:49:31-------------/Admin/Server/SerList.aspx
+SELECT TOP 10 * FROM [ServerInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [ServerInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/7/25 9:49:31-------------
+-------------start 2017/7/25 9:49:31-------------/Admin/Server/SerList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/7/25 9:49:31-------------
+-------------start 2017/7/25 9:53:15-------------/Admin/Server/SerList.aspx
+SELECT TOP 10 * FROM [ServerInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [ServerInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/7/25 9:53:15-------------
+-------------start 2017/7/25 9:53:15-------------/Admin/Server/DomainServerApp.aspx
+SELECT * FROM ServerInfo  WHERE 1=1  AND [IsState]='1'   order by  id desc 
+-------------end 2017/7/25 9:53:15-------------
+-------------start 2017/7/25 9:53:15-------------/Admin/Server/SerList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/7/25 9:53:15-------------
+-------------start 2017/7/25 9:53:15-------------/Admin/Server/DomainServerApp.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/7/25 9:53:15-------------
+-------------start 2017/7/25 9:53:54-------------/Admin/Server/DomainServerApp.aspx
+SELECT * FROM ServerInfo  WHERE 1=1  AND [IsState]='1'   order by  id desc 
+-------------end 2017/7/25 9:53:54-------------
+-------------start 2017/7/25 9:53:55-------------/Admin/Server/DomainServerApp.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/7/25 9:53:55-------------
+-------------start 2017/7/25 9:54:52-------------/Admin/Server/DomainServerApp.aspx
+SELECT * FROM ServerInfo  WHERE 1=1  AND [IsState]='1'   order by  id desc 
+-------------end 2017/7/25 9:54:52-------------
+-------------start 2017/7/25 9:55:30-------------/Admin/Server/DomainServerApp.aspx
+SELECT * FROM ServerInfo  WHERE 1=1  AND [IsState]='1'   order by  id desc 
+-------------end 2017/7/25 9:55:30-------------
+-------------start 2017/7/25 9:55:50-------------/Admin/Server/DomainServerApp.aspx
+SELECT * FROM ServerInfo  WHERE 1=1  AND [IsState]='1'   order by  id desc 
+-------------end 2017/7/25 9:55:50-------------
+-------------start 2017/7/25 9:55:58-------------/Admin/Server/DomainServerApp.aspx
+SELECT * FROM ServerInfo  WHERE 1=1  AND [IsState]='1'   order by  id desc 
+-------------end 2017/7/25 9:55:58-------------
+-------------start 2017/7/25 9:55:58-------------/Admin/Server/DomainServerApp.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/7/25 9:55:58-------------

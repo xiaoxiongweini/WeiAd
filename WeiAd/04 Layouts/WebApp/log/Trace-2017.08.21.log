@@ -1,0 +1,56 @@
+2017-08-21 10:47:15,128 WARN  : app started.
+2017-08-21 10:51:12,986 WARN  : app stopped.
+2017-08-21 13:55:43,010 WARN  : app started.
+2017-08-21 13:57:14,934 WARN  : app started.
+2017-08-21 14:05:05,195 WARN  : app started.
+2017-08-21 14:06:58,542 WARN  : app started.
+2017-08-21 15:27:37,281 WARN  : app started.
+2017-08-21 15:31:26,925 WARN  : app stopped.
+2017-08-21 15:31:28,780 WARN  : app started.
+2017-08-21 15:31:29,235 WARN  : app stopped.
+2017-08-21 15:31:38,450 WARN  : app started.
+2017-08-21 15:33:30,777 ERROR : 
+.客户信息：
+	Ip:::1
+	浏览器:Chrome
+	浏览器版本:60
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:54856/AccShop/Order/OrderList.aspx
+	错误信息：列“广告ID”不属于表 。
+	错误源：System.Data
+	异常方法：System.Data.DataColumn GetDataColumn(System.String)
+	堆栈信息：   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 WebApp.AccShop.Order.OrderList.btnExport_Click(Object sender, EventArgs e) 位置 C:\Company\微糖时代\ad\src\WeiAd\04 Layouts\WebApp\AccShop\Order\OrderList.aspx.cs:行号 104
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------
+2017-08-21 15:33:48,239 WARN  : app stopped.
+2017-08-21 15:33:53,706 WARN  : app started.
+2017-08-21 15:57:24,360 ERROR : 
+.客户信息：
+	Ip:::1
+	浏览器:Chrome
+	浏览器版本:60
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:54856/Assets/Scripts/Plugs/kindeditor/asp.net/upload_json.ashx?dir=image
+	错误信息：超过了最大请求长度。
+	错误源：System.Web
+	异常方法：System.Web.HttpRawUploadedContent GetEntireRawContent()
+	堆栈信息：   在 System.Web.HttpRequest.GetEntireRawContent()
+   在 System.Web.HttpRequest.GetMultipartContent()
+   在 System.Web.HttpRequest.FillInFilesCollection()
+   在 System.Web.HttpRequest.EnsureFiles()
+   在 System.Web.HttpRequest.get_Files()
+   在 Upload.ProcessRequest(HttpContext context) 位置 C:\Company\微糖时代\ad\src\WeiAd\04 Layouts\WebApp\Assets\Scripts\Plugs\kindeditor\asp.net\upload_json.ashx:行号 43
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--------------------------------------------------------------------------------------------------
+2017-08-21 16:06:46,260 WARN  : app stopped.
+2017-08-21 16:07:33,750 WARN  : app started.

@@ -1,0 +1,207 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.js" type="text/javascript"></script>
+    <meta name="keywords" content="@ViewBag.ArticleTitle" />
+    <meta name="description" content="@ViewBag.ArticleTitle" />
+
+    <title>@ViewBag.Title</title>
+    <style>
+        .prj-cover-floor {
+            display: none;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .active {
+            display: block;
+        }
+
+        .wxmainbox {
+            filter: alpha(opacity:90);
+            -moz-opacity: 0.9;
+            -khtml-opacity: 0.9;
+            opacity: 0.9;
+            background-color: #000000;
+            overflow: hidden;
+        }
+
+        .wxtdbox {
+            height: auto;
+            width: 98%;
+            position: fixed;
+            top: 30%;
+            right: 2px;
+            border: 2px dashed Red;
+            background-color: white;
+        }
+
+        .maskLayer {
+            width: 100%;
+            background-color: #000000;
+            opacity: 0.6;
+            -moz-opacity: 0.6;
+            filter: alpha(opacity=60);
+        }
+
+        .wxbuttonbox {
+            height: auto;
+            width: 98%;
+            position: fixed;
+            bottom: 0px;
+            border: 2px dashed Red;
+            background-color: white;
+        }
+
+        .wxcontentbox {
+            height: auto;
+            width: 80px;
+            position: fixed;
+            top: 20%;
+            right: 2px;
+        }
+
+        .wxcontentmain {
+            border: 2px dashed #6fd509;
+            border-radius: 20px;
+            height: auto;
+            width: 98%;
+            position: fixed;
+            top: 30%;
+            border: 2px dashed Red;
+            background-color: white;
+        }
+
+        .wxbutton {
+            height: 40px;
+            line-height: 40px;
+            color: white;
+            border-radius: 20px;
+            background-color: blue;
+            width: 80%;
+            display: block;
+            margin-left: 10%;
+        }
+
+        .wxname {
+            background-color: yellow;
+            color: red;
+            height: 40px;
+            line-height: 40px;
+            margin-bottom: 10px;
+        }
+    </style>
+    <script type="text/javascript">
+        $(function () {
+            if (IsPC()) {
+                $(".pcwidth").css("width", "680px");
+                $("#pcwidth").css("margin-left", "30%");
+            }
+        })
+
+        function IsPC() {
+            var userAgentInfo = navigator.userAgent;
+            var Agents = ["Android", "iPhone",
+                "SymbianOS", "Windows Phone",
+                "iPad", "iPod"];
+            var flag = true;
+            for (var v = 0; v < Agents.length; v++) {
+                if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                    flag = false;
+                    break;
+                }
+            }
+            return flag;
+        }
+    </script>
+</head>
+<body style="height:100%;max-width:750px;margin:0px auto;">
+    <div class="pcwidth" id="pcwidth">
+        <div id="__tdboxmain" class="" onclick="closecontentbox();">
+            <div class=" ">
+                @Html.Raw(Server.HtmlDecode(ViewBag.Content))
+            </div>
+        </div>
+        <div id="__tdboxmain222" class="wxcontentmain pcwidth" style="display:none;">
+            <div style="width:100%;height:auto; text-align:center;">
+                <h3>加导师微信 轻松应对</h3>
+                <p>每天只通过50个名额</p>
+                <p style="color:blue">↓↓长按下方按钮复制并添加微信号↓↓</p>
+                <div class="wxname">@ViewBag.QcodeImg2</div>
+                <a href="weixin://" class="wxbutton">打开微信</a>
+            </div>
+        </div>
+        <div style="display:none;">
+            @Html.Raw(Server.HtmlDecode(ViewBag.StaticContent))
+            @Html.Raw(Server.HtmlDecode(ViewBag.UserCode))
+        </div>
+        <div style="display:none;">
+            @Html.Raw(Server.HtmlDecode(ViewBag.ArticleContent))
+        </div>
+        <div class="wxbuttonbox pcwidth" onclick="showcontentbox();">
+            <img src="~/Content/image/weixin_npx.gif" style="width:100%;" />
+        </div>
+        <div class="wxcontentbox" onclick="showcontentbox();" style="cursor:pointer;display:none;">
+            <img src="~/Content/image/content_bg.gif" style="width:80px;" />
+        </div>
+        <div style="margin-bottom:100px;"></div>
+    </div>
+    <script type="text/javascript">
+
+        function closecontentbox() {
+            $("#__tdboxmain222").css("z-index", "0");
+            $("#__tdboxmain222").css("display", "none");
+            $("#prj-cover-floor").removeClass("maskLayer");
+            $("#prj-cover-floor").show();
+        }
+
+        function showcontentbox() {
+            $("#__tdboxmain222").css("z-index", "999");
+            $("#__tdboxmain222").css("display", "block");
+            $("#prj-cover-floor").addClass("maskLayer");
+            $("#prj-cover-floor").hide();
+        }
+
+        $("#prj-filtrate-open-icon").on("click", function () {
+            //添加历史记录
+            history.pushState({
+                prjCoverFloor: "prj-cover-floor"
+            }, "");
+            //添加sessionStorage
+            sessionStorage.prjCoverFloor = true;
+            $("#__tdboxmain").css("display", "");
+            //浮层显示隐藏
+            $("#prj-cover-floor").attr("active") ? $("#prj-cover-floor").removeClass("active") : $("#prj-cover-floor").addClass("active");
+        });
+
+        $("#maskLayer").on("click", function () {
+            //添加历史记录
+            history.pushState({
+                prjCoverFloor: "prj-cover-floor"
+            }, "");
+
+            $("#__tdboxmain").css("display", "");
+            //添加sessionStorage
+            sessionStorage.prjCoverFloor = true;
+            //浮层显示隐藏
+            $("#prj-cover-floor").attr("active") ? $("#prj-cover-floor").removeClass("active") : $("#prj-cover-floor").addClass("active");
+        });
+    </script>
+</body>
+</html>

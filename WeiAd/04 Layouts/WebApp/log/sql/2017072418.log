@@ -1,0 +1,24 @@
+-------------start 2017/7/24 18:06:17-------------/Accounts/Order/ProductEdit.aspx?id=1
+SELECT * FROM ProductInfo  WHERE 1=1  AND [Id]='1'  AND [CreateUserId]='2'  
+-------------end 2017/7/24 18:06:17-------------
+-------------start 2017/7/24 18:06:17-------------/Accounts/Order/ProductList.aspx
+SELECT TOP 10 * FROM [ProductInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [ProductInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/7/24 18:06:17-------------
+-------------start 2017/7/24 18:06:17-------------/Accounts/Order/ProductList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/7/24 18:06:17-------------
+-------------start 2017/7/24 18:06:17-------------/Accounts/Order/ProductList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/7/24 18:06:17-------------
+-------------start 2017/7/24 18:06:17-------------/Accounts/Order/ProductList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/7/24 18:06:17-------------
+-------------start 2017/7/24 18:06:17-------------/Accounts/Order/ProductList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/7/24 18:06:17-------------
+-------------start 2017/7/24 18:06:17-------------/Accounts/Order/ProductList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/7/24 18:06:17-------------
+-------------start 2017/7/24 18:06:17-------------/Accounts/Order/ProductList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/7/24 18:06:17-------------

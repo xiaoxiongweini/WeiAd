@@ -1,0 +1,271 @@
+-------------start 2017/8/25 8:37:26-------------/Login.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/8/25 8:37:26-------------
+-------------start 2017/8/25 8:37:26-------------/Admin/Index.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/8/25 8:37:26-------------
+-------------start 2017/8/25 8:37:31-------------/Admin/Cus/CusList.aspx
+SELECT TOP 10 * FROM [CustomerInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [CustomerInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/8/25 8:37:31-------------
+-------------start 2017/8/25 8:37:31-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='2' 
+ 
+-------------end 2017/8/25 8:37:31-------------
+-------------start 2017/8/25 8:37:31-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:37:31-------------
+-------------start 2017/8/25 8:37:31-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:37:31-------------
+-------------start 2017/8/25 8:37:31-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:37:31-------------
+-------------start 2017/8/25 8:37:31-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/25 8:37:31-------------
+-------------start 2017/8/25 8:37:31-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:37:31-------------
+-------------start 2017/8/25 8:37:31-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:37:31-------------
+-------------start 2017/8/25 8:37:31-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/25 8:37:31-------------
+-------------start 2017/8/25 8:37:31-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='17' 
+ 
+-------------end 2017/8/25 8:37:31-------------
+-------------start 2017/8/25 8:37:31-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:37:31-------------
+-------------start 2017/8/25 8:37:31-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:37:31-------------
+-------------start 2017/8/25 8:37:31-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/25 8:37:31-------------
+-------------start 2017/8/25 8:37:31-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:37:31-------------
+-------------start 2017/8/25 8:37:32-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:37:32-------------
+-------------start 2017/8/25 8:37:32-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/25 8:37:32-------------
+-------------start 2017/8/25 8:37:32-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:37:32-------------
+-------------start 2017/8/25 8:37:32-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:37:32-------------
+-------------start 2017/8/25 8:37:32-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/25 8:37:32-------------
+-------------start 2017/8/25 8:37:32-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:37:32-------------
+-------------start 2017/8/25 8:37:32-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:37:32-------------
+-------------start 2017/8/25 8:37:32-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/25 8:37:32-------------
+-------------start 2017/8/25 8:37:32-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:37:32-------------
+-------------start 2017/8/25 8:37:32-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:37:32-------------
+-------------start 2017/8/25 8:37:32-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/25 8:37:32-------------
+-------------start 2017/8/25 8:37:32-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='5' 
+ 
+-------------end 2017/8/25 8:37:32-------------
+-------------start 2017/8/25 8:37:32-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:37:32-------------
+-------------start 2017/8/25 8:37:32-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:37:32-------------
+-------------start 2017/8/25 8:37:32-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/25 8:37:32-------------
+-------------start 2017/8/25 8:37:32-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:37:32-------------
+-------------start 2017/8/25 8:37:32-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:37:32-------------
+-------------start 2017/8/25 8:37:32-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/25 8:37:32-------------
+-------------start 2017/8/25 8:37:32-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:37:32-------------
+-------------start 2017/8/25 8:37:32-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:37:32-------------
+-------------start 2017/8/25 8:37:32-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/25 8:37:32-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT TOP 10 * FROM [CustomerInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [CustomerInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:20-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:20-------------
+-------------start 2017/8/25 8:39:21-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:21-------------
+-------------start 2017/8/25 8:39:21-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/25 8:39:21-------------
+-------------start 2017/8/25 8:39:21-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:21-------------
+-------------start 2017/8/25 8:39:21-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:21-------------
+-------------start 2017/8/25 8:39:21-------------/Admin/Cus/CusList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/25 8:39:21-------------
+-------------start 2017/8/25 8:39:22-------------/Admin/Cus/CpsUserList.aspx
+SELECT TOP 10 * FROM [CpsUserInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [CpsUserInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/8/25 8:39:22-------------
+-------------start 2017/8/25 8:39:22-------------/Admin/Cus/CpsUserList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:22-------------
+-------------start 2017/8/25 8:39:22-------------/Admin/Cus/CpsUserList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:22-------------
+-------------start 2017/8/25 8:39:22-------------/Admin/Cus/CpsUserList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:22-------------
+-------------start 2017/8/25 8:39:22-------------/Admin/Cus/CpsUserList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:22-------------
+-------------start 2017/8/25 8:39:22-------------/Admin/Cus/CpsUserList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='18' 
+ 
+-------------end 2017/8/25 8:39:22-------------
+-------------start 2017/8/25 8:39:22-------------/Admin/Cus/CpsUserList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:22-------------
+-------------start 2017/8/25 8:39:22-------------/Admin/Cus/CpsUserList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:22-------------
+-------------start 2017/8/25 8:39:22-------------/Admin/Cus/CpsUserList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:22-------------
+-------------start 2017/8/25 8:39:22-------------/Admin/Cus/CpsUserList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:22-------------
+-------------start 2017/8/25 8:39:22-------------/Admin/Cus/CpsUserList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='16' 
+ 
+-------------end 2017/8/25 8:39:22-------------
+-------------start 2017/8/25 8:39:34-------------/Admin/Cus/CpsUserList.aspx
+SELECT TOP 10 * FROM [CpsUserInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [CpsUserInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/8/25 8:39:34-------------
+-------------start 2017/8/25 8:39:34-------------/Admin/Cus/CpsUserList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:34-------------
+-------------start 2017/8/25 8:39:34-------------/Admin/Cus/CpsUserList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:34-------------
+-------------start 2017/8/25 8:39:34-------------/Admin/Cus/CpsUserList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:34-------------
+-------------start 2017/8/25 8:39:34-------------/Admin/Cus/CpsUserList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:34-------------
+-------------start 2017/8/25 8:39:34-------------/Admin/Cus/CpsUserList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:34-------------
+-------------start 2017/8/25 8:39:34-------------/Admin/Cus/CpsUserList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:34-------------
+-------------start 2017/8/25 8:39:34-------------/Admin/Cus/CpsUserList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:34-------------
+-------------start 2017/8/25 8:39:34-------------/Admin/Cus/CpsUserList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/25 8:39:34-------------

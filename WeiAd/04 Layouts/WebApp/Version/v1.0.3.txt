@@ -1,0 +1,12 @@
+﻿--- 修改表结构，新增广告模版设置等字段
+
+ALTER TABLE [AdPageInfo]
+ADD TemplateName varchar(200);
+ALTER TABLE [AdPageInfo]
+ADD IsDel int not null default(0);
+ALTER TABLE [AdPageInfo]
+ADD IsAuth int not null default(0) ;
+ALTER TABLE [AdPageInfo]
+ADD StaticContent varchar(4000);
+ALTER TABLE [AdPageInfo]
+ADD CreateUserId int not null default(0) ;

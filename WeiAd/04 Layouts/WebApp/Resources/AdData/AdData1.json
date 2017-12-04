@@ -1,0 +1,212 @@
+﻿[
+  {
+    "AdId": 144,
+    "UserId": 5,
+    "ClientUrl": "http://youwen.huoxianchuanmei.com:8088/MpTimer/article/customelist.sc?account=gh_29fecea2fd10&customeName=%E9%BB%84%E6%99%93%E9%97%AF",
+    "Encoding": "UTF-8",
+    "App": 0
+  },
+  {
+    "AdId": 0,
+    "UserId": 0,
+    "ClientUrl": "https://web.umeng.com/main.php?c=site&a=frame&siteid=1262486093#!/1499477414643/site/overview/1/1262486093/2017-07-08/2017-07-08",
+    "Encoding": "UTF-8",
+    "App": 0
+  },
+  {
+    "AdId": 145,
+    "UserId": 1006,
+    "ClientUrl": "http://huoxian.weiyouzj.com:8088/MpTimer/article/customelist.sc?account=gh_c31b3790c8f8&customeName=%E9%97%AF",
+    "Encoding": "UTF-8",
+    "App": 0
+  },
+  {
+    "AdId": 151,
+    "UserId": 12,
+    "ClientUrl": "http://huoxian.weiyouzj.com:8088/MpTimer/article/customelist.sc?account=gh_c31b3790c8f8&customeName=%E9%97%AF",
+    "Encoding": "UTF-8",
+    "App": 0
+  },
+  {
+    "AdId": 182,
+    "UserId": 12,
+    "ClientUrl": "http://ads.k4884.com/index.php/Index/logs1",
+    "Encoding": "UTF-8",
+    "App": 1
+  },
+  {
+    "AdId": 147,
+    "UserId": 1007,
+    "ClientUrl": "http://ads.k4884.com/index.php/Index/logs1",
+    "Encoding": "UTF-8",
+    "App": 1
+  },
+  {
+    "AdId": 230,
+    "UserId": 20,
+    "ClientUrl": "http://youwen.huoxianchuanmei.com:8088/MpTimer/article/customelist.sc?account=gh_29fecea2fd10&customeName=%E6%B9%BF%E6%AF%92",
+    "Encoding": "UTF-8",
+    "App": 0
+  },
+  {
+    "AdId": 238,
+    "UserId": 24,
+    "ClientUrl": "http://youwen.huoxianchuanmei.com:8088/MpTimer/article/customelist.sc?account=gh_29fecea2fd10&customeName=%E6%99%93%E9%97%AF",
+    "Encoding": "UTF-8",
+    "App": 0
+  },
+  {
+    "AdId": 246,
+    "UserId": 25,
+    "ClientUrl": "http://uu.anyingyong.com/index/myad/id/266/pass/345634,http://j.rruuq.cn/index/myad/id/258/pass/546345,http://qfen.bombadd.com/index/myad/id/251/pass/354634,http://tiao.iqnrs.cn/index/myad/id/284/pass/4565734",
+    "Encoding": "UTF-8",
+    "App": 2
+  },
+  {
+    "AdId": 274,
+    "UserId": 27,
+    "ClientUrl": "http://youwen.huoxianchuanmei.com:8088/MpTimer/article/customelist.sc?account=gh_29fecea2fd10&customeName=%E6%99%93%E9%97%AF",
+    "Encoding": "UTF-8",
+    "App": 0
+  },
+  {
+    "AdId": 276,
+    "UserId": 28,
+    "ClientUrl": "http://youwen.huoxianchuanmei.com:8088/MpTimer/article/customelist.sc?account=gh_29fecea2fd10&customeName=%E8%A1%A5%E8%A1%80-%E6%99%93",
+    "Encoding": "UTF-8",
+    "App": 0
+  },
+  {
+    "AdId": 277,
+    "UserId": 29,
+    "ClientUrl": "http://www.beijingfengchuankeji.com",
+    "Encoding": "UTF-8",
+    "App": 3,
+    "XPath": ""
+  },
+  {
+    "AdId": 278,
+    "UserId": 30,
+    "ClientUrl": "http://uu.anyingyong.com/index/myad/id/274/pass/456743564",
+    "Encoding": "UTF-8",
+    "App": 2,
+    "XPath": ""
+  },
+  {
+    "AdId": 280,
+    "UserId": 32,
+    "ClientUrl": "http://youwen.huoxianchuanmei.com:8088/MpTimer/article/customelist.sc?account=gh_29fecea2fd10&customeName=%E7%89%9B%E7%9A%AE%E7%99%A3-%E6%99%93",
+    "Encoding": "UTF-8",
+    "App": 0,
+    "XPath": ""
+  },
+  {
+    "AdId": 281,
+    "UserId": 33,
+    "ClientUrl": "http://guanggao-pv.uicp.cn/bzcx/advlist.do",
+    "Encoding": "UTF-8",
+    "App": 4,
+    "XPath": ""
+  },
+  {
+    "AdId": 282,
+    "UserId": 34,
+    "ClientUrl": "http://106.14.1.132/20170227_WXShare/adOwner.php?s=iDuxzIVbqKJD2mriAxRl",
+    "Encoding": "UTF-8",
+    "App": 5,
+    "XPath": "\"//*[@id=\"page-wrapper\"]/form/div[4]/div/table/tbody/tr[2]/td[2]\""
+  },
+  {
+    "AdId": 283,
+    "UserId": 35,
+    "ClientUrl": "http://uu.anyingyong.com/index/myad/id/276/pass/56756444",
+    "Encoding": "UTF-8",
+    "App": 2,
+    "XPath": ""
+  },
+  {
+    "AdId": 284,
+    "UserId": 36,
+    "ClientUrl": "http://www.beijingfengchuankeji.com",
+    "Encoding": "UTF-8",
+    "App": 3,
+    "XPath": "",
+    "Purl": "username=hxchxc&password=123456"
+  },
+  {
+    "AdId": 308,
+    "UserId": 40,
+    "ClientUrl": "http://www.beijingfengchuankeji.com",
+    "Encoding": "UTF-8",
+    "App": 3,
+    "XPath": "",
+    "Purl": "username=lsrlsr&password=111111"
+  },
+  {
+    "AdId": 314,
+    "UserId": 41,
+    "ClientUrl": "http://121.42.168.228/forward/index?sid=170823nvk",
+    "Encoding": "UTF-8",
+    "App": 0,
+    "Xpath": "//table/tbody/tr[2]/td[4]"
+  },
+  {
+    "AdId": 317,
+    "UserId": 44,
+    "ClientUrl": "http://youwen.huoxianchuanmei.com:8088/MpTimer/article/customelist.sc?account=gh_29fecea2fd10&customeName=%E6%99%93%E9%97%AF",
+    "Encoding": "UTF-8",
+    "App": 0
+  },
+  {
+    "AdId": 320,
+    "UserId": 46,
+    "ClientUrl": "http://youwen.huoxianchuanmei.com:8088/MpTimer/article/customelist.sc?account=gh_29fecea2fd10&customeName=%E7%90%86%E8%B4%A2",
+    "Encoding": "UTF-8",
+    "App": 0
+  },
+  {
+    "AdId": 326,
+    "UserId": 48,
+    "ClientUrl": "http://tiao.iqnrs.cn/index/myad/id/311/pass/3244576678",
+    "Encoding": "UTF-8",
+    "App": 2
+  },
+  {
+    "AdId": 337,
+    "UserId": 51,
+    "ClientUrl": "http://youwen.huoxianchuanmei.com:8088/MpTimer/article/customelist.sc?account=gh_29fecea2fd10&customeName=%E7%94%B7%E7%A7%91-%E6%99%93%E9%97%AF",
+    "Encoding": "UTF-8",
+    "App": 0
+  },
+  {
+    "AdId": 342,
+    "UserId": 54,
+    "ClientUrl": "http://106.14.1.132/20170227_WXShare/adOwner.php?s=Wxpedm1bQPT7269AJ2pJ",
+    "Encoding": "UTF-8",
+    "App": 0
+  },
+  {
+    "AdId": 363,
+    "UserId": 57,
+    "ClientUrl": "http://tiao.iqnrs.cn/index/myad/id/321/pass/457659,http://ad.afnuo.cn/index/myad/id/289/pass/5656843",
+    "Encoding": "UTF-8",
+    "App": 2,
+    "VirCount": -93014
+  },
+  {
+    "AdId": 367,
+    "UserId": 58,
+    "ClientUrl": "http://ad.afnuo.cn/index/myad/id/289/pass/5656843",
+    "Encoding": "UTF-8",
+    "App": 2,
+    "VirCount": 0
+  },
+  {
+    "AdId": 382,
+    "UserId": 59,
+    "ClientUrl": "http://106.14.1.132/20170227_WXShare/adOwner.php?s=ZGBo9fXC4IfTIUsw48A6",
+    "Encoding": "UTF-8",
+    "App": 5,
+    "XPath": "\"//*[@id=\"page-wrapper\"]/form/div[4]/div/table/tbody/tr[2]/td[2]\""
+  }
+]

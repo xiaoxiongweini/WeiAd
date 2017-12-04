@@ -1,0 +1,44 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.js" type="text/javascript"></script>
+    <meta name="keywords" content="@ViewBag.ArticleTitle" />
+    <meta name="description" content="@ViewBag.ArticleTitle" />
+   
+    <title>@ViewBag.Title</title>
+    <style type="text/css">
+        .contincter {
+            margin: 0 auto;
+            padding: 0;
+            max-width: 750px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contincter">
+        <div>
+            @Html.Raw(Server.HtmlDecode(ViewBag.Content))
+        </div>
+        <div style="display:none;">
+            @Html.Raw(Server.HtmlDecode(ViewBag.StaticContent))
+            @Html.Raw(Server.HtmlDecode(ViewBag.UserCode))
+        </div>
+        <div style="display:none;">
+            @Html.Raw(Server.HtmlDecode(ViewBag.ArticleContent))
+        </div>
+    </div>
+</body>
+</html>

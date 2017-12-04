@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.js" type="text/javascript"></script>
+    <script src="/Scripts/HtmlBrowse.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var wx = "Bzg607,bzg337,bizhigao9952";
+
+        //微信
+        var weixiarr = wx.split(',');
+        var numb = weixiarr.length;
+        var eq = Math.round(Math.random() * (numb - 1));
+        console.log(eq);
+
+        var rwx = weixiarr[eq];
+
+        $(function () {
+            $(".weixinhaoma").text(rwx);
+        })
+    </script>
+</head>
+<body style="height:100%;max-width:750px;margin:0px auto;">
+    <input type="hidden" id="__hidAdId" value="465" />
+    <input type="hidden" id="__hidAdUserId" value="62" />
+    <div id="js_article" class="rich_media">
+        <div class="rich_media_inner">
+            <div class="rich_media_content" id="js_content">
+            	<img src="http://l-m-t.oss-cn-hangzhou.aliyuncs.com/by/01.jpg" width="790" height="752" style="width:100%;height:auto;">
+                <img src="http://l-m-t.oss-cn-hangzhou.aliyuncs.com/by/02.jpg" width="790" height="613" style="width:100%;height:auto;">
+                <img src="http://l-m-t.oss-cn-hangzhou.aliyuncs.com/by/03.jpg" width="790" height="505" style="width:100%;height:auto;">
+                <img src="http://l-m-t.oss-cn-hangzhou.aliyuncs.com/by/04.jpg" width="790" height="477" style="width:100%;height:auto;">
+                <img src="http://l-m-t.oss-cn-hangzhou.aliyuncs.com/by/05.jpg" width="790" height="355" style="width:100%;height:auto;">
+                <img src="http://l-m-t.oss-cn-hangzhou.aliyuncs.com/by/06.jpg" width="790" height="568" style="width:100%;height:auto;">
+                <img src="http://l-m-t.oss-cn-hangzhou.aliyuncs.com/by/07.jpg" width="790" height="484" style="width:100%;height:auto;">
+                <img src="http://l-m-t.oss-cn-hangzhou.aliyuncs.com/by/08.jpg" width="790" height="509" style="width:100%;height:auto;">
+                <img src="http://l-m-t.oss-cn-hangzhou.aliyuncs.com/by/10.jpg" width="790" height="1198" style="width:100%;height:auto;">
+                <img src="http://l-m-t.oss-cn-hangzhou.aliyuncs.com/by/11.jpg" width="790" height="624" style="width:100%;height:auto;">
+                <img src="http://l-m-t.oss-cn-hangzhou.aliyuncs.com/by/12.jpg" width="790" height="1097" style="width:100%;height:auto;">
+                <img src="http://l-m-t.oss-cn-hangzhou.aliyuncs.com/by/13.jpg" width="790" height="786" style="width:100%;height:auto;">
+                <img src="http://l-m-t.oss-cn-hangzhou.aliyuncs.com/by/14.jpg" width="790" height="357" style="width:100%;height:auto;">
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

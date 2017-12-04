@@ -1,0 +1,146 @@
+-------------start 2017/8/21 10:47:20-------------/Login.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/8/21 10:47:20-------------
+-------------start 2017/8/21 10:47:21-------------/Admin/Index.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/8/21 10:47:21-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT TOP 10 * FROM [ProductInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [ProductInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='17' 
+ 
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='5' 
+ 
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='2' 
+ 
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:26-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:26-------------
+-------------start 2017/8/21 10:47:27-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:27-------------
+-------------start 2017/8/21 10:47:27-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:27-------------
+-------------start 2017/8/21 10:47:27-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:27-------------
+-------------start 2017/8/21 10:47:27-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:27-------------
+-------------start 2017/8/21 10:47:27-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:27-------------
+-------------start 2017/8/21 10:47:27-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:27-------------
+-------------start 2017/8/21 10:47:27-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:27-------------
+-------------start 2017/8/21 10:47:27-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:27-------------
+-------------start 2017/8/21 10:47:27-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:27-------------
+-------------start 2017/8/21 10:47:27-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:27-------------
+-------------start 2017/8/21 10:47:27-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:27-------------
+-------------start 2017/8/21 10:47:27-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:27-------------
+-------------start 2017/8/21 10:47:27-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:27-------------
+-------------start 2017/8/21 10:47:27-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:27-------------
+-------------start 2017/8/21 10:47:27-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:27-------------
+-------------start 2017/8/21 10:47:27-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:27-------------
+-------------start 2017/8/21 10:47:27-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:27-------------
+-------------start 2017/8/21 10:47:27-------------/Admin/Shop/ProducteList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 10:47:27-------------

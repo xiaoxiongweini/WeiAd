@@ -1,0 +1,397 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta name="title" content="年末行情股王争霸赛">
+    <meta name="keywords" content="年末行情股王争霸赛">
+    <meta name="description" content="年末行情股王争霸赛">
+    <script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.js" type="text/javascript"></script>
+
+    <link href="/Content/gp/bootstrap.min.css" rel="stylesheet">
+    <link href="/Content/gp/layer.css" rel="stylesheet">
+    <link href="/Content/gp/weixin_index.css" rel="stylesheet">
+    <title>@ViewBag.Title</title>
+    <style type="text/css">
+        .contincter {
+            margin: 0 auto;
+            padding: 0;
+            max-width: 750px;
+        }
+
+        .layui-m-layerchild h3 {
+            margin: 0 !important;
+        }
+
+        .layui-m-layercont {
+            text-align: inherit !important;
+            padding-top: 0 !important;
+            background: #fff;
+            overflow: scroll;
+            height: 250px;
+        }
+
+        .img_bottom_code {
+            position: absolute;
+            right: 8.5%;
+            top: 0%;
+            width: 25%;
+            text-align: center;
+            height: 71%;
+        }
+
+            .img_bottom_code img {
+                width: 70% !important;
+                height: 100%;
+                /*margin-bottom: 13%;*/
+            }
+
+            .img_bottom_code .span {
+                color: #fff;
+                font-size: 18px;
+                font-weight: 800;
+                position: absolute;
+                bottom: -25%;
+                left: 0%;
+                width: 100%;
+                text-align: center;
+                height: 26%;
+            }
+
+        .img_code img {
+            width: 100%;
+            height: 100%;
+            /*margin-bottom: 8%;*/
+        }
+
+        .img_code .span {
+            color: #fff;
+            font-size: 12px;
+            font-weight: 800;
+            position: absolute;
+            bottom: -21%;
+            left: 0%;
+            width: 100%;
+            text-align: center;
+            height: 18%;
+        }
+
+        .img_code {
+            position: absolute;
+            right: 8.8%;
+            top: 23%;
+            width: 30.2%;
+            text-align: center;
+            height: 63%;
+        }
+
+        .layer_name {
+            position: absolute;
+            bottom: 11%;
+            left: 6%;
+            width: 88.5%;
+            height: 48%;
+        }
+
+            .layer_name .layer_name_div {
+                display: inline-block;
+                float: left;
+                width: 30%;
+                height: 100%;
+                margin-left: 4.2%;
+                position: relative;
+            }
+
+                .layer_name .layer_name_div:first-child {
+                    margin-left: 0;
+                }
+
+        .touxiang {
+            border-radius: 50px;
+            margin-bottom: 8px;
+            float: left;
+        }
+
+        .touxiangname {
+            font-size: 14px;
+            color: #802F2F;
+            font-weight: 700;
+            display: inline-block;
+            margin-left: 5%;
+            /*float: left;*/
+            /*margin-top: -20%;*/
+        }
+
+        .touxiangnamecolor {
+            font-size: 9px;
+            color: #802F2F;
+        }
+
+        .height-top-row {
+            height: 5px !important;
+        }
+
+        .copyright-min {
+            height: 67px !important;
+            line-height: 20px !important;
+        }
+
+        .glyphicon-absoulet-share {
+            position: fixed;
+            top: 35%;
+            right: 0;
+            height: 160px;
+            width: 130px;
+        }
+
+            .glyphicon-absoulet-share img {
+                position: relative;
+                width: 100%;
+                height: 100%;
+            }
+
+        .share-guide {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: 999;
+            background: rgba(0,0,0,0.8);
+        }
+
+            .share-guide img {
+                position: absolute;
+                top: -40px;
+                width: 110%;
+            }
+    </style>
+
+    <script type="text/javascript">
+
+        var imgurl = "@ViewBag.QcodeImg";
+        var ilist = imgurl.split(',');
+        var wx = "@ViewBag.QcodeImg2";
+        var wlist = wx.split(',');
+
+        var tips = [];
+        for (var i = 0; i < wlist.length; i++) {
+            var item = wlist[i];
+            if (item != "") {
+                tips.push('<span class="wx">' + item + '</span>');
+            }
+         }
+
+        //tips[0] = '<span class="wx">' + wx+'</span>';
+
+         tipsss = [];
+
+        for (var i = 0; i < ilist.length; i++) {
+            var item = ilist[i];
+            if (item != "") {
+                tipsss.push('<img class="tu" src="' + item + '" border="0" style="width:60%";" />');
+            }
+        }
+        //tipsss[0] = '<img class="tu" src="' + imgurl+'" border="0" style="width="50%" height="50%";" />';
+        index = Math.floor(Math.random() * tips.length);
+
+          var weixinDataList = [{
+              "id": 198,
+              "weixinhao": "ls930904",
+              "realname": "\u9f9a\u777f",
+              "weixin_img": "picture\/20171008214157910583.jpg",
+              "weixin_product_id": 44,
+              "business_id": 1,
+              "add_time": 1507469772
+          }, {
+              "id": 199,
+              "weixinhao": "nqhzxz",
+              "realname": "\u5218\u746d",
+              "weixin_img": "picture\/20171008214149245310.jpg",
+              "weixin_product_id": 44,
+              "business_id": 1,
+              "add_time": 1507470183
+          }, {
+              "id": 200,
+              "weixinhao": "xiaoyy7700",
+              "realname": "\u6613\u5efa\u660e",
+              "weixin_img": "picture\/2017100821423993146.jpg",
+              "weixin_product_id": 44,
+              "business_id": 1,
+              "add_time": 1507470183
+          }];
+          var weixinhao = '';
+          var weixinimg = '';
+          var weixin_product_id = '';
+          var business_id = '';
+          var weixin_img_name = '';
+          var weixin_hao_name = '';
+          var product_hao_id = '';
+
+          weixinhao = '<span class="tounch-select" > ' + tips[index] + ' </span>';
+          weixinimg = '<img  class="tounch-select" style="width: 100%;border: 0px;" src="' + ilist[index] + '"/>';
+    </script>
+
+
+</head>
+
+<body style="background: #000000;">
+    <div class="container">
+        <input type="hidden" name="weixin_product_id" id="weixin_product_id" value="44">
+        <div class="centent-main" style="background: #ffffff;">
+            <div></div>
+            <div><img src="/Content/gp/1507297890537682.png" /></div>
+            <div><img src="/Content/gp/1507297890731411.png" /></div>
+            <div style="position: relative;">
+                <img src="/Content/gp/1507297889386425.png" />
+                <div class="img_code">
+                    <img class="weixinimg" />
+                    <div class="span weixinhao">微信号：</div>
+                </div>
+            </div>
+            <div style="position: relative;">
+                <img src="/Content/gp/1507297890101223.png" />
+                <div class="layer_name">
+                    <div class="layer_name_div" onclick="nameAlert(1)">
+                        <div style="overflow: hidden;">
+                            <img class="touxiang" style="width: 35% !important;"
+                                 src="/Content/gp/1507297890769365.jpg" /><span class="touxiangname">柳毅</span>
+                        </div>
+                        <div class="touxiangnamecolor">柳毅，职业金融交易员</div>
+                        <div class="touxiangnamecolor">
+                            <span style="margin-top: 10px; display: inline-block; background-color: rgb(255, 255, 0);">点击立即查看详情</span>
+                        </div>
+                    </div>
+                    <div class="layer_name_div" style="width: 29.68%; height: 100%;" onclick="nameAlert(2)">
+                        <div style="overflow: hidden;">
+                            <img class="touxiang" style="width: 35% !important;"
+                                 src="/Content/gp/1507297890680805.png" /><span class="touxiangname">宁致远</span>
+                        </div>
+                        <div class="touxiangnamecolor">宁致远,民间传奇人物，带领散户狙击庄家高手</div>
+                        <div class="touxiangnamecolor">
+                            <span style="background-color: rgb(255, 255, 0);">点击立刻查看详情</span>
+                        </div>
+                    </div>
+                    <div class="layer_name_div " onclick="nameAlert(3)">
+                        <div style="overflow: hidden;">
+                            <img class="touxiang" style="width: 35% !important;"
+                                 src="/Content/gp/1507297890656837.jpg" /><span class="touxiangname">杨克</span>
+                        </div>
+                        <div class="touxiangnamecolor">杨克,量化交易者，快速盈利高达150%</div>
+                        <div class="touxiangnamecolor">
+                            <span style="background-color: rgb(255, 255, 0);">点击立刻查看详情</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="position: relative;">
+                <img src="/Content/gp/1507297890108401.png" /> &nbsp; &nbsp;<img class="weixinimg"
+                                                                                 style="left: 65%; top: 0px; width: 28% !important; height: 59%; position: absolute;" />
+                <div class="weixinhao diy_weixinhao"
+                     style="left: 72%; top: 68%; right: 0px; color: rgb(255, 255, 255); font-size: 16px; position: absolute; z-index: 999;"></div>
+            </div>
+            <div style="background: none;"></div>
+            <script type="text/javascript" src="/Content/gp/layer.js?v=201707171429122"></script>
+            <script type="text/javascript">
+                $(function () {
+                    $(".weixinhao").html(weixinhao);
+                    $(".weixinimg").attr('src', ilist[index]  );
+                })
+
+                function nameAlert(type) {
+                    var title;
+                    var content;
+                    if (type == 1) {
+                        title = '柳毅';
+                        content = '' +
+                            //           "出生年份：1972<br/>"+
+                            //            " 籍    贯：湖北鄂州<br/>"+
+                            "<div><h2>简    介</h2>" +
+                            "柳毅，职业金融交易员，操盘手，某私募“总舵主”，担任“总舵主”期间业界也唯有深圳红岭私募在整体盈利能与之比拼，曾创造10倍盈利神话。从事金融交易近20年，1996年开始做股票， 2010年进入期货市场，目前主要交易期货和股票。历任某知名证券投资经理，深圳博纳资本操盘手，深圳京润财富集团投资总监。多年的市场博弈，形成了独特的《股海降龙术》操作系统，擅长从趋势入手，根据K线形态，量价关系，筹码分析，资金博弈等角度，捕捉趋势起涨点；采用形态选择大级别的交易机会，通过对基本面的研究来把握阶段性的主升或主跌行情。坚持技术分析方法选择进出场点，止损和止盈点的设置，基本面判断行情的持续性，两者结合起来操作，同时加入一定的资金管理控制资金的波动曲线，追求稳定持续的盈利和回报。<br/>" +
+                            "<h4>投资理念：</h4>" +
+                            " 没有不赚钱的市场，没有不赚钱的交易。<br/>" +
+                            "<h4>近年投资经历：</h4>" +
+                            " 2014年-2015年   西藏城投（曾名ST雅砻）累计获利180%<br/>" +
+                            " 2015年-2016年   洛阳玻璃               累计获利200%<br/>" +
+                            " 2016年-2017年   湖南天雁（曾名ST轻骑）累计获利98%<br/>";
+                    } else if (type == 2) {
+                        title = '杨克';
+                        content = "<h2>简介</h2><br/>" +
+                            "量化交易者 10年股票期货外汇交易经验，3年量化交易，期货市场人工高频交易出身，数万笔的实盘操作经验，涉及股票期货外汇各大市场。曾在广州多家私募基金担任操盘手以及量化研究员，拥有丰富的大资金管理经验，熟悉各类机构的投资理念以及操盘手法，善于跟踪市场主流资金流向，以及大资金资产配置与资金曲线控制。并且在量化交易有着深厚的造诣。<br/>" +
+                            "<h4>投资风格：</h4><br/>" +
+                            " 从一开始的手工短线交易，经过数次升级到后面立足价值，顺势而为的股票中长线交易理念，再到现在以量化交易的思想构建交易策略组合以实现绝对收益的交易理念。<br/>" +
+                            "<h4>投资业绩：</h4><br/>" +
+                            "2015年股票期货市场多个账户斩获超50%以上收益；<br/>" +
+                            "2016年-2017年至今分别斩获赣锋锂业以及恒瑞医药<br/>" +
+                            "2017年量化交易组合策略获得70%的收益；</div>"
+                    } else {
+                        title = '宁致远';
+                        content = '<h2>简介</h2>' +
+                            "民间传奇人物，素有“涨停哥”之称，多次带领着一群“无组织无纪律”的散户完成对庄家的狙击，短期完美实现150%的盈利。后因个人情感问题退出江湖，虽然江湖已不再有它的身影，但依旧流传这他的传说，这次重出江湖争夺20亿操盘资金，背后有什么不为人知的故事？是继续未完成的事，带领散户朋友狙击主力？还是有更大的野望？咱们一起期待“涨停哥”的传说再现！<br/>" +
+                            "“涨停哥”多年实战感悟到，资本市场400年，亘古不变的道理是‘顺势者昌逆势者亡’，资本市场没有任何新鲜事物发生，机构的操盘手法与人性的贪婪恐惧，导致市场不断重复上演‘一赚二平七亏’的铁律。公众交易者失败的原因——往往缺乏的不是技术，而是理念。理念指导交易行为，交易行为决定了交易的结果。<br/>" +
+                            "  如何从散民过度到专业的交易者？在经历多年‘T+0、双向、保证金交易’后，最终体悟交易中‘顺势而为’含义与重要性，最终体悟到交易中“道”与“术”的依存关系——成功的交易，理念占60％，技术占30％，运气仅占10%，" +
+                            "交易者唯有从“有我”的操盘境界进阶到“无我”的操盘境界，才能戒除人性的贪婪与恐惧，从而达到完美的交易。" +
+                            "专业的理念、专业的技术、专业的训练铸就专业的交易。<br/>" +
+                            "座右铭：先为不可以胜 以待敌之可胜。<br/>" +
+                            "<h4>交易风格：</h4>" +
+                            " 拥有资本市场交易传统经典理论的扎实功底。擅长基本面选板块 技术面选标的， 通过交易标的走势架构即可准确捕捉股票短线起爆点，并深谙中长线交易标的布局、持仓、止盈全过程，做到利润最大化。<br/>" +
+                            "<h4>历来战绩：</h4>" +
+                            "2003年   买入了证券龙头股中信证券在2005年到2007年的大牛市赚取了近30倍的收益；<br/>" +
+                            "2008年   布局四万亿基建大投资受益龙头股三一重工，2年时间赚取了近10倍的收益；<br/>" +
+                            "2014年   投资了科技龙头股联络互动2年时间赚取了8倍的收益。" +
+                            "2003年   买入了证券龙头股中信证券在2005年到2007年的大牛市赚取了近30倍的收益；<br/>" +
+                            "2008年   布局四万亿基建大投资受益龙头股三一重工，2年时间赚取了近10倍的收益；<br/>" +
+                            "2014年   投资了科技龙头股联络互动2年时间赚取了8倍的收益。"
+                    }
+                    layer.open({
+                        title: [
+                            title,
+                            'background-color: #FF4351; color:#fff; '
+                        ]
+                        , content: content,
+                    });
+                }
+                function displayShare() {
+                    $("body").find(".share-guide").show();
+                }
+                function closeShare() {
+                    $("body").find(".share-guide").hide();
+                }
+            </script>
+        </div>
+
+        <div class="copyright-min">
+            <div>Copyright © 2017--2018 本次活动解释权归主办方所有</div>
+            <div> 如有疑问请加微信咨询</div>
+        </div>
+        <div class="height-top-row" id="height-top-row"></div>
+    </div>
+    <div class="glyphicon-absoulet-share" onclick="displayShare()">
+        <img src="/Content/gp/share.png" />
+    </div>
+    <div class="share-guide" onclick="closeShare()">
+        <img src="/Content/gp/share-guide.png" />
+    </div>
+
+
+    <div class="" style="display:none;">
+        @Html.Raw(Server.HtmlDecode(ViewBag.Content))
+    </div>
+    <div style="display:none;">
+        @Html.Raw(Server.HtmlDecode(ViewBag.StaticContent))
+        @Html.Raw(Server.HtmlDecode(ViewBag.UserCode))
+    </div>
+    <div style="display:none;">
+        @Html.Raw(Server.HtmlDecode(ViewBag.ArticleContent))
+    </div>
+</body>
+</html>

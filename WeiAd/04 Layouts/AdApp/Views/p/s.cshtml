@@ -1,0 +1,423 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="http://app.1hangye.com/Assets/adimg/buy.css" />
+    <script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.js" type="text/javascript"></script>
+    <script src="http://app.1hangye.com/Assets/adimg/diqu.js" type="text/javascript"></script>
+    <script src="http://app.1hangye.com/Assets/Scripts/addcusv1.js" type="text/javascript"></script>
+    <meta name="keywords" content="@ViewBag.ArticleTitle" />
+    <meta name="description" content="@ViewBag.ArticleTitle" />
+
+    <title>@ViewBag.Title</title>
+    <script type="text/javascript">
+        $(function () {
+
+            $("#ddlprovince").bind("change", function () {
+                var shen = $(this).val();
+                getcitys(shen);
+            });
+            $("#ddlcity").bind("change", function () {
+                var shen = $("#ddlprovince").val();
+                var city = $(this).val();
+                getdist(shen, city);
+            });
+
+            var json = $("#__divProductJson").text();
+            var jattr = eval(json);
+
+            var attr = [];
+            //attr.push({ name: "产品颜色", value: ["白色", "绿色"] });
+            //attr.push({ name: "尺寸", value: ["41码", "41码","100码"] });
+            var html = "";
+            for (var i = 0; i < jattr.length; i++) {
+                html += addattr(jattr[i]);
+            }
+
+            $("#divAttrBox").html(html);
+
+            function scollDown(id, time) {
+                var liHeight = $("#" + id + " ul li").height();
+                var time = time || 2500;
+                setInterval(function () {
+                    $("#" + id + " ul").prepend($("#" + id + " ul li:last").css("height", "0px").animate({
+                        height: liHeight + "px"
+                    }, "slow"));
+                }, time);
+
+
+            }
+            scollDown("fahuo", 3000);
+        })
+
+        function getfrom() { }
+
+        function getcitys(shen) {
+            var dlist = [];
+            var list = PCAD.split("#");
+            var html = "";
+            var city = "";
+            //省$市，区县|市，区县#省$市，区县|市，区县#
+            for (var i = 0; i < list.length; i++) {
+                var tlist = list[i].split("$");
+                if (tlist[0] == shen) {
+                    var clist = tlist[1].split("|");
+                    for (var j = 0; j < clist.length; j++) {
+                        if (clist[j] != "") {
+                            var ctlist = clist[j].split(",");
+                            dlist.push(ctlist[0]);
+                            if (j == 0) {
+                                city = ctlist[0];
+                            }
+                            html += "<option value=\"" + ctlist[0] + "\">" + ctlist[0] + "</option>";
+                        }
+                    }
+                }
+            }
+
+            $("#ddlcity").html(html);
+            getdist(shen, city);
+        }
+
+        function getdist(shen, city) {
+            var dlist = [];
+            var list = PCAD.split("#");
+            var html = "";
+            //省$市，区县|市，区县#省$市，区县|市，区县#
+            for (var i = 0; i < list.length; i++) {
+                var tlist = list[i].split("$");
+                if (tlist[0] == shen) {
+                    var clist = tlist[1].split("|");
+                    for (var j = 0; j < clist.length; j++) {
+                        if (clist[j] != "") {
+                            var ctlist = clist[j].split(",");
+                            if (ctlist[0] == city) {
+                                for (var k = 1; k < ctlist.length; k++) {
+                                    dlist.push(ctlist[k]);
+                                    html += "<option value=\"" + ctlist[k] + "\">" + ctlist[k] + "</option>";
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            $("#ddlarea").html(html);
+        }
+
+        function addnum(type) {
+            //type=1加，2减，3当前输入
+            var num = parseInt($("#txtnum").val());
+            if (type == 1) {
+                num += 1;
+            } else if (type == 2) {
+                num -= 1;
+                if (num <= 1) {
+                    num = 1;
+                }
+            } else if (type == 3) {
+
+            }
+            var price = $("#hidprice").val();
+            $("#txtnum").val(num);
+            $("#txtprice").val(num * price);
+        }
+
+        //创建属性信息
+        function addattr(attr) {
+            //var attr = { name: "产品颜色", value: ["白色", "绿色"] };
+
+            var list = [];
+            list.push('<div class="bdbox">');
+            list.push('<label class="bdxx"><em>*</em>$属性名称$</label>');
+            list.push('<div class="dxbox red chanpin not3chanpin2">');
+            list.push('$选项$');
+            list.push('</div>');
+            list.push('</div>');
+
+            var xx = "";
+            for (var i = 0; i < attr.value.length; i++) {
+                if (i == 0) {
+                    xx += '<label class="now" aname="' + attr.name + '"><input type="radio" onclick="selattr(\'' + attr.name + '\',this)" aname="' + attr.name + '" name="chanpin2" value="' + attr.value[i] + '">&nbsp;' + attr.value[i] + '</label>';
+                } else {
+                    xx += '<label aname="' + attr.name + '"><input type="radio" aname="' + attr.name + '"  onclick="selattr(\'' + attr.name + '\',this)" name="chanpin2" value="' + attr.value[i] + '">&nbsp;' + attr.value[i] + '</label>';
+                }
+            }
+            var html = "";
+            for (var i = 0; i < list.length; i++) {
+                html += list[i];
+            }
+
+            html = html.replace("$属性名称$", attr.name).replace("$选项$", xx);
+
+            return html;
+        }
+
+        function selattr(aname, obj) {
+            $("input[aname='" + aname + "']").each(function () {
+                $(this).attr("checked", "false");
+                $(this).parent().removeClass("now");
+            });
+            $(obj).attr("checked", "true");
+            $(obj).parent().addClass("now");
+        }
+
+        function addcus() {
+            var userAttr = "";
+            var ischeck = true;
+            var checkname = "";
+            $("label[class='now']").each(function () {
+                var tname = $(this).text().trim();
+                var aname = $(this).attr("aname");
+                if (tname == "") {
+                    ischeck = false;
+                    ischeck == aname;
+                }
+                userAttr += tname + ",";
+            });
+
+            if (!ischeck) {
+                alert("【" + checkname + "】不能为空。");
+                return false;
+            }
+
+            var txtnum = $("#txtnum").val();
+            var txtRealName = $("#txtRealName").val();
+            var txtPhone = $("#txtPhone").val();
+            var txtAddress = $("#txtAddress").val();
+            var ddlprovince = $("#ddlprovince").val();
+            var ddlcity = $("#ddlcity").val();
+            var ddlarea = $("#ddlarea").val();
+            var txtRemark = $("#txtRemark").val();
+
+            if (txtRealName == "") {
+                alert('【姓名】不能为空。');
+                return false;
+            }
+            var name = /^[\u4e00-\u9fa5]{2,6}$/;
+            if (!name.test(txtRealName)) {
+                alert('【姓名】格式不正确，请重新填写！');
+                return false;
+            }
+            if (txtPhone == "") {
+                alert('【手机】不能为空。');
+                return false;
+            }
+            var form = /^1[3,4,5,6,7,8]\d{9}$/;
+            if (!form.test(txtPhone)) {
+                alert('【手机号码】格式不正确，请重新填写！');
+                //document.form[0].mob.focus();
+                return false;
+            }
+            if (ddlprovince == "") {
+                alert('【省份】不能为空。');
+                return false;
+            }
+            if (txtAddress == "") {
+                alert('【地址】不能为空。');
+                return false;
+            }
+            $("#__hidUserAttr").val(userAttr);
+            __addcus();
+        }
+
+    </script>
+    <style type="text/css">
+        .contincter {
+            margin: 0 auto;
+            padding: 0;
+            max-width: 750px;
+        }
+        nav {
+            margin: 0 auto;
+            padding: 0;
+            width: 100%;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+        }
+
+            nav ul {
+                padding: 0 0;
+                height: 45px;
+                width: 100%;
+                background: #e30;
+                overflow: hidden;
+            }
+
+                nav ul li {
+                    text-align: center;
+                }
+
+                    nav ul li a {
+                        display: block;
+                        line-height: 45px;
+                        width: 100%;
+                        color: #fff;
+                        font-size: 0.8em;
+                    }
+
+                        nav ul li a strong {
+                            display: block;
+                            position: relative;
+                            top: 10px;
+                            left: 0;
+                            font-weight: normal;
+                        }
+
+                nav ul.Transverse {
+                    position: relative;
+                }
+
+                    nav ul.Transverse li a {
+                        border-right: 1px dotted #ffffff;
+                    }
+
+                    nav ul.Transverse li:last-child a {
+                        border-right: 0px;
+                    }
+
+                    nav ul.Transverse li a strong {
+                        display: inline;
+                        position: inherit;
+                        font-weight: normal;
+                        padding-left: 6px;
+                        line-height: 45px;
+                        font-size: 14px;
+                    }
+
+                    nav ul.Transverse li span {
+                        color: #333
+                    }
+    </style>
+</head>
+<body>
+    <div class="contincter">
+        <div>
+            @Html.Raw(Server.HtmlDecode(ViewBag.Content))
+        </div>
+        <div style="display:none;">
+            @Html.Raw(Server.HtmlDecode(ViewBag.StaticContent))
+            @Html.Raw(Server.HtmlDecode(ViewBag.UserCode))
+        </div>
+        <div style="display:none;">
+            @Html.Raw(Server.HtmlDecode(ViewBag.ArticleContent))
+        </div>
+        <div>
+            <div id="order">
+                <input type="hidden" id="hidprice" value="@ViewBag.ProductPrice">
+                <input type="hidden" id="__hidAdId" value="@ViewBag.AdId" />
+                <input type="hidden" id="__hidAdUserId" value="@ViewBag.AdUserId" />
+                <input type="hidden" id="txtWxName" />
+                <input type="hidden" id="__hidUserAttr" />
+                <div style="display:none" id="__divProductJson">
+                    @ViewBag.AttrJson;
+                </div>
+                <article class="buybody" id="buybody">
+                    <h2>订单信息</h2>
+                    <div class="cpshuoming">
+                        <p style="margin-top: 0px; margin-bottom: 0px; box-sizing: border-box; font-family: 微软雅黑; font-variant-ligatures: normal; orphans: 2; white-space: normal; widows: 2; line-height: 24px; background-color: rgb(249, 249, 249);"><span style="margin: 0px; box-sizing: border-box; color: rgb(75, 172, 198);"><strong style="margin: 0px; box-sizing: border-box;">在线订购：</strong></span>因订单过多，电话接通较慢，请直接在本页底部填表下单<strong style="margin: 0px; box-sizing: border-box;"><span style="margin: 0px; box-sizing: border-box; color: rgb(255, 0, 0);"> </span></strong></p><p style="margin-top: 0px; margin-bottom: 0px; box-sizing: border-box; font-family: 微软雅黑; font-variant-ligatures: normal; orphans: 2; white-space: normal; widows: 2; background-color: rgb(249, 249, 249);"><span style="margin: 0px; box-sizing: border-box; line-height: 24px; color: rgb(227, 108, 9);"><strong style="margin: 0px; box-sizing: border-box;">特别提醒：</strong></span><span style="margin: 0px; box-sizing: border-box; line-height: 24px;">我们会在24小时内给您致电确认订单，请亲一定要高抬贵手接听下电话哦！</span></p><p style="margin-top: 0px; margin-bottom: 0px; box-sizing: border-box; font-family: 微软雅黑; font-variant-ligatures: normal; orphans: 2; white-space: normal; widows: 2; line-height: 24px; background-color: rgb(249, 249, 249);"><span style="margin: 0px; box-sizing: border-box; color: rgb(118, 146, 60);"><strong style="margin: 0px; box-sizing: border-box;"></strong></span><span style="margin: 0px; box-sizing: border-box; color: rgb(118, 146, 60);"><strong style="margin: 0px; box-sizing: border-box;">拆包验货：</strong></span>如遇部分快递小哥不让拆包还请亲及时联系我们来解决！谢谢！</p><p style="margin-top: 0px; margin-bottom: 0px; box-sizing: border-box; font-family: 微软雅黑; font-variant-ligatures: normal; orphans: 2; white-space: normal; widows: 2; line-height: 24px; background-color: rgb(249, 249, 249);"><strong style="margin: 0px; box-sizing: border-box;"><span style="margin: 0px; box-sizing: border-box; color: rgb(192, 0, 0);">售后处理</span></strong><span style="margin: 0px; box-sizing: border-box;">：&nbsp;</span></p><p><br></p><p><br></p>
+                    </div>
+                    <div id="buy" class="warp">
+                        <div>
+                            <input type="hidden" name="orderid" id="orderid" value="@ViewBag.ProductId">
+                            <div class="bdbox">
+                                <label class="bdxx"><em>*</em>产品</label>
+                                <div class="dxbox red chanpin not3chanpin0">
+                                    <label class="now"><input type="radio" name="product" id="txtPname" value="@ViewBag.ProductName" alt="79" checked="" onclick="pricea();yincang();">&nbsp;@ViewBag.ProductName&nbsp;&nbsp;@ViewBag.ProductPrice元</label>
+
+                                </div>
+                            </div>
+                            <!--附加属性b-->
+                            <div id="divAttrBox">
+
+                            </div>
+
+                            <div class="bdbox">
+                                <label class="bdxx"><em>*</em>数量</label>
+
+                                <a class="jian" href="javascript:;" onclick="addnum(2)">-</a>
+                                <input type="text" class="shuliang" size="4" value="1" name="mun" id="txtnum" onblur="addnum(3);" readonly="">
+                                <a class="jia" href="javascript:;" onclick="addnum(1)">+</a>
+                            </div>
+                            <div class="bdbox">
+                                <label class="bdxx"><em>*</em>姓名</label>
+                                <div class="textbox">
+                                    <input type="text" id="txtRealName" name="name">
+                                </div>
+                            </div>
+                            <div class="bdbox">
+                                <label class="bdxx"><em>*</em>手机</label>
+                                <div class="textbox">
+                                    <input type="text" id="txtPhone" name="mob">
+                                </div>
+                            </div>
+                            <div class="bdbox">
+                                <label class="bdxx"><em>*</em>地区</label>
+                                <div class="xlbox">
+                                    <select name="province" id="ddlprovince" class="dqxl"><option value="">选省份</option><option value="北京市">北京市</option><option value="天津市">天津市</option><option value="河北省">河北省</option><option value="山西省">山西省</option><option value="内蒙古自治区">内蒙古自治区</option><option value="辽宁省">辽宁省</option><option value="吉林省">吉林省</option><option value="黑龙江省">黑龙江省</option><option value="上海市">上海市</option><option value="江苏省">江苏省</option><option value="浙江省">浙江省</option><option value="安徽省">安徽省</option><option value="福建省">福建省</option><option value="江西省">江西省</option><option value="山东省">山东省</option><option value="河南省">河南省</option><option value="湖北省">湖北省</option><option value="湖南省">湖南省</option><option value="广东省">广东省</option><option value="广西壮族自治区">广西壮族自治区</option><option value="海南省">海南省</option><option value="重庆市">重庆市</option><option value="四川省">四川省</option><option value="贵州省">贵州省</option><option value="云南省">云南省</option><option value="西藏自治区">西藏自治区</option><option value="陕西省">陕西省</option><option value="甘肃省">甘肃省</option><option value="青海省">青海省</option><option value="宁夏回族自治区">宁夏回族自治区</option><option value="新疆维吾尔自治区">新疆维吾尔自治区</option><option value="香港特别行政区">香港特别行政区</option><option value="澳门特别行政区">澳门特别行政区</option><option value="台湾省">台湾省</option></select><select name="city" id="ddlcity" class="dqxl"><option value="">选城市</option></select><select name="area" id="ddlarea" class="dqxl"><option value="">选地区</option></select>
+                                </div>
+                            </div>
+                            <div class="bdbox">
+                                <label class="bdxx"><em>*</em>地址</label>
+                                <div class="textbox">
+                                    <input type="text" id="txtAddress" name="address">
+                                </div>
+                            </div>
+                            <div class="bdbox">
+                                <label class="bdxx"><em>*</em>金额</label>
+                                <div class="text3box">
+                                    <input name="price" id="txtprice" value="@ViewBag.ProductPrice" readonly="" style="width:80px;"> 元 <span id="zfbyh"></span>
+                                </div>
+                            </div>
+                            <div class="bdbox">
+                                <label class="bdxx"><em>*</em>付款</label>
+                                <div class="dxbox">
+                                    <input type="radio" checked="checked" name="pay" id="b1" value="cod" onclick="return changeItem(0);"><label for="b1"><img src="http://app.1hangye.com/Assets/adimg/xie/hdfk.gif"></label>
+                                </div>
+                            </div>
+
+                            <div class="bdbox">
+                                <label class="bdxx">留言</label>
+                                <div class="text2box">
+                                    <textarea id="txtRemark" name="guest"></textarea>
+                                </div>
+                            </div>
+                            <div class="subbox">
+                                <input type="submit" onclick="addcus()" name="submit" value="立即提交订单">
+                            </div>
+                        </div>
+                        <div style="clear:both;"></div>
+                    </div>
+                    <div id="fahuo">
+                        <script src="http://app.1hangye.com/Assets/adimg/fahuo.js" type="text/javascript"></script>
+                    </div>
+                    <br />
+                    <br />
+                    <footer>
+                        <center><img src="http://app.1hangye.com/Assets/adimg/baobao/foot.png"></center>
+                    </footer>
+                </article>
+            </div>
+
+        </div>
+        <nav>
+            <ul class="Transverse">
+                <li><a href="#buybody"><strong>在线下单</strong></a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+﻿--- 修改表结果，添加设计IP,金额等
+
+ALTER TABLE [AdPageInfo]
+ADD PlanIp int not null default(0);
+ALTER TABLE [AdPageInfo]
+ADD BuyIp int not null default(0) ;
+ALTER TABLE [AdPageInfo]
+ADD PlanTerminal int not null default(0) ;
+ALTER TABLE [AdPageInfo]
+ADD MoneyCount money not null default(0) ;
+ALTER TABLE [AdPageInfo]
+ADD BuyMoney money not null default(0);
+ALTER TABLE [AdPageInfo]
+ADD OrderIndex int not null default(0);
+ALTER TABLE [AdPageInfo]
+ADD UserCode varchar(2000);
+ALTER TABLE [AdPageInfo]
+ADD StartTime datetime not null default getdate();
+ALTER TABLE [AdPageInfo]
+ADD TitleShort varchar(2000);
+
+

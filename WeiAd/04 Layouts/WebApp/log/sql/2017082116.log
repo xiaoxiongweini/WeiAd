@@ -1,0 +1,108 @@
+-------------start 2017/8/21 16:07:35-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='xiaorui' 
+ 
+-------------end 2017/8/21 16:07:35-------------
+-------------start 2017/8/21 16:07:35-------------/Accounts/Order/OrderList.aspx
+SELECT TOP 10 * FROM [CustomerInfo]  WHERE 1=1  AND [IsDelete]='0'  AND Id NOT IN (SELECT TOP 0 Id FROM [CustomerInfo]  WHERE 1=1  AND [IsDelete]='0'   order by  id desc )   order by  id desc 
+-------------end 2017/8/21 16:07:35-------------
+-------------start 2017/8/21 16:07:35-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 16:07:35-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='17' 
+ 
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='5' 
+ 
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 16:07:36-------------
+-------------start 2017/8/21 16:07:36-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 16:07:36-------------

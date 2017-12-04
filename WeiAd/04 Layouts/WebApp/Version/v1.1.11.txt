@@ -1,0 +1,6 @@
+﻿1、修改客户信息表，新增客户属性信息
+
+ALTER TABLE [CustomerInfo]
+ADD [UserAttr] varchar(2000);
+
+

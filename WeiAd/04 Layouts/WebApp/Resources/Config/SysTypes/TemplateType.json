@@ -1,0 +1,22 @@
+﻿[
+  {
+    "Id": "1",
+    "Name": "后台广告信息页_AdViewWx.aspx",
+    "FileName": "AdViewWx.aspx"
+  },
+  {
+    "Id": "2",
+    "Name": "微信广告页_AdViewWx1.aspx",
+    "FileName": "AdViewWx1.aspx"
+  },
+  {
+    "Id": "3",
+    "Name": "微信广告页_AdViewWx2.html",
+    "FileName": "AdViewWx2.html"
+  },
+  {
+    "Id": "4",
+    "Name": "移动空白页AdViewWxemp.html",
+    "FileName": "AdViewWxemp.html"
+  }
+]

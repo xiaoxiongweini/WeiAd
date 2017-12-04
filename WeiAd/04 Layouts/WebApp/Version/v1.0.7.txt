@@ -1,0 +1,15 @@
+﻿--- 修改广告功能
+/*
+1、微信名称和微信图片都需要替换
+*/
+
+ALTER TABLE [AdQcodeInfo]
+ADD QcodeUrl2 varchar(500);
+ALTER TABLE [AdPageInfo]
+ADD QcodeImg2 varchar(500);
+ALTER TABLE [AdPageInfo]
+ADD DefaultQcode2 varchar(500);
+ALTER TABLE [AdPageInfo]
+ADD DomainList varchar(4000);
+
+insert into versioninfo values('V1.0.7','1、更新广告信息。2、更新二维码信息。',getdate());

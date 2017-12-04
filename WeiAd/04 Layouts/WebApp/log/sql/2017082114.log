@@ -1,0 +1,634 @@
+-------------start 2017/8/21 14:05:08-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/8/21 14:05:08-------------
+-------------start 2017/8/21 14:05:08-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 14:05:08-------------
+-------------start 2017/8/21 14:05:09-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AccountInfo  WHERE 1=1  AND UserType <> 100 
+ 
+-------------end 2017/8/21 14:05:09-------------
+-------------start 2017/8/21 14:05:09-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [Id]='231'  
+-------------end 2017/8/21 14:05:09-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND UserType <> 100 
+ 
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT TOP 10 * FROM [AdPageInfo]  WHERE 1=1  AND [IsDel]='0'  AND Id NOT IN (SELECT TOP 0 Id FROM [AdPageInfo]  WHERE 1=1  AND [IsDel]='0'   order by  id desc )   order by  id desc 
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='2' 
+ 
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='24' 
+ 
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='23' 
+ 
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='22' 
+ 
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='21' 
+ 
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='20' 
+ 
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='19' 
+ 
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='17' 
+ 
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='13' 
+ 
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:12-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:12-------------
+-------------start 2017/8/21 14:05:14-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AccountInfo  WHERE 1=1  AND UserType <> 100 
+ 
+-------------end 2017/8/21 14:05:14-------------
+-------------start 2017/8/21 14:05:14-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [Id]='231'  
+-------------end 2017/8/21 14:05:14-------------
+-------------start 2017/8/21 14:05:39-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND UserType <> 100 
+ 
+-------------end 2017/8/21 14:05:39-------------
+-------------start 2017/8/21 14:05:39-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  
+-------------end 2017/8/21 14:05:39-------------
+-------------start 2017/8/21 14:05:39-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  
+-------------end 2017/8/21 14:05:39-------------
+-------------start 2017/8/21 14:05:39-------------/Admin/Ads/AdPageList.aspx
+SELECT TOP 10 * FROM [AdPageInfo]  WHERE 1=1  AND [IsDel]='0'  AND Id NOT IN (SELECT TOP 0 Id FROM [AdPageInfo]  WHERE 1=1  AND [IsDel]='0'   order by  id desc )   order by  id desc 
+-------------end 2017/8/21 14:05:39-------------
+-------------start 2017/8/21 14:05:39-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:39-------------
+-------------start 2017/8/21 14:05:39-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:39-------------
+-------------start 2017/8/21 14:05:39-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:39-------------
+-------------start 2017/8/21 14:05:39-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:39-------------
+-------------start 2017/8/21 14:05:39-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:39-------------
+-------------start 2017/8/21 14:05:39-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:39-------------
+-------------start 2017/8/21 14:05:39-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:39-------------
+-------------start 2017/8/21 14:05:39-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:39-------------
+-------------start 2017/8/21 14:05:39-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:39-------------
+-------------start 2017/8/21 14:05:39-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:39-------------
+-------------start 2017/8/21 14:05:39-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:39-------------
+-------------start 2017/8/21 14:05:39-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:39-------------
+-------------start 2017/8/21 14:05:39-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:39-------------
+-------------start 2017/8/21 14:05:39-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:39-------------
+-------------start 2017/8/21 14:05:39-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:39-------------
+-------------start 2017/8/21 14:05:39-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:39-------------
+-------------start 2017/8/21 14:05:39-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:39-------------
+-------------start 2017/8/21 14:05:39-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:39-------------
+-------------start 2017/8/21 14:05:39-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:39-------------
+-------------start 2017/8/21 14:05:39-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:39-------------
+-------------start 2017/8/21 14:05:41-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AccountInfo  WHERE 1=1  AND UserType <> 100 
+ 
+-------------end 2017/8/21 14:05:41-------------
+-------------start 2017/8/21 14:05:41-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [Id]='231'  
+-------------end 2017/8/21 14:05:41-------------
+-------------start 2017/8/21 14:05:46-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [Id]='231'  
+-------------end 2017/8/21 14:05:46-------------
+-------------start 2017/8/21 14:05:46-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [Id]='231'  
+-------------end 2017/8/21 14:05:46-------------
+-------------start 2017/8/21 14:05:46-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM ArticleInfo  WHERE 1=1  
+-------------end 2017/8/21 14:05:46-------------
+-------------start 2017/8/21 14:05:46-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 14:05:46-------------
+-------------start 2017/8/21 14:05:46-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 14:05:46-------------
+-------------start 2017/8/21 14:05:47-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND UserType <> 100 
+ 
+-------------end 2017/8/21 14:05:47-------------
+-------------start 2017/8/21 14:05:47-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  
+-------------end 2017/8/21 14:05:47-------------
+-------------start 2017/8/21 14:05:47-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  
+-------------end 2017/8/21 14:05:47-------------
+-------------start 2017/8/21 14:05:47-------------/Admin/Ads/AdPageList.aspx
+SELECT TOP 10 * FROM [AdPageInfo]  WHERE 1=1  AND [IsDel]='0'  AND Id NOT IN (SELECT TOP 0 Id FROM [AdPageInfo]  WHERE 1=1  AND [IsDel]='0'   order by  id desc )   order by  id desc 
+-------------end 2017/8/21 14:05:47-------------
+-------------start 2017/8/21 14:05:47-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:47-------------
+-------------start 2017/8/21 14:05:47-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:47-------------
+-------------start 2017/8/21 14:05:47-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:47-------------
+-------------start 2017/8/21 14:05:47-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:47-------------
+-------------start 2017/8/21 14:05:47-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:47-------------
+-------------start 2017/8/21 14:05:47-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:47-------------
+-------------start 2017/8/21 14:05:47-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:47-------------
+-------------start 2017/8/21 14:05:47-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:47-------------
+-------------start 2017/8/21 14:05:47-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:47-------------
+-------------start 2017/8/21 14:05:47-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:47-------------
+-------------start 2017/8/21 14:05:47-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:47-------------
+-------------start 2017/8/21 14:05:47-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:47-------------
+-------------start 2017/8/21 14:05:47-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:47-------------
+-------------start 2017/8/21 14:05:47-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:47-------------
+-------------start 2017/8/21 14:05:47-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:47-------------
+-------------start 2017/8/21 14:05:47-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:47-------------
+-------------start 2017/8/21 14:05:47-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:47-------------
+-------------start 2017/8/21 14:05:47-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:47-------------
+-------------start 2017/8/21 14:05:47-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:47-------------
+-------------start 2017/8/21 14:05:47-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:47-------------
+-------------start 2017/8/21 14:05:48-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AccountInfo  WHERE 1=1  AND UserType <> 100 
+ 
+-------------end 2017/8/21 14:05:48-------------
+-------------start 2017/8/21 14:05:48-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [Id]='231'  
+-------------end 2017/8/21 14:05:48-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [Id]='231'  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [Id]='231'  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND UserType <> 100 
+ 
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageList.aspx
+SELECT TOP 10 * FROM [AdPageInfo]  WHERE 1=1  AND [IsDel]='0'  AND Id NOT IN (SELECT TOP 0 Id FROM [AdPageInfo]  WHERE 1=1  AND [IsDel]='0'   order by  id desc )   order by  id desc 
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:05:56-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:05:56-------------
+-------------start 2017/8/21 14:07:07-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/8/21 14:07:07-------------
+-------------start 2017/8/21 14:07:07-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 14:07:07-------------
+-------------start 2017/8/21 14:07:08-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AccountInfo  WHERE 1=1  AND UserType <> 100 
+ 
+-------------end 2017/8/21 14:07:08-------------
+-------------start 2017/8/21 14:07:08-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [Id]='231'  
+-------------end 2017/8/21 14:07:08-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [Id]='231'  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [Id]='231'  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM ArticleInfo  WHERE 1=1  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND UserType <> 100 
+ 
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT TOP 10 * FROM [AdPageInfo]  WHERE 1=1  AND [IsDel]='0'  AND Id NOT IN (SELECT TOP 0 Id FROM [AdPageInfo]  WHERE 1=1  AND [IsDel]='0'   order by  id desc )   order by  id desc 
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='2' 
+ 
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='24' 
+ 
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='23' 
+ 
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='22' 
+ 
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='21' 
+ 
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='20' 
+ 
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='19' 
+ 
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='17' 
+ 
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='13' 
+ 
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:25-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:07:25-------------
+-------------start 2017/8/21 14:07:27-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AccountInfo  WHERE 1=1  AND UserType <> 100 
+ 
+-------------end 2017/8/21 14:07:27-------------
+-------------start 2017/8/21 14:07:27-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [Id]='231'  
+-------------end 2017/8/21 14:07:27-------------
+-------------start 2017/8/21 14:08:05-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AccountInfo  WHERE 1=1  AND UserType <> 100 
+ 
+-------------end 2017/8/21 14:08:05-------------
+-------------start 2017/8/21 14:08:05-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [Id]='231'  
+-------------end 2017/8/21 14:08:05-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [Id]='231'  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [Id]='231'  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND UserType <> 100 
+ 
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageList.aspx
+SELECT TOP 10 * FROM [AdPageInfo]  WHERE 1=1  AND [IsDel]='0'  AND Id NOT IN (SELECT TOP 0 Id FROM [AdPageInfo]  WHERE 1=1  AND [IsDel]='0'   order by  id desc )   order by  id desc 
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdTypeInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:09-------------/Admin/Ads/AdPageList.aspx
+SELECT * FROM AdSiteInfo  WHERE 1=1  AND [Id]='0'  
+-------------end 2017/8/21 14:08:09-------------
+-------------start 2017/8/21 14:08:11-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AccountInfo  WHERE 1=1  AND UserType <> 100 
+ 
+-------------end 2017/8/21 14:08:11-------------
+-------------start 2017/8/21 14:08:11-------------/Admin/Ads/AdPageEdit.aspx?id=231
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [Id]='231'  
+-------------end 2017/8/21 14:08:11-------------

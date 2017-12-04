@@ -1,0 +1,24 @@
+-------------start 2017/8/17 16:53:41-------------/Login.aspx?ReturnUrl=%2fAccVir%2fIndex.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='viphxc040' 
+ 
+-------------end 2017/8/17 16:53:41-------------
+-------------start 2017/8/17 16:53:43-------------/AccVir/Index.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='viphxc040' 
+ 
+-------------end 2017/8/17 16:53:43-------------
+-------------start 2017/8/17 16:53:43-------------/AccVir/Index.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/17 16:53:43-------------
+-------------start 2017/8/17 16:53:43-------------/AccVir/Index.aspx
+SELECT TOP 10 * FROM [AdPageInfo]  WHERE 1=1  AND [UserId]='21'  AND Id NOT IN (SELECT TOP 0 Id FROM [AdPageInfo]  WHERE 1=1  AND [UserId]='21'  )  
+-------------end 2017/8/17 16:53:43-------------
+-------------start 2017/8/17 16:55:09-------------/AccVir/Index.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='viphxc040' 
+ 
+-------------end 2017/8/17 16:55:09-------------
+-------------start 2017/8/17 16:55:09-------------/AccVir/Index.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/8/17 16:55:09-------------
+-------------start 2017/8/17 16:55:09-------------/AccVir/Index.aspx
+SELECT TOP 10 * FROM [AdPageInfo]  WHERE 1=1  AND [UserId]='21'  AND Id NOT IN (SELECT TOP 0 Id FROM [AdPageInfo]  WHERE 1=1  AND [UserId]='21'  )  
+-------------end 2017/8/17 16:55:09-------------

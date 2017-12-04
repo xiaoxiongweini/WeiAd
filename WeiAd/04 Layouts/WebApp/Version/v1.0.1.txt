@@ -1,0 +1,10 @@
+﻿
+1、新增字段。
+adbrowse
+
+
+select * from aduserpage;
+update aduserpage set AdUserId=0;
+select * from AdPageInfo;
+update AdPageInfo set IsState=0,[Money]=0,SaleType=0
+ 

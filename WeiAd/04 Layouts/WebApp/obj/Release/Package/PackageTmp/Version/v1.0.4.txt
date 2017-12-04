@@ -1,0 +1,8 @@
+﻿--- 修改表结构，新增广告模版设置等字段
+
+ALTER TABLE [DomainInfo]
+ADD CityName varchar(200);
+ALTER TABLE [DomainInfo]
+ADD IsAuth int not null default(0);
+ALTER TABLE [AdPageInfo]
+ADD MiddlePage varchar(500);

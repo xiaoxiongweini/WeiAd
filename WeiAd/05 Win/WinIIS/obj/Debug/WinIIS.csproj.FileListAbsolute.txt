@@ -1,0 +1,9 @@
+C:\Company\微糖时代\ad\src\WeiAd\05 Win\WinIIS\bin\Debug\WinIIS.exe.config
+C:\Company\微糖时代\ad\src\WeiAd\05 Win\WinIIS\bin\Debug\WinIIS.exe
+C:\Company\微糖时代\ad\src\WeiAd\05 Win\WinIIS\bin\Debug\WinIIS.pdb
+C:\Company\微糖时代\ad\src\WeiAd\05 Win\WinIIS\bin\Debug\Microsoft.Web.Administration.dll
+C:\Company\微糖时代\ad\src\WeiAd\05 Win\WinIIS\obj\Debug\WinIIS.Form1.resources
+C:\Company\微糖时代\ad\src\WeiAd\05 Win\WinIIS\obj\Debug\WinIIS.Properties.Resources.resources
+C:\Company\微糖时代\ad\src\WeiAd\05 Win\WinIIS\obj\Debug\WinIIS.csproj.GenerateResource.Cache
+C:\Company\微糖时代\ad\src\WeiAd\05 Win\WinIIS\obj\Debug\WinIIS.exe
+C:\Company\微糖时代\ad\src\WeiAd\05 Win\WinIIS\obj\Debug\WinIIS.pdb

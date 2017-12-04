@@ -1,0 +1,234 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.js" type="text/javascript"></script>
+    <meta name="keywords" content="@ViewBag.ArticleTitle" />
+    <meta name="description" content="@ViewBag.ArticleTitle" />
+
+    <title>@ViewBag.Title</title>
+    <style>
+        .prj-cover-floor {
+            display: none;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .active {
+            display: block;
+        }
+
+        .wxmainbox {
+        }
+
+        .wxtdbox {
+            height: auto;
+            width: 98%;
+            position: fixed;
+            top: 30%;
+            right: 2px;
+            border: 2px dashed Red;
+            background-color: white;
+        }
+
+        .maskLayer {
+            width: 100%;
+            background-color: #000000;
+            opacity: 0.6;
+            -moz-opacity: 0.6;
+            filter: alpha(opacity=60);
+        }
+
+        .wxbuttonbox {
+            height: auto;
+            width: 98%;
+            position: fixed;
+            bottom: 0px;
+            right: 2px;
+            border: 2px dashed Red;
+            background-color: white;
+        }
+
+        .wxcontentbox {
+            height: auto;
+            width: 80px;
+            position: fixed;
+            top: 20%;
+            right: 2px;
+        }
+
+        .wxcontentmain {
+            border: 2px dashed #6fd509;
+            border-radius: 20px;
+            height: auto;
+            width: 98%;
+            position: fixed;
+            top: 30%;
+            right: 2px;
+            border: 2px dashed Red;
+            background-color: white;
+        }
+
+        .wxbutton {
+            height: 40px;
+            line-height: 40px;
+            color: white;
+            border-radius: 20px;
+            background-color: blue;
+            width: 80%;
+            display: block;
+            margin-left: 10%;
+        }
+
+        .wxname {
+            background-color: yellow;
+            color: red;
+            height: 40px;
+            line-height: 40px;
+            margin-bottom: 10px;
+        }
+
+        .contincter {
+            margin: 0 auto;
+            padding: 0;
+            max-width: 750px;
+        }
+
+        .w_head {
+            background: #fff none repeat scroll 0% 0%;
+            border-bottom: 1px solid rgb(204, 204, 204);
+            position: fixed;
+            bottom: 0;
+            width: 97%;
+            max-width: 800px;
+            margin: 0 auto;
+            left: 50%;
+            transform: translate(-50% );
+            font-size: 1.0em;
+            padding: 0px 5px;
+            z-index: 9999;
+        }
+
+            .w_head img {
+                width: 80px;
+                vertical-align: top;
+                border: 0px none;
+            }
+
+            .w_head p {
+                display: inline-block;
+                width: 98%;
+                padding-left: 1%;
+                padding-top: 1%;
+                font-size: 16px;
+            }
+
+                .w_head p span {
+                    font-size: 1.1em;
+                }
+
+                    .w_head p span strong {
+                        color: #F00;
+                    }
+
+        .wxh {
+            color: #fff;
+            background: #ff4f79;
+            font-weight: bold;
+        }
+    </style>
+    <script type="text/javascript">
+
+        var wx = "@ViewBag.QcodeImg2";
+
+        //微信
+        var weixiarr = wx.split(',');
+        var numb = weixiarr.length;
+        var eq = Math.round(Math.random() * (numb - 1));
+        console.log(eq);
+
+        var imgurl = "@ViewBag.QcodeImg";
+        var ilist = imgurl.split(',');
+        var rwx = weixiarr[eq];
+        var wxtu = "";
+        if (ilist.length == numb.length)
+        {
+            wxtu = "<img src='" + ilist[eq] + "' width='80%'/>";
+        }
+
+
+        $(function () {
+            //var h = $("#ifrmain").get(0).contentWindow.document.body.scrollHeight;
+            //$("#ifrmain").css("height", h);
+//<iframe id="ifrmain" src="http://www.bbphz.cn/p/s?p=43" onload="javascript:$(this).height($(this).contents().find('body').height() + 10);" style="width:100%;" frameborder="0" scrolling="no" height="0"></iframe>
+
+        })
+    </script>
+</head>
+<body style="height:100%;max-width:750px;margin:0px auto;">
+    <iframe id="ifrmain" src="http://www.bbphz.cn/p/s?p=43" onload="javascript:$(this).height($(this).contents().find('body').height() + 10);" style="width:100%;" frameborder="0" scrolling="no" height="0"></iframe>
+
+    <div style="display:none;">
+
+        <div class="contincter">
+            @Html.Raw(ViewBag.TemplateContent)
+        </div>
+
+        <div id="__tdboxmain">
+        </div>
+        <div id="__tdboxmain222" class="wxcontentmain" style="display:none;">
+            <div style="width:100%;height:auto; text-align:center;">
+                <h3>加导师微信 轻松应付鼻炎</h3>
+                <p>每天只通过50个名额</p>
+                <p style="color:blue">↓↓长按下方按钮复制并添加微信号↓↓</p>
+                <div class="wxname">
+                    <script>document.write(rwx)</script>
+                </div>
+                <a href="weixin://" class="wxbutton">打开微信</a>
+            </div>
+        </div>
+        <div style="display:none;">
+            @Html.Raw(Server.HtmlDecode(ViewBag.StaticContent))
+            @Html.Raw(Server.HtmlDecode(ViewBag.UserCode))
+        </div>
+        <div style="display:none;">
+            @Html.Raw(Server.HtmlDecode(ViewBag.ArticleContent))
+        </div>
+        @*<div class="wxbuttonbox">
+                <a href="weixin://">  <img src="~/Content/image/weixinbutton_btn.gif" style="width:100%;" /></a>
+            </div>*@
+        <div style="margin-bottom:100px;">
+
+        </div>
+        <div class="w_head">
+                <img src="~/Content/by/bytx.jpg" style="margin-top:-45px;">
+                加陈氏鼻炎官方微信： <span class="">
+                    <a style="font-size:20px;border:none;background-color:transparent;color:red;font-weight:bold;">
+                        <span style="font-weight:bold;">
+                            <script>document.write(rwx)</script>
+                        </span>
+                    </a>
+                </span>（长按复制）<span style="font-weight:bold;color:red;font-size:19px; margin-right:20px;">&nbsp;获得免费体验资格！</span><a href="weixin://" style="background: green; color: #FFF;    border-radius: 10px;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    width:64px; padding:5px;">去微信&gt;</a>
+        </div>
+    </div>
+</body>
+</html>

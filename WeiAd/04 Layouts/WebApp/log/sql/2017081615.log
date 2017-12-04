@@ -1,0 +1,36 @@
+-------------start 2017/8/16 15:51:42-------------/Login.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/8/16 15:51:42-------------
+-------------start 2017/8/16 15:51:46-------------/Admin/Index.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/8/16 15:51:46-------------
+-------------start 2017/8/16 15:56:14-------------/Login.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='zgliu' 
+ 
+-------------end 2017/8/16 15:56:14-------------
+-------------start 2017/8/16 15:56:19-------------/Login.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='xiaorui' 
+ 
+-------------end 2017/8/16 15:56:19-------------
+-------------start 2017/8/16 15:56:24-------------/Accounts/Index.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='xiaorui' 
+ 
+-------------end 2017/8/16 15:56:24-------------
+-------------start 2017/8/16 15:57:34-------------/Login.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='xiaorui' 
+ 
+-------------end 2017/8/16 15:57:34-------------
+-------------start 2017/8/16 15:57:36-------------/Accounts/Index.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='xiaorui' 
+ 
+-------------end 2017/8/16 15:57:36-------------
+-------------start 2017/8/16 15:59:11-------------/Login.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='xiaorui' 
+ 
+-------------end 2017/8/16 15:59:11-------------
+-------------start 2017/8/16 15:59:11-------------/Accounts/Index.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='xiaorui' 
+ 
+-------------end 2017/8/16 15:59:11-------------

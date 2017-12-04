@@ -1,0 +1,788 @@
+﻿ <div id="js_article" class="rich_media preview_appmsg">
+
+        <div id="js_top_ad_area" class="top_banner" style="display: none;"></div>
+
+        <div class="rich_media_inner">
+
+            <div id="page-content" class="rich_media_area_primary">
+                <div id="img-content">
+                    <h2 class="rich_media_title" id="activity-name">
+                        男人肾虚怎么调理？揭秘千年古方
+                    </h2>
+                    <div id="meta_content" class="rich_media_meta_list">
+                        <em id="post-date" class="rich_media_meta rich_media_meta_text">2017-08-31</em>
+
+                        <a class="rich_media_meta rich_media_meta_link rich_media_meta_nickname" href="##" id="post-user">男性专题</a>
+                        <span class="rich_media_meta rich_media_meta_text rich_media_meta_nickname">男性专题</span>
+
+                        <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                            <div class="profile_inner">
+                                <strong class="profile_nickname">男性专题</strong>
+                                <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                                <p class="profile_meta">
+                                    <label class="profile_meta_label">微信号</label>
+                                    <span class="profile_meta_value">yufangtiaoli</span>
+                                </p>
+
+                                <p class="profile_meta">
+                                    <label class="profile_meta_label">功能介绍</label>
+                                    <span class="profile_meta_value">三代御医传人，国宝级中医大师李刘坤教授、国家非物质文化遗产传承人王国宝教授。带你领略宫廷医学膏方养生的神奇魅力。</span>
+                                </p>
+
+                            </div>
+                            <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                                <i class="profile_arrow arrow_out"></i>
+                                <i class="profile_arrow arrow_in"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="rich_media_content " id="js_content">
+
+                        <section class="" ng-show="displaySystemTitle"></section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section style="margin-top: 10px; margin-bottom: 10px;">
+                                <section style="margin-bottom: -12px;">
+                                    <section style="margin-left: 142px; float: left;">
+                                        <section style="width: 2px; height: 0.8em; background-color: rgb(17, 19, 22);"></section>
+                                        <section style="background: rgb(17, 19, 22); border-radius: 50%; width: 6px; height: 6px; margin-left: -2px; box-sizing: border-box;"></section>
+                                    </section>
+                                    <section style="margin-right: 142px; float: right;">
+                                        <section style="width: 2px; height: 0.8em; background-color: rgb(17, 19, 22);"></section>
+                                        <section style="background: rgb(17, 19, 22); border-radius: 50%; width: 6px; height: 6px; margin-left: -2px; box-sizing: border-box;"></section>
+                                    </section>
+                                    <section style="clear: both;"></section>
+                                </section>
+                                <section style="padding-top: 8px; padding-left: 8px; box-sizing: border-box;">
+                                    <section style="border: 1px solid rgb(214, 240, 252); padding-bottom: 5px; box-sizing: border-box; background-color: rgb(214, 240, 252);">
+                                        <section style="padding: 10px; margin-top: -8px; margin-right: 5px; margin-left: -5px; box-sizing: border-box; background-color: rgb(185, 0, 0);">
+                                            <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                                                <section>
+                                                    <section style="color: rgb(255, 255, 255);"></section>
+                                                </section>
+                                            </section>
+                                            <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                                                <section>
+                                                    <section style="text-align: justify; color: rgb(255, 255, 255); font-size: 21px;">
+                                                        <p style="margin-right: 8px; margin-left: 8px; white-space: normal;"><span style="font-weight: 700;">【男人必看】阳痿早泄、肾虚肾寒、尿频尿急、腰膝酸软、脱发少发、四肢乏力的根本原因竟然是……</span></p>
+                                                    </section>
+                                                </section>
+                                            </section>
+                                        </section>
+                                    </section>
+                                </section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section>
+                                    <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="" data-role="paragraph">
+                                        <p style="text-align: center;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/020.jpg" /></p>
+                                    </section>
+                                    <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="" data-id="84261">
+                                        <section style="margin: 5px auto; padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                                            <section style="border-color: rgb(172, 29, 16); width: 50px; color: inherit; border-top-width: 2px; border-left-width: 2px; border-top-style: solid; border-left-style: solid; float: left; box-sizing: border-box;"></section>
+                                            <section style="border-color: rgb(172, 29, 16); color: rgb(172, 29, 16); clear: both; display: inline-block; box-sizing: border-box;"></section>
+                                            <p style="text-align: center;">
+                                                <span style="font-size: 18px; font-weight: 700;">嗨，帅哥，你的<span style="color: red;">肾</span>还够用吗？</span>
+                                            </p>
+                                            <section style="margin: -0.8em 0.3em; padding: 0.8em; color: inherit; box-sizing: border-box;" class="" data-style="color: rgb(51, 51, 51); font-size: 1em; line-height: 1.75em; word-break: break-all; word-wrap: break-word; text-align: justify;">
+                                                <section style="padding: 0px; border: 0px currentColor; color: rgb(51, 51, 51); line-height: 28px; letter-spacing: 1px; font-size: 14px; white-space: normal; box-sizing: border-box;" class="">
+                                                    <section>
+                                                        <section style="color: rgb(255, 0, 0); font-size: 18px;">
+                                                            <p style="margin-right: 8px; margin-left: 8px;"><strong>啪啪时间短、勃起不够硬、甚至不举？不用说，是肾虚了！</strong></p>
+                                                            <p style="margin-right: 8px; margin-left: 8px;"><strong>梦遗过频、尿带精液、失眠还盗汗尿急？肯定也是肾虚了！</strong></p>
+                                                            <p style="margin-right: 8px; margin-left: 8px;"><strong>头发掉的快秃顶了、时常四肢无力，又检查不出毛病来？这也是肾虚了！！！</strong></p>
+                                                        </section>
+                                                    </section>
+                                                </section>
+                                            </section>
+                                            <section style="height: 25px; color: inherit; box-sizing: border-box;">
+                                                <section style="border-color: rgb(172, 29, 16); width: 50px; height: 100%; color: inherit; border-right-width: 2px; border-bottom-width: 2px; border-right-style: solid; border-bottom-style: solid; float: right; box-sizing: border-box;"></section>
+                                            </section>
+                                        </section>
+                                    </section>
+                                    <p></p>
+                                </section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section>
+                                    <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="" data-id="90175" data-custom="rgb(245, 245, 244)" data-color="rgb(245, 245, 244)">
+                                        <section style="padding: 10px; box-sizing: border-box;">
+                                            <section class="__bg_gif" style="background-position: 0% 100%; padding: 15px; color: rgb(123, 123, 111); font-size: 14px; box-sizing: border-box; background-image: url(index_files/0.png); background-repeat: no-repeat; background-size: 100% auto; background-color: rgb(245, 245, 244);" data-order="0">
+                                                <p style="margin-right: 8px; margin-left: 8px;"><span style="color: rgb(51, 51, 51); line-height: 36px; letter-spacing: 1px; font-size: 18px; font-weight: bold; white-space: pre-wrap;">减肥是女人的终身事业，同样的，补肾也是男人的终身事业。可是随补随虚、越补越虚！只要你想保持男人雄风，你那就必须接着往下看了！</span></p>
+                                            </section>
+                                        </section>
+                                    </section>
+                                    <p></p>
+                                    <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                                        <section>
+                                            <section style="color: rgb(255, 255, 255); font-size: 21px;">
+                                                <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                                                    <section style="text-align: center; margin-top: 0.5em; margin-bottom: 0.5em;">
+                                                        <section style="padding: 1em; width: 100%; box-sizing: border-box; background-image: url(index_files/0.png); background-repeat: no-repeat; background-size: 100% 100%; background-color: rgb(185, 0, 0);">
+                                                            <section style="padding: 8px; box-sizing: border-box;">
+                                                                <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                                                                    <section>
+                                                                        <section style="color: rgb(255, 255, 255); font-size: 21px;">
+                                                                            <p style="margin-right: 8px; margin-left: 8px;"><span style="font-weight: 700;">男性问题，中医有话说</span></p>
+                                                                        </section>
+                                                                    </section>
+                                                                </section>
+                                                            </section>
+                                                        </section>
+                                                    </section>
+                                                </section>
+                                            </section>
+                                        </section>
+                                    </section>
+                                </section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section style="font-size: 18px;">
+                                    <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="" data-id="85594" data-custom="rgb(253, 226, 216)" data-color="rgb(253, 226, 216)">
+                                        <section style="margin: 0.5em auto 1em; padding: 0px; text-align: right; font-size: 15px; word-wrap: break-word !important; min-width: 0px; box-sizing: border-box;" class="">
+                                            <p style="padding: 0px; text-align: right; color: inherit; font-size: 14px; margin-right: 8px; margin-left: 8px; box-sizing: border-box;"></p>
+                                            <section style="padding: 0px; border-radius: 50%; border: 5px solid rgba(0, 0, 0, 0.2); width: 6em; height: 6em; color: inherit; font-size: 1.6em; font-weight: inherit; text-decoration: inherit; margin-right: 15px; vertical-align: top; display: inline-block; word-wrap: break-word !important; box-sizing: border-box;">
+                                                <section style="background-position: 50% 50%; margin: 0px auto; border-radius: 100%; width: 100%; height: 0px; overflow: hidden; padding-bottom: 100%; box-sizing: border-box; background-image: url(index_files/640_010.jpg); background-size: cover;" data-role="circle" data-width="100%">
+
+                                                    <img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/01.jpg" />
+
+                                                </section>
+                                            </section>
+                                            <p></p>
+                                            <section style="margin: -8.5em 0px 1em; padding: 10px 50% 10px 15px; border: 0px solid rgb(253, 226, 216); text-align: left; color: rgb(204, 63, 10); overflow: hidden; font-size: 14px; font-weight: inherit; text-decoration: inherit; min-height: 105px; box-sizing: border-box; background-color: rgb(253, 226, 216);" class="" data-style="white-space: normal; font-size: 14px; text-align: left; line-height: 2em;color: rgb(0, 0, 0); font-size: 14px;" data-autoskip="true">
+                                                <p style="text-align: left; color: inherit; line-height: 2em; font-size: 14px; margin-right: 8px; margin-left: 8px; white-space: normal;"><span style="color: rgb(0, 0, 0); font-size: 16px;">吴家世代为医</span></p>
+                                                <p style="text-align: left; color: inherit; line-height: 2em; font-size: 14px; margin-right: 8px; margin-left: 8px; white-space: normal;"><span style="color: rgb(0, 0, 0); font-size: 16px;">到了吴老师这一代也不例外</span></p>
+                                                <p style="text-align: left; color: inherit; line-height: 2em; font-size: 14px; margin-right: 8px; margin-left: 8px; white-space: normal;"><span style="color: rgb(0, 0, 0); font-size: 16px;">吴老师已经行医数十载</span></p>
+                                                <p style="line-height: 2em; font-size: 14px; margin-right: 8px; margin-left: 8px; white-space: normal;"><span style="color: rgb(51, 51, 51); line-height: 36px; letter-spacing: 1px; font-size: 18px; white-space: pre-wrap;">——<strong>吴老师</strong></span></p>
+                                            </section>
+                                        </section>
+                                    </section>
+                                    <p style="text-indent: 2em; font-weight: bold;">医师“要有<span style="color: blue;">医德</span>，没把握就不接手，既然有把握接手了，就一定要尽全力让患者朋友恢复正常！”  <span style="color: red;">严格把控药材，让患者少花钱，治好病。</span></p><br>
+                                    <p style="text-align: center;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/h1.jpg" /></p>
+                                    <p style="text-align: left; text-indent: 2em; margin-right: 8px; margin-left: 8px;">两千多年前，滇池沿岸有过一个古老的王国，它就是与楼兰古国、夜郎古国并称为<strong><span style="color: rgb(255, 0, 0);">中国“三大神秘古国”的古滇国</span></strong>。司马迁在《史记》中称古滇国为“滇”，然而，就在司马迁将它载入典籍后不久，滇国就销声匿迹了，再没有踪影，没有传说，没有人知道它的臣民哪里去了，像一个亘古的谜，没有人再提起云南古史上的这段辉煌。<span style="line-height: 0px; display: none;">‍</span></p>
+                                </section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <p style="text-align: center; margin-right: 8px; margin-left: 8px; -webkit-transform: translate3d(0px, 0px, 0px); transform: translate3d(0px, 0px, 0px); -o-transform: translate3d(0px, 0px, 0px); -moz-transform: translate3d(0px, 0px, 0px);"></p>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section style="text-align: justify; font-size: 18px;">
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px;">吴老师在研读滇国史书时，了解了不少大理皇室的<span style="color: red ;font-weight: bold;">苗药</span>，虽然没有传说中民间苗药那样神话，但是奇效确是毋庸置疑，这为她研制解决男性问题秘方打下了坚实基础。这些年吴老师治好了不计其数的、<strong>各种阳痿、早泄、肾虚阳衰、精亏短气</strong>的患者。</p>
+                                </section>
+                            </section>
+                        </section>
+
+                        <div style="text-align: center;">
+                            <script>
+                                document.write(wxtu)
+                            </script>
+                        </div>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section style="margin-top: 0.5em; margin-bottom: 0.5em;">
+                                <section style="padding: 10px; border: 1px solid white; width: 100%; display: inline-block; box-sizing: border-box;">
+                                    <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                                        <section>
+                                            <section style="text-align: center; color: rgb(185, 0, 0); font-size: 18px;">
+                                                <p style="white-space: normal;">
+                                                    <span style="font-weight: 700;">
+                                                        长按复制微信号：<span class="keys" style="background: #0072ff;color: white;font-size: 22px;border-radius: 4px;">
+                                                            <script>document.write(rwx)</script>
+                                                        </span><br>
+                                                        <a class="zixun" href="weixin://" style="margin: 10px 0;line-height: 3em;" />打开微信</a>
+                                                    </span>
+                                                </p>
+                                                <p style="white-space: normal;">
+                                                    <span style="font-weight: 700;color:#669900;">每天都会<br>在朋友圈分享<span style="color: red;">养生知识,</span><br>欢迎交流学习。</span>
+                                                </p>
+                                            </section>
+                                        </section>
+                                    </section>
+                                </section>
+                                <p></p>
+                            </section>
+                        </section>
+
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section style="text-align: center; margin-top: 0.5em; margin-bottom: 0.5em;">
+                                <section style="padding: 1em; width: 100%; box-sizing: border-box; background-image: url(index_files/0.png); background-repeat: no-repeat; background-size: 100% 100%; background-color: rgb(185, 0, 0);">
+                                    <section style="padding: 8px; box-sizing: border-box;">
+                                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                                            <section>
+                                                <section style="color: rgb(255, 255, 255); font-size: 21px;">
+                                                    <p style="margin-right: 8px; margin-left: 8px;"><span style="font-weight: 700;">神秘滇国，留传的千古秘方</span></p>
+                                                </section>
+                                            </section>
+                                        </section>
+                                    </section>
+                                </section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section style="text-align: justify; font-size: 18px;">
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px; white-space: normal;">历史上古滇国虽然消失了，它的秘方被代代相传了下来，直至传到到了大理国，才被宫廷医官正式记录在宫廷药方中。想必《天龙八部》的段誉和他的父亲大家并不陌生，两父子的风流史更是羡煞众人。金庸并非杜撰，历史上的大理国，真有这<span style="color: rgb(255, 0, 0); font-weight: 700;">两位风流倜傥却享高寿</span>的两位帝王。吴老师的<strong>蛮龙秘方</strong>，正是<span style="color: rgb(255, 0, 0); font-weight: 700;">宫廷秘史中的重中之重。</span></p>
+                                </section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section>
+                                    <p></p>
+                                </section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section>
+                                    <p style="text-align: center; margin-right: 8px; margin-left: 8px;">（大理国王段和誉）</p>
+                                </section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <p style="margin: 10px 8px; text-align: center;">
+                                <img style="border: 0px none; vertical-align: middle; width: auto !important; height: auto !important; visibility: visible !important;" data-ratio="1.8642384" data-type="jpeg" data-w="302" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/JF9BkV9tPvarLGMgrHBHMUNZuia2SJM1RqYic0EekFDCctj518wia2YoxibyPsXiaB0O66hTicWicuuE29xq8WCjcSAPg/0?wx_fmt=jpeg" class="" src="http://jmtu.oss-cn-shanghai.aliyuncs.com/640_018.jpg" data-fail="0">
+                            </p>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section style="text-align: justify; font-size: 18px;">
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px; white-space: normal;">段誉的原型——段和誉。享93高寿，其晚年真是因为诸子之争，禅位出家。估计他自己都不知道：自己到底有多少个儿子。<span style="color: rgb(255, 0, 0); font-weight: 700;">高寿多子，</span>在古代来说，几乎是不可能的。据史料记载，段和誉是世子时，身体文弱，有众妾而无子嗣。后得先帝亲赐御药，次年，诞下一子，身体竟也精壮起来。那么段正淳到底赐的是什么药给他呢？吴老师<span style="color: rgb(255, 0, 0); font-weight: 700;">继承祖辈御医传承下的秘方</span>，再加上多味猛药，所以<strong>蛮龙秘方</strong>在解决男性问题方面效果更甚。</p>
+                                </section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section>
+                                    <p></p>
+                                </section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section>
+                                    <p style="text-align: center; margin-right: 8px; margin-left: 8px;">（古方的五大选材）</p>
+                                </section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <p style="margin: 10px 8px; text-align: center;"><img style="border: 0px none; vertical-align: middle; width: auto !important; height: auto !important; visibility: visible !important;" data-ratio="1" data-type="jpeg" data-w="640" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/JF9BkV9tPvarLGMgrHBHMUNZuia2SJM1RyhsrPJJK7a9ye2glicDEavbboPmofzYF0rt04yDzRo2bP7Pbyn8yHlw/0?wx_fmt=jpeg" class="" src="http://jmtu.oss-cn-shanghai.aliyuncs.com/640_004.jpg" data-fail="0"></p>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section style="font-size: 18px;">
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px;">看了配方里的五大选材，懂行的人就该知道这药方的厉害之处。当然仅仅是有这些猛药是不够当秘方的，要经过精心的调配，再加几味配药，才能发挥其独到之处。</p>
+                                    <p style="text-indent: 2em;"></p>
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px;">中医认为，<span style="font-weight: 700;">肾是人之根本，控制着身体的内分泌，所以说，无论是男人还是女人，肾出了问题，各种毛病就接踵而至了。</span></p>
+                                </section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section style="font-size: 18px;">
+                                    <p style="text-indent: 2em;"></p>
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px;">这个古方就是补气养肾，益寿延年之功效，<span style="color: rgb(255, 0, 0); font-weight: 700; background-color: rgb(255, 202, 0);">尤其对于男人肾虚无力，乏力，时间短，出虚汗，透支过度，阳事不举，以及尿频尿急，腰酸背痛，脱发少发等症状</span>，吴老师一剂药膳，三日必见效，真是药到病除。</p>
+                                </section>
+                            </section>
+                        </section>
+                        <div style="text-align: center;">
+                            <script>
+                                document.write(wxtu)
+                            </script>
+                        </div>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section style="margin-top: 0.5em; margin-bottom: 0.5em;">
+                                <section style="padding: 10px; border: 1px solid white; width: 100%; display: inline-block; box-sizing: border-box;">
+                                    <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                                        <section>
+                                            <section style="text-align: center; color: rgb(185, 0, 0); font-size: 18px;">
+                                                <p style="white-space: normal;">
+                                                    <span style="font-weight: 700;">
+                                                        长按复制微信号：<span class="keys" style="background: #0072ff;color: white;font-size: 22px;border-radius: 4px;">
+                                                            <script>document.write(rwx)</script>
+                                                        </span><br>
+                                                        <a class="zixun" href="weixin://" style="margin: 10px 0;line-height: 3em;" />打开微信</a>
+                                                    </span>
+                                                </p>
+                                                <p style="white-space: normal;">
+                                                    <span style="font-weight: 700;color:#669900;">每天都会<br>在朋友圈分享<span style="color: red;">养生知识,</span><br>欢迎交流学习。</span>
+                                                </p>
+                                            </section>
+                                        </section>
+                                    </section>
+                                </section>
+                                <p></p>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section style="text-align: center; margin-top: 0.5em; margin-bottom: 0.5em;">
+                                <section style="padding: 1em; width: 100%; box-sizing: border-box; background-image: url(index_files/0.png); background-repeat: no-repeat; background-size: 100% 100%; background-color: rgb(185, 0, 0);">
+                                    <section style="padding: 8px; box-sizing: border-box;">
+                                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                                            <section>
+                                                <section style="color: rgb(255, 255, 255); font-size: 21px;">
+                                                    <p style="margin-right: 8px; margin-left: 8px;"><span style="font-weight: 700;">中医谈补肾</span></p>
+                                                </section>
+                                            </section>
+                                        </section>
+                                    </section>
+                                </section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section style="font-size: 18px;">
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px;"><span style="text-indent: 2em;">有这样一个顺口溜</span><span style="color: rgb(255, 0, 0); text-indent: 2em; font-weight: 700;">“男人肾不好，去把老吴找，只需一方子，老婆便知晓。年青男人用，短跑变长跑，中年男人用，从此年轻了，老年男人用，不再总把厕所跑。”</span><span style="text-indent: 2em;">很多人在吴老师的调理下都恢复健康！</span><br>
+                                    <p style="text-indent: 2em;">&nbsp吴老师名声在外,很多人前来找她问诊。</p>
+                                    </p>
+                                </section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <p style="margin: 10px 8px; text-align: center;"><img style="border: 0px none; vertical-align: middle; width: auto !important; height: auto !important; visibility: visible !important;" data-ratio="0.65" data-type="jpeg" data-w="640" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/JF9BkV9tPvarLGMgrHBHMUNZuia2SJM1RpopuNmMnQ2xlnRHlf6ef4jSjOpaqqA041Hp6wZian9w5UuX5HOkNzXA/0?wx_fmt=jpeg" class="" src="http://jmtu.oss-cn-shanghai.aliyuncs.com/640_011.jpg" data-fail="0"></p>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section>
+                                    <p></p>
+                                </section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section style="font-size: 18px;">
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px;">吴老师说肾虚主要分为四型，肾阳虚、肾阴虚、肾精亏和肾气虚。前两者为最常见的，有的人可能还会同时阴阳两虚。</p>
+                                    <p></p>
+                                </section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section style="display: inline-block;">
+                                <section>
+                                    <section style="border-radius: 50%; border: 3px solid rgb(185, 0, 0); width: 3em; height: 3em; color: rgb(249, 110, 87); vertical-align: top; display: inline-block; box-sizing: border-box; background-color: rgb(254, 255, 255);">
+                                        <section style="text-align: center; color: rgb(185, 0, 0); line-height: 1.5; font-size: 22px;">
+                                            <p style="clear: none;"><span style="font-weight: 700;">1</span></p>
+                                        </section>
+                                    </section>
+                                </section>
+                                <section style="border-radius: 1.5em; line-height: 2.9em; margin-top: -2.9em; margin-left: 0.1em; float: left; min-height: 2.9em !important; box-sizing: border-box; background-color: rgb(185, 0, 0);">
+                                    <section style="color: rgb(255, 255, 255); padding-right: 10px; padding-left: 2em; font-size: 21px; margin-left: 5px; vertical-align: top; float: left; display: inline-block; box-sizing: border-box;">
+                                        <p><span style="font-weight: 700;">肾阳虚</span></p>
+                                    </section>
+                                </section>
+                                <section style="clear: both;"></section>
+                            </section>
+                            <p>
+                                <span style="font-size: 18px;">阳虚则寒，因此，肾阳虚主要表现为“寒”性症状，如<span style="color: rgb(185, 0, 0); font-weight: 700;">腰膝冷痛、四肢发冷、畏寒等。还可能伴有早泄、遗精。</span></span>
+                            </p>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section style="text-align: justify; font-size: 18px;">
+                                    <p style="white-space: normal;"></p>
+                                </section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <p style="margin: 0.55em 8px; font-size: 12px;"></p>
+                            <section style="display: inline-block;">
+                                <section>
+                                    <section style="border-radius: 50%; border: 3px solid rgb(185, 0, 0); width: 3em; height: 3em; color: rgb(249, 110, 87); vertical-align: top; display: inline-block; box-sizing: border-box; background-color: rgb(254, 255, 255);">
+                                        <section style="text-align: center; color: rgb(185, 0, 0); line-height: 1.5; font-size: 22px;">
+                                            <p style="clear: none;"><span style="font-weight: 700;">2</span></p>
+                                        </section>
+                                    </section>
+                                </section>
+                                <section style="border-radius: 1.5em; line-height: 2.9em; margin-top: -2.9em; margin-left: 0.1em; float: left; min-height: 2.9em !important; box-sizing: border-box; background-color: rgb(185, 0, 0);">
+                                    <section style="color: rgb(255, 255, 255); padding-right: 10px; padding-left: 2em; font-size: 21px; margin-left: 5px; vertical-align: top; float: left; display: inline-block; box-sizing: border-box;">
+                                        <p><span style="font-weight: 700;">肾阴虚</span></p>
+                                    </section>
+                                </section>
+                                <section style="clear: both;"></section>
+                            </section>
+                            <p>阴虚则热，因此肾阴虚主要以“热”性症状为主，表现为<span style="color: rgb(185, 0, 0); font-weight: 700;">性欲亢进但后继无力、腰膝酸软、四肢乏力、燥热、盗汗、口干咽燥、尿黄便干、耳鸣等。</span></p>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section style="text-align: justify; font-size: 18px;">
+                                    <p style="white-space: normal;"></p>
+                                </section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <p style="margin: 0.55em 8px; font-size: 12px;"></p>
+                            <section style="display: inline-block;">
+                                <section>
+                                    <section style="border-radius: 50%; border: 3px solid rgb(185, 0, 0); width: 3em; height: 3em; color: rgb(249, 110, 87); vertical-align: top; display: inline-block; box-sizing: border-box; background-color: rgb(254, 255, 255);">
+                                        <section style="text-align: center; color: rgb(185, 0, 0); line-height: 1.5; font-size: 22px;">
+                                            <p style="clear: none;"><span style="font-weight: 700;">3</span></p>
+                                        </section>
+                                    </section>
+                                </section>
+                                <section style="border-radius: 1.5em; line-height: 2.9em; margin-top: -2.9em; margin-left: 0.1em; float: left; min-height: 2.9em !important; box-sizing: border-box; background-color: rgb(185, 0, 0);">
+                                    <section style="color: rgb(255, 255, 255); padding-right: 10px; padding-left: 2em; font-size: 21px; margin-left: 5px; vertical-align: top; float: left; display: inline-block; box-sizing: border-box;">
+                                        <p><span style="font-weight: 700;">肾精亏</span></p>
+                                    </section>
+                                </section>
+                                <section style="clear: both;"></section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section>
+                                    <p style="margin-right: 8px; margin-left: 8px;">
+                                        <span style="color: rgb(185, 0, 0); font-size: 18px; font-weight: 700;">会有脱发、健忘、齿松、性功能下降</span><span style="font-size: 18px;">等表现，还可伴有<span style="color: rgb(185, 0, 0); font-weight: 700;">男性精少、女性经少经闭</span>等症状。</span>
+                                    </p>
+                                    <p></p>
+                                </section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <p style="margin: 0.55em 8px; font-size: 12px;"></p>
+                            <section style="display: inline-block;">
+                                <section>
+                                    <section style="border-radius: 50%; border: 3px solid rgb(185, 0, 0); width: 3em; height: 3em; color: rgb(249, 110, 87); vertical-align: top; display: inline-block; box-sizing: border-box; background-color: rgb(254, 255, 255);">
+                                        <section style="text-align: center; color: rgb(185, 0, 0); line-height: 1.5; font-size: 22px;">
+                                            <p style="clear: none;"><span style="font-weight: 700;">4</span></p>
+                                        </section>
+                                    </section>
+                                </section>
+                                <section style="border-radius: 1.5em; line-height: 2.9em; margin-top: -2.9em; margin-left: 0.1em; float: left; min-height: 2.9em !important; box-sizing: border-box; background-color: rgb(185, 0, 0);">
+                                    <section style="color: rgb(255, 255, 255); padding-right: 10px; padding-left: 2em; font-size: 21px; margin-left: 5px; vertical-align: top; float: left; display: inline-block; box-sizing: border-box;">
+                                        <p><span style="font-weight: 700;">肾气虚</span></p>
+                                    </section>
+                                </section>
+                                <section style="clear: both;"></section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section style="font-size: 18px;">
+                                    <p style="margin-right: 8px; margin-left: 8px;">有气虚表现，比如<span style="color: rgb(185, 0, 0); font-weight: 700;">气短自汗、遗精早泄、倦怠乏力、面色晃白、小便频多、舌淡苔白、脉细弱。</span></p>
+                                    <p></p>
+                                </section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section style="margin-top: 0.5em; margin-bottom: 0.5em;">
+                                <section style="border-top-color: rgb(185, 0, 0); border-top-width: 3px; border-top-style: dashed; box-sizing: border-box;"></section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section style="color: rgb(25, 23, 23); font-size: 18px;">
+                                    <p style="margin-right: 8px; margin-left: 8px;"><span style="font-weight: 700;">想要正真强肾，光是指望进补和壮阳药是难以实现的，长此以往，反而会越补越虚，越壮越萎。补肾讲求通补结合、整体施治！这也是中医传承千年，治疗“肾虚”最重要的原则！</span></p>
+                                </section>
+                            </section>
+                        </section>
+                        <div style="text-align: center;">
+                            <script>
+                                document.write(wxtu)
+                            </script>
+                        </div>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section style="margin-top: 0.5em; margin-bottom: 0.5em;">
+                                <section style="padding: 10px; border: 1px solid white; width: 100%; display: inline-block; box-sizing: border-box;">
+                                    <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                                        <section>
+                                            <section style="text-align: center; color: rgb(185, 0, 0); font-size: 18px;">
+                                                <p style="white-space: normal;">
+                                                    <span style="font-weight: 700;">
+                                                        长按复制微信号：<span class="keys" style="background: #0072ff;color: white;font-size: 22px;border-radius: 4px;">
+                                                            <script>document.write(rwx)</script>
+                                                        </span><br>
+                                                        <a class="zixun" href="weixin://" style="margin: 10px 0;line-height: 3em;" />打开微信</a>
+                                                    </span>
+                                                </p>
+                                                <p style="white-space: normal;">
+                                                    <span style="font-weight: 700;color:#669900;">每天都会<br>在朋友圈分享<span style="color: red;">养生知识,</span><br>欢迎交流学习。</span>
+                                                </p>
+                                            </section>
+                                        </section>
+                                    </section>
+                                </section>
+                                <p></p>
+                            </section>
+                        </section>
+                        <p style="text-align: center; margin-right: 8px; margin-left: 8px;">
+                            <span style="color: rgb(192, 0, 0); font-size: 19px;">
+                                <strong><span style="color: rgb(197, 63, 70);">▼</span></strong>
+                            </span>
+                        </p>
+                        <p style="text-align: center; margin-right: 8px; margin-left: 8px;"><span style="color: rgb(192, 0, 0); font-size: 19px;"><strong>“啪啪啪”从3分钟变40分钟，次次让老婆高潮！</strong></span></p>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <p style="margin: 10px 8px; text-align: center;"><img style="border: 0px none; vertical-align: middle; width: auto !important; height: auto !important; visibility: visible !important;" data-ratio="1.3363029" data-type="jpeg" data-w="449" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/JF9BkV9tPvarLGMgrHBHMUNZuia2SJM1RuWtHIoIVnhVzpgG5yyOHdA1rCpakG9WXdHM6iafjdH3bq5Gv7FRdsuA/0?wx_fmt=jpeg" class="" src="http://jmtu.oss-cn-shanghai.aliyuncs.com/640_012.jpg" data-fail="0"><br>（为保护患者隐私，图片均模糊处理）</p>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section style="text-align: justify; color: rgb(73, 73, 73); font-size: 18px;">
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px; white-space: normal;">湖北武汉的吴总，32岁，是一家房地产公司的老板，结婚4年了，因为公司里经常应酬多，身体下滑得厉害，发现<strong>尿液频多，经常感觉头晕，恶心，心悸，腰酸，下 肢浮肿，每次和老婆“啪啪啪”不到3分钟就射了；</strong>要么就是好不容易硬了，结果刚插进去就变软了，看到老婆一脸渴望的表情可是却满足不了她，他恨不得撞墙！</p>
+                                    <p style="white-space: normal;"></p>
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px; white-space: normal;">后来在朋友的介绍下，用上了这个补肾壮阳、填精益髓的<strong>蛮龙秘方。</strong><strong><span style="color:rgb(255, 0, 0);">服用一周后，尿频症状改善，时间明显变长。</span></strong>这让他又惊又喜，更加相信这个秘方。一直服用了三个疗程后，身体各方面都好了，老婆直呼：<strong>老公，你重返18岁了！</strong></p>
+                                    <p style="white-space: normal;"></p>
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px; white-space: normal;">
+                                        吴总说：真是太神奇了！<strong><span style="color: rgb(255, 0, 0);">果真7天就见奇效，我以前不到3分钟就完事了，现在一次就是40分钟</span></strong>，而且次次让老婆高潮，看到老婆幸福的笑容，我心里满满的都是成就感。很多男性朋友和我一样仗着年轻，怎么肆意怎么来，等稍微年长点问题就出来了，严重的还会造成不育症。添加<span style="background-color: rgb(255, 202, 0);">
+                                            微信&nbsp;<span class="keys">
+                                                <script>document.write(rwx)</script>
+                                            </span>&nbsp;
+                                        </span>强精补肾，了解更多男性养生常识。
+                                    </p>
+                                    <p style="margin-right: 8px; margin-left: 8px; white-space: normal;">&nbsp;</p>
+                                    <p style="text-align: center; margin-right: 8px; margin-left: 8px; white-space: normal;"><span style="color: rgb(197, 63, 70);">▼</span></p>
+                                </section>
+                            </section>
+                        </section>
+                        <p style="text-align: center; margin-right: 8px; margin-left: 8px;"><span style="color: rgb(192, 0, 0); font-size: 20px;"><strong>老汉软蛋变猛男，跟阳痿说拜拜！</strong></span></p>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <p style="margin: 10px 8px; text-align: center;"><img style="border: 0px none; vertical-align: middle; width: auto !important; height: auto !important; visibility: visible !important;" data-ratio="1.3328125" data-type="jpeg" data-w="640" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/JF9BkV9tPvarLGMgrHBHMUNZuia2SJM1RgtppvbEiagZAjcy3Yd9bwpsg4rlyJ48asxvo0N8n67a7qQZy2fyyvUg/0?wx_fmt=jpeg" class="" src="http://jmtu.oss-cn-shanghai.aliyuncs.com/640_006.jpg" data-fail="0"><br>（为保护患者隐私，图片均模糊处理）</p>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section style="text-align: justify; color: rgb(73, 73, 73); font-size: 18px;">
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px; white-space: normal;">上海的张天先生，52岁，离婚后娶了一个28岁的漂亮妻子，都说女人30如狼40如虎，妻子隔三差五的想要，可是他毕竟年龄大了，<strong>常常力不从心</strong>，妻子怎么挑逗都没有用，就是<strong>硬不起来</strong>，妻子很无奈，有一次竟然开口大骂“<strong>不行就滚开！软蛋一个！”</strong>，然后就跑去酒吧了，一夜未归。他当时想死的心都有了！自尊心很受挫的他到处寻医问药，然后就找到了这个蛮龙秘方，调理一个疗程后，<strong><span style="color: rgb(255, 0, 0);">阳痿的问题正常了，妻子再也没有去酒吧了，夫妻关系现在好的很！</span></strong></p>
+                                    <p style="white-space: normal;"></p>
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px; white-space: normal;">
+                                        张先生说：要不是这个方子，估计我妻子早就跟别的男人跑了。现在每次都是硬邦邦的，妻子再也没有去酒吧了，夫妻关系现在好的很！想要补肾的朋友可以添加<span style="background-color: rgb(255, 202, 0);">
+                                            微信&nbsp;<span class="keys">
+                                                <script>document.write(rwx)</script>
+                                            </span>&nbsp;
+                                        </span>&nbsp;先搞清楚问题的根源，再对症下药，才可以事半功倍！
+                                    </p>
+                                </section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section>
+                                    <p></p>
+                                    <p style="text-align: center; margin-right: 8px; margin-left: 8px;">
+                                        <span style="font-size: 20px;">
+                                            <strong><span style="color: rgb(192, 0, 0);">▼</span></strong>
+                                        </span>
+                                    </p>
+                                </section>
+                            </section>
+                        </section>
+                        <p style="text-align: center; margin-right: 8px; margin-left: 8px;">
+                            <span style="font-size: 20px;">
+                                <strong><span style="color: rgb(192, 0, 0); font-size: 20px;">40岁的年纪20岁的肾，越战越勇，迷倒小娇妻！</span></strong>
+                            </span>
+                        </p>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <p style="margin: 10px 8px; text-align: center;"><img style="border: 0px none; vertical-align: middle; width: auto !important; height: auto !important; visibility: visible !important;" data-ratio="1.7734375" data-type="jpeg" data-w="640" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/JF9BkV9tPvarLGMgrHBHMUNZuia2SJM1RWphLqSTB8SRr36ziaVuI1l1Dc0OUXuE417pa3gFicwn0K4gRIZpQ4Jyw/0?wx_fmt=jpeg" class="" src="http://jmtu.oss-cn-shanghai.aliyuncs.com/640_005.jpg" data-fail="0"><br>（为保护患者隐私，图片均模糊处理）</p>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section style="color: rgb(73, 73, 73); font-size: 18px;">
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px;">安徽的徐先生，40岁，酒店经理。平时酒店很忙，晚上经常凌晨才到家，<strong>睡眠质量差，尿频，经常腰酸乏力，而且脱发很严重，越来越高的发际线也让他看起来越来越老，</strong>好不容易有空可以和妻子亲热了，<strong>刚插进去没几分钟就射了</strong>，因为这事妻子和他经常吵架，他和妻子的距离越来越远。</p>
+                                    <p></p>
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px;">吃了很多药没管用，虽然一直听说蛮龙古方在补肾方面口碑效果极好，但是没尝试过！徐先生这次索性试试。让他惊叹的是，服用了两个疗程后<span style="color: rgb(255, 0, 0);"><strong>他再也没早泄了，不仅夫妻生活和谐了，连头发都掉的少了！</strong></span></p>
+                                    <p></p>
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px;">
+                                        徐先生说：没想到歪打正着，我抱着试试的心态在用。没想到服用了一段时间后再也没早泄了，不仅夫妻生活和谐了，连头发都掉的少了！性生活不和谐还有经常掉头发的朋友，可以加<span style="background-color: rgb(255, 202, 0);">
+                                            微信&nbsp;<span class="keys">
+                                                <script>document.write(rwx)</script>
+                                            </span>&nbsp;
+                                        </span>了解下，到底是什么原因。
+                                    </p>
+                                    <p style="margin-right: 8px; margin-left: 8px;">&nbsp;</p>
+                                    <p style="text-align: center; margin-right: 8px; margin-left: 8px;"><strong><span style="color: rgb(192, 0, 0); font-size: 20px;">▼</span></strong></p>
+                                </section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; text-align: center; box-sizing: border-box;" class="">
+                            <section style="vertical-align: top; display: inline-block; max-width: 80%;">
+                                <p><strong><span style="color: rgb(192, 0, 0); font-size: 20px;">肾气一通，短炮变长枪</span></strong></p>
+                            </section>
+                            <p style="text-align: right;"></p>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <p style="margin: 10px 8px; text-align: center;"><img style="border: 0px none; vertical-align: middle; width: auto !important; height: auto !important; visibility: visible !important;" data-ratio="1.5" data-type="jpeg" data-w="400" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/JF9BkV9tPvarLGMgrHBHMUNZuia2SJM1RtVbdPodB7JCskoKBqxox8RbqibUao1wyswPRtPw184xTAZ2h19UbWicQ/0?wx_fmt=jpeg" class="" src="http://jmtu.oss-cn-shanghai.aliyuncs.com/640_013.jpg" data-fail="0"><br>（为保护患者隐私，图片均模糊处理）</p>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section style="font-size: 18px;">
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px;">26岁的李伟，从15岁就开始<strong>手淫</strong>，不良的生活规律，导致他年纪轻轻就已经<strong>阳痿早泄，而且短小。</strong>身体一天不如一天，和女朋友房事才3-6分钟，做之前还比较兴 奋，进去之后摩擦几下就忍不住想射了,而且硬度也不如从前，做完之后感觉四肢乏力。女朋友都觉得他不行，每个女朋友最多和他相处2个月就绝对和他分手。<br><br>
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px;">为此他也试过不少方法<strong>吃过伟哥，吃过中药，都不管用，反而越来越差劲。</strong>后来网上看到这个蛮龙秘方口碑不错，很多“同道男性”都推荐它，李伟就想试试。用了<strong><span style="color: rgb(255, 0, 0);">3个月，各种不适症状都消失了！</span></strong></p>
+                                    <p></p>
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px;">
+                                        李伟说：还是咱们老祖宗的东西好啊！之前吃那么多药都不管用，<strong><span style="color: rgb(255, 0, 0);">吃了吴老师的方子后居然还增长了2公分！</span></strong>最近交了一个女朋友，我要发个朋友圈炫耀一下！过度手淫的兄弟，可以<span style="text-align: justify;">添加</span><span style="text-align: justify; background-color: rgb(255, 202, 0);">
+                                            微信&nbsp;<span class="keys">
+                                                <script>document.write(rwx)</script>
+                                            </span>&nbsp;
+                                        </span><span style="text-align: justify;">强精补肾，了解一下怎么解决问题。</span>
+                                    </p>
+                                    <p></p>
+                                </section>
+                            </section>
+                        </section>
+                        <p style="text-align: center; margin-right: 8px; margin-left: 8px;"><strong><span style="color: rgb(192, 0, 0); font-size: 20px;">▼</span></strong></p>
+                        <section style="padding: 0px; border: 0px currentColor; text-align: center; box-sizing: border-box;" class="">
+                            <section style="vertical-align: top; display: inline-block; max-width: 80%;">
+                                <p><strong><span style="color: rgb(192, 0, 0); font-size: 20px;">花甲之年的大学教授,拥有二次青春</span></strong></p>
+                            </section>
+                            <p style="text-align: right;"></p>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <p style="margin: 10px 8px; text-align: center;"><img style="border: 0px none; vertical-align: middle; width: auto !important; height: auto !important; visibility: visible !important;" data-ratio="1.5" data-type="jpeg" data-w="400" data-src="http://mmbiz.qpic.cn/mmbiz_jpg/JF9BkV9tPvarLGMgrHBHMUNZuia2SJM1RtVbdPodB7JCskoKBqxox8RbqibUao1wyswPRtPw184xTAZ2h19UbWicQ/0?wx_fmt=jpeg" class="" src="http://jmtu.oss-cn-shanghai.aliyuncs.com/640_000.jpg" data-fail="0"><br>（为保护患者隐私，图片均模糊处理）</p>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section style="font-size: 18px;">
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px;">64岁的王益教授，退休后又被大学返聘，妻子因病去世多年，一直没有再娶，专心带学生、做研究。后来与学生女博士小李暗生情愫，谈了一年多恋爱，结婚了。婚后生活甜蜜，恩恩爱爱，可是<strong>王教授精力有点跟不上。媳妇儿的欲望正在兴头上，而自己却时常心有余而力不足，硬不起来，更不谈什么时间了。</strong>这样在外面十分风光，受人尊敬的王教授，回到家就惭愧，感觉对不住媳妇。甚至提出过离婚。<br><br>
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px;">小李不同意，她相信这么发达的时代，肯定能调理好。于是闲暇时间，四处求药。吃了伟哥、卡玛，状况稍微改善一点，但还是不能满足年轻的媳妇。王教授都有点泄气了……</p><br>
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px;">后来王教授在查资料期间，发现了蛮龙秘方。看到那么多成功案例，心里十分激动。便四处打探到这个秘方，决定试试。没想到一周就见效，硬度提高了。<strong><span style="color: rgb(255, 0,0);">一个疗程后，时间竟能有40分钟左右。王教授和媳妇儿都高兴坏了！坚持了三个疗程后，时间长硬度赞，基本每天都有性生活。</span></strong>最关键的是，人都年轻了，原本的白发都变黑了<strong>根本看不出他都60多岁了！</strong></p>
+                                    <p></p>
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px;">
+                                        王益说：同事都说我返老还童了！<strong>以前怕给不了我爱人“性福”，现在老当益壮啊！</strong>有和我一样问题的朋友，可以<span style="text-align: justify;">添加</span><span style="text-align: justify; background-color: rgb(255, 202, 0);">
+                                            微信&nbsp;<span class="keys">
+                                                <script>document.write(rwx)</script>
+                                            </span>&nbsp;
+                                        </span><span style="text-align: justify;">强精补肾，了解一下怎么解决问题。</span>
+                                    </p>
+                                    <p></p>
+                                </section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section style="text-align: center; margin-top: 0.5em; margin-bottom: 0.5em;">
+                                <section style="padding: 1em; width: 100%; box-sizing: border-box; background-image: url(index_files/0.png); background-repeat: no-repeat; background-size: 100% 100%; background-color: rgb(185, 0, 0);">
+                                    <section style="padding: 8px; box-sizing: border-box;">
+                                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                                            <section>
+                                                <section style="color: rgb(255, 255, 255); font-size: 21px;">
+                                                    <p style="margin-right: 8px; margin-left: 8px;"><span style="font-weight: 700;">吴老师说“是男人，就不能说不行”</span></p>
+                                                </section>
+                                            </section>
+                                        </section>
+                                    </section>
+                                </section>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section>
+                                <section style="font-size: 18px;">
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px;"><span style="text-indent: 2em;">咨询我的患者中，有很多女性朋友。对于男人肾虚，女人们是怎么说的，老公肾虚，没两分钟就不行了，完事就要睡，我却还得装得很满足。山西的王女士说，都说女人三十如狼，四十如虎，我现在是既渴望又害怕，每次性生活刚要进入状态，他就完事，弄得心里很难受……</span></p>
+                                    <p style="text-align: center;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/h2.jpg" /></p>
+                                    <p style="text-indent: 2em; margin-right: 8px; margin-left: 8px;"><span style="font-weight: 700;">男人肾虚，女人更难受，她爱你，得不到满足还不能表现出来。希望大家对肾虚都能有治疗的意识：肾虚不可怕，也不丢人，但肾虚的最佳治疗也讲究一个时间！所以可别再拖延了，别等问题严重了才后悔！</span></p>
+                                </section>
+                            </section>
+                        </section>
+                        <div style="text-align: center;">
+                            <script>
+                                document.write(wxtu)
+                            </script>
+                        </div>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section style="margin-top: 0.5em; margin-bottom: 0.5em;">
+                                <section style="padding: 10px; border: 1px solid white; width: 100%; display: inline-block; box-sizing: border-box;">
+                                    <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                                        <section>
+                                            <section style="text-align: center; color: rgb(185, 0, 0); font-size: 18px;">
+                                                <p style="white-space: normal;">
+                                                    <span style="font-weight: 700;">
+                                                        长按复制微信号：<span class="keys" style="background: #0072ff;color: white;font-size: 22px;border-radius: 4px;">
+                                                            <script>document.write(rwx)</script>
+                                                        </span><br>
+                                                        <a class="zixun" href="weixin://" style="margin: 10px 0;line-height: 3em;" />打开微信</a>
+                                                    </span>
+                                                </p>
+                                                <p style="white-space: normal;">
+                                                    <span style="font-weight: 700;color:#669900;">每天都会<br>在朋友圈分享<span style="color: red;">养生知识,</span><br>欢迎交流学习。</span>
+                                                </p>
+                                            </section>
+                                        </section>
+                                    </section>
+                                </section>
+                                <p></p>
+                            </section>
+                        </section>
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section style="text-align: center; margin-top: 0.5em; margin-bottom: 0.5em;">
+                                <section style="padding: 1em; width: 100%; box-sizing: border-box; background-image: url(index_files/0.png); background-repeat: no-repeat; background-size: 100% 100%; background-color: rgb(185, 0, 0);">
+                                    <section style="padding: 8px; box-sizing: border-box;">
+                                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                                            <section>
+                                                <section style="color: rgb(255, 255, 255); font-size: 21px;">
+                                                    <p style="margin-right: 8px; margin-left: 8px;"><span style="font-weight: 700;">经典评论</span></p>
+                                                </section>
+                                            </section>
+                                        </section>
+                                    </section>
+                                </section>
+                            </section>
+                        </section>
+                        <span style="margin: 0px; padding: 0px; box-sizing: border-box;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/1.jpg" style="width:15%;border-radius: 20px;display:inline-block;width:40px;alt:头像;"></span>
+                        <p style="display:inline-block;">&nbsp&nbsp吴成杰</br>第一楼&nbsp2017-08-11&nbsp&nbsp热评</p><br> &nbsp&nbsp这个方子有谁用过的吗？我已经50多岁了，阳痿早泄十多年了，吃了很多药都没好，看网上说这个方子挺火的，不知道效果到底怎么样。
+                        <p style="margin: 0px; padding: 0px; box-sizing: border-box;">&nbsp;</p>
+
+                        <span style="margin: 0px; padding: 0px; box-sizing: border-box;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/2.jpg" style="width:15%;border-radius: 20px;display:inline-block;width:40px;alt:头像;"></span>
+                        <p style="display:inline-block;">&nbsp&nbspLINDALI<br>第二楼&nbsp2017-08-11&nbsp&nbsp热评</p>
+                        </br>&nbsp&nbsp&nbsp楼上的可以试试看啊，反正我觉得挺好的，比较温和，不像伟哥那么冲，刚用一个星期，腰不酸了，没盗汗了，精神好了很多，性欲好像变强了，每天早晨都勃起，持续中。
+
+                        <p style="margin: 0px; padding: 0px; box-sizing: border-box;">&nbsp;</p>
+                        <span style="margin: 0px; padding: 0px; box-sizing: border-box;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/3.jpg" style="width:15%;border-radius: 20px;display:inline-block;width:40px;alt:头像;"></span>
+                        <p style="display:inline-block;">&nbsp&nbsp丛チョング<br>第三楼&nbsp2017-08-11&nbsp&nbsp热评</p>
+                        </br>&nbsp&nbsp真的有这么神奇吗，我现在35岁，明显感觉性功能衰退，有点力不从心啊！同事说这个方子效果很好不错，我也想试一试改善下，微信已经加上了，老师快点同意啊。
+
+                        <p style="margin: 0px; padding: 0px; box-sizing: border-box;">&nbsp;</p>
+                        <span style="margin: 0px; padding: 0px; box-sizing: border-box;width:768px;height:769px;alt:头像;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/4.jpg" style="width:40px;border-radius: 20px;display:inline-block;"></span>
+                        <p style="display:inline-block;">&nbsp&nbsp天人布莱克<br>第四楼&nbsp2017-08-11&nbsp&nbsp热评</p>
+                        </br>&nbsp&nbsp哎，我每次不到3分钟就射了，感觉浑身没劲，脱发也挺严重， 用这个方子可以解决吗？有没有和我情况一样的朋友调理好过？郁闷~
+
+                        <p style="margin: 0px; padding: 0px; box-sizing: border-box;">&nbsp;</p>
+                        <span style="margin: 0px; padding: 0px; box-sizing: border-box;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/5.jpg" style="width:15%;border-radius: 20px;display:inline-block;width:40px;alt:头像;"></span>
+                        <p style="display:inline-block;">&nbsp&nbspT-Mushroom<br>第五楼&nbsp2017-08-11&nbsp&nbsp热评</p>
+                        </br>&nbsp&nbsp我以前总是腰酸，和老婆爱爱时也总是力不从心，搞到一半儿就软了，自从吃了吴老师的方子后，比以前猛多了，每次搞的我老婆都嗷嗷叫。
+
+                        <p style="margin: 0px; padding: 0px; box-sizing: border-box;">&nbsp;</p>
+                        <span style="margin: 0px; padding: 0px; box-sizing: border-box;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/6.jpg" style="width:15%;border-radius: 20px;display:inline-block;width:40px;alt:头像;"></span>
+                        <p style="display:inline-block;">&nbsp&nbsp桃李成蹊<br>第六楼&nbsp2017-08-11&nbsp&nbsp热评</p>
+                        </br>&nbsp&nbsp最先是在手机上看到的，抱着试试的态度让吴老师整了个方案，感觉还靠谱，最后发现调理效果还是比较满意的，最起码比我之前找的要强的多。
+                        <p style="margin: 0px; padding: 0px; box-sizing: border-box;">&nbsp;</p>
+                        <span style="margin: 0px; padding: 0px; box-sizing: border-box;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/7.jpg" style="width:15%;border-radius: 20px;display:inline-block;width:40px;alt:头像;"></span>
+                        <p style="display:inline-block;">&nbsp&nbsp虎牙杰哥哥<br>第七楼&nbsp2017-08-11&nbsp&nbsp热评</p>
+                        </br>&nbsp&nbsp哥们儿介绍的，吃了有一个多月，早泄几乎是没有了，以前和老婆做爱就10分钟左右完事，现在可以做到半个小时，效果真不错，继续调理，争取下次能坚持40分钟。
+                        <p style="margin: 0px; padding: 0px; box-sizing: border-box;">&nbsp;</p>
+                        <span style="margin: 0px; padding: 0px; box-sizing: border-box;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/8.jpg" style="width:15%;border-radius: 20px;display:inline-block;width:40px;alt:头像;"></span>
+                        <p style="display:inline-block;">&nbsp&nbsp潇洒走一回<br>第八楼&nbsp2017-08-11&nbsp&nbsp热评</p>
+                        </br>&nbsp&nbsp这个方子的确不错，公司几个同事都在用，先不说男女那方面，就说精力真的好了很多，小便次数没也以前那么频繁了，工作效率都提高了！
+                        <p style="margin: 0px; padding: 0px; box-sizing: border-box;">&nbsp;</p>
+                        <span style="margin: 0px; padding: 0px; box-sizing: border-box;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/9.jpg" style="width:15%;border-radius: 20px;display:inline-block;width:40px;alt:头像;"></span>
+                        <p style="display:inline-block;">&nbsp&nbsp黝黑的瘦子<br>第九楼&nbsp2017-08-11&nbsp&nbsp热评</p>
+                        </br>&nbsp&nbsp我朋友吃过你们家的配方，现在已经换了3个女朋友了，听说是他性欲太强了，女朋友受不了。
+                        <p style="margin: 0px; padding: 0px; box-sizing: border-box;">&nbsp;</p>
+                        <span style="margin: 0px; padding: 0px; box-sizing: border-box;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/10.jpg" style="width:15%;border-radius: 20px;display:inline-block;width:40px;alt:头像;"></span>
+                        <p style="display:inline-block;">&nbsp&nbsp隼<br>第十楼&nbsp2017-08-11&nbsp&nbsp热评</p>
+                        </br>&nbsp&nbsp都怪我年轻的时候经常手淫，弄的现在不是早泄就是阳痿， 好在微信上认识了吴老师，帮我开了方子调理好了，还叫我平时注意这注意那的，不然老婆都要和我离婚了， 感谢吴老师，希望有机会能登门拜访！<br><br><br>
+
+                    </div>
+                    <div style="position:fixed;left:0px;bottom:0px;width:100%;height:70px;background-color:#b90000;margin:0px;line-height:1.1rem;">
+                        <div style="width:50%;height:100%;float:left;">
+                            <img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/0824_01.png" data-show="1" style="width:100%;height:70px;" />
+                        </div>
+                        <div style="width:50%;float:left;color:#fff;padding:0;">
+                            <div>
+                                <p style="font-size:0.8rem;margin-left:25px;margin-top:5px;padding:0rem;">立即加指导老师微信</p>
+                                <p style="font-size:1.0rem;margin:0rem;margin-left:.2rem;padding:0rem;display:inline;">长按复制→</p>
+                                <span class="keys" style="color:#fff;background-color:#dc6d26;z-index:999;margin-left:2px;">
+                                    <script>document.write(rwx)</script>
+                                </span>
+                            </div>
+                            <a href="weixin://" style="padding-left: 35px;">
+                                <img src="http://www.yupingaofang.com/public/f1.jpg" data-show="1" style="width:50%;height:50%;padding-top: 5px;" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 

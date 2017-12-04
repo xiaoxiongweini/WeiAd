@@ -1,0 +1,1615 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DN.Framework.Utility</name>
+    </assembly>
+    <members>
+        <member name="T:DN.Framework.Utility.CacheHelper">
+            <summary>
+            Cache缓存管理器
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.CacheHelper.GetCache(System.String)">
+            <summary>
+            获取数据缓存
+            </summary>
+            <param name="CacheKey">键</param>
+        </member>
+        <member name="M:DN.Framework.Utility.CacheHelper.SetCache(System.String,System.Object)">
+            <summary>
+            设置数据缓存
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.CacheHelper.SetCache(System.String,System.Object,System.TimeSpan)">
+            <summary>
+            设置数据缓存
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.CacheHelper.SetCache(System.String,System.Object,System.DateTime,System.TimeSpan)">
+            <summary>
+            设置数据缓存
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.CacheHelper.RemoveAllCache(System.String)">
+            <summary>
+            移除指定数据缓存
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.CacheHelper.RemoveAllCache">
+            <summary>
+            移除全部缓存
+            </summary>
+        </member>
+        <member name="T:DN.Framework.Utility.Cache.BaseCacheHelper">
+            <summary>
+            基类
+            </summary>
+        </member>
+        <member name="F:DN.Framework.Utility.Cache.BaseCacheHelper.m_lock">
+            <summary>
+            锁对象
+            </summary>
+        </member>
+        <member name="F:DN.Framework.Utility.Cache.BaseCacheHelper.m_list">
+            <summary>
+            缓存对象
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.Cache.BaseCacheHelper.Add(System.Object,System.Object)">
+            <summary>
+            添加对象
+            </summary>
+            <param name="key"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:DN.Framework.Utility.Cache.BaseCacheHelper.CleanUp">
+            <summary>
+            清除缓存
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.Cache.BaseCacheHelper.Get(System.Object)">
+            <summary>
+            获取缓存
+            </summary>
+            <param name="key"></param>
+            <returns>不存在时为NULL</returns>
+        </member>
+        <member name="M:DN.Framework.Utility.Cache.BaseCacheHelper.InitCache">
+            <summary>
+            首次加载缓存
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.Cache.BaseCacheHelper.Refresh">
+            <summary>
+            刷新缓存
+            </summary>
+        </member>
+        <member name="T:DN.Framework.Utility.Cache.ICacheHelper">
+            <summary>
+            缓存接口
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.Cache.ICacheHelper.Refresh">
+            <summary>
+            刷新缓存
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.Cache.ICacheHelper.InitCache">
+            <summary>
+            首次加载缓存
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.Cache.ICacheHelper.CleanUp">
+            <summary>
+            清空缓存
+            </summary>
+        </member>
+        <member name="T:DN.Framework.Utility.ClientHelper">
+            <summary>
+            客户端工具
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.ClientHelper.IpToInt(System.String)">
+            <summary>
+            IP转数字
+            </summary>
+            <param name="ip"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ClientHelper.IntToIp(System.Int64)">
+            <summary>
+            数字转IP
+            </summary>
+            <param name="ipInt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ClientHelper.ClientIP">
+            <summary>
+            获取客户端IP
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ClientHelper.GetClentId(System.String)">
+            <summary>
+            获取客户端ID
+            </summary>
+            <param name="clientipkey">客户端标识Key</param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ClientHelper.GetUserAgent">
+            <summary>
+            获取客户端UserAgent信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ClientHelper.GetBrowseInfo">
+            <summary>
+            获取浏览器信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ClientHelper.GetIsMobileDevice">
+            <summary>
+            判断是否移动端
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ClientHelper.GetOsName">
+            <summary>
+            获取操作系统
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ClientHelper.GetBrowseVersion">
+            <summary>
+            获取浏览器版本
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ClientHelper.GetBrowseName">
+            <summary>
+            获取浏览器名称
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ClientHelper.GetReferer">
+            <summary>
+            获取上次请求的地址
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:DN.Framework.Utility.ConfigHelper">
+            <summary>
+            配置工具类
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.ConfigHelper.GetSetValue(System.String,System.String)">
+            <summary>
+            获取配置值
+            </summary>
+            <param name="key"></param>
+            <param name="defaultstr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ConfigHelper.GetInt(System.String,System.Int32)">
+            <summary>
+            获取INT值
+            </summary>
+            <param name="key"></param>
+            <param name="defaultVal"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ConfigHelper.GetBoolean(System.String,System.Boolean)">
+            <summary>
+            获取布尔值
+            </summary>
+            <param name="key"></param>
+            <param name="defaultVal"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DN.Framework.Utility.ConfigJsonHelper">
+            <summary>
+            配置信息，配置地址：/Resources/Config/SysTypes/xxx.json
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.ConfigJsonHelper.GetTypes(System.String)">
+            <summary>
+            根据文件获取配置文件，文件路径/Resources/Config/SysTypes/{0}.json
+            </summary>
+            <param name="fileName">文件名称不带后缀</param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ConfigJsonHelper.GetTypes``1(System.String)">
+            <summary>
+            获取类型
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="filenName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ConfigJsonHelper.GetJson(System.String)">
+            <summary>
+            读取配置文件
+            </summary>
+            <param name="fileName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ConfigJsonHelper.GetTypesByUrl``1(System.String)">
+            <summary>
+            通过URL获取数据
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DN.Framework.Utility.TypeItem">
+            <summary>
+            基础类型信息
+            </summary>
+        </member>
+        <member name="T:DN.Framework.Utility.DataTableHelper">
+            <summary>
+            DataTable帮助工具
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.DataTableHelper.TableToList(System.Data.DataTable)">
+            <summary> 
+            数据表转键值对集合
+            把DataTable转成 List集合, 存每一行 
+            集合中放的是键值对字典,存每一列 
+            </summary> 
+            <param name="dt">数据表</param> 
+            <returns>哈希表数组</returns> 
+        </member>
+        <member name="M:DN.Framework.Utility.DataTableHelper.TableToList``1(System.Data.DataTable)">
+            <summary>
+             DataTable 转换为List 集合 
+            </summary>
+            <typeparam name="T">对象</typeparam>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.DataTableHelper.ListToTable(System.Collections.IList)">
+            <summary>  
+            将集合类转换成DataTable  
+            </summary>  
+            <param name="list">集合</param>  
+            <returns></returns>  
+        </member>
+        <member name="T:DN.Framework.Utility.DateTimeHelper">
+            <summary>
+            时间帮助工具
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.DateTimeHelper.GetWeek">
+            <summary>
+            获取当前时间的星期信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.DateTimeHelper.GetWeek(System.DateTime)">
+            <summary>
+            获取指定时间的星期信息
+            </summary>
+            <param name="time"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.DateTimeHelper.TimeToInt(System.DateTime)">
+            <summary>
+            DateTime时间格式转换为Unix时间戳格式
+            </summary>
+            <param name="time"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.DateTimeHelper.IntToTime(System.Double)">
+            <summary>
+            数字转时间
+            </summary>
+            <param name="secondCount"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.DateTimeHelper.ConverTimeByString(System.String)">
+            <summary>
+            INT时间转换成DateTime
+            </summary>
+            <param name="time">yyyyMMdd或yyyy-MM-dd</param>
+            <returns></returns>
+        </member>
+        <member name="T:DN.Framework.Utility.DbConvert">
+            <summary>
+            数据库数据转换工具
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.DbConvert.ToDbValue(System.Object)">
+            <summary>
+            转换为数据不可为空的值
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.DbConvert.ToDbValueNullable(System.Object)">
+            <summary>
+            数据库为空的对象转换
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.DbConvert.GetBoolean(System.Object,System.Boolean)">
+            <summary>
+            带默认值的数据转换
+            </summary>
+            <param name="obj"></param>
+            <param name="defaultValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.DbConvert.GetBoolean(System.Object)">
+            <summary>
+            bool类型的数据转换
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.DbConvert.GetBooleanNullable(System.Object)">
+            <summary>
+            数据库转换到实体属性
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.DbConvert.GetInt(System.Object)">
+            <summary>
+            转换成INT值
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DN.Framework.Utility.EncryptHelper">
+            <summary>
+            加密工具
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.EncryptHelper.MD5Encrypt(System.String)">
+            <summary>
+             给一个字符串进行MD5加密
+            </summary>
+            <param   name="strText">待加密字符串</param>
+            <returns>加密后的字符串</returns>
+        </member>
+        <member name="M:DN.Framework.Utility.EncryptHelper.GetMd5(System.String,System.String)">
+            <summary>
+            获取MD5
+            </summary>
+            <param name="strText">待加载字符串</param>        
+            <param name="encode">默认格式:GB2312</param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.EncryptHelper.Encrypt(System.String)">
+            <summary>  
+            加密  
+            </summary>  
+            <param name="Text"></param>  
+            <returns></returns>  
+        </member>
+        <member name="M:DN.Framework.Utility.EncryptHelper.Encrypt(System.String,System.String)">
+            <summary>   
+            加密数据   
+            </summary>   
+            <param name="Text"></param>   
+            <param name="sKey"></param>   
+            <returns></returns>   
+        </member>
+        <member name="M:DN.Framework.Utility.EncryptHelper.Decrypt(System.String)">
+            <summary>  
+            解密  
+            </summary>  
+            <param name="Text"></param>  
+            <returns></returns>  
+        </member>
+        <member name="M:DN.Framework.Utility.EncryptHelper.Decrypt(System.String,System.String)">
+            <summary>   
+            解密数据   
+            </summary>   
+            <param name="Text"></param>   
+            <param name="sKey"></param>   
+            <returns></returns>   
+        </member>
+        <member name="T:DN.Framework.Utility.ExcelHelper">
+            <summary>
+            Excel帮助工具
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.ExcelHelper.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:DN.Framework.Utility.ExcelHelper.DataTableToExcel(System.Data.DataTable,System.String,System.Boolean)">
+            <summary>
+            将DataTable数据导入到excel中
+            </summary>
+            <param name="data">要导入的数据</param>
+            <param name="isColumnWritten">DataTable的列名是否要导入</param>
+            <param name="sheetName">要导入的excel的sheet的名称</param>
+            <returns>导入数据行数(包含列名那一行)</returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ExcelHelper.ExcelToDataTable(System.String,System.Boolean)">
+            <summary>
+            将excel中的数据导入到DataTable中
+            </summary>
+            <param name="sheetName">excel工作薄sheet的名称</param>
+            <param name="isFirstRowColumn">第一行是否是DataTable的列名</param>
+            <returns>返回的DataTable</returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ExcelHelper.GetSheetNames">
+            <summary>
+            获取所有的sheet名称
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ExcelHelper.Dispose">
+            <summary>
+            释放资源
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.ExcelHelper.Dispose(System.Boolean)">
+            <summary>
+            释放资源
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="T:DN.Framework.Utility.HtmlHelper">
+            <summary>
+            HTML编解码工具
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.HtmlHelper.String2Unicode(System.String)">
+            <summary>
+            字符串转Unicode
+            </summary>
+            <param name="source">源字符串</param>
+            <returns>Unicode编码后的字符串</returns>
+        </member>
+        <member name="M:DN.Framework.Utility.HtmlHelper.String2Unicode(System.Char)">
+            <summary>
+            字符转Unicode
+            </summary>
+            <param name="source">源字符串</param>
+            <returns>Unicode编码后的字符串</returns>
+        </member>
+        <member name="M:DN.Framework.Utility.HtmlHelper.Unicode2String(System.String)">
+            <summary>
+            Unicode转字符串
+            </summary>
+            <param name="source">经过Unicode编码的字符串</param>
+            <returns>正常字符串</returns>
+        </member>
+        <member name="M:DN.Framework.Utility.HtmlHelper.EncodeHtml(System.Object)">
+            <summary>
+            HTML编码
+            </summary>
+            <param name="text"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.HtmlHelper.EncodeHtml(System.String)">
+            <summary>
+            HTML编码
+            </summary>
+            <param name="text"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.HtmlHelper.DecodeHtml(System.Object)">
+            <summary>
+            HTML解码
+            </summary>
+            <param name="text"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.HtmlHelper.DecodeHtml(System.String)">
+            <summary>
+            HTML解码
+            </summary>
+            <param name="text"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.HtmlHelper.ParseTags(System.String)">
+            <summary>
+            移除HTML标签
+            </summary>
+            <param name="html"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.HtmlHelper.NoHTML(System.String)">
+            <summary>
+            去除HTML标记
+            </summary>
+            <param name="Htmlstring">包括HTML的源码 </param>
+            <returns>已经去除后的文字</returns>
+        </member>
+        <member name="M:DN.Framework.Utility.HtmlHelper.GetImgSrcs(System.String)">
+            <summary>
+            获取图片地址列表
+            </summary>
+            <param name="htmlText">HTML代码，使用src标签</param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.HtmlHelper.GetImgDataSrcs(System.String)">
+            <summary>
+            获取Img标签
+            </summary>
+            <param name="htmlText">HTML代码，使用data-src标签</param>
+            <returns></returns>
+        </member>
+        <member name="T:DN.Framework.Utility.ImageHelper">
+            <summary>
+            图片工具
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.ImageHelper.MakeThumbnail(System.IO.Stream,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            生成缩略图
+            </summary>
+            <param name="stream"></param>
+            <param name="oldFileName"></param>
+            <param name="directory"></param>
+            <param name="width"></param>
+            <param name="height"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ImageHelper.MakeThumbnail(System.String,System.String,System.Int32,System.Int32,System.String)">
+            <summary>
+             生成缩略图
+             </summary>
+             <param name="originalImagePath">源图路径（物理路径）</param>
+             <param name="thumbnailPath">缩略图路径（物理路径）</param>
+             <param name="width">缩略图宽度</param>
+             <param name="height">缩略图高度</param>
+             <param name="mode">生成缩略图的方式</param>   
+        </member>
+        <member name="M:DN.Framework.Utility.ImageHelper.CompressImage(System.IO.Stream,System.String,System.String,System.Int64)">
+            <summary>
+            压缩图片
+            </summary>
+            <param name="stream">文件流</param>
+            <param name="oldFileName">原文件名称</param>
+            <param name="directory">压缩后保存位置</param>
+            <param name="level">压缩质量 1-100</param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ImageHelper.ImageWaterMarkPic(System.Drawing.Image,System.String,System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            加图片水印
+            </summary>
+            <param name="img">要加水印的原图﻿(System.Drawing)</param>
+            <param name="filename">文件名</param>
+            <param name="watermarkFilename">水印文件名</param>
+            <param name="watermarkStatus">图片水印位置1=左上 2=中上 3=右上 4=左中  5=中中 6=右中 7=左下 8=右中 9=右下</param>
+            <param name="quality">加水印后的质量0~100,数字越大质量越高</param>
+            <param name="watermarkTransparency">水印图片的透明度1~10,数字越小越透明,10为不透明</param>
+        </member>
+        <member name="M:DN.Framework.Utility.ImageHelper.ImageWaterMarkText(System.Drawing.Image,System.String,System.String,System.Int32,System.Int32,System.String,System.Int32)">
+            <summary>
+            增加图片文字水印
+            </summary>
+            <param name="img">要加水印的原图﻿(﻿System.Drawing)</param>
+            <param name="filename">文件名</param>
+            <param name="watermarkText">水印文字</param>
+            <param name="watermarkStatus">图片水印位置1=左上 2=中上 3=右上 4=左中  5=中中 6=右中 7=左下 8=右中 9=右下</param>
+            <param name="quality">加水印后的质量0~100,数字越大质量越高</param>
+            <param name="fontname">水印的字体</param>
+            <param name="fontsize">水印的字号</param>
+        </member>
+        <member name="T:DN.Framework.Utility.LogHelper">
+            <summary>
+            文件日志工具
+            </summary>
+        </member>
+        <member name="F:DN.Framework.Utility.LogHelper.m_lock">
+            <summary>
+            日志锁
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.LogHelper.Error(System.String,System.String)">
+            <summary>
+            异常写入日志，文件夹会带以ex_开始
+            </summary>
+            <param name="msg"></param>
+            <param name="cateory"></param>
+        </member>
+        <member name="M:DN.Framework.Utility.LogHelper.Write(System.String,System.String)">
+            <summary>
+            写入日志
+            </summary>
+            <param name="msg">消息内容</param>
+            <param name="cagetory">日志分类</param>
+        </member>
+        <member name="T:DN.Framework.Utility.HttpCookieHelper">
+            <summary>
+            Cookie操作帮助类
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.HttpCookieHelper.GetCookieList(System.String)">
+            <summary>
+            根据字符生成Cookie列表
+            </summary>
+            <param name="cookie">Cookie字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.HttpCookieHelper.GetCookieValue(System.String,System.String)">
+            <summary>
+            根据Key值得到Cookie值,Key不区分大小写
+            </summary>
+            <param name="Key">key</param>
+            <param name="cookie">字符串Cookie</param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.HttpCookieHelper.CookieFormat(System.String,System.String)">
+            <summary>
+            格式化Cookie为标准格式
+            </summary>
+            <param name="key">Key值</param>
+            <param name="value">Value值</param>
+            <returns></returns>
+        </member>
+        <member name="T:DN.Framework.Utility.CookieItem">
+            <summary>
+            Cookie对象
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.CookieItem.Key">
+            <summary>
+            键
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.CookieItem.Value">
+            <summary>
+            值
+            </summary>
+        </member>
+        <member name="T:DN.Framework.Utility.HttpHelper">
+            <summary>
+            Http连接操作帮助类
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.HttpHelper.GetHtml(DN.Framework.Utility.HttpItem)">
+            <summary>
+            根据相传入的数据，得到相应页面数据
+            </summary>
+            <param name="item">参数类对象</param>
+            <returns>返回HttpResult类型</returns>
+        </member>
+        <member name="M:DN.Framework.Utility.HttpHelper.GetData(DN.Framework.Utility.HttpItem,DN.Framework.Utility.HttpResult)">
+            <summary>
+            获取数据的并解析的方法
+            </summary>
+            <param name="item"></param>
+            <param name="result"></param>
+        </member>
+        <member name="M:DN.Framework.Utility.HttpHelper.SetEncoding(DN.Framework.Utility.HttpItem,DN.Framework.Utility.HttpResult,System.Byte[])">
+            <summary>
+            设置编码
+            </summary>
+            <param name="item">HttpItem</param>
+            <param name="result">HttpResult</param>
+            <param name="ResponseByte">byte[]</param>
+        </member>
+        <member name="M:DN.Framework.Utility.HttpHelper.GetByte">
+            <summary>
+            提取网页Byte
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.HttpHelper.GetMemoryStream(System.IO.Stream)">
+            <summary>
+            4.0以下.net版本取数据使用
+            </summary>
+            <param name="streamResponse">流</param>
+        </member>
+        <member name="M:DN.Framework.Utility.HttpHelper.SetRequest(DN.Framework.Utility.HttpItem)">
+             <summary>
+             为请求准备参数
+             </summary>
+            <param name="item">参数列表</param>
+        </member>
+        <member name="M:DN.Framework.Utility.HttpHelper.SetCer(DN.Framework.Utility.HttpItem)">
+            <summary>
+            设置证书
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:DN.Framework.Utility.HttpHelper.SetCerList(DN.Framework.Utility.HttpItem)">
+            <summary>
+            设置多个证书
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:DN.Framework.Utility.HttpHelper.SetCookie(DN.Framework.Utility.HttpItem)">
+            <summary>
+            设置Cookie
+            </summary>
+            <param name="item">Http参数</param>
+        </member>
+        <member name="M:DN.Framework.Utility.HttpHelper.SetPostData(DN.Framework.Utility.HttpItem)">
+            <summary>
+            设置Post数据
+            </summary>
+            <param name="item">Http参数</param>
+        </member>
+        <member name="M:DN.Framework.Utility.HttpHelper.SetProxy(DN.Framework.Utility.HttpItem)">
+            <summary>
+            设置代理
+            </summary>
+            <param name="item">参数对象</param>
+        </member>
+        <member name="M:DN.Framework.Utility.HttpHelper.CheckValidationResult(System.Object,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors)">
+            <summary>
+            回调验证证书问题
+            </summary>
+            <param name="sender">流对象</param>
+            <param name="certificate">证书</param>
+            <param name="chain">X509Chain</param>
+            <param name="errors">SslPolicyErrors</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:DN.Framework.Utility.HttpHelper.BindIPEndPointCallback(System.Net.ServicePoint,System.Net.IPEndPoint,System.Int32)">
+            <summary>
+            通过设置这个属性，可以在发出连接的时候绑定客户端发出连接所使用的IP地址。 
+            </summary>
+            <param name="servicePoint"></param>
+            <param name="remoteEndPoint"></param>
+            <param name="retryCount"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DN.Framework.Utility.HttpItem">
+            <summary>
+            Http请求参考类
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.URL">
+            <summary>
+            请求URL必须填写
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.Method">
+            <summary>
+            请求方式默认为GET方式,当为POST方式时必须设置Postdata的值
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.Timeout">
+            <summary>
+            默认请求超时时间
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.ReadWriteTimeout">
+            <summary>
+            默认写入Post数据超时间
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.KeepAlive">
+            <summary>
+             获取或设置一个值，该值指示是否与 Internet 资源建立持久性连接默认为true。
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.Accept">
+            <summary>
+            请求标头值 默认为text/html, application/xhtml+xml, */*
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.ContentType">
+            <summary>
+            请求返回类型默认 text/html
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.UserAgent">
+            <summary>
+            客户端访问信息默认Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.Encoding">
+            <summary>
+            返回数据编码默认为NUll,可以自动识别,一般为utf-8,gbk,gb2312
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.PostDataType">
+            <summary>
+            Post的数据类型
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.Postdata">
+            <summary>
+            Post请求时要发送的字符串Post数据
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.PostdataByte">
+            <summary>
+            Post请求时要发送的Byte类型的Post数据
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.WebProxy">
+            <summary>
+            设置代理对象，不想使用IE默认配置就设置为Null，而且不要设置ProxyIp
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.CookieCollection">
+            <summary>
+            Cookie对象集合
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.Cookie">
+            <summary>
+            请求时的Cookie
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.Referer">
+            <summary>
+            来源地址，上次访问地址
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.CerPath">
+            <summary>
+            证书绝对路径
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.IsToLower">
+            <summary>
+            是否设置为全文小写，默认为不转化
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.Allowautoredirect">
+            <summary>
+            支持跳转页面，查询结果将是跳转后的页面，默认是不跳转
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.Connectionlimit">
+            <summary>
+            最大连接数
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.ProxyUserName">
+            <summary>
+            代理Proxy 服务器用户名
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.ProxyPwd">
+            <summary>
+            代理 服务器密码
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.ProxyIp">
+            <summary>
+            代理 服务IP ,如果要使用IE代理就设置为ieproxy
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.ResultType">
+            <summary>
+            设置返回类型String和Byte
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.Header">
+            <summary>
+            header对象
+            </summary>
+        </member>
+        <!-- 对于成员“P:DN.Framework.Utility.HttpItem.ProtocolVersion”忽略有格式错误的 XML 注释 -->
+        <member name="P:DN.Framework.Utility.HttpItem.Expect100Continue">
+            <summary>
+             获取或设置一个 System.Boolean 值，该值确定是否使用 100-Continue 行为。如果 POST 请求需要 100-Continue 响应，则为 true；否则为 false。默认值为 true。
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.ClentCertificates">
+            <summary>
+            设置509证书集合
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.PostEncoding">
+            <summary>
+            设置或获取Post参数编码,默认的为Default编码
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.ResultCookieType">
+            <summary>
+            Cookie返回类型,默认的是只返回字符串类型
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.ICredentials">
+            <summary>
+            获取或设置请求的身份验证信息。
+            </summary>
+        </member>
+        <member name="F:DN.Framework.Utility.HttpItem._MaximumAutomaticRedirections">
+            <summary>
+            设置请求将跟随的重定向的最大数目
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.IfModifiedSince">
+            <summary>
+            获取和设置IfModifiedSince，默认为当前日期和时间
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpItem.IPEndPoint">
+             <summary>
+             设置本地的出口ip和端口
+             </summary>]
+             <example>
+            item.IPEndPoint = new IPEndPoint(IPAddress.Parse("192.168.1.1"),80);
+             </example>
+        </member>
+        <member name="T:DN.Framework.Utility.HttpResult">
+            <summary>
+            Http返回参数类
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpResult.Cookie">
+            <summary>
+            Http请求返回的Cookie
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpResult.CookieCollection">
+            <summary>
+            Cookie对象集合
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpResult.Html">
+            <summary>
+            返回的String类型数据 只有ResultType.String时才返回数据，其它情况为空
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpResult.ResultByte">
+            <summary>
+            返回的Byte数组 只有ResultType.Byte时才返回数据，其它情况为空
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpResult.Header">
+            <summary>
+            header对象
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpResult.StatusDescription">
+            <summary>
+            返回状态说明
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpResult.StatusCode">
+            <summary>
+            返回状态码,默认为OK
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpResult.ResponseUri">
+            <summary>
+            最后访问的URl
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.HttpResult.RedirectUrl">
+            <summary>
+            获取重定向的URl
+            </summary>
+        </member>
+        <member name="T:DN.Framework.Utility.ResultType">
+            <summary>
+            返回类型
+            </summary>
+        </member>
+        <member name="F:DN.Framework.Utility.ResultType.String">
+            <summary>
+            表示只返回字符串 只有Html有数据
+            </summary>
+        </member>
+        <member name="F:DN.Framework.Utility.ResultType.Byte">
+            <summary>
+            表示返回字符串和字节流 ResultByte和Html都有数据返回
+            </summary>
+        </member>
+        <member name="T:DN.Framework.Utility.PostDataType">
+            <summary>
+            Post的数据格式默认为string
+            </summary>
+        </member>
+        <member name="F:DN.Framework.Utility.PostDataType.String">
+            <summary>
+            字符串类型，这时编码Encoding可不设置
+            </summary>
+        </member>
+        <member name="F:DN.Framework.Utility.PostDataType.Byte">
+            <summary>
+            Byte类型，需要设置PostdataByte参数的值编码Encoding可设置为空
+            </summary>
+        </member>
+        <member name="F:DN.Framework.Utility.PostDataType.FilePath">
+            <summary>
+            传文件，Postdata必须设置为文件的绝对路径，必须设置Encoding的值
+            </summary>
+        </member>
+        <member name="T:DN.Framework.Utility.ResultCookieType">
+            <summary>
+            Cookie返回类型
+            </summary>
+        </member>
+        <member name="F:DN.Framework.Utility.ResultCookieType.String">
+            <summary>
+            只返回字符串类型的Cookie
+            </summary>
+        </member>
+        <member name="F:DN.Framework.Utility.ResultCookieType.CookieCollection">
+            <summary>
+            CookieCollection格式的Cookie集合同时也返回String类型的cookie
+            </summary>
+        </member>
+        <member name="T:DN.Framework.Utility.ParameterCheck">
+            <summary>
+            参数检查
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.ParameterCheck.isEmail(System.String)">
+            <summary>
+            检查Email
+            </summary>
+            <param name="emailString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ParameterCheck.isInt(System.String)">
+            <summary>
+            检查int值
+            </summary>
+            <param name="intString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ParameterCheck.isUSZip(System.String)">
+            <summary>
+            检查
+            </summary>
+            <param name="zipString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ParameterCheck.CheckParams(System.Object[])">
+            <summary>
+            检查参数对象
+            </summary>
+            <param name="args"></param>
+            <returns>true为检查通过，false则不通过</returns>
+        </member>
+        <member name="T:DN.Framework.Utility.PinYinHelper">
+            <summary>
+            汉字拼音转换类
+            </summary>
+        </member>
+        <member name="F:DN.Framework.Utility.PinYinHelper.otherChinese">
+            <summary>
+            二级汉字数组
+            </summary>
+        </member>
+        <member name="F:DN.Framework.Utility.PinYinHelper.otherPinYin">
+            <summary>
+            二级汉字对应拼音数组
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.PinYinHelper.GetFirst(System.Char)">
+            <summary>
+            取拼音第一个字段
+            </summary>        
+            <param name="ch"></param>        
+            <returns></returns>        
+        </member>
+        <member name="M:DN.Framework.Utility.PinYinHelper.GetFirst(System.String)">
+            <summary>
+            取拼音第一个字段
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.PinYinHelper.Get(System.Char)">
+            <summary>
+            获取单字拼音
+            </summary>
+            <param name="ch"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.PinYinHelper.Get(System.String)">
+            <summary>
+            把汉字转换成拼音(全拼)
+            </summary>
+            <param name="str">汉字字符串</param>
+            <returns>转换后的拼音(全拼)字符串</returns>
+        </member>
+        <member name="T:DN.Framework.Utility.QCodeHelper">
+            <summary>
+            二维码生成工具
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.QCodeHelper.Encoder(System.String,System.String)">
+            <summary>
+            保存文件
+            </summary>
+            <param name="text">内容</param>
+            <param name="filePath">保存直址</param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.QCodeHelper.Encoder(System.String)">
+            <summary>  
+            生成二维码  
+            </summary>  
+            <param name="txt">内容</param>  
+            <returns>返回二维码位图</returns>  
+        </member>
+        <member name="M:DN.Framework.Utility.QCodeHelper.Decoder(System.Drawing.Bitmap)">
+            <summary>  
+            解析二维码  
+            </summary>  
+            <param name="bitmap">要解析的二维码位图</param>  
+            <returns>解析后的字符串</returns>  
+        </member>
+        <member name="M:DN.Framework.Utility.QCodeHelper.MergeQrImg(System.Drawing.Bitmap,System.Drawing.Bitmap,System.Double)">
+            <summary>
+            合并用户QR图片和用户头像
+            </summary>
+            <param name="qrImg">QR图片</param>
+            <param name="headerImg">用户头像</param>
+            <param name="n"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.QCodeHelper.CreateRoundedRectanglePath(System.Drawing.Rectangle,System.Int32)">
+            <summary>
+            创建圆角矩形
+            </summary>
+            <param name="rect">区域</param>
+            <param name="cornerRadius">圆角角度</param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.QCodeHelper.ZoomPic(System.Drawing.Image,System.Double)">
+            <summary>
+            图片按比例缩放
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.QCodeHelper.GetThumbnail(System.Drawing.Bitmap,System.Int32,System.Int32)">
+            <summary>
+            创建缩略图
+            </summary>
+            <param name="b"></param>
+            <param name="destHeight"></param>
+            <param name="destWidth"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DN.Framework.Utility.Serializer">
+            <summary>
+            序列化工具
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.Serializer.SerializeObject(System.Object)">
+            <summary>
+            序列化
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.Serializer.DeserializeObject``1(System.String)">
+            <summary>
+            反序列化
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="json"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.Serializer.XmlSerialize(System.Object,System.Text.Encoding)">
+            <summary>
+            将一个对象序列化为XML字符串
+            </summary>
+            <param name="o">要序列化的对象</param>
+            <param name="encoding">编码方式</param>
+            <returns>序列化产生的XML字符串</returns>
+        </member>
+        <member name="M:DN.Framework.Utility.Serializer.XmlSerializeToFile(System.Object,System.String,System.Text.Encoding)">
+            <summary>
+            将一个对象按XML序列化的方式写入到一个文件
+            </summary>
+            <param name="o">要序列化的对象</param>
+            <param name="path">保存文件路径</param>
+            <param name="encoding">编码方式</param>
+        </member>
+        <member name="M:DN.Framework.Utility.Serializer.XmlDeserialize``1(System.String,System.Text.Encoding)">
+            <summary>
+            从XML字符串中反序列化对象
+            </summary>
+            <typeparam name="T">结果对象类型</typeparam>
+            <param name="s">包含对象的XML字符串</param>
+            <param name="encoding">编码方式</param>
+            <returns>反序列化得到的对象</returns>
+        </member>
+        <member name="M:DN.Framework.Utility.Serializer.XmlDeserializeFromFile``1(System.String,System.Text.Encoding)">
+            <summary>
+            读入一个文件，并按XML的方式反序列化对象。
+            </summary>
+            <typeparam name="T">结果对象类型</typeparam>
+            <param name="path">文件路径</param>
+            <param name="encoding">编码方式</param>
+            <returns>反序列化得到的对象</returns>
+        </member>
+        <member name="M:DN.Framework.Utility.Serializer.DataTableToList(System.Data.DataTable)">
+            <summary>
+            DataTable转换成List对象
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.Serializer.DataTableToJson(System.Data.DataTable)">
+            <summary>
+            DataTable转JSON
+            </summary>
+            <param name="table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.Serializer.ListToDataTable(System.String)">
+            <summary>
+            DataJsonText转换成DataTable
+            </summary>
+            <param name="jsonText"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.Serializer.JSONToObject``1(System.String)">
+            <summary>
+            JSON文本转对象,泛型方法 
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="jsonText"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.Serializer.TablesDataFromJSON(System.String)">
+            <summary>
+            将JSON文本转换为数据表数据 
+            </summary>
+            <param name="jsonText"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.Serializer.DataRowFromJSON(System.String)">
+            <summary>
+            将JSON文本转换成数据行 
+            </summary>
+            <param name="jsonText"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DN.Framework.Utility.StringHelper">
+            <summary>
+            字符串工具
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.StringHelper.Cut(System.String,System.Int32)">
+            <summary>
+            裁剪字符串
+            </summary>
+            <param name="text"></param>
+            <param name="leng"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.StringHelper.Cut(System.Object,System.Int32)">
+            <summary>
+            裁剪字符串
+            </summary>
+            <param name="text"></param>
+            <param name="leng"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.StringHelper.LastCut(System.Object,System.Int32)">
+            <summary>
+            反向裁剪字符串
+            </summary>
+            <param name="text"></param>
+            <param name="leng"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DN.Framework.Utility.UploadHelper">
+            <summary>
+            上传文件工具
+            </summary>
+        </member>
+        <member name="F:DN.Framework.Utility.UploadHelper.UPLOAD_DIRECTORY">
+            <summary>
+            保存路径
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.UploadHelper.Upload(DN.Framework.Utility.UploadItem)">
+            <summary>
+            文件上传
+            </summary>
+            <param name="upload"></param>
+            <returns>返回该文件地址的URL，如:/Resources/Upload/file.name</returns>
+        </member>
+        <member name="M:DN.Framework.Utility.UploadHelper.UploadFile(DN.Framework.Utility.UploadItem)">
+            <summary>
+            文件上传
+            </summary>
+            <param name="upload"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DN.Framework.Utility.UploadItem">
+            <summary>
+            上传文件
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.UploadItem.#ctor(System.String,System.Web.UI.WebControls.FileUpload)">
+            <summary>
+            初始化
+            </summary>
+            <param name="dire"></param>
+            <param name="file"></param>
+        </member>
+        <member name="P:DN.Framework.Utility.UploadItem.Directory">
+            <summary>
+            保存目录默认保存在：/Resources/Upload/,如：楼盘：Building，房屋:House
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.UploadItem.UploadControl">
+            <summary>
+            上传控件
+            </summary>
+        </member>
+        <member name="T:DN.Framework.Utility.UploadResult">
+            <summary>
+            上传结果
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.UploadResult.OldFileName">
+            <summary>
+            老文件名称
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.UploadResult.NewFIleName">
+            <summary>
+            新文件名称
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.UploadResult.Url">
+            <summary>
+            访问地址
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.UploadResult.FileLength">
+            <summary>
+            文件长度
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.UploadResult.State">
+            <summary>
+            上传状态
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.UploadResult.Message">
+            <summary>
+            上传消息
+            </summary>
+        </member>
+        <member name="T:DN.Framework.Utility.ValidateHelper">
+            <summary>
+            验证工具
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.ValidateHelper.CheckStringChinese(System.String)">
+            <summary>
+            用 ASCII 码范围判断字符是不是汉字
+            </summary>
+            <param name="text">待判断字符或字符串</param>
+            <returns>真：是汉字；假：不是</returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ValidateHelper.CheckStringChineseUn(System.String)">
+            <summary>
+            用 UNICODE 编码范围判断字符是不是汉字
+            </summary>
+            <param name="text">待判断字符或字符串</param>
+            <returns>真：是汉字；假：不是</returns>
+        </member>
+        <member name="M:DN.Framework.Utility.ValidateHelper.CheckStringChineseReg(System.String)">
+            <summary>
+            用 正则表达式 判断字符是不是汉字
+            </summary>
+            <param name="text">待判断字符或字符串</param>
+            <returns>真：是汉字；假：不是</returns>
+        </member>
+        <member name="T:DN.Framework.Utility.Vcf.BaseVcf">
+            <summary>
+            通讯录信息
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.Vcf.BaseVcf.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.Vcf.BaseVcf.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="text"></param>
+        </member>
+        <member name="P:DN.Framework.Utility.Vcf.BaseVcf.BEGIN">
+            <summary>
+            开始
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.Vcf.BaseVcf.VERSION">
+            <summary>
+            版本号
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.Vcf.BaseVcf.N">
+            <summary>
+            带分隔符的名称
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.Vcf.BaseVcf.FN">
+            <summary>
+            全名称
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.Vcf.BaseVcf.TEL">
+            <summary>
+            电话
+            </summary>
+        </member>
+        <member name="P:DN.Framework.Utility.Vcf.BaseVcf.END">
+            <summary>
+            结束
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.Vcf.BaseVcf.ToVersion">
+            <summary>
+            根据版本获取不同的对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.Vcf.BaseVcf.ToVcfString">
+            <summary>
+            转换成VCF格式
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:DN.Framework.Utility.Vcf.Vcf21">
+            <summary>
+            通讯录V2.1
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.Vcf.Vcf21.#ctor">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.Vcf.Vcf21.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="text"></param>
+        </member>
+        <member name="M:DN.Framework.Utility.Vcf.Vcf21.QDecode(System.String)">
+            <summary> 
+            quoted-printable解码程序. 
+            </summary> 
+            <param name="data">需要解码的字符串</param> 
+            <returns></returns> 
+        </member>
+        <member name="M:DN.Framework.Utility.Vcf.Vcf21.ToVcfString">
+            <summary>
+            转换成字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:DN.Framework.Utility.Vcf.Vcf30">
+            <summary>
+            通讯录V3.0
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.Vcf.Vcf30.#ctor">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.Vcf.Vcf30.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="text"></param>
+        </member>
+        <member name="M:DN.Framework.Utility.Vcf.Vcf30.ToVcfString">
+            <summary>
+            转换成字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:DN.Framework.Utility.Vcf.VcfHelper">
+            <summary>
+            通讯录工具
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.Vcf.VcfHelper.ReaderVcf(System.String)">
+            <summary>
+            读取VCF文件
+            </summary>
+            <param name="filename"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.Vcf.VcfHelper.WriteVcf(System.Collections.Generic.List{DN.Framework.Utility.Vcf.BaseVcf},System.String)">
+            <summary>
+            写入VCF文件
+            </summary>
+            <param name="list"></param>
+            <param name="fileName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.Vcf.VcfHelper.ExectToVcf(System.String,System.String)">
+            <summary>
+            Excel转VCF文件
+            </summary>
+            <param name="excelPath"></param>
+            <param name="vcfPath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.Vcf.VcfHelper.Start">
+            <summary>
+            开始
+            </summary>
+        </member>
+        <member name="T:DN.Framework.Utility.WebClientHelper">
+            <summary>
+            客户端请求工具
+            </summary>
+        </member>
+        <member name="M:DN.Framework.Utility.WebClientHelper.UrlDecode(System.String)">
+            <summary>
+            URL解码
+            </summary>
+            <param name="text"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.WebClientHelper.UrlEncode(System.String)">
+            <summary>
+            URL编码
+            </summary>
+            <param name="text"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.WebClientHelper.PostSend(System.String,System.String,System.String,System.String)">
+            <summary>
+            用post方式发送数据的方法
+            </summary>
+            <param name="url">请求地睛</param>
+            <param name="postdate">需要传递的参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.WebClientHelper.GetSend(System.String,System.String,System.String)">
+            <summary>
+            Get方式获取数据
+            </summary>
+            <param name="url"></param>
+            <param name="encode"></param>
+            <param name="rencode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.WebClientHelper.PostSend(System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.String,System.String)">
+            <summary>
+            POST数据，实现hashmap类型的数据
+            </summary>
+            <param name="url"></param>
+            <param name="datas"></param>
+            <param name="encode"></param>
+            <param name="rencode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.WebClientHelper.Download(System.String)">
+            <summary>
+            用Get方式发送数据的方法
+            </summary>
+            <param name="url">请求地址</param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.WebClientHelper.Download(System.String,System.Text.Encoding)">
+            <summary>
+            用GET方式获取数据的方法
+            </summary>
+            <param name="url">请求地址</param>
+            <param name="encoding">编码方式</param>
+            <returns></returns>
+        </member>
+        <member name="M:DN.Framework.Utility.WebClientHelper.DonwloadFile(System.String,System.String)">
+            <summary>
+            下载文件
+            </summary>
+            <param name="url"></param>
+            <param name="filepath"></param>
+        </member>
+    </members>
+</doc>

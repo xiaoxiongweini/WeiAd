@@ -1,0 +1,4 @@
+﻿GO
+SET IDENTITY_INSERT [dbo].[AccountInfo] ON 
+INSERT [dbo].[AccountInfo] ([Id], [UserName], [NickName], [Email], [Phone], [UserType], [UserPwd], [UserImg], [RegDate], [RegIp], [IsLock], [LastLoginDate], [AccountType], [OpenId], [ConsumptionMoney], [Money], [MoneyFree], [MoneyCount], [LastMoneyDate]) VALUES (1, N'admin', N'超级管理员', N'admin@admin.com', N'13701001045', 100, N'96e79218965eb72c92a549dd5a330112', NULL, CAST(N'2016-10-18 20:49:26.550' AS DateTime), N'127.0.0.1', 0, CAST(N'2016-10-18 20:49:26.547' AS DateTime), 0, NULL, 101.3300, 1298.6699, 0.0000, 0.0000, CAST(N'2017-02-21 01:00:54.447' AS DateTime))
+SET IDENTITY_INSERT [dbo].[AccountInfo] OFF

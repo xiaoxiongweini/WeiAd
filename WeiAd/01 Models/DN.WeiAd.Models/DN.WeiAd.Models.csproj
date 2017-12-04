@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1DAD341F-D024-4660-B434-46CEE82D24E1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DN.WeiAd.Models</RootNamespace>
+    <AssemblyName>DN.WeiAd.Models</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DN.Framework.Core">
+      <HintPath>..\..\..\..\..\..\skey\代码生成器\V2Framework\DN.Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DN.Framework.Utility">
+      <HintPath>..\..\..\..\..\..\skey\代码生成器\V2Framework\DN.Framework.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountInfoPara.cs" />
+    <Compile Include="AccountInfoParaOther.cs" />
+    <Compile Include="AccountInfoVO.cs" />
+    <Compile Include="AdBrowseHistoryPara.cs" />
+    <Compile Include="AdBrowseHistoryVO.cs" />
+    <Compile Include="AdBrowsePara.cs" />
+    <Compile Include="AdBrowseParaOther.cs" />
+    <Compile Include="AdBrowseVO.cs" />
+    <Compile Include="AdPageInfoPara.cs" />
+    <Compile Include="AdPageInfoParaOther.cs" />
+    <Compile Include="AdPageInfoVO.cs" />
+    <Compile Include="AdQcodeInfoPara.cs" />
+    <Compile Include="AdQcodeInfoVO.cs" />
+    <Compile Include="AdSiteInfoPara.cs" />
+    <Compile Include="AdSiteInfoVO.cs" />
+    <Compile Include="AdTypeInfoPara.cs" />
+    <Compile Include="AdTypeInfoVO.cs" />
+    <Compile Include="AdUserPagePara.cs" />
+    <Compile Include="AdUserPageVO.cs" />
+    <Compile Include="ArticleInfoPara.cs" />
+    <Compile Include="ArticleInfoVO.cs" />
+    <Compile Include="ChannelInfoPara.cs" />
+    <Compile Include="ChannelInfoVO.cs" />
+    <Compile Include="ChartPara.cs" />
+    <Compile Include="CpsUserInfoPara.cs" />
+    <Compile Include="CpsUserInfoVO.cs" />
+    <Compile Include="CustomerInfoPara.cs" />
+    <Compile Include="CustomerInfoParaOther.cs" />
+    <Compile Include="CustomerInfoVO.cs" />
+    <Compile Include="DomainInfoPara.cs" />
+    <Compile Include="DomainInfoVO.cs" />
+    <Compile Include="DomainSynchroHistoryPara.cs" />
+    <Compile Include="DomainSynchroHistoryVO.cs" />
+    <Compile Include="FtpInfoPara.cs" />
+    <Compile Include="FtpInfoVO.cs" />
+    <Compile Include="HistoryUserLogBrowsePara.cs" />
+    <Compile Include="HistoryUserLogBrowseVO.cs" />
+    <Compile Include="LogAdQcodePara.cs" />
+    <Compile Include="LogAdQcodeVO.cs" />
+    <Compile Include="LogBrowseHistoryPara.cs" />
+    <Compile Include="LogBrowseHistoryVO.cs" />
+    <Compile Include="LogBrowsePara.cs" />
+    <Compile Include="LogBrowseVO.cs" />
+    <Compile Include="LogIpInfoPara.cs" />
+    <Compile Include="LogIpInfoVO.cs" />
+    <Compile Include="LogLoginPara.cs" />
+    <Compile Include="LogLoginVO.cs" />
+    <Compile Include="LogQcodeInfoPara.cs" />
+    <Compile Include="LogQcodeInfoVO.cs" />
+    <Compile Include="PlayHistoryPara.cs" />
+    <Compile Include="PlayHistoryVO.cs" />
+    <Compile Include="ProductInfoPara.cs" />
+    <Compile Include="ProductInfoVO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServerInfoPara.cs" />
+    <Compile Include="ServerInfoVO.cs" />
+    <Compile Include="SummaryAdDayHistoryPara.cs" />
+    <Compile Include="SummaryAdDayHistoryVO.cs" />
+    <Compile Include="SysAreaCityPara.cs" />
+    <Compile Include="SysAreaCityVO.cs" />
+    <Compile Include="SysAreaDistrictsPara.cs" />
+    <Compile Include="SysAreaDistrictsVO.cs" />
+    <Compile Include="SysAreaProvincesPara.cs" />
+    <Compile Include="SysAreaProvincesVO.cs" />
+    <Compile Include="UserCodeInfoPara.cs" />
+    <Compile Include="UserCodeInfoVO.cs" />
+    <Compile Include="UserFinanceHistoryPara.cs" />
+    <Compile Include="UserFinanceHistoryVO.cs" />
+    <Compile Include="VersionInfoPara.cs" />
+    <Compile Include="VersionInfoVO.cs" />
+    <Compile Include="VirAdBrowsePara.cs" />
+    <Compile Include="VirAdBrowseVO.cs" />
+    <Compile Include="VirAdInfoPara.cs" />
+    <Compile Include="VirAdInfoVO.cs" />
+    <Compile Include="VirAdLogBrowsePara.cs" />
+    <Compile Include="VirAdLogBrowseVO.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

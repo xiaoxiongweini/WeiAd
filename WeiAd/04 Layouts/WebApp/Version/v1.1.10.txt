@@ -1,0 +1,79 @@
+﻿1、修改域名池信息表
+2、新增服务器配置信息
+3、
+
+/*----------------------订单删除功能-----------------------*/
+ALTER TABLE [CustomerInfo]
+ADD IsDelete int not null default(0);
+
+
+/*----------------------域名池-----------------------*/
+IF EXISTS  (SELECT  * FROM dbo.SysObjects WHERE ID = object_id(N'[DomainInfo]') AND OBJECTPROPERTY(ID, 'IsTable') = 1) 
+drop table [DomainInfo] ;
+CREATE TABLE [DomainInfo](
+
+[Id]  [int] IDENTITY(1,1)   NOT NULL ,
+[Name]  [varchar](100)  NULL ,
+[Domain]  [varchar](100)  NULL ,
+[PageName]  [varchar](100)  NULL ,
+[IsState]  [int]   NOT NULL ,
+[IsAuth]  [int]   NOT NULL ,
+[CityName]  [varchar](100)  NULL ,
+[CreateDate]  [datetime]   NOT NULL ,
+[CreateUserId]  [int]   NOT NULL ,
+[IsColse]  [int]   NOT NULL ,
+[ColseDate]  [datetime]   NOT NULL ,
+[CloseUserId]  [int]   NOT NULL ,
+[AdUserId]  [int]   NOT NULL ,
+[IsResolution]  [int]   NOT NULL ,
+[ResolutionDate]  [datetime]   NOT NULL ,
+[SerName]  [varchar](100)  NULL ,
+[ResolutionType]  [int]   NOT NULL ,
+
+CONSTRAINT [PK_DomainInfo] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY];
+
+
+
+/*----------------------服务器配置信息-----------------------*/
+IF EXISTS  (SELECT  * FROM dbo.SysObjects WHERE ID = object_id(N'[ServerInfo]') AND OBJECTPROPERTY(ID, 'IsTable') = 1) 
+drop table [ServerInfo] ;
+CREATE TABLE [ServerInfo](
+
+[Id]  [int] IDENTITY(1,1)   NOT NULL ,
+[ServerId]  [varchar](100)  NULL ,
+[Name]  [varchar](100)  NULL ,
+[Desc]  [varchar](500)  NULL ,
+[Ip]  [varchar](100)  NULL ,
+[CreateDate]  [datetime]   NOT NULL ,
+[IsState]  [int]   NOT NULL ,
+[UpdateDate]  [datetime]   NOT NULL ,
+
+CONSTRAINT [PK_ServerInfo] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY];
+
+
+
+/*----------------------CPS客户配置表-----------------------*/
+IF EXISTS  (SELECT  * FROM dbo.SysObjects WHERE ID = object_id(N'[CpsUserInfo]') AND OBJECTPROPERTY(ID, 'IsTable') = 1) 
+drop table [CpsUserInfo] ;
+CREATE TABLE [CpsUserInfo](
+
+[Id]  [int] IDENTITY(1,1)   NOT NULL ,
+[CpsUserId]  [int]   NOT NULL ,
+[AdId]  [int]   NOT NULL ,
+[CreateDate]  [datetime]   NOT NULL ,
+[CreateUserId]  [int]   NOT NULL ,
+[IsState]  [int]   NOT NULL ,
+
+CONSTRAINT [PK_CpsUserInfo] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY];

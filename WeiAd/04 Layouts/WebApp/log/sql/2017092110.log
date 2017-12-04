@@ -1,0 +1,27 @@
+-------------start 2017/9/21 10:31:43-------------/Login.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/9/21 10:31:43-------------
+-------------start 2017/9/21 10:31:44-------------/Admin/Index.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/9/21 10:31:44-------------
+-------------start 2017/9/21 10:31:49-------------/Admin/Vir/VirAdBrowseList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/9/21 10:31:49-------------
+-------------start 2017/9/21 10:31:52-------------/Admin/Vir/VirAdBrowseList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/9/21 10:31:52-------------
+-------------start 2017/9/21 10:38:04-------------/Admin/Vir/VirAdBrowseList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/9/21 10:38:04-------------
+-------------start 2017/9/21 10:38:04-------------/Admin/Vir/VirAdBrowseList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/9/21 10:38:04-------------
+-------------start 2017/9/21 10:38:04-------------/Admin/Vir/VirAdBrowseList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/9/21 10:38:04-------------
+-------------start 2017/9/21 10:38:06-------------/Admin/Vir/VirAdBrowseList.aspx
+SELECT TOP 10 * FROM [VirAdBrowse]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [VirAdBrowse]  WHERE 1=1  )  
+-------------end 2017/9/21 10:38:06-------------

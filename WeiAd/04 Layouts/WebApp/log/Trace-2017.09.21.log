@@ -1,0 +1,28 @@
+2017-09-21 10:31:31,443 WARN  : app started.
+2017-09-21 10:31:35,842 WARN  : app stopped.
+2017-09-21 10:31:42,772 WARN  : app started.
+2017-09-21 10:31:54,816 ERROR : 
+.客户信息：
+	Ip:::1
+	浏览器:Chrome
+	浏览器版本:60
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:54856/Admin/Vir/VirAdBrowseList.aspx
+	错误信息：可为空的对象必须具有一个值。
+	错误源：mscorlib
+	异常方法：Void ThrowInvalidOperationException(System.ExceptionResource)
+	堆栈信息：   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Nullable`1.get_Value()
+   在 DN.WeiAd.Access.MsSqlAccess.VirAdBrowseAccess.GetModels(VirAdBrowsePara& mp) 位置 C:\Company\微糖时代\ad\src\WeiAd\02 Access\DN.WeiAd.MsSqlAccess\VirAdBrowseAccess.cs:行号 129
+   在 DN.WeiAd.Business.VirAdBrowseBLL.GetModels(VirAdBrowsePara& mp) 位置 C:\Company\微糖时代\ad\src\WeiAd\03 Business\DN.WeiAd.Business\Table\VirAdBrowseBLL.cs:行号 77
+   在 WebApp.Admin.Vir.VirAdBrowseList.Bind(Int32 pageIndex) 位置 C:\Company\微糖时代\ad\src\WeiAd\04 Layouts\WebApp\Admin\Vir\VirAdBrowseList.aspx.cs:行号 41
+   在 WebApp.Admin.Vir.VirAdBrowseList.Page_Load(Object sender, EventArgs e) 位置 C:\Company\微糖时代\ad\src\WeiAd\04 Layouts\WebApp\Admin\Vir\VirAdBrowseList.aspx.cs:行号 20
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------
+2017-09-21 10:32:17,322 WARN  : app stopped.
+2017-09-21 10:38:02,547 WARN  : app started.
+2017-09-21 10:38:25,423 WARN  : app stopped.

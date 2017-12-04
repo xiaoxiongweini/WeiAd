@@ -1,0 +1,176 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta content="width=device-width,initial-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no">
+    <title>【聚焦】逆天的自然祛斑术，中国美容教父独创，祛斑一干二净，绝不反弹！明星都在用！</title>
+    <script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.js" type="text/javascript"></script>
+    <link href="http://jmtu.oss-cn-shanghai.aliyuncs.com/qb/css.css" rel="stylesheet" type="text/css">
+    <style>
+        .zx img {
+            max-width: 100%;
+            height: auto;
+            vertical-align: bottom;
+        }
+
+        .zx {
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+            background-color: #fff;
+        }
+
+        .w_head {
+            background: pink none repeat scroll 0% 0%;
+            border-bottom: 1px solid rgb(204, 204, 204);
+            position: fixed;
+            bottom: 0;
+            width: 97%;
+            max-width: 800px;
+            margin: 0 auto;
+            left: 50%;
+            transform: translate(-50% );
+            font-size: 1.0em;
+            padding: 0px 5px;
+            z-index: 9999;
+        }
+
+            .w_head img {
+                width: 80px;
+                vertical-align: top;
+                border: 0px none;
+            }
+
+            .w_head p {
+                display: inline-block;
+                width: 98%;
+                padding-left: 1%;
+                padding-top: 1%;
+                font-size: 16px;
+            }
+
+                .w_head p span {
+                    font-size: 1.1em;
+                }
+
+                    .w_head p span strong {
+                        color: #F00;
+                    }
+
+        .wxh {
+            color: #fff;
+            background: #ff4f79;
+            font-weight: bold;
+        }
+    </style>
+
+    <script type="text/javascript">
+        var wxhao = "@ViewBag.QcodeImg";
+        //arr_wx = ['SG2367'];
+        var arr_wx = wxhao.split(',');
+        var wx_index = Math.floor((Math.random() * arr_wx.length));
+        var stxlwx = arr_wx[wx_index];
+        var wx = "wx/" + arr_wx[wx_index];
+    </script>
+    <style type="text/css">
+        .contincter {
+            margin: 0 auto;
+            padding: 0;
+            max-width: 750px;
+        }
+
+        .entry-container-inner .center {
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        body {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div style="display:none;">
+        @Html.Raw(Server.HtmlDecode(ViewBag.StaticContent))
+        @Html.Raw(Server.HtmlDecode(ViewBag.UserCode))
+    </div>
+    <div style="display:none;">
+        @Html.Raw(Server.HtmlDecode(ViewBag.ArticleContent))
+    </div>
+
+    <div class="contincter">
+        @Html.Raw(ViewBag.TemplateContent)
+    </div>
+    <script type="text/javascript">
+
+        function GetRequest() {
+            //var url = location.search;
+            //var theRequest = new Object();
+            //if (url.indexOf("?") != -1) {
+            var str = window.location.href;
+            //strs = str.split("&");
+            //for ( var i = 0; i < strs.length; i++) {
+            //	theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+            //}
+            //}
+            return str;
+        }
+        var Request = undefined;
+        Request = GetRequest();
+        //alert(Request);
+        var copyText = "";
+        function myFunction() {
+            copyText = stxlwx;
+            //alert(copyText);
+            window.location.href = 'weixin://';
+            var xmlhttprequest;
+            if (window.XMLHttpRequest) {
+                xmlhttprequest = new XMLHttpRequest();
+                if (xmlhttprequest.overrideMimeType) {
+                    xmlhttprequest.overrideMimeType("text");
+                }
+            } else if (window.ActiveXObject) {
+                var activeName = ["MSXML2.XMLHTTP", "Microsoft.XMLHTTP"];
+                for (var i = 0; i < activeName.length; i++) {
+                    try {
+                        xmlhttprequest = new ActiveXObject(activeName[i]);
+                        break;
+                    } catch (e) {
+
+                    }
+                }
+            }
+
+            if (xmlhttprequest == undefined || xmlhttprequest == null) {
+                alert("XMLHttpRequest对象创建失败！！");
+            } else {
+                this.xmlhttp = xmlhttprequest;
+            }
+
+            var uri = "/Services/SendWeiXin.ashx?weixin=" + copyText + "&css=" + Request;
+
+            xmlhttprequest.open("POST", uri, true);
+
+            xmlhttprequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+            xmlhttprequest.send("weixin=" + copyText);
+        };
+
+    </script>
+
+
+    <script type="text/javascript">
+        document.getElementById("movie").style.height = document.getElementById("movie").scrollWidth * 0.58 >= 665 ? '520px' : document.getElementById("movie").scrollWidth * 0.58 >= 480 ? '320px' : document.getElementById("movie").scrollWidth * 0.58 + 'px';
+    </script>
+
+    <script type="text/javascript">
+        document.getElementById("movie2").style.height = document.getElementById("movie2").scrollWidth * 0.58 >= 665 ? '520px' : document.getElementById("movie2").scrollWidth * 0.58 >= 480 ? '320px' : document.getElementById("movie2").scrollWidth * 0.58 + 'px';
+    </script>
+</body>
+</html>

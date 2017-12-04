@@ -1,0 +1,99 @@
+-------------start 2017/7/27 16:11:01-------------/Login.aspx?ReturnUrl=%2fAccounts%2fOrder%2fOrderList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='zgliu' 
+ 
+-------------end 2017/7/27 16:11:01-------------
+-------------start 2017/7/27 16:11:18-------------/AccAnalysis/Index.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='zgliu' 
+ 
+-------------end 2017/7/27 16:11:18-------------
+-------------start 2017/7/27 16:11:18-------------/AccAnalysis/Index.aspx
+
+select 
+time,AdId 
+,count(*) as pvcount
+,count(distinct(clientid)) as uvcount
+,count(distinct(clientip)) as ipcount  
+,count(distinct(clientid)) /count(*) as useravg 
+from  [LogBrowse]
+where 1=1  and AdUserId = 2  and time = 20170727 
+group by time,AdId   order by  time desc 
+-------------end 2017/7/27 16:11:18-------------
+-------------start 2017/7/27 16:11:20-------------/AccAnalysis/Vir/Index.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/7/27 16:11:20-------------
+-------------start 2017/7/27 16:11:21-------------/AccAnalysis/Vir/Index.aspx
+SELECT TOP 10 * FROM [AdPageInfo]  WHERE 1=1  AND [UserId]='2'  AND Id NOT IN (SELECT TOP 0 Id FROM [AdPageInfo]  WHERE 1=1  AND [UserId]='2'  )  
+-------------end 2017/7/27 16:11:21-------------
+-------------start 2017/7/27 16:12:19-------------/Accounts/Order/OrderList.aspx
+SELECT TOP 10 * FROM [CustomerInfo]  WHERE 1=1  AND [IsDelete]='0'  AND Id NOT IN (SELECT TOP 0 Id FROM [CustomerInfo]  WHERE 1=1  AND [IsDelete]='0'   order by  id desc )   order by  id desc 
+-------------end 2017/7/27 16:12:19-------------
+-------------start 2017/7/27 16:12:21-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM CustomerInfo  WHERE 1=1  AND [IsDelete]='0'   order by  id desc 
+-------------end 2017/7/27 16:12:21-------------
+-------------start 2017/7/27 16:18:07-------------/Accounts/Order/OrderList.aspx
+SELECT TOP 10 * FROM [CustomerInfo]  WHERE 1=1  AND [IsDelete]='0'  AND Id NOT IN (SELECT TOP 0 Id FROM [CustomerInfo]  WHERE 1=1  AND [IsDelete]='0'   order by  id desc )   order by  id desc 
+-------------end 2017/7/27 16:18:07-------------
+-------------start 2017/7/27 16:18:07-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='2' 
+ 
+-------------end 2017/7/27 16:18:07-------------
+-------------start 2017/7/27 16:18:16-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM CustomerInfo  WHERE 1=1  AND [IsDelete]='0'   order by  id desc 
+-------------end 2017/7/27 16:18:16-------------
+-------------start 2017/7/27 16:18:18-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='zgliu' 
+ 
+-------------end 2017/7/27 16:18:18-------------
+-------------start 2017/7/27 16:18:30-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM CustomerInfo  WHERE 1=1  AND [IsDelete]='0'   order by  id desc 
+-------------end 2017/7/27 16:18:30-------------
+-------------start 2017/7/27 16:22:27-------------/Accounts/Order/OrderList.aspx
+SELECT TOP 10 * FROM [CustomerInfo]  WHERE 1=1  AND [IsDelete]='0'  AND Id NOT IN (SELECT TOP 0 Id FROM [CustomerInfo]  WHERE 1=1  AND [IsDelete]='0'   order by  id desc )   order by  id desc 
+-------------end 2017/7/27 16:22:27-------------
+-------------start 2017/7/27 16:22:27-------------/Accounts/Order/OrderList.aspx
+SELECT TOP 10 * FROM [CustomerInfo]  WHERE 1=1  AND [IsDelete]='0'  AND Id NOT IN (SELECT TOP 0 Id FROM [CustomerInfo]  WHERE 1=1  AND [IsDelete]='0'   order by  id desc )   order by  id desc 
+-------------end 2017/7/27 16:22:27-------------
+-------------start 2017/7/27 16:22:27-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='2' 
+ 
+-------------end 2017/7/27 16:22:27-------------
+-------------start 2017/7/27 16:22:27-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='2' 
+ 
+-------------end 2017/7/27 16:22:27-------------
+-------------start 2017/7/27 16:22:31-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM CustomerInfo  WHERE 1=1  AND [IsDelete]='0'   order by  id desc 
+-------------end 2017/7/27 16:22:31-------------
+-------------start 2017/7/27 16:25:19-------------/Accounts/Order/OrderList.aspx
+SELECT TOP 10 * FROM [CustomerInfo]  WHERE 1=1  AND [IsDelete]='0'  AND Id NOT IN (SELECT TOP 0 Id FROM [CustomerInfo]  WHERE 1=1  AND [IsDelete]='0'   order by  id desc )   order by  id desc 
+-------------end 2017/7/27 16:25:19-------------
+-------------start 2017/7/27 16:25:20-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='2' 
+ 
+-------------end 2017/7/27 16:25:20-------------
+-------------start 2017/7/27 16:25:30-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM CustomerInfo  WHERE 1=1  AND [IsDelete]='0'   order by  id desc 
+-------------end 2017/7/27 16:25:30-------------
+-------------start 2017/7/27 16:27:05-------------/Accounts/Order/OrderList.aspx
+SELECT TOP 10 * FROM [CustomerInfo]  WHERE 1=1  AND [IsDelete]='0'  AND Id NOT IN (SELECT TOP 0 Id FROM [CustomerInfo]  WHERE 1=1  AND [IsDelete]='0'   order by  id desc )   order by  id desc 
+-------------end 2017/7/27 16:27:05-------------
+-------------start 2017/7/27 16:27:05-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [Id]='2' 
+ 
+-------------end 2017/7/27 16:27:05-------------
+-------------start 2017/7/27 16:27:07-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM CustomerInfo  WHERE 1=1  AND [IsDelete]='0'   order by  id desc 
+-------------end 2017/7/27 16:27:07-------------
+-------------start 2017/7/27 16:28:32-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM CustomerInfo  WHERE 1=1  AND [IsDelete]='0'   order by  id desc 
+-------------end 2017/7/27 16:28:32-------------
+-------------start 2017/7/27 16:28:34-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='zgliu' 
+ 
+-------------end 2017/7/27 16:28:34-------------
+-------------start 2017/7/27 16:30:01-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM CustomerInfo  WHERE 1=1  AND [IsDelete]='0'   order by  id desc 
+-------------end 2017/7/27 16:30:01-------------
+-------------start 2017/7/27 16:30:07-------------/Accounts/Order/OrderList.aspx
+SELECT * FROM CustomerInfo  WHERE 1=1  AND [IsDelete]='0'   order by  id desc 
+-------------end 2017/7/27 16:30:07-------------

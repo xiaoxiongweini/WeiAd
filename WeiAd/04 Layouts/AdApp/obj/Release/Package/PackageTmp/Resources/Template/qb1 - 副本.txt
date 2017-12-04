@@ -1,0 +1,451 @@
+﻿ 
+  <link rel="stylesheet" media="screen" href="https://cdn.jinshuju.net/assets/published-2a724c89421a58adb7aa30de22d2ac511764a72b3f174fb5163d53c6f4b46f34.css" debug="false" />
+
+ <div class="entry-container-inner">
+    
+
+
+    <style type="text/css">
+  .entry-container {
+    background-image: url(https://pub-files.jinshuju.net/bgi/20171019112204_70ac08?imageView2/2/w/1920);
+background-position: top center;
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+    
+  }
+
+  @media screen and (min-width: 769px) and (max-width: 1440px) {
+    .entry-container {
+      background-image: url(https://pub-files.jinshuju.net/bgi/20171019112204_70ac08?imageView2/2/w/1440);
+background-position: top center;
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+      
+    }
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    .entry-container {
+      background-image: url(https://pub-files.jinshuju.net/bgi/20171019112204_70ac08?imageView2/2/w/768);
+background-position: top center;
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+      
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .entry-container {
+      background-image: url(https://pub-files.jinshuju.net/bgi/20171019112204_70ac08?imageView2/2/w/480);
+background-position: top center;
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+    }
+  }
+</style>
+
+<style type="text/css">
+  .entry-container > .entry-container-inner .center {
+  max-width: 700px;
+  }
+
+  .entry-container > .entry-container-inner > form {
+  background-color: #FFF;
+max-width: 700px;
+border-width: 0;
+border-color: #AAB2BD;
+  }
+
+  .entry-container > .entry-container-inner > form > .banner {
+  background-color: rgb(255, 133, 0);
+color: rgb(255, 255, 255);
+  }
+
+  .entry-container > .entry-container-inner > form > .form-header .form-title {
+  font-size: 1.833em;
+font-weight: normal;
+color: #000;
+  }
+
+  .entry-container > .entry-container-inner > form .fields .field {
+  
+  }
+
+  .entry-container > .entry-container-inner > form .fields .field .field-label {
+  font-size: 1.167em;
+font-weight: bold;
+color: #333;
+  }
+
+  .entry-container > .entry-container-inner > form .fields .field .choices label,
+  .entry-container > .entry-container-inner > form .fields .field .likert thead th,
+  .entry-container > .entry-container-inner > form .fields .field .matrix thead th,
+  .entry-container > .entry-container-inner > form .fields .field .goods-items .name {
+  
+  }
+
+  .entry-container > .entry-container-inner > form .submit-field {
+  text-align: center;
+  }
+
+  form .submit-field .gd-btn {
+  background-color: rgb(255, 133, 0);
+color: rgb(255, 255, 255);
+border-color: rgb(255, 255, 255);
+  }
+
+</style>
+
+
+
+<div class="center with-shadow no-field-form indent-on-large-phone" data-form-token="X1cbUm" data-validate-url="/f/X1cbUm/validate_fields" id="new_entry" action="/f/X1cbUm" accept-charset="UTF-8" method="post"><input type="hidden" name="utf8" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="lLwCoOuosC6wTQulzheXbVi1WX1y1P445ILYDqb04CpEmIXP21RsxE0tR08aXX10AI5zCpKGimxJtmIMF/vNqQ==" />
+      <div class="banner">
+          <div class="banner-text"> </div>
+    </div>
+
+  <div class="form-header container-fluid">
+    <div class="row">
+      <h1 class="form-title col-md-12">
+        独家公布最有效的祛斑方法，快速祛斑见证奇迹
+      </h1>
+      <div class="form-description col-md-12">
+        <section class="135editor" style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; font-style: normal; display: block; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: static; border: 0px none;">
+<section class="layout" style="margin: 0px auto; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; font-style: normal; display: block; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+<section style="margin: 0px; padding: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; font-style: normal; display: block; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); box-shadow: rgb(225, 225, 225) 8px 8px 3px; font-size: 1em; line-height: 1.4; white-space: normal; font-family: inherit; text-decoration: inherit; color: rgb(255, 255, 255); border: 2px dotted rgb(252, 252, 252); background-color: rgb(192, 0, 0);">
+<section class="135brush" style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; font-style: normal; display: block; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: inherit; border-color: rgb(211, 42, 99);"><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-size:20px; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">“麻子脸”不知道的方法！知道的都能祛斑成功！</span></strong></section>
+</section>
+</section>
+
+<section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; font-style: normal; display: block; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 0px; height: 0px; clear: both;"> </section>
+</section>
+
+<p style="text-align:center"><img alt="" src="https://pub-files.jinshuju.net/di/20171018093156_63a286"></p>
+
+<p style="margin: 8px 0px 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal;">薇安，国家认证皮肤专家，广东省皮肤病性病医院特邀专家，资深皮肤培训导师；从事皮肤诊治7年有余。是中国皮肤诊治调理的权威人士，擅长将古老中医的原理与现代科学美容完美结合的护肤专家。将中国博大精深的中医以及多年的诊治经验结合现代医学推广开来，在祛斑、祛痘、调理女性妇科疾病等领域中发挥了巨大的作用，多年来已经为10000+以上的女性成功的解决了各种皮肤问题；让更多的世人见证了她的神奇和魅力；</p>
+
+<p style="margin: 8px 0px 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal;">女人变丑，斑是祸首，这些丑陋的斑点你还要忍多久？现在只需5分钟，阅读全文就能还你一张干净无暇的脸！看过的人都已成功祛斑，你还在等什么？<span> </span><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span id="qb1" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">加微信</span> <span class="wxh" oncopy="myFunction()">  <script>document.write(stxlwx);</script></span> </strong>直接进入祛斑快速通道，帮你一对一解决斑点困扰，朋友圈不仅有海量祛斑案例 ，<span> </span><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#c00000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">更有精美大礼包免费相送！名额有限，先到先得，先到先祛斑！</span></p>
+ 
+
+<div style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 15px;"> </div>
+
+<p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal; background-color: rgb(38, 128, 216); text-align: center;"><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#2680d8; box-sizing:border-box !important; color:#ffffff; font-size:20px; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">直接进入主题，先给大家送上我的祛斑成果照片!</span></strong></p>
+
+<div style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 8px;"> </div>
+
+<span id="qb2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; font-weight:bolder; margin:0px; max-width:100%; padding:0px; text-align:center; word-wrap:break-word !important">加微信：</span><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span class="qbkz" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px 5px;  word-wrap:break-word !important"><span class="wxh" oncopy="myFunction()">  <script>document.write(stxlwx);</script></span></span> </strong><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; font-weight:bolder; margin:0px; max-width:100%; padding:0px; text-align:center; word-wrap:break-word !important">祛斑不走弯路</span>
+
+<div style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 15px;"> </div>
+
+<p style="text-align:center"><img alt="" src="https://pub-files.jinshuju.net/di/20171017190229_b3f3fd"></p>
+
+<div style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 15px;"> </div>
+
+<p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal; background-color: rgb(38, 128, 216); text-align: center;"><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#2680d8; box-sizing:border-box !important; color:#ffffff; font-size:20px; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">看脸的世界，你的脸还有救吗？</span></strong></p>
+
+<div style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 15px;"> </div>
+
+<p><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#2680d8; box-sizing:border-box !important; color:#ffffff; font-style:normal; font-weight:bolder; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">事件回顾：</strong></span></p>
+
+<p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal;"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">我叫王静，今年32岁，怀孕时开始长妊娠斑，生完宝宝后，每天忙得没时间收拾自己，一开始以为用粉底遮一遮就好，时间久了，发现卸妆后脸上的斑越来越多，皮肤也变得特别敏感，脸上黑黄色的斑连成片，这下我彻底成了一个“黄脸婆”。</span></p>
+
+<p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal;"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#c00000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">男人都是看脸的动物</strong></span>，长斑后老公对我越来越冷淡，啪啪啪的时候看都不看我的脸，搞得我很郁闷，他却朝我吼道：“<span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#c00000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">看看你满脸的麻子跟个老太婆一样！我对着你这张脸还不如充气娃娃有性趣！</strong></span>”那一刻真是想死的心都有了，我发誓一定要祛斑！</span></p>
+
+<p style="text-align:center"><img alt="" src="https://pub-files.jinshuju.net/di/20171017190244_c64283"></p>
+
+<p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal; text-align: center;"><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#2680d8; box-sizing:border-box !important; color:#ffffff; font-size:18px; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">长斑毁所有，背地里同事们竟然叫我“斑点狗”！</span></strong></p>
+
+<p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal;"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">我疯狂的在网上搜集各种祛斑土方法，什么<span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#c00000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">生姜擦脸、醋泡鸡蛋、蜂蜜牙膏祛斑，喝柠檬水、红糖面膜，几乎所有偏方窍门都试了个遍，每次都是失望满满，干净不了两天就被打回原形，到最后斑点越来越密集，脸部红肿充血，疼的整夜都睡不着</strong></span>，真是得不偿失!加<span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span> </span><strong id="qb3" style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">微信：</strong></span></span><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span class="qbkz" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px 5px;  word-wrap:break-word !important"><span class="wxh" oncopy="myFunction()">  <script>document.write(stxlwx);</script></span></span></strong><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">教你一招搞定所有斑点问题。</span></p>
+
+
+<div style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 15px;"> </div>
+
+<p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal;"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">有次我鬼迷心窍的想去美容院祛斑，就咨询了在美容院上班的发小，发小说<span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#c00000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">那些祛斑方法一点都不靠谱！还特别容易反弹，结的痂掉了之后斑点一个都没少，而且对皮肤伤害很大，一不小心就会留疤，毁了整张脸！</span>听她这么说我最后一丝希望都破灭了，从此对祛斑彻底丧失了信心。</span></p>
+
+<div style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 15px;"> </div>
+
+<p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal;"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">直到有一天，在网上看到了叫李莉的一个女孩的直播，连续20多天，我每天都关注她的直播，她从一脸斑点，到逐渐消失，重新燃起了我祛斑的希望！我联系到李莉，她告诉我是从薇安主治专家<span> </span><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><strong id="qb4" style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">微信：</strong></span></span><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span class="qbkz" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px 5px;  word-wrap:break-word !important"><span class="wxh" oncopy="myFunction()">  <script>document.write(stxlwx);</script></span></span></strong><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">那里得到的祛斑秘诀，并嘱咐我，薇安这样的专业主治专家帮你指导祛斑，一定靠谱</span></p>
+
+<p style="text-align:center"><img alt="" src="https://pub-files.jinshuju.net/di/20171017190301_734395"></p>
+
+<p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal; text-align: center;"><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#2680d8; box-sizing:border-box !important; color:#ffffff; font-size:18px; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">仅24天，斑女郎李莉逆袭净女神！</span></strong></p>
+
+<div style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 15px;"> </div>
+
+<p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal;"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">我果断加了薇安主治专家的<span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span> </span><strong id="qb5" style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">微信：</strong></span></span><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span class="qbkz" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px 5px;  word-wrap:break-word !important"><span class="wxh" oncopy="myFunction()">  <script>document.write(stxlwx);</script></span></span></strong><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">，她的朋友圈每天都会更新祛斑护肤的知识，讲得很专业，还有很多人祛斑成功的反馈，看到那么多人祛斑后的华丽蜕变，心里有了希望，亲身体验后才发现祛斑原来比想象中的还要简单！</span></p>
+
+<div style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 15px;"> </div>
+
+<p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal;"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">薇安主治专家说想要<span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#c00000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">健康祛斑，必须找对方法，了解体质</span>，她制定了一套适合我肤质的祛斑方案，在她的专业指导下，<span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#c00000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">脸上的斑点开始慢慢淡化，气色也好了很多。</span>薇安<span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span> </span><strong id="qb6" style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">微信：</strong></span></span><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span class="qbkz" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px 5px;  word-wrap:break-word !important"><span class="wxh" oncopy="myFunction()">  <script>document.write(stxlwx);</script></span></span> </strong><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">是我的大恩人！她拯救了我的脸，让我找回曾经的美丽自信，真的太感谢她了。</span></p>
+
+<p style="text-align:center"><img alt="" src="https://pub-files.jinshuju.net/di/20171017190311_fb4345"></p>
+
+<p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal; text-align: center;"><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#2680d8; box-sizing:border-box !important; color:#ffffff; font-size:18px; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">坚持了半个多月，只剩眼角周围的斑点比较顽固，继续努力</span></strong></p>
+
+<div style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 15px;"> </div>
+
+<p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal; color: rgb(0, 0, 0);">祛斑贵在坚持，在<span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">薇安</span>主治专家的专业指导下，这场祛斑的战争我胜利了。<span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#c00000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">祛斑后的我皮肤白净，出门时再也不用以厚厚的粉底和大口罩来掩饰自己，完全可以做到素面朝天。老公也说我比以前更有气质了，天天粘着我，还说这样的我带出门倍儿有面子。</strong></span><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">薇安</span><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><strong id="qb7" style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">微信：</strong></span><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span class="qbkz" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px 5px;  word-wrap:break-word !important"><span class="wxh" oncopy="myFunction()">  <script>document.write(stxlwx);</script></span></span></strong>是我的大恩人！她拯救了我的脸，让我找回曾经的美丽自信，真的太感谢她了。</p>
+
+<div style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 15px;"> </div>
+
+<p style="text-align:center"><img alt="" src="https://pub-files.jinshuju.net/di/20171017190323_0dc798"></p>
+
+<p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal; text-align: center;"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-size:18px; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#2680d8; box-sizing:border-box !important; color:#ffffff; font-style:normal; line-height:inherit; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">祛斑后的我皮肤白皙透亮，怎么都很美，拴住老公，不在话下</span></strong></span></p>
+
+<div style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 15px;"> </div>
+
+<p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal;"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">为了拯救更多绝望的“斑女郎”，为了感谢薇安主治专家，我竭尽所能帮她宣传。想和我一样摆脱斑斑点点的，就加薇安主治专家 <span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span> </span><strong id="qb8" style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">微信：</strong></span></span><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span class="qbkz" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px 5px;  word-wrap:break-word !important"><span class="wxh" oncopy="myFunction()">  <script>document.write(stxlwx);</script></span></span> </strong><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">，里面有很多粉丝的祛斑心得，还能免费得到薇安主治专家的美肤指导！</span></p>
+ 
+
+<div style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 15px;"> </div>
+
+<p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal; background-color: rgb(38, 128, 216); text-align: center;"><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#2680d8; box-sizing:border-box !important; color:#ffffff; font-size:20px; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">用过的人说好，才是真的好！</span></strong></p>
+
+<div style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 10px;"> </div>
+
+<p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal; color: rgb(0, 0, 0);">朋友圈很多“斑友”看到我祛斑前后的惊人变化，纷纷向我询求祛斑方法，我介绍<span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">薇安</span>主治专家<span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span> </span><strong id="qb9" style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">微信：</strong></span><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span class="qbkz" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px 5px;  word-wrap:break-word !important"><span class="wxh" oncopy="myFunction()">  <script>document.write(stxlwx);</script></span></span> </strong>（长按复制粘贴）给她们，现在她们都甩掉了斑点，一个个美的不要不要的，与其羡慕别人，不如赶紧行动起来！</p>
+
+<div style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 15px;"> </div>
+
+<p style="text-align:center"><img alt="" src="https://pub-files.jinshuju.net/di/20171017190343_71fc10"></p>
+
+<p style="margin: 0px; padding: 0px 0px 10px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal; color: rgb(0, 0, 0);">好脸蛋带来好运气！闺蜜琳琳祛斑后逆袭女神，皮肤白嫩锁住男人目光，引帅哥狂搭讪！</p>
+
+<p style="text-align:center"><img alt="" src="https://pub-files.jinshuju.net/di/20171017190401_84fc6c"></p>
+
+<p style="margin: 0px; padding: 0px 0px 10px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal; color: rgb(0, 0, 0);">同事凡凡，祛斑后皮肤嫩白如少女，之前她老公天天吵着要离婚，现在对她百般宠爱！</p>
+
+<p style="text-align:center"><img alt="" src="https://pub-files.jinshuju.net/di/20171017190438_05ba22"></p>
+
+<p style="margin: 0px; padding: 0px 0px 10px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal; color: rgb(0, 0, 0);">表妹薇薇，现在她的皮肤比祛斑前还要好，干净透亮，他们公司好几个帅哥都在追她呢！</p>
+
+<p style="text-align:center"><img alt="" src="https://pub-files.jinshuju.net/di/20171017190459_1a90cc"></p>
+
+<p style="margin: 0px; padding: 0px 0px 10px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal; color: rgb(0, 0, 0);">邻居琪琪从小长斑，现在琪琪已经从雀斑<span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#c00000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">“丑小鸭”变成了“白天鹅”</strong></span>，并收获了自己心爱的男神！</p>
+
+<p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal; color: rgb(192, 0, 0);"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-size:16px; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">对正在看这篇分享的姐妹们说句话，事业是男人的脸，脸是女人的事业。在这个颜值当道的社会，女人一定要舍得为你的脸投资！一张干净的脸，就是你幸福的保障。</span></p>
+
+<div style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 15px;"> </div>
+
+<p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; clear: both; font-size: 16px; min-height: 1em; white-space: normal; color: rgb(192, 0, 0);"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-size:16px; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">男人食色，我们女人没什么理由不蜕变。现在给自己一个尝试的机会，你也能成为别人羡慕的对象，祛斑不仅仅是祛斑，更是为了健康，自信和梦想。赶紧行动起来吧，不要等别人都祛斑成功了，你还捂着脸在别人面前走！<span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">（ 微信：<span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span> </span></span></span></span><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span class="qbkz" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px 5px;  word-wrap:break-word !important"><span class="wxh" oncopy="myFunction()">  <script>document.write(stxlwx);</script></span> </span></strong><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-size:16px; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">长按复制粘贴）</span></span>。</p>
+ 
+<article class="detaillist" style="margin: 20px 5px 24px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; display: block; text-align: left;">
+<div class="rich_media_content pinglun" style="margin: 18px 0px 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(62, 62, 62); min-height: 350px; font-size: 16px; overflow: hidden;"> 
+<div class="box3" style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative;">
+<div class="xian3" style="margin: 10px 0px 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 1px; width: 244.797px; background-color: rgb(0, 0, 0); position: absolute; top: 3px;"> </div>
+
+<h6 style="margin: 0px; padding: 0px 0px 20px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; font-weight: normal; font-size: 16px; text-align: center;">精彩评论</h6>
+
+<div class="xian3 xian3-1" style="margin: 10px 0px 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 1px; width: 244.797px; background-color: rgb(0, 0, 0); position: absolute; top: 3px; right: 0px;"> </div>
+</div>
+
+<p> </p>
+
+<div class="tot_pin " style="margin: 0px 0px 0px 20px; padding: 0px 30px 0px 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 612px;"><span class="photo" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; float:left; font-style:normal; height:30px; margin:0px; max-width:100%; padding:0px; width:40px; word-wrap:break-word !important"><img alt="" src="https://pub-files.jinshuju.net/di/20171017190513_ac89b5"></span>
+
+<div class="content" style="margin: 0px 0px 20px 10px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); float: left; width: 500px;">
+<div class="borde box1 " style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"> </div>
+
+<div class="borde box1 " style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">已经加了</span><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">薇安</span><span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">主治专家，刚才咨询了一下，感觉她说的很专业，人也很好，看她朋友圈好多案例，为我的祛斑之路增加不少信心！</span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+<span class="ni_name" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#999999; font-style:normal; margin:0px; max-width:100%; padding:0px; width:auto; word-wrap:break-word !important">今天</span></div>
+</div>
+</div>
+
+<div class="tot_pin " style="margin: 0px 0px 0px 20px; padding: 0px 30px 0px 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 612px;"><span class="photo" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; float:left; font-style:normal; height:30px; margin:0px; max-width:100%; padding:0px; width:40px; word-wrap:break-word !important"><img alt="" src="https://pub-files.jinshuju.net/di/20171017190527_d6bd7c"></span>
+
+<div class="content" style="margin: 0px 0px 20px 10px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); float: left; width: 500px;">
+<div class="borde box1 " style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><br>
+<span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">加上</span><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">薇安</span><span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">主治专家有一段时间了，斑点明显开始淡化，皮肤也变得光滑细腻了，期待中。</span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+ 
+<p style="text-align:center"><img alt="" src="https://pub-files.jinshuju.net/di/20171017191156_040f3a"></p>
+<span class="ni_name" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#999999; font-style:normal; margin:0px; max-width:100%; padding:0px; width:auto; word-wrap:break-word !important">今天</span></div>
+</div>
+</div>
+
+<div class="tot_pin " style="margin: 0px 0px 0px 20px; padding: 0px 30px 0px 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 612px;"><span class="photo" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; float:left; font-style:normal; height:30px; margin:0px; max-width:100%; padding:0px; width:40px; word-wrap:break-word !important"><img alt="" src="https://pub-files.jinshuju.net/di/20171017190536_b180e4"></span>
+
+<div class="content" style="margin: 0px 0px 20px 10px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); float: left; width: 500px;">
+<div class="borde box1 " style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><br>
+<span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">怀孕时脸上长了妊娠斑，老公嘴上不说，心里意见大得很，总说哪个女同事脸多白净皮肤多好，心塞塞，真害怕他有一天管不住下半身！</span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+<span class="ni_name" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#999999; font-style:normal; margin:0px; max-width:100%; padding:0px; width:auto; word-wrap:break-word !important">今天</span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+<br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+<span class="ni_name" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#999999; font-style:normal; margin:0px; max-width:100%; padding:0px; width:auto; word-wrap:break-word !important"><img alt="" height="2" src="http://cdn.che960.com.cn/template/q30/images/green.JPG" style="border:0px; box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; vertical-align:middle; word-wrap:break-word !important" width="2"> 作者回复</span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+<span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">听我的，要赶紧祛斑，男人都是看脸的动物！</span><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">薇安</span><span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">主治专家<span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span> </span><strong id="qb11" style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">微信：</strong></span></span><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span class="qbkz" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px 5px;  word-wrap:break-word !important"><span class="wxh" oncopy="myFunction()">  <script>document.write(stxlwx);</script></span></span> </strong></div>
+</div>
+</div>
+
+<div class="tot_pin " style="margin: 0px 0px 0px 20px; padding: 0px 30px 0px 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 612px;"><span class="photo" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; float:left; font-style:normal; height:30px; margin:0px; max-width:100%; padding:0px; width:40px; word-wrap:break-word !important"><img alt="" src="https://pub-files.jinshuju.net/di/20171017190544_cbeb27"></span>
+
+<div class="content" style="margin: 0px 0px 20px 10px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); float: left; width: 500px;">
+<div class="borde box1 " style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><br>
+<span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">为了祛斑没少折腾！花了多少冤枉钱，受了多少罪，唉！说多了都是泪。希望这次能有帮助，已经加上正在咨询</span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+<span class="ni_name" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#999999; font-style:normal; margin:0px; max-width:100%; padding:0px; width:auto; word-wrap:break-word !important">今天</span></div>
+</div>
+</div>
+
+<div class="tot_pin " style="margin: 0px 0px 0px 20px; padding: 0px 30px 0px 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 612px;"><span class="photo" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; float:left; font-style:normal; height:30px; margin:0px; max-width:100%; padding:0px; width:40px; word-wrap:break-word !important"><img alt="" src="https://pub-files.jinshuju.net/di/20171017190558_ab2bf7"></span>
+
+<div class="content" style="margin: 0px 0px 20px 10px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); float: left; width: 500px;">
+<div class="borde box1 " style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><br>
+<span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">我是怀孕的时候长了好多斑，怕对孩子不好就什么都没抹，现在皮肤糙的很，真不想这样邋遢下去了，我也要找</span><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">薇安</span><span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">主治专家帮我祛斑！</span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+<span class="ni_name" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#999999; font-style:normal; margin:0px; max-width:100%; padding:0px; width:auto; word-wrap:break-word !important">今天</span></div>
+</div>
+</div>
+
+<div class="tot_pin " style="margin: 0px 0px 0px 20px; padding: 0px 30px 0px 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 612px;"><span class="photo" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; float:left; font-style:normal; height:30px; margin:0px; max-width:100%; padding:0px; width:40px; word-wrap:break-word !important"><img alt="" src="https://pub-files.jinshuju.net/di/20171017190608_aee8ea"></span>
+
+<div class="content" style="margin: 0px 0px 20px 10px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); float: left; width: 500px;">
+<div class="borde box1 " style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><br>
+<span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">之前不在意自己的斑，我男朋友最近因为我脸上的斑点，竟然跟我分手，真的好后悔好心塞啊！</span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+<span class="ni_name" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#999999; font-style:normal; margin:0px; max-width:100%; padding:0px; width:auto; word-wrap:break-word !important">今天</span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+<br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+<span class="ni_name" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#999999; font-style:normal; margin:0px; max-width:100%; padding:0px; width:auto; word-wrap:break-word !important"><img alt="" height="2" src="http://cdn.che960.com.cn/template/q30/images/green.JPG" style="border:0px; box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; vertical-align:middle; word-wrap:break-word !important" width="2"> 作者回复</span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+<span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">我很理解你的感受，没有人比我更了解长斑对于一个女人的折磨，你现在要赶快祛斑，一张干净漂亮的脸蛋比什么都重要，</span><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">薇安</span><span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">主治专家<span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span> </span><strong id="qb12" style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">微信：</strong></span></span><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span class="qbkz" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px 5px;  word-wrap:break-word !important"><span class="wxh" oncopy="myFunction()">  <script>document.write(stxlwx);</script></span></span> </strong></div>
+</div>
+</div>
+
+<div class="tot_pin " style="margin: 0px 0px 0px 20px; padding: 0px 30px 0px 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 612px;"><span class="photo" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; float:left; font-style:normal; height:30px; margin:0px; max-width:100%; padding:0px; width:40px; word-wrap:break-word !important"><img alt="" src="https://pub-files.jinshuju.net/di/20171017190619_d90095"></span>
+
+<div class="content" style="margin: 0px 0px 20px 10px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); float: left; width: 500px;">
+<div class="borde box1 " style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><br>
+<span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">楼主，我的斑点跟你很像，已经试了很多方法都没用，</span><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">薇安</span><span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">主治专家真的能帮我祛斑吗？</span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+<span class="ni_name" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#999999; font-style:normal; margin:0px; max-width:100%; padding:0px; width:auto; word-wrap:break-word !important">今天</span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+<br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+<span class="ni_name" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#999999; font-style:normal; margin:0px; max-width:100%; padding:0px; width:auto; word-wrap:break-word !important"><img alt="" height="2" src="http://cdn.che960.com.cn/template/q30/images/green.JPG" style="border:0px; box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; vertical-align:middle; word-wrap:break-word !important" width="2"> 作者回复</span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+<span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">看我的脸就知道了，我现在皮肤比祛斑前还要好。</span></div>
+</div>
+</div>
+
+<div class="tot_pin " style="margin: 0px 0px 0px 20px; padding: 0px 30px 0px 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 612px;"><span class="photo" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; float:left; font-style:normal; height:30px; margin:0px; max-width:100%; padding:0px; width:40px; word-wrap:break-word !important"><img alt="" src="https://pub-files.jinshuju.net/di/20171017190639_3b1e19"></span>
+
+<div class="content" style="margin: 0px 0px 20px 10px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); float: left; width: 500px;">
+<div class="borde box1 " style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><br>
+<span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">从小长斑，表示已经试过N多方法，之前激光祛斑都反弹了，花钱多还受罪！</span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+<span class="ni_name" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#999999; font-style:normal; margin:0px; max-width:100%; padding:0px; width:auto; word-wrap:break-word !important">今天</span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+<br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+<span class="ni_name" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#999999; font-style:normal; margin:0px; max-width:100%; padding:0px; width:auto; word-wrap:break-word !important"><img alt="" height="2" src="http://cdn.che960.com.cn/template/q30/images/green.JPG" style="border:0px; box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; vertical-align:middle; word-wrap:break-word !important" width="2"> 作者回复</span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+<span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">激光祛斑很伤皮肤的，祛斑一定要找对方法，你可以加</span><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">薇安</span><span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">主治专家<span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><strong id="qb13" style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">微信：</strong></span></span><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span class="qbkz" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px 5px;  word-wrap:break-word !important"><span class="wxh" oncopy="myFunction()">  <script>document.write(stxlwx);</script></span></span> </strong><span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">试试看，从根源上帮你解决斑点问题。</span></div>
+</div>
+</div>
+
+<div class="tot_pin " style="margin: 0px 0px 0px 20px; padding: 0px 30px 0px 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 612px;"><span class="photo" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; float:left; font-style:normal; height:30px; margin:0px; max-width:100%; padding:0px; width:40px; word-wrap:break-word !important"><img alt="" src="https://pub-files.jinshuju.net/di/20171017190648_69a71e"></span>
+
+<div class="content" style="margin: 0px 0px 20px 10px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); float: left; width: 500px;">
+<div class="borde box1 " style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><br>
+<span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">原来是</span><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">薇安</span><span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">主治专家啊，我关注她很久了，看到你们都祛斑了，我也有信心了。</span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+<span class="ni_name" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#999999; font-style:normal; margin:0px; max-width:100%; padding:0px; width:auto; word-wrap:break-word !important">今天</span></div>
+</div>
+</div>
+
+<div class="tot_pin " style="margin: 0px 0px 0px 20px; padding: 0px 30px 0px 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 612px;"><span class="photo" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; float:left; font-style:normal; height:30px; margin:0px; max-width:100%; padding:0px; width:40px; word-wrap:break-word !important"><img alt="" src="https://pub-files.jinshuju.net/di/20171017190657_88415b"></span>
+
+<div class="content" style="margin: 0px 0px 20px 10px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); float: left; width: 500px;">
+<div class="borde box1 " style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><br>
+<span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">长斑真的很悲催，走路的时候都不敢抬头，感觉大街上的人都在盯着自己脸上的斑，自卑的要死，搞得我到现在都不敢交男朋友，冬天的时候还能戴口罩，天气热了想遮都遮不住了，我也得赶紧去咨询</span><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">薇安</span><span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">主治专家帮我祛斑了！</span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+<span class="ni_name" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#999999; font-style:normal; margin:0px; max-width:100%; padding:0px; width:auto; word-wrap:break-word !important">今天</span></div>
+</div>
+</div>
+
+<div class="tot_pin " style="margin: 0px 0px 0px 20px; padding: 0px 30px 0px 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 612px;"><span class="photo" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; float:left; font-style:normal; height:30px; margin:0px; max-width:100%; padding:0px; width:40px; word-wrap:break-word !important"><img alt="" src="https://pub-files.jinshuju.net/di/20171017190711_cc6d96"></span>
+
+<div class="content" style="margin: 0px 0px 20px 10px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); float: left; width: 500px;">
+<div class="borde box1 " style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><br>
+<span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">我是生完宝宝后长斑在</span><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">薇安</span><span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">主治专家<span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span> </span><strong id="qb14" style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">微信：</strong></span></span><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span class="qbkz" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px 5px;  word-wrap:break-word !important"><span class="wxh" oncopy="myFunction()">  <script>document.write(stxlwx);</script></span></span> </strong><span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">那护理的，她不仅专业，人也很好。要不是闺蜜介绍我认识她，估计现在我还是麻子脸呢。</span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+<span class="ni_name" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#999999; font-style:normal; margin:0px; max-width:100%; padding:0px; width:auto; word-wrap:break-word !important">今天</span></div>
+</div>
+</div>
+
+<div class="tot_pin " style="margin: 0px 0px 0px 20px; padding: 0px 30px 0px 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 612px;"><span class="photo" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; float:left; font-style:normal; height:30px; margin:0px; max-width:100%; padding:0px; width:40px; word-wrap:break-word !important"><img alt="" src="https://pub-files.jinshuju.net/di/20171017190719_263bbd"></span>
+
+<div class="content" style="margin: 0px 0px 20px 10px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); float: left; width: 500px;">
+<div class="borde box1 " style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><br>
+<span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">我真是深深感受到了别人说的祛斑等于整容是什么意思，祛斑后，爱情事业都超顺！像是开了挂一样！</span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+ 
+<p style="text-align:center"><img alt="" src="https://pub-files.jinshuju.net/di/20171017191226_dde904"></p>
+<span class="ni_name" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#999999; font-style:normal; margin:0px; max-width:100%; padding:0px; width:auto; word-wrap:break-word !important">今天</span></div>
+</div>
+</div>
+
+<div class="tot_pin " style="margin: 0px 0px 0px 20px; padding: 0px 30px 0px 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 612px;"><span class="photo" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; float:left; font-style:normal; height:30px; margin:0px; max-width:100%; padding:0px; width:40px; word-wrap:break-word !important"><img alt="" src="https://pub-files.jinshuju.net/di/20171017190749_b759d1"></span>
+
+<div class="content" style="margin: 0px 0px 20px 10px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); float: left; width: 500px;">
+<div class="borde box1 " style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><br>
+<span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">祛斑若是一个人默默的坚持，真的很辛苦，很容易放弃，还好有</span><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#000000; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">薇安</span><span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">主治专家<span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span> </span><strong id="qb15" style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">微信：</strong></span></span><strong style="box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); background-color:#c00000; box-sizing:border-box !important; color:#ffffff; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important"><span class="qbkz" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px 5px;  word-wrap:break-word !important"><span class="wxh" oncopy="myFunction()">  <script>document.write(stxlwx);</script></span></span> </strong><span class="box2" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; font-style:normal; margin:0px; max-width:100%; padding:0px; word-wrap:break-word !important">帮助，和众多姐妹一起坚持下去，效果自然看得见！</span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal;">
+<span class="ni_name" style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0); box-sizing:border-box !important; color:#999999; font-style:normal; margin:0px; max-width:100%; padding:0px; width:auto; word-wrap:break-word !important">今天</span>
+
+</div>
+</div>
+</div>
+</div>
+</article>
+      </div>
+    </div>
+  </div>
+  <div class="form-content container-fluid">
+    <div class="row">
+      
+        <div class="fields clearfix">
+        </div>
+ 
+
+
+        <div class="field submit-field col-md-12 clearfix">
+          
+          <a class="pagination-action previous-page hide gd-btn gd-btn-primary-solid" href="javascript:void(0)">上一页</a>
+<a class="pagination-action next-page hide gd-btn gd-btn-primary-solid" href="javascript:void(0)">下一页</a>
+
+                
+          <span class="page-number text-muted"></span>
+        
+            
+            <input type="hidden" name="embedded" id="embedded" />
+            <input type="hidden" name="banner" id="banner" />
+            <input type="hidden" name="header" id="header" />
+            <input type="hidden" name="background" id="background" />
+        </div>
+    </div>
+  </div>
+</div> 
+  <div id="form_page_error_messages_modal" class="modal warning form-error-messages-modal " role="dialog" tabindex="-1" aria-hidden="true" data-backdrop="static" data-keyboard="false"><div class="modal-dialog modal-sm"><div class="modal-content">
+  <div class="modal-header"><button type="button" class="close" data-dismiss="modal"><span>&times;</span></button><h4 class="modal-title">错误提醒</h4></div><div class="modal-body clearfix">
+    <div class="error-explanation">
+      <h5>提交未成功，当前页面填写有错误！</h5>
+    </div>
+</div></div></div></div>
+
+
+
+
+
+
+
+
+      <footer class='published text-center'>
+  <a target="_blank" class="powered-by " href="https://jinshuju.net/">
+    <p>
+      <span>Powered by </span>
+      <i class="gd-icon-logo powered-logo"></i><span> 金数据</span>
+    </p>
+</a></footer>
+
+  </div>
+
+  
+    <div class="w_head">
+        <p>
+            微信： <span class="">
+                <a style="font-size:20px;border:none;background-color:transparent;color:red;font-weight:bold;">
+                    <span style="font-weight:bold;" oncopy="myFunction()">
+                        <script>document.write(stxlwx);</script>
+                    </span>
+                </a>
+            </span>（长按复制）教你祛斑秘笈！<a href="weixin://" style="background: green; color: #FFF;    border-radius: 10px;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    width:64px; padding:5px;">去微信&gt;</a>
+        </p>
+    </div>

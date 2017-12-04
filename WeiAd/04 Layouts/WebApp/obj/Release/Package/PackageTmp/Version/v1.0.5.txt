@@ -1,0 +1,75 @@
+﻿--- 修改广告功能
+/*
+1、新增删除广告功能，删除广告文件
+2、新增广告默认二维码信息
+3、新增广告用户分类，投放平台，备注，终端平台
+4、新增表【用户投放平台】，【用户广告分类】
+5、广告呈现时抓取默认二维友信息
+6、新增终端平台配置文件
+7、新增多用户，多域名配置功能
+8、新增域名归属城市配置文件
+*/
+
+ALTER TABLE [AdPageInfo]
+ADD AdTimeStart varchar(50);
+ALTER TABLE [AdPageInfo]
+ADD AdTimeEnd varchar(50);
+ALTER TABLE [AdPageInfo]
+ADD UserAdTypeId int not null default(0);
+ALTER TABLE [AdPageInfo]
+ADD [Desc] varchar(500);
+ALTER TABLE [AdPageInfo]
+ADD SiteTypeId int not null default(0);
+ALTER TABLE [AdPageInfo]
+ADD PlatformType varchar(50);
+ALTER TABLE [AdPageInfo]
+ADD DeleteDate datetime not null default(getdate());
+ALTER TABLE [AdPageInfo]
+ADD DefaultQcode varchar(500);
+ALTER TABLE [AdPageInfo]
+ADD QcodeCount int not null default(0);
+ALTER TABLE [AdPageInfo]
+ADD PageCount int not null default(0);
+
+ALTER TABLE[DomainInfo]
+ADD AdUserId int not null default(0); 
+
+
+/*----------------------用户投放平台-----------------------*/
+IF EXISTS  (SELECT  * FROM dbo.SysObjects WHERE ID = object_id(N'[AdSiteInfo]') AND OBJECTPROPERTY(ID, 'IsTable') = 1) 
+drop table [AdSiteInfo] ;
+CREATE TABLE [AdSiteInfo](
+
+[Id]  [int] IDENTITY(1,1)   NOT NULL ,
+[Name]  [varchar](500)  NULL ,
+[Desc]  [varchar](2000)  NULL ,
+[WebSite]  [varchar](1000)  NULL ,
+[UserId]  [int]   NOT NULL ,
+[CreateDate]  [datetime]   NOT NULL ,
+[LastDate]  [datetime]   NOT NULL ,
+[PlatformType]  [varchar](500)  NULL ,
+[Contact]  [varchar](500)  NULL ,
+
+CONSTRAINT [PK_AdSiteInfo] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY];
+
+/*----------------------用户广告分类-----------------------*/
+IF EXISTS  (SELECT  * FROM dbo.SysObjects WHERE ID = object_id(N'[AdTypeInfo]') AND OBJECTPROPERTY(ID, 'IsTable') = 1) 
+drop table [AdTypeInfo] ;
+CREATE TABLE [AdTypeInfo](
+
+[Id]  [int] IDENTITY(1,1)   NOT NULL ,
+[Name]  [varchar](100)  NULL ,
+[Desc]  [varchar](500)  NULL ,
+[UserId]  [int]   NOT NULL ,
+[CreateDate]  [datetime]   NOT NULL ,
+[LastDate]  [datetime]   NOT NULL ,
+
+CONSTRAINT [PK_AdTypeInfo] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY];

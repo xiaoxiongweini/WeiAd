@@ -1,0 +1,421 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+    border: none;
+}
+/* 清除内外边距 */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
+th, td { /* table elements 表格元素 */
+    margin: 0;
+    padding: 0;
+}
+
+/* 设置默认字体 */
+body,
+button, input, select, textarea { /* for ie */
+    /*font: 12px/1 Tahoma, Helvetica, Arial, "宋体", sans-serif;*/
+    font: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; /* 用 ascii 字符表示，使得在任何编码下都无问题 */
+}
+
+h1 {
+    font-size: 18px; /* 18px / 12px = 1.5 */
+}
+
+h2 {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+h4, h5, h6 {
+    font-size: 100%;
+}
+
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+/* 将斜体扶正 */
+code, kbd, pre, samp, tt {
+    font-family: "Courier New", Courier, monospace;
+}
+/* 统一等宽字体 */
+small {
+    font-size: 12px;
+}
+/* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/* 重置列表元素 */
+ul, ol {
+    list-style: none;
+}
+
+/* 重置文本格式元素 */
+a {
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+abbr[title], acronym[title] { /* 注：1.ie6 不支持 abbr; 2.这里用了属性选择符，ie6 下无效果 */
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+q:before, q:after {
+    content: '';
+}
+
+/* 重置表单元素 */
+legend {
+    color: #000;
+}
+/* for ie6 */
+fieldset, img {
+    border: none;
+}
+/* img 搭车：让链接里的 img 无边框 */
+/* 注：optgroup 无法扶正 */
+button, input, select, textarea {
+    font-size: 100%; /* 使得表单元素在 ie 下能继承字体大小 */
+}
+
+/* 重置表格元素 */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 重置 hr */
+hr {
+    border: none;
+    height: 1px;
+}
+
+
+input, select, textarea {
+    font: 100% Microsoft YaHei,\5FAE\8F6F\96C5\9ED1,SimSun,\5B8B\4F53,Arial,Verdana;
+}
+
+em {
+    font-style: normal;
+    color: #F00;
+}
+
+img {
+    border: 0 none;
+    vertical-align: middle;
+}
+
+.red {
+    color: #F00;
+}
+
+#order {
+    margin: 0 auto;
+}
+
+.warp {
+    width: auto;
+    height: 100%;
+}
+
+.title {
+    height: 36px;
+    line-height: 36px;
+    color: #FFF;
+    font-size: 18px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    padding-left: 8px;
+}
+
+.warp label.bdxx {
+    float: left;
+    display: inline;
+    overflow: hidden;
+    width: 24%;
+    _width: 23%;
+    text-align: right;
+    padding-right: 2%;
+    font-size: 15px;
+}
+
+.warp label.bdxxcp {
+    float: left;
+    display: block;
+    width: 95%;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 5%;
+}
+
+.dxbox, .xlbox, .textbox, .text2box, .text3box {
+    float: left;
+    display: inline;
+    width: 74%;
+    _width: 73%;
+}
+
+.dxboxcp {
+    float: left;
+    display: block;
+    width: 85%;
+    padding: 0 5% 0 10%;
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+
+.dxbox, .text2box, .text3box {
+    line-height: 1.5em;
+}
+
+.bdbox {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    *margin-bottom: 7px;
+}
+
+.dxboxcp label {
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.dxbox label {
+    cursor: pointer;
+}
+
+.textbox input {
+    width: 90%;
+    font-size: 16px;
+    color: #666;
+    padding: 6px;
+    _padding: 6px;
+    border: 1px #ccc solid;
+}
+
+.text3box #showprice {
+    clear: both;
+    display: inline;
+    font-family: Arial,Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    color: #F60;
+    margin: 0 5px;
+}
+
+.xlbox select.cpxl {
+    font-size: 16px;
+    width: 96%;
+    height: 28px;
+    border: 1px solid #a0a0a0;
+    background: #FCFCFC;
+}
+
+.xlbox select.dqxl {
+    width: 30.15%;
+    height: 33px;
+    border: 1px solid #ccc;
+}
+
+.text2box textarea {
+    width: 90%;
+    height: 50px;
+    padding: 4px 5px;
+    background: #FFF;
+    border: 1px solid #ccc;
+}
+
+.text3box input {
+    width: 40px;
+    font: 16px Arial;
+    color: #666;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    padding: 6px;
+    background: #FFF;
+    border: 1px #ccc solid;
+}
+
+.text3box .code {
+    width: 100px;
+    height: 29px;
+}
+
+.text3box a {
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+.subbox {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+    .subbox input {
+        width: 200px;
+        line-height: 36px;
+        color: #FFF;
+        font-size: 18px;
+        vertical-align: middle;
+        cursor: pointer;
+        border: 0;
+    }
+
+#fahuo {
+    width: 100%;
+    font-size: 12px;
+    line-height: 200%;
+    background: #EFEFEF;
+    text-align: left;
+    border-top: 1px solid #DDDDDD;
+}
+
+    #fahuo ul {
+        padding: 10px;
+        height: 105px;
+        overflow: hidden;
+    }
+
+    #fahuo span {
+        color: #0C3;
+    }
+
+#order {
+    width: 100%;
+    #fcfcfc;
+    padding-top: 10px;
+}
+
+.subbox input {
+    background-color: #ff5600;
+    display: block;
+    line-height: 100%;
+    margin: 5px auto;
+    margin-bottom: 20px;
+    padding: 12px 0;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0px 0px 0px #333;
+    border-radius: 2px;
+}
+
+#order .chanpin label {
+    border: 1px #ccc solid;
+    padding: 0px 13px;
+    float: left;
+    margin-right: 7px;
+    display: inline;
+    margin-bottom: 6px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    border-radius: 2px;
+    line-height: 33px;
+    vertical-align: middle;
+    background: #ffffff;
+}
+
+#order .chanpin input[type="radio"] {
+    display: none;
+}
+
+#order .chanpin .now {
+    background: #f66;
+    border: 1px solid #ccc;
+    color: #ffffff;
+    text-shadow: 0 0 0 #fff;
+}
+
+#order .chanpin label:hover {
+    background: #f66;
+    border: 1px solid #FC9F9F;
+    color: #ffffff;
+    text-shadow: 0 0 0 #fff;
+}
+/*数量*/
+.shuliang, .jian, .jia {
+    float: left;
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 2rem;
+    height: 2rem;
+    font-size: 18px;
+    line-height: 2rem;
+    background-color: #f4f4f4;
+    color: #000000;
+}
+
+.shuliang {
+    padding: 0 .5rem;
+    color: #333;
+    border-width: 1px 0 1px 0;
+    width: 4rem;
+    border-radius: 0;
+    background-color: #fff;
+}
+
+.jian:hover, .jia:hover {
+    text-decoration: none;
+    background: #ccc;
+}
+
+
+article.showcontent {margin:0; padding:0;width:100%; height:auto;overflow:hidden;}
+article.showcontent h2,.banner h2,article h2{background:#EEE9E6;color:#6C594D;font-size:18px; line-height:30px; padding:0 10px;margin:0; width:100%; clear:both; text-align:left;}
+article.showcontent h2:before,.banner h2:before,article h2:before {content:"▼";color:#948157;}
+article.showcontent img {border:none;margin:0px 0 0; padding:0; text-align:center;width:auto;max-width:100%;float:left;}
+
+/*timer*/
+.time-count{text-align:center; margin:0; font-size:14px;}
+.time-count span{font-weight:bold; padding:0 0 0 5px ; color:#D0740A;font-size:26px;}
+
+
+article.des {width:94%;margin:0 auto;padding:10px 0; text-align:left;border-top:1px dotted #524524;color:#856D35;text-shadow:1px 1px 1px #33250C}
+
+article.showcontent .btn {padding:10px;}
+article.showcontent .btn a[href^="tel:"]{background-image:url("call.png");}
+article.showcontent .btn a[href^="sms:"]{background-image:url("sms.png");}
+article.showcontent .btn a[href^="tencent:"]{background-image:url("qq.png");}
+article.showcontent .btn .qq{background-image:url("qq.png");background-size: 24px 24px;
+background-position:10% 50%;background-repeat:no-repeat; background-color:#ff5600;
+display:block;width:100%;margin:5px 0; text-align:center;color:#fff;text-shadow:1px 1px 1px #333;border-radius:6px;}
+article.showcontent .btn .weixin{background-image:url("weixin.png");background-size: 24px 24px;
+background-position:10% 50%;background-repeat:no-repeat; background-color:#ff5600;
+display:block;width:100%;margin:5px 0; text-align:center;color:#fff;text-shadow:1px 1px 1px #333;border-radius:6px;}
+
+article.showcontent .btn a[href^="sms:"],article.showcontent .btn a[href^="mailto:"],article.showcontent .btn a[href^="tel:"],article.showcontent .btn a[href^="tencent:"]{
+background-position:10% 50%;background-size: 32px 32px;background-repeat:no-repeat; background-color:#ff5600;
+display:block;width:100%;margin:5px 0; text-align:center;color:#fff;text-shadow:1px 1px 1px #333;border-radius:6px;}
+article.showcontent .btn a[href^="tencent:"]{background-size: 24px 24px;}
+
+
+footer {margin:0px auto 0; padding:0;width:100%; clear:both;border-top:1px solid #ddd;}
+footer p { text-align:center;font-size:0.8em; padding-top:5px;}
+footer p img {max-width:98%;margin:0 auto;}
+.buybody{background-color: #FFFFFF;
+background-image: url(http://app.1hangye.com/Assets/adimg/bjshantu.gif);
+background-repeat: repeat;
+background-position: center 0;
+}
+.warp label.bdxx{color:white;}

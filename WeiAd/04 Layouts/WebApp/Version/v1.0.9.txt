@@ -1,0 +1,41 @@
+﻿1、新增客户表单信息表
+
+
+/*----------------------客户表单信息-----------------------*/
+IF EXISTS  (SELECT  * FROM dbo.SysObjects WHERE ID = object_id(N'[CustomerInfo]') AND OBJECTPROPERTY(ID, 'IsTable') = 1) 
+drop table [CustomerInfo] ;
+CREATE TABLE [CustomerInfo](
+
+[Id]  [int] IDENTITY(1,1)   NOT NULL ,
+[AdUrl]  [varchar](1000)  NULL ,
+[AdId]  [int]   NOT NULL ,
+[AdUserId]  [int]   NOT NULL ,
+[RealName]  [varchar](100)  NULL ,
+[Phone]  [varchar](100)  NULL ,
+[WeiXinNum]  [varchar](100)  NULL ,
+[Remark]  [varchar](1000)  NULL ,
+[Address]  [varchar](1000)  NULL ,
+[UserCountry]  [varchar](100)  NULL ,
+[UserRegion]  [varchar](100)  NULL ,
+[UserCity]  [varchar](100)  NULL ,
+[ClientIp]  [varchar](100)  NULL ,
+[ClientId]  [varchar](100)  NULL ,
+[IsMobile]  [int]   NOT NULL ,
+[ReferrerUrl]  [varchar](1000)  NULL ,
+[BrowseName]  [varchar](100)  NULL ,
+[BrowseVersion]  [varchar](100)  NULL ,
+[OsName]  [varchar](100)  NULL ,
+[Country]  [varchar](50)  NULL ,
+[Area]  [varchar](50)  NULL ,
+[Region]  [varchar](100)  NULL ,
+[City]  [varchar](100)  NULL ,
+[County]  [varchar](100)  NULL ,
+[Isp]  [varchar](500)  NULL ,
+[IpSource]  [varchar](100)  NULL ,
+[CreateDate]  [datetime]   NOT NULL ,
+
+CONSTRAINT [PK_CustomerInfo] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY];

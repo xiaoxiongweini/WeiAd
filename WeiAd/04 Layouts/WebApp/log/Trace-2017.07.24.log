@@ -1,0 +1,58 @@
+2017-07-24 17:00:35,546 WARN  : app started.
+2017-07-24 17:10:36,448 WARN  : app stopped.
+2017-07-24 17:11:04,939 WARN  : app started.
+2017-07-24 17:11:10,094 ERROR : 
+.客户信息：
+	Ip:::1
+	浏览器:Chrome
+	浏览器版本:58
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:54856/Accounts/Order/ProductEdit.aspx
+	错误信息：输入字符串的格式不正确。
+	错误源：mscorlib
+	异常方法：Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+	堆栈信息：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Int32.Parse(String s)
+   在 WebApp.Accounts.Order.ProductEdit.BindPage() 位置 E:\Company\yangfeng\ad\src\WeiAd\04 Layouts\WebApp\Accounts\Order\ProductEdit.aspx.cs:行号 38
+   在 WebApp.Accounts.Order.ProductEdit.Page_Load(Object sender, EventArgs e) 位置 E:\Company\yangfeng\ad\src\WeiAd\04 Layouts\WebApp\Accounts\Order\ProductEdit.aspx.cs:行号 21
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------
+2017-07-24 17:11:54,055 WARN  : app stopped.
+2017-07-24 17:12:13,044 WARN  : app started.
+2017-07-24 17:12:16,896 ERROR : 
+.客户信息：
+	Ip:::1
+	浏览器:Chrome
+	浏览器版本:58
+	操作系统:WinNT
+.错误信息：
+	页面：http://localhost:54856/Accounts/Order/ProductEdit.aspx
+	错误信息：输入字符串的格式不正确。
+	错误源：mscorlib
+	异常方法：Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+	堆栈信息：   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Int32.Parse(String s)
+   在 WebApp.Accounts.Order.ProductEdit.BindPage() 位置 E:\Company\yangfeng\ad\src\WeiAd\04 Layouts\WebApp\Accounts\Order\ProductEdit.aspx.cs:行号 38
+   在 WebApp.Accounts.Order.ProductEdit.Page_Load(Object sender, EventArgs e) 位置 E:\Company\yangfeng\ad\src\WeiAd\04 Layouts\WebApp\Accounts\Order\ProductEdit.aspx.cs:行号 21
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+--------------------------------------------------------------------------------------------------
+2017-07-24 17:12:42,222 WARN  : app stopped.
+2017-07-24 17:13:07,718 WARN  : app started.
+2017-07-24 17:27:17,251 WARN  : app stopped.
+2017-07-24 17:27:44,814 WARN  : app started.
+2017-07-24 17:32:12,063 WARN  : app stopped.
+2017-07-24 17:34:20,404 WARN  : app started.
+2017-07-24 17:39:28,799 WARN  : app stopped.
+2017-07-24 17:41:31,346 WARN  : app started.
+2017-07-24 17:43:42,727 WARN  : app started.
+2017-07-24 17:47:14,702 WARN  : app stopped.
+2017-07-24 17:53:54,591 WARN  : app started.

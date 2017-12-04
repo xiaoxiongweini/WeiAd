@@ -1,0 +1,16 @@
+﻿1、修改广告信息表
+
+ALTER TABLE [AdPageInfo]
+ADD [CnzzUrl] varchar(500);
+ALTER TABLE [AdPageInfo]
+ADD [IsPc] int not null default(0);
+ALTER TABLE [AdPageInfo]
+ADD [IsMobile] int not null default(0);
+ALTER TABLE [AdPageInfo]
+ADD [IsWeiXin] int not null default(0);
+ALTER TABLE [AdPageInfo]
+ADD [IsWifi] int not null default(0);
+ALTER TABLE [AdPageInfo]
+ADD [IsAuth] int not null default(0);
+
+

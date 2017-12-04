@@ -1,0 +1,63 @@
+﻿--- 修改广告功能
+/*
+1、新增IP限制功能
+2、新增FTP配置信息，同步设置功能
+3、新增版本信息
+*/
+
+ALTER TABLE [LogBrowse]
+ADD Country varchar(50);
+ALTER TABLE [LogBrowse]
+ADD Area varchar(50);
+ALTER TABLE [LogBrowse]
+ADD Region varchar(100);
+ALTER TABLE [LogBrowse]
+ADD City varchar(100);
+ALTER TABLE [LogBrowse]
+ADD County varchar(100);
+ALTER TABLE [LogBrowse]
+ADD Isp varchar(500);
+ALTER TABLE [LogBrowse]
+ADD IpSource varchar(100);
+
+/*----------------------FTP同步信息-----------------------*/
+IF EXISTS  (SELECT  * FROM dbo.SysObjects WHERE ID = object_id(N'[FtpInfo]') AND OBJECTPROPERTY(ID, 'IsTable') = 1) 
+drop table [FtpInfo] ;
+CREATE TABLE [FtpInfo](
+
+[Id]  [int] IDENTITY(1,1)   NOT NULL ,
+[Name]  [varchar](100)  NULL ,
+[Desc]  [varchar](500)  NULL ,
+[Domains]  [varchar](2000)  NULL ,
+[FtpServer]  [varchar](100)  NULL ,
+[FtpUserName]  [varchar](100)  NULL ,
+[FtpPassword]  [varchar](100)  NULL ,
+[IsSynchronization]  [int]   NOT NULL ,
+[CreateDate]  [datetime]   NOT NULL ,
+[CloseDate]  [datetime]   NOT NULL ,
+
+CONSTRAINT [PK_FtpInfo] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY];
+
+
+/*----------------------版本信息-----------------------*/
+IF EXISTS  (SELECT  * FROM dbo.SysObjects WHERE ID = object_id(N'[VersionInfo]') AND OBJECTPROPERTY(ID, 'IsTable') = 1) 
+drop table [VersionInfo] ;
+CREATE TABLE [VersionInfo](
+
+[Id]  [int] IDENTITY(1,1)   NOT NULL ,
+[Name]  [varchar](100)  NULL ,
+[Desc]  [varchar](1000)  NULL ,
+[CreateDate]  [datetime]   NOT NULL ,
+
+CONSTRAINT [PK_VersionInfo] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY];
+
+/*----------------------更新版本号-----------------------*/
+insert into versioninfo values('V1.0.6','更新广告限制功能。',getdate());

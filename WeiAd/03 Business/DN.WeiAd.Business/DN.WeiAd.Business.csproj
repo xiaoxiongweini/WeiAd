@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{442E16E3-26E2-48AB-BF46-69205F8727E1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DN.WeiAd.Business</RootNamespace>
+    <AssemblyName>DN.WeiAd.Business</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aliyun.OSS">
+      <HintPath>..\..\_pack\aliyun_csharp_sdk_2_4_0\bin\Aliyun.OSS.dll</HintPath>
+    </Reference>
+    <Reference Include="DN.Framework.Core">
+      <HintPath>..\..\..\..\..\..\skey\代码生成器\V2Framework\DN.Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DN.Framework.Utility">
+      <HintPath>..\..\..\..\..\..\skey\代码生成器\V2Framework\DN.Framework.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="EcmaScript.NET, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\EcmaScript.Net.1.0.1.0\lib\net20\EcmaScript.NET.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Gif.Components">
+      <HintPath>..\..\..\..\..\..\skey\代码生成器\V2Framework\Gif.Components.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\..\..\..\..\..\skey\代码生成器\V2Framework\HtmlAgilityPack.1.4.9.5\lib\Net40\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.JScript" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Yahoo.Yui.Compressor, Version=2.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\YUICompressor.NET.2.7.0.0\lib\NET20\Yahoo.Yui.Compressor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdBusiness\AdBLL.cs" />
+    <Compile Include="AdData\AdDataBLL.cs" />
+    <Compile Include="AdData\AdDataItem.cs" />
+    <Compile Include="AdPages\AdDomainBLL.cs" />
+    <Compile Include="AnalysisAdBLL.cs" />
+    <Compile Include="AnalysisAdHisBLL.cs" />
+    <Compile Include="AnalysisBLL.cs" />
+    <Compile Include="AnalysisFlowBLL.cs" />
+    <Compile Include="AnalysisFlowHisBLL.cs" />
+    <Compile Include="ChartComonBLL.cs" />
+    <Compile Include="Entity\AdDomainInfo.cs" />
+    <Compile Include="Entity\ApiResult.cs" />
+    <Compile Include="Entity\IpInfo.cs" />
+    <Compile Include="Entity\IpResult.cs" />
+    <Compile Include="LogBrowseAnalysisBLL.cs" />
+    <Compile Include="Cache\BLLCacheHelper.cs" />
+    <Compile Include="Cache\ICacheHelper.cs" />
+    <Compile Include="CommonBLL.cs" />
+    <Compile Include="Config\AppConfig.cs" />
+    <Compile Include="Config\AppConfigAliYun.cs" />
+    <Compile Include="Entity\Analysis\FlowInfo.cs" />
+    <Compile Include="Entity\Analysis\QcodeQueryInfo.cs" />
+    <Compile Include="Entity\Analysis\QueryGroupInfo.cs" />
+    <Compile Include="Entity\EChartInfoJson.cs" />
+    <Compile Include="Entity\LoginInfo.cs" />
+    <Compile Include="Entity\LoginResult.cs" />
+    <Compile Include="ErrorBLL.cs" />
+    <Compile Include="LogBrowseHistoryAnalysisBLL.cs" />
+    <Compile Include="LoginBLL.cs" />
+    <Compile Include="LogWriter.cs" />
+    <Compile Include="Pages\AccountIdentity.cs" />
+    <Compile Include="Pages\AdBasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\AdV1Page.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\BaseMasterPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\BasePageAdmin.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\BaseUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductBLL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sdk\ApiResult.cs" />
+    <Compile Include="Sdk\QueryPara.cs" />
+    <Compile Include="Sdk\SdkBLL.cs" />
+    <Compile Include="Services\AdBrowseHelper.cs" />
+    <Compile Include="Services\IpTaoBaoHelper.cs" />
+    <Compile Include="Shop\AttrItem.cs" />
+    <Compile Include="Shop\ProductItem.cs" />
+    <Compile Include="Table\AccountInfoBLL.cs" />
+    <Compile Include="Table\AccountInfoBLLother.cs" />
+    <Compile Include="Table\AdBrowseBLL.cs" />
+    <Compile Include="Table\AdBrowseBLLOther.cs" />
+    <Compile Include="Table\AdBrowseHistoryBLL.cs" />
+    <Compile Include="Table\AdPageInfoBLL.cs" />
+    <Compile Include="Table\AdPageInfoBLLHtml.cs" />
+    <Compile Include="Table\AdPageInfoBLLother.cs" />
+    <Compile Include="Table\AdPageInfoDeleteFile.cs" />
+    <Compile Include="Table\AdPageInfoMiddlePage.cs" />
+    <Compile Include="Table\AdQcodeInfoBLL.cs" />
+    <Compile Include="Table\AdQcodeInfoBLLother.cs" />
+    <Compile Include="Table\AdSiteInfoBLL.cs" />
+    <Compile Include="Table\AdSiteInfoBLLother.cs" />
+    <Compile Include="Table\AdTypeInfoBLL.cs" />
+    <Compile Include="Table\AdTypeInfoBLLother.cs" />
+    <Compile Include="Table\AdUserPageBLL.cs" />
+    <Compile Include="Table\AdUserPageBLLother.cs" />
+    <Compile Include="Table\ArticleInfoBLL.cs" />
+    <Compile Include="Table\ArticleInfoBLLother.cs" />
+    <Compile Include="Table\ChannelInfoBLL.cs" />
+    <Compile Include="Table\ChartBLL.cs" />
+    <Compile Include="Table\CpsUserInfoBLL.cs" />
+    <Compile Include="Table\CustomerInfoBLLOther.cs" />
+    <Compile Include="Table\DomainInfoBLLother.cs" />
+    <Compile Include="Table\DomainSynchroHistoryBLL.cs" />
+    <Compile Include="Table\LogQcodeInfoBLL.cs" />
+    <Compile Include="Table\ProductInfoBLL.cs" />
+    <Compile Include="Table\ProductInfoBLLother.cs" />
+    <Compile Include="Table\ServerInfoBLL.cs" />
+    <Compile Include="Table\SummaryAdDayHistoryBLL.cs" />
+    <Compile Include="Table\SysAreaCityBLLother.cs" />
+    <Compile Include="Table\CustomerInfoBLL.cs" />
+    <Compile Include="Table\DomainInfoBLL.cs" />
+    <Compile Include="Table\FtpInfoBLL.cs" />
+    <Compile Include="Table\HistoryUserLogBrowseBLL.cs" />
+    <Compile Include="Table\LogAdQcodeBLL.cs" />
+    <Compile Include="Table\LogAdQcodeBLLother.cs" />
+    <Compile Include="Table\LogBrowseBLL.cs" />
+    <Compile Include="Table\LogBrowseHistoryBLL.cs" />
+    <Compile Include="Table\LogBrowseHistoryBLLother.cs" />
+    <Compile Include="Table\LogIpInfoBLL.cs" />
+    <Compile Include="Table\LogLoginBLL.cs" />
+    <Compile Include="Table\PlayHistoryBLL.cs" />
+    <Compile Include="Table\SysAreaCityBLL.cs" />
+    <Compile Include="Table\SysAreaDistrictsBLL.cs" />
+    <Compile Include="Table\SysAreaDistrictsBLLother.cs" />
+    <Compile Include="Table\SysAreaProvincesBLL.cs" />
+    <Compile Include="Table\SysAreaProvincesBLLother.cs" />
+    <Compile Include="Table\UserCodeInfoBLL.cs" />
+    <Compile Include="Table\UserCodeInfoBLLother.cs" />
+    <Compile Include="Table\UserFinanceHistoryBLL.cs" />
+    <Compile Include="Table\UserFinanceHistoryBLLother.cs" />
+    <Compile Include="Table\VersionInfoBLL.cs" />
+    <Compile Include="Table\VirAdBrowseBLL.cs" />
+    <Compile Include="Table\VirAdInfoBLL.cs" />
+    <Compile Include="Table\VirAdLogBrowseBLL.cs" />
+    <Compile Include="TemplateBLL.cs" />
+    <Compile Include="Utilty\AliYunOssClientHelper.cs" />
+    <Compile Include="Utilty\CharHelper.cs" />
+    <Compile Include="Utilty\ShortUrlHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\00 Framework\DN.WeiAd.Framework\DN.WeiAd.Framework.csproj">
+      <Project>{70ba9a9b-e00f-4839-b323-246e24f41adb}</Project>
+      <Name>DN.WeiAd.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\01 Models\DN.WeiAd.Models\DN.WeiAd.Models.csproj">
+      <Project>{1dad341f-d024-4660-b434-46cee82d24e1}</Project>
+      <Name>DN.WeiAd.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\02 Access\DN.WeiAd.Interface\DN.WeiAd.Interface.csproj">
+      <Project>{b151b237-c8b3-49ce-aa9b-6b2744d41bfa}</Project>
+      <Name>DN.WeiAd.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\02 Access\DN.WeiAd.MsSqlAccess\DN.WeiAd.MsSqlAccess.csproj">
+      <Project>{e84669f9-edb4-4ca6-bda0-a097e766ee5b}</Project>
+      <Name>DN.WeiAd.MsSqlAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

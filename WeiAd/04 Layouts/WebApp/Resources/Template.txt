@@ -1,0 +1,8 @@
+﻿1、AdViewWx.aspx
+后台加载广告信息
+2、AdViewWx1.aspx
+后台加载广告ID，微信呈现数据，
+3、AdViewWx2.html
+ID生成在HTML中，AJAX获取ID移动端呈现
+4、AdViewWxemp.html
+ID生成在HTML中，不判断终端呈现

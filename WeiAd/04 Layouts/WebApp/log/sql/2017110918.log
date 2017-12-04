@@ -1,0 +1,28 @@
+-------------start 2017/11/9 18:04:19-------------/Admin/Ads/AdPageEdit.aspx?id=241
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/11/9 18:04:19-------------
+-------------start 2017/11/9 18:04:19-------------/Admin/Ads/AdPageEdit.aspx?id=241
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/11/9 18:04:19-------------
+-------------start 2017/11/9 18:04:19-------------/Admin/Ads/AdPageEdit.aspx?id=241
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/11/9 18:04:19-------------
+-------------start 2017/11/9 18:04:19-------------/Admin/Ads/AdPageEdit.aspx?id=241
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/11/9 18:04:19-------------
+-------------start 2017/11/9 18:04:19-------------/Admin/Ads/AdPageEdit.aspx?id=241
+SELECT * FROM AccountInfo  WHERE 1=1  AND UserType <> 100 
+ 
+-------------end 2017/11/9 18:04:19-------------
+-------------start 2017/11/9 18:04:19-------------/Admin/Ads/AdPageEdit.aspx?id=241
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [Id]='241'  
+-------------end 2017/11/9 18:04:19-------------
+-------------start 2017/11/9 18:04:19-------------/Admin/Ads/AdPageEdit.aspx?id=241
+SELECT * FROM AccountInfo  WHERE 1=1  AND UserType <> 100 
+ 
+-------------end 2017/11/9 18:04:19-------------
+-------------start 2017/11/9 18:04:19-------------/Admin/Ads/AdPageEdit.aspx?id=241
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [Id]='241'  
+-------------end 2017/11/9 18:04:19-------------

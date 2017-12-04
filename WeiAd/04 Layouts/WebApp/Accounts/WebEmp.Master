@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="WebEmp.master.cs" Inherits="WebApp.Accounts.WebEmp" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>空白页<asp:ContentPlaceHolder ID="title" runat="server">
+    </asp:ContentPlaceHolder>
+    </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href="favicon.ico" rel="bookmark" type="image/x-icon" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="/Assets/Manager/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Assets/Manager/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="/Assets/Manager/css/AdminLTE.css" rel="stylesheet" />
+    <link href="/Assets/Manager/css/skins/skin-blue.css" rel="stylesheet" />
+    <link href="/Assets/Manager/css/main.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="/Assets/Scripts/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="/Assets/Scripts/jquery.cookie.min.js"></script>
+    <script type="text/javascript" src="/Assets/Scripts/jquery.json-2.3.min.js"></script>
+    <script type="text/javascript" src="/Assets/Scripts/Plugs/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/Assets/Scripts/HtmlHelper.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="miniContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

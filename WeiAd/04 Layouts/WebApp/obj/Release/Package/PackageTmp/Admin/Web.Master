@@ -1,0 +1,133 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Web.master.cs" Inherits="WebApp.Admin.Web" %>
+
+<%@ Register Src="~/Admin/UControls/UserNav.ascx" TagPrefix="uc1" TagName="UserNav" %>
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title><%=DN.WeiAd.Business.Config.AppConfig.AppName %>
+        <asp:ContentPlaceHolder ID="title" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>
+    <link href="favicon.ico" rel="bookmark" type="image/x-icon" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="/Assets/Manager/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Assets/Manager/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="/Assets/Manager/css/AdminLTE.css" rel="stylesheet" />
+    <link href="/Assets/Manager/css/skins/skin-blue.css" rel="stylesheet" />
+    <link href="/Assets/Manager/css/main.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="/Assets/Scripts/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="/Assets/Scripts/jquery.cookie.min.js"></script>
+    <script type="text/javascript" src="/Assets/Scripts/jquery.json-2.3.min.js"></script>
+    <script type="text/javascript" src="/Assets/Scripts/Plugs/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/Assets/Scripts/HtmlHelper.js"></script>
+    <script type="text/javascript" src="/Assets/Scripts/Plugs/layer/layer.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+    <form id="form1" runat="server">
+        <div class="wrapper">
+            <header class="main-header">
+                <!-- Logo -->
+                <a href="/Admin/Index.aspx" class="logo">
+                    <!-- mini logo for sidebar mini 50x50 pixels -->
+                    <span class="logo-mini"><b><%=DN.WeiAd.Business.Config.AppConfig.Version %></b></span>
+                    <!-- logo for regular state and mobile devices -->
+                    <span class="logo-lg"><%=DN.WeiAd.Business.AccountInfoBLL.Instance.GetUserTypeNameById(Account.UserType) %></span>
+                </a>
+                <!-- Header Navbar: style can be found in header.less -->
+                <nav class="navbar navbar-static-top" role="navigation">
+                    <!-- Sidebar toggle button-->
+                    <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <div class="navbar-custom-menu">
+                        <ul class="nav navbar-nav">
+                            <!-- User Account: style can be found in dropdown.less -->
+                            <li class="dropdown user user-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <img src="/Assets/Manager/images/defaultuser.png" class="user-image" alt="User Image">
+                                    <span class="hidden-xs">
+                                        <%=Account.UserName %>
+                                    </span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <!-- User image -->
+                                    <li class="user-header">
+                                        <img src="/Assets/Manager/images/defaultuser.png" class="img-circle" alt="User Image">
+                                        <p>
+                                            <%=Account.UserName %> - <%=DN.WeiAd.Business.AccountInfoBLL.Instance.GetUserTypeNameById(Account.UserType) %>
+                                            <small><%=DateTime.Now %></small>
+                                        </p>
+                                    </li>
+                                    <!-- Menu Body -->
+                                    <li class="user-body">
+                                        <div class="col-xs-4 text-center">
+                                            <a href="#">Followers</a>
+                                        </div>
+                                        <div class="col-xs-4 text-center">
+                                            <a href="#">Sales</a>
+                                        </div>
+                                        <div class="col-xs-4 text-center">
+                                            <a href="#">Friends</a>
+                                        </div>
+                                    </li>
+                                    <!-- Menu Footer-->
+                                    <li class="user-footer">
+                                        <div class="pull-left">
+                                            <a href="#" class="btn btn-default btn-flat">个人资料</a>
+                                        </div>
+                                        <div class="pull-right">
+                                            <a href="/SignOut.aspx" class="btn btn-default btn-flat">退出</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- Control Sidebar Toggle Button -->
+                            <li>
+                                <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <!-- Left side column. contains the logo and sidebar -->
+            <aside class="main-sidebar">
+                <uc1:UserNav runat="server" ID="UserNav" />
+            </aside>
+
+            <!-- Content Wrapper. Contains page content -->
+            <div class="content-wrapper">
+                <div>
+                    <asp:ContentPlaceHolder ID="miniContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <!-- /.content-wrapper -->
+            <footer class="main-footer hidden">
+                <div class="pull-right hidden-xs">
+                    <b>Version</b><%=DN.WeiAd.Business.Config.AppConfig.Version %>
+                </div>
+                <strong>Copyright &copy; 2014-2016<a href="http://www.topsite.net.cn"><%=DN.WeiAd.Business.Config.AppConfig.AppName %>管理平台</a>.</strong> All rights reserved.
+            </footer>
+
+            <!-- Add the sidebar's background. This div must be placed
+           immediately after the control sidebar -->
+            <div class="control-sidebar-bg"></div>
+        </div>
+        <!-- ./wrapper -->
+
+
+    </form>
+</body>
+</html>

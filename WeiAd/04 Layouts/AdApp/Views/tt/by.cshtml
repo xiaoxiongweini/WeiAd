@@ -1,0 +1,54 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>鼻炎反反复复总是好不了,原来是忽略这个...99%的人不知道</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <script type="text/javascript">
+        var wximg = "@ViewBag.QcodeImg2";
+        var wxlist = wximg.split(',');
+        var numb = wxlist.length;
+        var eq = Math.round(Math.random() * (numb - 1));
+        var wximg = "";
+        if (numb != 0)
+        {
+            wximg = '<img src="' + wxlist[eq] + '" title="" style="width:100%;height:auto;" />';
+        }
+    </script>
+  
+    <style type="text/css">
+        .contincter {
+            margin: 0 auto;
+            padding: 0;
+            max-width: 750px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="contincter">
+        <div style="display:none;">
+            @Html.Raw(Server.HtmlDecode(ViewBag.StaticContent))
+            @Html.Raw(Server.HtmlDecode(ViewBag.UserCode))
+        </div>
+        <div style="display:none;">
+            @Html.Raw(Server.HtmlDecode(ViewBag.ArticleContent))
+        </div>
+    </div>
+
+    <div class="contincter">
+        @Html.Raw(ViewBag.TemplateContent)
+    </div>
+</body>
+</html>

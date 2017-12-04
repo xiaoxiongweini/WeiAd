@@ -1,0 +1,30 @@
+-------------start 2017/9/18 15:06:47-------------/LoginM.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='viptest1' 
+ 
+-------------end 2017/9/18 15:06:47-------------
+-------------start 2017/9/18 15:06:48-------------/AccVir/Index.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='viptest1' 
+ 
+-------------end 2017/9/18 15:06:48-------------
+-------------start 2017/9/18 15:06:48-------------/AccVir/Index.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/9/18 15:06:48-------------
+-------------start 2017/9/18 15:06:49-------------/AccVir/Index.aspx
+SELECT TOP 10 * FROM [AdPageInfo]  WHERE 1=1  AND [UserId]='26'  AND Id NOT IN (SELECT TOP 0 Id FROM [AdPageInfo]  WHERE 1=1  AND [UserId]='26'  )  
+-------------end 2017/9/18 15:06:49-------------
+-------------start 2017/9/18 15:16:30-------------/AccVir/Index.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='viptest1' 
+ 
+-------------end 2017/9/18 15:16:30-------------
+-------------start 2017/9/18 15:16:30-------------/AccVir/Index.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017/9/18 15:16:30-------------
+-------------start 2017/9/18 15:16:30-------------/AccVir/Index.aspx
+SELECT TOP 10 * FROM [AdPageInfo]  WHERE 1=1  AND [UserId]='26'  AND Id NOT IN (SELECT TOP 0 Id FROM [AdPageInfo]  WHERE 1=1  AND [UserId]='26'  )  
+-------------end 2017/9/18 15:16:30-------------
+-------------start 2017/9/18 15:18:34-------------/AccVir/Index.aspx
+SELECT TOP 10 * FROM [AdPageInfo]  WHERE 1=1  AND [UserId]='26'  AND Id NOT IN (SELECT TOP 0 Id FROM [AdPageInfo]  WHERE 1=1  AND [UserId]='26'  )  
+-------------end 2017/9/18 15:18:34-------------
+-------------start 2017/9/18 15:36:08-------------/AccVir/Index.aspx
+SELECT TOP 10 * FROM [AdPageInfo]  WHERE 1=1  AND [UserId]='26'  AND Id NOT IN (SELECT TOP 0 Id FROM [AdPageInfo]  WHERE 1=1  AND [UserId]='26'  )  
+-------------end 2017/9/18 15:36:08-------------

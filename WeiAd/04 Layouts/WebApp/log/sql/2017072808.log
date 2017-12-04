@@ -1,0 +1,932 @@
+-------------start 2017/7/28 8:20:26-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:20:26-------------
+-------------start 2017/7/28 8:20:35-------------/Login.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/7/28 8:20:35-------------
+-------------start 2017/7/28 8:20:37-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:20:37-------------
+-------------start 2017/7/28 8:20:47-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:20:47-------------
+-------------start 2017/7/28 8:20:57-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:20:57-------------
+-------------start 2017/7/28 8:21:07-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:21:07-------------
+-------------start 2017/7/28 8:21:17-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:21:17-------------
+-------------start 2017/7/28 8:21:27-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:21:27-------------
+-------------start 2017/7/28 8:21:37-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:21:37-------------
+-------------start 2017/7/28 8:21:47-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:21:47-------------
+-------------start 2017/7/28 8:21:57-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:21:57-------------
+-------------start 2017/7/28 8:22:07-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:22:07-------------
+-------------start 2017/7/28 8:22:17-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:22:17-------------
+-------------start 2017/7/28 8:22:27-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:22:27-------------
+-------------start 2017/7/28 8:22:37-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:22:37-------------
+-------------start 2017/7/28 8:22:47-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:22:47-------------
+-------------start 2017/7/28 8:22:57-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:22:57-------------
+-------------start 2017/7/28 8:23:07-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:23:07-------------
+-------------start 2017/7/28 8:23:17-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:23:17-------------
+-------------start 2017/7/28 8:23:27-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:23:27-------------
+-------------start 2017/7/28 8:23:37-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:23:37-------------
+-------------start 2017/7/28 8:23:47-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:23:47-------------
+-------------start 2017/7/28 8:23:57-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:23:57-------------
+-------------start 2017/7/28 8:24:07-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:24:07-------------
+-------------start 2017/7/28 8:24:17-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:24:17-------------
+-------------start 2017/7/28 8:24:27-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:24:27-------------
+-------------start 2017/7/28 8:24:37-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:24:37-------------
+-------------start 2017/7/28 8:24:47-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:24:47-------------
+-------------start 2017/7/28 8:24:57-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:24:57-------------
+-------------start 2017/7/28 8:25:07-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:25:07-------------
+-------------start 2017/7/28 8:25:17-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:25:17-------------
+-------------start 2017/7/28 8:25:27-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:25:27-------------
+-------------start 2017/7/28 8:25:37-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:25:37-------------
+-------------start 2017/7/28 8:25:47-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:25:47-------------
+-------------start 2017/7/28 8:25:57-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:25:57-------------
+-------------start 2017/7/28 8:26:08-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:26:08-------------
+-------------start 2017/7/28 8:26:18-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:26:18-------------
+-------------start 2017/7/28 8:26:28-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:26:28-------------
+-------------start 2017/7/28 8:26:38-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:26:38-------------
+-------------start 2017/7/28 8:26:48-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:26:48-------------
+-------------start 2017/7/28 8:26:58-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:26:58-------------
+-------------start 2017/7/28 8:27:08-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:27:08-------------
+-------------start 2017/7/28 8:27:18-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:27:18-------------
+-------------start 2017/7/28 8:27:28-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:27:28-------------
+-------------start 2017/7/28 8:27:38-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:27:38-------------
+-------------start 2017/7/28 8:27:48-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:27:48-------------
+-------------start 2017/7/28 8:27:58-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:27:58-------------
+-------------start 2017/7/28 8:28:08-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:28:08-------------
+-------------start 2017/7/28 8:28:18-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:28:18-------------
+-------------start 2017/7/28 8:28:28-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:28:28-------------
+-------------start 2017/7/28 8:28:38-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:28:38-------------
+-------------start 2017/7/28 8:28:48-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:28:48-------------
+-------------start 2017/7/28 8:28:58-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:28:58-------------
+-------------start 2017/7/28 8:29:08-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:29:08-------------
+-------------start 2017/7/28 8:29:18-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:29:18-------------
+-------------start 2017/7/28 8:29:28-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:29:28-------------
+-------------start 2017/7/28 8:29:38-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:29:38-------------
+-------------start 2017/7/28 8:29:48-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:29:48-------------
+-------------start 2017/7/28 8:29:58-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:29:58-------------
+-------------start 2017/7/28 8:30:08-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:30:08-------------
+-------------start 2017/7/28 8:30:18-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:30:18-------------
+-------------start 2017/7/28 8:30:28-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:30:28-------------
+-------------start 2017/7/28 8:30:35-------------/Login.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/7/28 8:30:35-------------
+-------------start 2017/7/28 8:30:38-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:30:38-------------
+-------------start 2017/7/28 8:30:48-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:30:48-------------
+-------------start 2017/7/28 8:30:52-------------/Admin/Index.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/7/28 8:30:52-------------
+-------------start 2017/7/28 8:30:58-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:30:58-------------
+-------------start 2017/7/28 8:31:08-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:31:08-------------
+-------------start 2017/7/28 8:31:18-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:31:18-------------
+-------------start 2017/7/28 8:31:28-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:31:28-------------
+-------------start 2017/7/28 8:31:38-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:31:38-------------
+-------------start 2017/7/28 8:31:48-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:31:48-------------
+-------------start 2017/7/28 8:31:58-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:31:58-------------
+-------------start 2017/7/28 8:32:08-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:32:08-------------
+-------------start 2017/7/28 8:32:17-------------/Login.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/7/28 8:32:17-------------
+-------------start 2017/7/28 8:32:18-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:32:18-------------
+-------------start 2017/7/28 8:32:22-------------/Login.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/7/28 8:32:22-------------
+-------------start 2017/7/28 8:32:28-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:32:28-------------
+-------------start 2017/7/28 8:32:38-------------/Admin/Server/DomainServerApp.aspx
+SELECT * FROM ServerInfo  WHERE 1=1  AND [IsState]='1'   order by  id desc 
+-------------end 2017/7/28 8:32:38-------------
+-------------start 2017/7/28 8:32:38-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:32:38-------------
+-------------start 2017/7/28 8:32:48-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:32:48-------------
+-------------start 2017/7/28 8:32:49-------------/Admin/Server/SerList.aspx
+SELECT TOP 10 * FROM [ServerInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [ServerInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/7/28 8:32:49-------------
+-------------start 2017/7/28 8:32:56-------------/Services/SerAdd.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:32:56-------------
+-------------start 2017/7/28 8:32:57-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:32:57-------------
+-------------start 2017/7/28 8:32:59-------------/Admin/Server/SerList.aspx
+SELECT TOP 10 * FROM [ServerInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [ServerInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/7/28 8:32:59-------------
+-------------start 2017/7/28 8:33:01-------------/Admin/Server/DomainList.aspx
+SELECT TOP 10 * FROM [DomainInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [DomainInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/7/28 8:33:01-------------
+-------------start 2017/7/28 8:33:02-------------/Admin/Server/SerList.aspx
+SELECT TOP 10 * FROM [ServerInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [ServerInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/7/28 8:33:02-------------
+-------------start 2017/7/28 8:33:03-------------/Admin/Server/DomainList.aspx
+SELECT TOP 10 * FROM [DomainInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [DomainInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/7/28 8:33:03-------------
+-------------start 2017/7/28 8:33:04-------------/Admin/Server/SerList.aspx
+SELECT TOP 10 * FROM [ServerInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [ServerInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/7/28 8:33:04-------------
+-------------start 2017/7/28 8:33:07-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:33:07-------------
+-------------start 2017/7/28 8:33:17-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:33:17-------------
+-------------start 2017/7/28 8:33:27-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:33:27-------------
+-------------start 2017/7/28 8:33:37-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:33:37-------------
+-------------start 2017/7/28 8:33:47-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:33:47-------------
+-------------start 2017/7/28 8:33:57-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:33:57-------------
+-------------start 2017/7/28 8:34:07-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:34:07-------------
+-------------start 2017/7/28 8:34:17-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:34:17-------------
+-------------start 2017/7/28 8:34:27-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:34:27-------------
+-------------start 2017/7/28 8:34:37-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:34:37-------------
+-------------start 2017/7/28 8:34:47-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:34:47-------------
+-------------start 2017/7/28 8:34:57-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:34:57-------------
+-------------start 2017/7/28 8:35:07-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:35:07-------------
+-------------start 2017/7/28 8:38:08-------------/Services/SerAdd.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:38:08-------------
+-------------start 2017/7/28 8:38:09-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:38:09-------------
+-------------start 2017/7/28 8:38:13-------------/Admin/Server/SerList.aspx
+SELECT TOP 10 * FROM [ServerInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [ServerInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/7/28 8:38:13-------------
+-------------start 2017/7/28 8:38:13-------------/Admin/Server/SerList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/7/28 8:38:13-------------
+-------------start 2017/7/28 8:38:18-------------/Admin/Server/SerList.aspx
+SELECT TOP 10 * FROM [ServerInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [ServerInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/7/28 8:38:18-------------
+-------------start 2017/7/28 8:38:19-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:38:19-------------
+-------------start 2017/7/28 8:38:20-------------/Admin/Server/SerEdit.aspx?id=2
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Id]='2'  
+-------------end 2017/7/28 8:38:20-------------
+-------------start 2017/7/28 8:38:23-------------/Admin/Server/SerEdit.aspx?id=2
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Id]='2'  
+-------------end 2017/7/28 8:38:23-------------
+-------------start 2017/7/28 8:38:23-------------/Admin/Server/SerList.aspx
+SELECT TOP 10 * FROM [ServerInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [ServerInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/7/28 8:38:23-------------
+-------------start 2017/7/28 8:38:26-------------/Admin/Server/SerList.aspx
+SELECT TOP 10 * FROM [ServerInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [ServerInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/7/28 8:38:26-------------
+-------------start 2017/7/28 8:38:27-------------/Admin/Server/DomainServerApp.aspx
+SELECT * FROM ServerInfo  WHERE 1=1  AND [IsState]='1'   order by  id desc 
+-------------end 2017/7/28 8:38:27-------------
+-------------start 2017/7/28 8:38:29-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:38:29-------------
+-------------start 2017/7/28 8:38:29-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:38:29-------------
+-------------start 2017/7/28 8:38:34-------------/Admin/Server/SerList.aspx
+SELECT TOP 10 * FROM [ServerInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [ServerInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/7/28 8:38:34-------------
+-------------start 2017/7/28 8:38:36-------------/Admin/Server/DomainServerApp.aspx
+SELECT * FROM ServerInfo  WHERE 1=1  AND [IsState]='1'   order by  id desc 
+-------------end 2017/7/28 8:38:36-------------
+-------------start 2017/7/28 8:38:39-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:38:39-------------
+-------------start 2017/7/28 8:38:39-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:38:39-------------
+-------------start 2017/7/28 8:38:43-------------/Admin/Server/DomainList.aspx
+SELECT TOP 10 * FROM [DomainInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [DomainInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/7/28 8:38:43-------------
+-------------start 2017/7/28 8:38:46-------------/Admin/Server/DomainServerApp.aspx
+SELECT * FROM ServerInfo  WHERE 1=1  AND [IsState]='1'   order by  id desc 
+-------------end 2017/7/28 8:38:46-------------
+-------------start 2017/7/28 8:38:49-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:38:49-------------
+-------------start 2017/7/28 8:38:49-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:38:49-------------
+-------------start 2017/7/28 8:38:59-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:38:59-------------
+-------------start 2017/7/28 8:38:59-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:38:59-------------
+-------------start 2017/7/28 8:39:09-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:39:09-------------
+-------------start 2017/7/28 8:39:09-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:39:09-------------
+-------------start 2017/7/28 8:39:19-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:39:19-------------
+-------------start 2017/7/28 8:39:19-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:39:19-------------
+-------------start 2017/7/28 8:39:30-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:39:30-------------
+-------------start 2017/7/28 8:39:30-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:39:30-------------
+-------------start 2017/7/28 8:39:40-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:39:40-------------
+-------------start 2017/7/28 8:39:40-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:39:40-------------
+-------------start 2017/7/28 8:39:50-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:39:50-------------
+-------------start 2017/7/28 8:39:50-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:39:50-------------
+-------------start 2017/7/28 8:40:00-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:40:00-------------
+-------------start 2017/7/28 8:40:00-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:40:00-------------
+-------------start 2017/7/28 8:40:10-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:40:10-------------
+-------------start 2017/7/28 8:40:10-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:40:10-------------
+-------------start 2017/7/28 8:40:20-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:40:20-------------
+-------------start 2017/7/28 8:40:20-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:40:20-------------
+-------------start 2017/7/28 8:40:30-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:40:30-------------
+-------------start 2017/7/28 8:40:30-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:40:30-------------
+-------------start 2017/7/28 8:40:40-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:40:40-------------
+-------------start 2017/7/28 8:40:40-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:40:40-------------
+-------------start 2017/7/28 8:40:50-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:40:50-------------
+-------------start 2017/7/28 8:40:50-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:40:50-------------
+-------------start 2017/7/28 8:41:00-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:41:00-------------
+-------------start 2017/7/28 8:41:00-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:41:00-------------
+-------------start 2017/7/28 8:41:10-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:41:10-------------
+-------------start 2017/7/28 8:41:10-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:41:10-------------
+-------------start 2017/7/28 8:41:20-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:41:20-------------
+-------------start 2017/7/28 8:41:20-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:41:20-------------
+-------------start 2017/7/28 8:41:30-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:41:30-------------
+-------------start 2017/7/28 8:41:30-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:41:30-------------
+-------------start 2017/7/28 8:41:40-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:41:40-------------
+-------------start 2017/7/28 8:41:40-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:41:40-------------
+-------------start 2017/7/28 8:41:50-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:41:50-------------
+-------------start 2017/7/28 8:41:50-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:41:50-------------
+-------------start 2017/7/28 8:42:00-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:42:00-------------
+-------------start 2017/7/28 8:42:00-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:42:00-------------
+-------------start 2017/7/28 8:42:10-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:42:10-------------
+-------------start 2017/7/28 8:42:10-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:42:10-------------
+-------------start 2017/7/28 8:42:20-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:42:20-------------
+-------------start 2017/7/28 8:42:20-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:42:20-------------
+-------------start 2017/7/28 8:42:30-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:42:30-------------
+-------------start 2017/7/28 8:42:30-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:42:30-------------
+-------------start 2017/7/28 8:42:40-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:42:40-------------
+-------------start 2017/7/28 8:42:40-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:42:40-------------
+-------------start 2017/7/28 8:42:50-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:42:50-------------
+-------------start 2017/7/28 8:42:50-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:42:50-------------
+-------------start 2017/7/28 8:43:00-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:43:00-------------
+-------------start 2017/7/28 8:43:00-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:43:00-------------
+-------------start 2017/7/28 8:43:10-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:43:10-------------
+-------------start 2017/7/28 8:43:10-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:43:10-------------
+-------------start 2017/7/28 8:43:20-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:43:20-------------
+-------------start 2017/7/28 8:43:20-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:43:20-------------
+-------------start 2017/7/28 8:43:30-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:43:30-------------
+-------------start 2017/7/28 8:43:30-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:43:30-------------
+-------------start 2017/7/28 8:43:40-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:43:40-------------
+-------------start 2017/7/28 8:43:40-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:43:40-------------
+-------------start 2017/7/28 8:43:50-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:43:50-------------
+-------------start 2017/7/28 8:43:50-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:43:50-------------
+-------------start 2017/7/28 8:44:00-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:44:00-------------
+-------------start 2017/7/28 8:44:00-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:44:00-------------
+-------------start 2017/7/28 8:44:10-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:44:10-------------
+-------------start 2017/7/28 8:44:10-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:44:10-------------
+-------------start 2017/7/28 8:44:20-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:44:20-------------
+-------------start 2017/7/28 8:44:20-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:44:20-------------
+-------------start 2017/7/28 8:44:30-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:44:30-------------
+-------------start 2017/7/28 8:44:30-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:44:30-------------
+-------------start 2017/7/28 8:44:40-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:44:40-------------
+-------------start 2017/7/28 8:44:40-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:44:40-------------
+-------------start 2017/7/28 8:44:50-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:44:50-------------
+-------------start 2017/7/28 8:44:50-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:44:50-------------
+-------------start 2017/7/28 8:45:00-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:45:00-------------
+-------------start 2017/7/28 8:45:00-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:45:00-------------
+-------------start 2017/7/28 8:45:10-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:45:10-------------
+-------------start 2017/7/28 8:45:10-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:45:10-------------
+-------------start 2017/7/28 8:45:20-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:45:20-------------
+-------------start 2017/7/28 8:45:20-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:45:20-------------
+-------------start 2017/7/28 8:45:30-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:45:30-------------
+-------------start 2017/7/28 8:45:30-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:45:30-------------
+-------------start 2017/7/28 8:45:40-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:45:40-------------
+-------------start 2017/7/28 8:45:40-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:45:40-------------
+-------------start 2017/7/28 8:45:50-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:45:50-------------
+-------------start 2017/7/28 8:45:50-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:45:50-------------
+-------------start 2017/7/28 8:46:00-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:46:00-------------
+-------------start 2017/7/28 8:46:00-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:46:00-------------
+-------------start 2017/7/28 8:46:10-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:46:10-------------
+-------------start 2017/7/28 8:46:10-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:46:10-------------
+-------------start 2017/7/28 8:46:20-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:46:20-------------
+-------------start 2017/7/28 8:46:20-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:46:20-------------
+-------------start 2017/7/28 8:46:30-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:46:30-------------
+-------------start 2017/7/28 8:46:30-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:46:30-------------
+-------------start 2017/7/28 8:46:40-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:46:40-------------
+-------------start 2017/7/28 8:46:40-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:46:40-------------
+-------------start 2017/7/28 8:46:51-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:46:51-------------
+-------------start 2017/7/28 8:46:51-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:46:51-------------
+-------------start 2017/7/28 8:47:17-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:47:17-------------
+-------------start 2017/7/28 8:47:17-------------/Admin/Server/DomainServerApp.aspx
+SELECT * FROM ServerInfo  WHERE 1=1  AND [IsState]='1'   order by  id desc 
+-------------end 2017/7/28 8:47:17-------------
+-------------start 2017/7/28 8:47:17-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:47:17-------------
+-------------start 2017/7/28 8:47:17-------------/Admin/Server/DomainServerApp.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/7/28 8:47:17-------------
+-------------start 2017/7/28 8:47:27-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:47:27-------------
+-------------start 2017/7/28 8:47:27-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:47:27-------------
+-------------start 2017/7/28 8:47:38-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:47:38-------------
+-------------start 2017/7/28 8:47:38-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:47:38-------------
+-------------start 2017/7/28 8:47:48-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:47:48-------------
+-------------start 2017/7/28 8:47:48-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:47:48-------------
+-------------start 2017/7/28 8:47:58-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:47:58-------------
+-------------start 2017/7/28 8:47:58-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:47:58-------------
+-------------start 2017/7/28 8:48:08-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:48:08-------------
+-------------start 2017/7/28 8:48:08-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:48:08-------------
+-------------start 2017/7/28 8:48:18-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:48:18-------------
+-------------start 2017/7/28 8:48:18-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:48:18-------------
+-------------start 2017/7/28 8:48:28-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:48:28-------------
+-------------start 2017/7/28 8:48:28-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:48:28-------------
+-------------start 2017/7/28 8:48:38-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:48:38-------------
+-------------start 2017/7/28 8:48:38-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:48:38-------------
+-------------start 2017/7/28 8:49:18-------------/Services/SerAdd.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:49:18-------------
+-------------start 2017/7/28 8:49:20-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:49:20-------------
+-------------start 2017/7/28 8:49:20-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:49:20-------------
+-------------start 2017/7/28 8:49:30-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:49:30-------------
+-------------start 2017/7/28 8:49:30-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:49:30-------------
+-------------start 2017/7/28 8:49:40-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:49:40-------------
+-------------start 2017/7/28 8:49:40-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:49:40-------------
+-------------start 2017/7/28 8:50:35-------------/Services/SerAdd.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:50:35-------------
+-------------start 2017/7/28 8:50:35-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:50:35-------------
+-------------start 2017/7/28 8:50:35-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:50:35-------------
+-------------start 2017/7/28 8:50:58-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:50:58-------------
+-------------start 2017/7/28 8:50:58-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:50:58-------------
+-------------start 2017/7/28 8:51:09-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:51:09-------------
+-------------start 2017/7/28 8:51:09-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:51:09-------------
+-------------start 2017/7/28 8:51:19-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:51:19-------------
+-------------start 2017/7/28 8:51:19-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:51:19-------------
+-------------start 2017/7/28 8:51:29-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:51:29-------------
+-------------start 2017/7/28 8:51:29-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:51:29-------------
+-------------start 2017/7/28 8:51:39-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:51:39-------------
+-------------start 2017/7/28 8:51:39-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:51:39-------------
+-------------start 2017/7/28 8:51:49-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:51:49-------------
+-------------start 2017/7/28 8:51:49-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:51:49-------------
+-------------start 2017/7/28 8:51:59-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:51:59-------------
+-------------start 2017/7/28 8:51:59-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:51:59-------------
+-------------start 2017/7/28 8:52:01-------------/Admin/Server/SerList.aspx
+SELECT TOP 10 * FROM [ServerInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [ServerInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017/7/28 8:52:01-------------
+-------------start 2017/7/28 8:52:01-------------/Admin/Server/SerList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017/7/28 8:52:01-------------
+-------------start 2017/7/28 8:52:09-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:52:09-------------
+-------------start 2017/7/28 8:52:09-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:52:09-------------
+-------------start 2017/7/28 8:52:19-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:52:19-------------
+-------------start 2017/7/28 8:52:19-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:52:19-------------
+-------------start 2017/7/28 8:52:29-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:52:29-------------
+-------------start 2017/7/28 8:52:29-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:52:29-------------
+-------------start 2017/7/28 8:52:39-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:52:39-------------
+-------------start 2017/7/28 8:52:39-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:52:39-------------
+-------------start 2017/7/28 8:52:49-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:52:49-------------
+-------------start 2017/7/28 8:52:49-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:52:49-------------
+-------------start 2017/7/28 8:52:59-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:52:59-------------
+-------------start 2017/7/28 8:52:59-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:52:59-------------
+-------------start 2017/7/28 8:53:09-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:53:09-------------
+-------------start 2017/7/28 8:53:09-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:53:09-------------
+-------------start 2017/7/28 8:53:19-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:53:19-------------
+-------------start 2017/7/28 8:53:19-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:53:19-------------
+-------------start 2017/7/28 8:53:29-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:53:29-------------
+-------------start 2017/7/28 8:53:29-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:53:29-------------
+-------------start 2017/7/28 8:53:39-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:53:39-------------
+-------------start 2017/7/28 8:53:39-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:53:39-------------
+-------------start 2017/7/28 8:53:44-------------/Admin/Server/DomainServerApp.aspx
+SELECT * FROM ServerInfo  WHERE 1=1  AND [IsState]='1'   order by  id desc 
+-------------end 2017/7/28 8:53:44-------------
+-------------start 2017/7/28 8:53:50-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:53:50-------------
+-------------start 2017/7/28 8:53:50-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:53:50-------------
+-------------start 2017/7/28 8:54:00-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:54:00-------------
+-------------start 2017/7/28 8:54:00-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:54:00-------------
+-------------start 2017/7/28 8:54:10-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:54:10-------------
+-------------start 2017/7/28 8:54:10-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:54:10-------------
+-------------start 2017/7/28 8:54:20-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:54:20-------------
+-------------start 2017/7/28 8:54:20-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:54:20-------------
+-------------start 2017/7/28 8:54:30-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:54:30-------------
+-------------start 2017/7/28 8:54:30-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:54:30-------------
+-------------start 2017/7/28 8:54:40-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:54:40-------------
+-------------start 2017/7/28 8:54:40-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:54:40-------------
+-------------start 2017/7/28 8:54:50-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:54:50-------------
+-------------start 2017/7/28 8:54:50-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:54:50-------------
+-------------start 2017/7/28 8:55:00-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:55:00-------------
+-------------start 2017/7/28 8:55:00-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:55:00-------------
+-------------start 2017/7/28 8:55:10-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:55:10-------------
+-------------start 2017/7/28 8:55:10-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:55:10-------------
+-------------start 2017/7/28 8:55:20-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:55:20-------------
+-------------start 2017/7/28 8:55:20-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:55:20-------------
+-------------start 2017/7/28 8:55:30-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM ServerInfo  WHERE 1=1  AND [Name]='华北二号服务器'  
+-------------end 2017/7/28 8:55:30-------------
+-------------start 2017/7/28 8:55:30-------------/Services/SerGetDomain.ashx?sname=%E5%8D%8E%E5%8C%97%E4%BA%8C%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8
+SELECT * FROM DomainSynchroHistory  WHERE 1=1  AND [Name]='华北二号服务器'  AND [IsSynchro]='0'  
+-------------end 2017/7/28 8:55:30-------------
