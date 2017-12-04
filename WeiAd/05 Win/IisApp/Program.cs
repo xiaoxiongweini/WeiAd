@@ -12,13 +12,11 @@ namespace IisApp
     {
         static void Main(string[] args)
         {
-            if(AppConfig.IsRunType == "0")
-            {
+            if(AppConfig.IsRunType == "0") {
                 AddDomains();
             }
             else {
             }
-
             Console.Write("运行结束。");
             Console.ReadKey();
         }
