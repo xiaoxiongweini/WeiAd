@@ -7,3 +7,14 @@ C:\Company\微糖时代\ad\src\WeiAd\05 Win\WinIIS\obj\Debug\WinIIS.Properties.R
 C:\Company\微糖时代\ad\src\WeiAd\05 Win\WinIIS\obj\Debug\WinIIS.csproj.GenerateResource.Cache
 C:\Company\微糖时代\ad\src\WeiAd\05 Win\WinIIS\obj\Debug\WinIIS.exe
 C:\Company\微糖时代\ad\src\WeiAd\05 Win\WinIIS\obj\Debug\WinIIS.pdb
+C:\Projects\WeiAd\05 Win\WinIIS\bin\Debug\WinIIS.exe.config
+C:\Projects\WeiAd\05 Win\WinIIS\bin\Debug\WinIIS.exe
+C:\Projects\WeiAd\05 Win\WinIIS\bin\Debug\WinIIS.pdb
+C:\Projects\WeiAd\05 Win\WinIIS\bin\Debug\Microsoft.Web.Administration.dll
+C:\Projects\WeiAd\05 Win\WinIIS\obj\Debug\WinIIS.csprojResolveAssemblyReference.cache
+C:\Projects\WeiAd\05 Win\WinIIS\obj\Debug\WinIIS.Form1.resources
+C:\Projects\WeiAd\05 Win\WinIIS\obj\Debug\WinIIS.Properties.Resources.resources
+C:\Projects\WeiAd\05 Win\WinIIS\obj\Debug\WinIIS.csproj.GenerateResource.Cache
+C:\Projects\WeiAd\05 Win\WinIIS\obj\Debug\WinIIS.csproj.CoreCompileInputs.cache
+C:\Projects\WeiAd\05 Win\WinIIS\obj\Debug\WinIIS.exe
+C:\Projects\WeiAd\05 Win\WinIIS\obj\Debug\WinIIS.pdb

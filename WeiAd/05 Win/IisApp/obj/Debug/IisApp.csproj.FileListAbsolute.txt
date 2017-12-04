@@ -10,3 +10,11 @@ C:\Company\微糖时代\ad\src\WeiAd\05 Win\IisApp\bin\Debug\IisApp.pdb
 C:\Company\微糖时代\ad\src\WeiAd\05 Win\IisApp\bin\Debug\Microsoft.Web.Administration.dll
 C:\Company\微糖时代\ad\src\WeiAd\05 Win\IisApp\obj\Debug\IisApp.exe
 C:\Company\微糖时代\ad\src\WeiAd\05 Win\IisApp\obj\Debug\IisApp.pdb
+C:\Projects\WeiAd\05 Win\IisApp\bin\Debug\IisApp.exe.config
+C:\Projects\WeiAd\05 Win\IisApp\bin\Debug\IisApp.exe
+C:\Projects\WeiAd\05 Win\IisApp\bin\Debug\IisApp.pdb
+C:\Projects\WeiAd\05 Win\IisApp\bin\Debug\Microsoft.Web.Administration.dll
+C:\Projects\WeiAd\05 Win\IisApp\obj\Debug\IisApp.csprojResolveAssemblyReference.cache
+C:\Projects\WeiAd\05 Win\IisApp\obj\Debug\IisApp.csproj.CoreCompileInputs.cache
+C:\Projects\WeiAd\05 Win\IisApp\obj\Debug\IisApp.exe
+C:\Projects\WeiAd\05 Win\IisApp\obj\Debug\IisApp.pdb
