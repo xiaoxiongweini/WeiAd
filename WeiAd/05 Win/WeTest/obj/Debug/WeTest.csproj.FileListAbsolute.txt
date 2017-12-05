@@ -12,3 +12,9 @@ C:\Projects\WeiAd\05 Win\WeTest\bin\Debug\Newtonsoft.Json.dll
 C:\Projects\WeiAd\05 Win\WeTest\obj\Debug\WeTest.csproj.CoreCompileInputs.cache
 C:\Projects\WeiAd\05 Win\WeTest\obj\Debug\WeTest.exe
 C:\Projects\WeiAd\05 Win\WeTest\obj\Debug\WeTest.pdb
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\05 Win\WeTest\bin\Debug\WeTest.exe.config
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\05 Win\WeTest\bin\Debug\WeTest.exe
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\05 Win\WeTest\bin\Debug\WeTest.pdb
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\05 Win\WeTest\bin\Debug\Newtonsoft.Json.dll
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\05 Win\WeTest\obj\Debug\WeTest.exe
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\05 Win\WeTest\obj\Debug\WeTest.pdb

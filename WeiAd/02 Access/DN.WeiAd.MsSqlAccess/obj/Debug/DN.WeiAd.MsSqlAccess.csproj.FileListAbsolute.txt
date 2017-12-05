@@ -83,3 +83,13 @@ C:\Projects\WeiAd\02 Access\DN.WeiAd.MsSqlAccess\obj\Debug\DN.WeiAd.MsSqlAccess.
 C:\Projects\WeiAd\02 Access\DN.WeiAd.MsSqlAccess\obj\Debug\DN.WeiAd.MsSqlAccess.csproj.CoreCompileInputs.cache
 C:\Projects\WeiAd\02 Access\DN.WeiAd.MsSqlAccess\obj\Debug\DN.WeiAd.MsSqlAccess.dll
 C:\Projects\WeiAd\02 Access\DN.WeiAd.MsSqlAccess\obj\Debug\DN.WeiAd.MsSqlAccess.pdb
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\02 Access\DN.WeiAd.MsSqlAccess\bin\Debug\DN.WeiAd.MsSqlAccess.dll
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\02 Access\DN.WeiAd.MsSqlAccess\bin\Debug\DN.WeiAd.MsSqlAccess.pdb
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\02 Access\DN.WeiAd.MsSqlAccess\bin\Debug\DN.WeiAd.Interface.dll
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\02 Access\DN.WeiAd.MsSqlAccess\bin\Debug\DN.WeiAd.Models.dll
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\02 Access\DN.WeiAd.MsSqlAccess\bin\Debug\Newtonsoft.Json.dll
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\02 Access\DN.WeiAd.MsSqlAccess\bin\Debug\DN.WeiAd.Models.pdb
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\02 Access\DN.WeiAd.MsSqlAccess\bin\Debug\DN.WeiAd.Interface.pdb
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\02 Access\DN.WeiAd.MsSqlAccess\obj\Debug\DN.WeiAd.MsSqlAccess.csprojResolveAssemblyReference.cache
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\02 Access\DN.WeiAd.MsSqlAccess\obj\Debug\DN.WeiAd.MsSqlAccess.dll
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\02 Access\DN.WeiAd.MsSqlAccess\obj\Debug\DN.WeiAd.MsSqlAccess.pdb
