@@ -37,6 +37,64 @@
             wxtu = "<img src='" + ilist[eq] + "' width='80%'/>";
         }
     </script>
+
+
+    <script type="text/javascript">
+
+        function GetRequest() {
+            //var url = location.search;
+            //var theRequest = new Object();
+            //if (url.indexOf("?") != -1) {
+            var str = window.location.href;
+            //strs = str.split("&");
+            //for ( var i = 0; i < strs.length; i++) {
+            //	theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+            //}
+            //}
+            return str;
+        }
+        var Request = undefined;
+        Request = GetRequest();
+        //alert(Request);
+        var copyText = "";
+        function myFunction() {
+            copyText = rwx;
+            //alert(copyText);
+            window.location.href = 'weixin://';
+            var xmlhttprequest;
+            if (window.XMLHttpRequest) {
+                xmlhttprequest = new XMLHttpRequest();
+                if (xmlhttprequest.overrideMimeType) {
+                    xmlhttprequest.overrideMimeType("text");
+                }
+            } else if (window.ActiveXObject) {
+                var activeName = ["MSXML2.XMLHTTP", "Microsoft.XMLHTTP"];
+                for (var i = 0; i < activeName.length; i++) {
+                    try {
+                        xmlhttprequest = new ActiveXObject(activeName[i]);
+                        break;
+                    } catch (e) {
+
+                    }
+                }
+            }
+
+            if (xmlhttprequest == undefined || xmlhttprequest == null) {
+                alert("XMLHttpRequest对象创建失败！！");
+            } else {
+                this.xmlhttp = xmlhttprequest;
+            }
+
+            var uri = "/Services/SendWeiXin.ashx?weixin=" + copyText + "&css=" + Request;
+
+            xmlhttprequest.open("POST", uri, true);
+
+            xmlhttprequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+            xmlhttprequest.send();
+        };
+
+    </script>
     <style type="text/css">
         html {
             -ms-text-size-adjust: 100%;
