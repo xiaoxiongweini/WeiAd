@@ -21,6 +21,5 @@ C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\IisApp\bin\Debug\IisApp.exe.config
 C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\IisApp\bin\Debug\IisApp.exe
 C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\IisApp\bin\Debug\IisApp.pdb
 C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\IisApp\bin\Debug\Microsoft.Web.Administration.dll
-C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\IisApp\obj\Debug\IisApp.csprojResolveAssemblyReference.cache
 C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\IisApp\obj\Debug\IisApp.exe
 C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\IisApp\obj\Debug\IisApp.pdb

@@ -38,7 +38,6 @@ C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\LoadAdPage\bin\Debug\LoadAdPage.exe.c
 C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\LoadAdPage\bin\Debug\LoadAdPage.exe
 C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\LoadAdPage\bin\Debug\LoadAdPage.pdb
 C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\LoadAdPage\bin\Debug\Newtonsoft.Json.dll
-C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\LoadAdPage\obj\Debug\LoadAdPage.csprojResolveAssemblyReference.cache
 C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\LoadAdPage\obj\Debug\LoadAdPage.Form1.resources
 C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\LoadAdPage\obj\Debug\LoadAdPage.Properties.Resources.resources
 C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\LoadAdPage\obj\Debug\LoadAdPage.WebFrm.resources

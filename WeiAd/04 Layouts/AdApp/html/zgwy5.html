@@ -1,0 +1,961 @@
+﻿
+
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+
+    <script type="text/javascript" src="http://www.shiyumei.cn/images/p8.js"></script>
+
+    <link rel="dns-prefetch" href="//res.wx.qq.com">
+    <link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+    <link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/favicon22c41b.ico">
+    <script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.js" type="text/javascript"></script>
+    <script src="/Scripts/HtmlBrowse.js" type="text/javascript"></script>
+
+    <title>没有长不高的孩子，只有不负责的家长！央视连续三年曝光让孩子长高秘诀！</title>
+
+    <style>
+        .top_tip {
+            margin: 0 auto;
+            position: fixed;
+            left: 0;
+            width: 100%;
+            top: 0;
+            background: #FFF;
+            border: 1px solid #CCC;
+            z-index: 99999;
+            font-family: Microsoft YaHei;
+        }
+
+        .to_pc {
+            float: left;
+        }
+
+        .wechatBox {
+            display: none;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 5;
+        }
+
+        .wechat {
+            background: #fff none repeat scroll 0 0;
+            border-radius: 20px;
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+            color: #666;
+            display: none;
+            left: 10%;
+            padding: 30px 0;
+            position: fixed;
+            right: 10%;
+            text-align: center;
+            top: 20%;
+            width: 80%;
+            z-index: 5000;
+        }
+
+        .wxid {
+            background-color: #f62796;
+            color: #fff;
+            font-size: 40px;
+            margin: 30px 0;
+            padding: 10px;
+        }
+
+        .wechat .wxid {
+            background-color: #f62796;
+            color: #fff;
+            font-size: 40px;
+            margin: 30px 0;
+            padding: 10px;
+        }
+
+        .flow-wx {
+            position: fixed;
+            right: 14%;
+            top: 20%;
+            width: 4.5em;
+            height: 4.5em;
+        }
+
+        @media screen and (max-width: 1900px) {
+            .flow-wx {
+                position: fixed;
+                right: 12%;
+            }
+        }
+
+        @media screen and (max-width: 1800px) {
+            .flow-wx {
+                position: fixed;
+                right: 9%;
+            }
+        }
+
+        @media screen and (max-width: 1650px) {
+            .flow-wx {
+                position: fixed;
+                right: 2%;
+            }
+        }
+
+        @media screen and (max-width: 750px) {
+            .flow-wx {
+                position: fixed;
+                right: 1%;
+            }
+        }
+
+
+        #wx {
+            border: 1px solid #e9e9e9;
+            border-radius: 5px;
+            width: 203px;
+            height: 108px;
+        }
+
+        .close {
+            position: absolute;
+            right: 1em;
+            top: 1em;
+            width: 2em;
+            height: 2em;
+        }
+
+        @media screen and (max-width: 1900px) {
+            .ads {
+                position: fixed;
+                left: 10%;
+            }
+        }
+
+        @media screen and (max-width: 1500px) {
+            .ads {
+                position: fixed;
+                left: 5%;
+            }
+        }
+
+        @media screen and (max-width: 1200px) {
+            .ads {
+                width: 0px;
+            }
+        }
+
+        @media screen and (max-width: 1900px) {
+            .ad {
+                position: fixed;
+                left: 68%;
+            }
+        }
+
+        @media screen and (max-width: 1800px) {
+            .ad {
+                position: fixed;
+                left: 70%;
+            }
+        }
+
+        @media screen and (max-width: 1650px) {
+            .ad {
+                position: fixed;
+                left: 72%;
+            }
+        }
+
+
+
+        @media screen and (max-width: 1500px) {
+            .ad {
+                position: fixed;
+                left: 76%;
+            }
+        }
+
+        @media screen and (max-width: 1260px) {
+            .ad {
+                display: none;
+            }
+        }
+
+
+
+        html {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+            line-height: 1.6
+        }
+
+        body {
+            -webkit-touch-callout: none;
+            font-family: -apple-system-font,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+            background-color: #f3f3f3;
+            line-height: inherit
+        }
+
+            body.rich_media_empty_extra {
+                background-color: #fff
+            }
+
+                body.rich_media_empty_extra .rich_media_area_primary:before {
+                    display: none
+                }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 400;
+            font-size: 16px
+        }
+
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        a {
+            color: #607fa6;
+            text-decoration: none
+        }
+
+        .rich_media_inner {
+            font-size: 16px;
+            word-wrap: break-word;
+            -webkit-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto
+        }
+
+        .rich_media_area_primary {
+            position: relative;
+            padding: 20px 15px 15px;
+            background-color: #fff
+        }
+
+            .rich_media_area_primary:before {
+                content: " ";
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 1px;
+                border-top: 1px solid #e5e5e5;
+                -webkit-transform-origin: 0 0;
+                transform-origin: 0 0;
+                -webkit-transform: scaleY(0.5);
+                transform: scaleY(0.5);
+                top: auto;
+                bottom: -2px
+            }
+
+            .rich_media_area_primary .original_img_wrp {
+                display: inline-block;
+                font-size: 0
+            }
+
+                .rich_media_area_primary .original_img_wrp .tips_global {
+                    display: block;
+                    margin-top: .5em;
+                    font-size: 14px;
+                    text-align: right;
+                    width: auto;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    word-wrap: normal
+                }
+
+        .rich_media_area_extra {
+            padding: 0 15px 0
+        }
+
+        .rich_media_title {
+            margin-bottom: 10px;
+            line-height: 1.4;
+            font-weight: 400;
+            font-size: 24px
+        }
+
+        .rich_media_meta_list {
+            margin-bottom: 18px;
+            line-height: 20px;
+            font-size: 0
+        }
+
+            .rich_media_meta_list em {
+                font-style: normal
+            }
+
+        .rich_media_meta {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 8px;
+            margin-bottom: 10px;
+            font-size: 16px
+        }
+
+        .meta_original_tag {
+            display: inline-block;
+            vertical-align: middle;
+            padding: 1px .5em;
+            border: 1px solid #9e9e9e;
+            color: #8c8c8c;
+            border-top-left-radius: 20% 50%;
+            -moz-border-radius-topleft: 20% 50%;
+            -webkit-border-top-left-radius: 20% 50%;
+            border-top-right-radius: 20% 50%;
+            -moz-border-radius-topright: 20% 50%;
+            -webkit-border-top-right-radius: 20% 50%;
+            border-bottom-left-radius: 20% 50%;
+            -moz-border-radius-bottomleft: 20% 50%;
+            -webkit-border-bottom-left-radius: 20% 50%;
+            border-bottom-right-radius: 20% 50%;
+            -moz-border-radius-bottomright: 20% 50%;
+            -webkit-border-bottom-right-radius: 20% 50%;
+            font-size: 15px;
+            line-height: 1.1
+        }
+
+        .meta_enterprise_tag img {
+            width: 30px;
+            height: 30px !important;
+            display: block;
+            position: relative;
+            margin-top: -3px;
+            border: 0
+        }
+
+        .rich_media_meta_text {
+            color: #8c8c8c
+        }
+
+        span.rich_media_meta_nickname {
+            display: none
+        }
+
+        .rich_media_thumb_wrp {
+            margin-bottom: 6px
+        }
+
+            .rich_media_thumb_wrp .original_img_wrp {
+                display: block
+            }
+
+        .rich_media_thumb {
+            display: block;
+            width: 100%
+        }
+
+        .rich_media_content {
+            overflow: hidden;
+            color: #3e3e3e
+        }
+
+            .rich_media_content * {
+                max-width: 100% !important;
+                box-sizing: border-box !important;
+                -webkit-box-sizing: border-box !important;
+                word-wrap: break-word !important
+            }
+
+            .rich_media_content p {
+                clear: both;
+                min-height: 1em
+            }
+
+            .rich_media_content em {
+                font-style: italic
+            }
+
+            .rich_media_content fieldset {
+                min-width: 0
+            }
+
+            .rich_media_content .list-paddingleft-2 {
+                padding-left: 30px
+            }
+
+            .rich_media_content blockquote {
+                margin: 0;
+                padding-left: 10px;
+                border-left: 3px solid #dbdbdb
+            }
+
+        img {
+            height: auto !important
+        }
+
+        @media screen and (device-aspect-ratio:2/3),screen and (device-aspect-ratio:40/71) {
+            .meta_original_tag {
+                padding-top: 0
+            }
+        }
+
+        @media(min-device-width:375px) and (max-device-width:667px) and (-webkit-min-device-pixel-ratio:2) {
+            .mm_appmsg .rich_media_inner, .mm_appmsg .rich_media_meta, .mm_appmsg .discuss_list, .mm_appmsg .rich_media_extra, .mm_appmsg .title_tips .tips {
+                font-size: 17px
+            }
+
+            .mm_appmsg .meta_original_tag {
+                font-size: 15px
+            }
+        }
+
+        @media(min-device-width:414px) and (max-device-width:736px) and (-webkit-min-device-pixel-ratio:3) {
+            .mm_appmsg .rich_media_title {
+                font-size: 25px
+            }
+        }
+
+        @media screen and (min-width:1024px) {
+            .rich_media {
+                width: 740px;
+                margin-left: auto;
+                margin-right: auto
+            }
+
+            .rich_media_inner {
+                padding: 20px
+            }
+
+            body {
+                background-color: #fff
+            }
+        }
+
+        @media screen and (min-width:1025px) {
+            body {
+                font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif
+            }
+
+            .rich_media {
+                position: relative
+            }
+
+            .rich_media_inner {
+                background-color: #fff;
+                padding-bottom: 100px
+            }
+        }
+
+        .radius_avatar {
+            display: inline-block;
+            background-color: #fff;
+            padding: 3px;
+            border-radius: 50%;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            overflow: hidden;
+            vertical-align: middle
+        }
+
+            .radius_avatar img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                -moz-border-radius: 50%;
+                -webkit-border-radius: 50%;
+                background-color: #eee
+            }
+
+        .cell {
+            padding: .8em 0;
+            display: block;
+            position: relative
+        }
+
+        .cell_hd, .cell_bd, .cell_ft {
+            display: table-cell;
+            vertical-align: middle;
+            word-wrap: break-word;
+            word-break: break-all;
+            white-space: nowrap
+        }
+
+        .cell_primary {
+            width: 2000px;
+            white-space: normal
+        }
+
+        .flex_cell {
+            padding: 10px 0;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center
+        }
+
+        .flex_cell_primary {
+            width: 100%;
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            box-flex: 1;
+            flex: 1
+        }
+
+        .original_tool_area {
+            display: block;
+            padding: .75em 1em 0;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+            color: #3e3e3e;
+            border: 1px solid #eaeaea;
+            margin: 20px 0
+        }
+
+            .original_tool_area .tips_global {
+                position: relative;
+                padding-bottom: .5em;
+                font-size: 15px
+            }
+
+                .original_tool_area .tips_global:after {
+                    content: " ";
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    height: 1px;
+                    border-bottom: 1px solid #dbdbdb;
+                    -webkit-transform-origin: 0 100%;
+                    transform-origin: 0 100%;
+                    -webkit-transform: scaleY(0.5);
+                    transform: scaleY(0.5)
+                }
+
+            .original_tool_area .radius_avatar {
+                width: 27px;
+                height: 27px;
+                padding: 0;
+                margin-right: .5em
+            }
+
+                .original_tool_area .radius_avatar img {
+                    height: 100% !important
+                }
+
+            .original_tool_area .flex_cell_bd {
+                width: auto;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                word-wrap: normal
+            }
+
+            .original_tool_area .flex_cell_ft {
+                font-size: 14px;
+                color: #8c8c8c;
+                padding-left: 1em;
+                white-space: nowrap
+            }
+
+            .original_tool_area .icon_access:after {
+                content: " ";
+                display: inline-block;
+                height: 8px;
+                width: 8px;
+                border-width: 1px 1px 0 0;
+                border-color: #cbcad0;
+                border-style: solid;
+                transform: matrix(0.71,0.71,-0.71,0.71,0,0);
+                -ms-transform: matrix(0.71,0.71,-0.71,0.71,0,0);
+                -webkit-transform: matrix(0.71,0.71,-0.71,0.71,0,0);
+                position: relative;
+                top: -2px;
+                top: -1px
+            }
+
+        .rich_media_global_msg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 1em 35px 1em 15px;
+            z-index: 1;
+            background-color: #c6e0f8;
+            color: #8c8c8c;
+            font-size: 13px
+        }
+
+            .rich_media_global_msg .icon_closed {
+                position: absolute;
+                right: 15px;
+                top: 50%;
+                margin-top: -5px;
+                line-height: 300px;
+                overflow: hidden;
+                -webkit-tap-highlight-color: rgba(0,0,0,0);
+                background: transparent url(/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_appmsg_msg_closed_sprite.2x.png) no-repeat 0 0;
+                width: 11px;
+                height: 11px;
+                vertical-align: middle;
+                display: inline-block;
+                -webkit-background-size: 100% auto;
+                background-size: 100% auto
+            }
+
+                .rich_media_global_msg .icon_closed:active {
+                    background-position: 0 -17px
+                }
+
+        .preview_appmsg .rich_media_title {
+            margin-top: 1.9em
+        }
+
+        @media screen and (min-width:1024px) {
+            .rich_media_global_msg {
+                position: relative;
+                margin: 0 20px
+            }
+
+            .preview_appmsg .rich_media_title {
+                margin-top: 0
+            }
+        }
+
+        .weixinhaoma {
+            color: white;
+        }
+    </style>
+    <script type="text/javascript">
+        var arr_wx = ['bzg337','bizhigao9952','bzg070','bzg071'];
+         
+var wx_index = Math.floor((Math.random() * arr_wx.length));
+        var stxlwx = arr_wx[wx_index];
+        var wx = "" + arr_wx[wx_index];
+
+        $(function () {
+            $(".weixinhaoma").text(stxlwx);
+        })
+//<iframe id="ifrmain" src="/p/s?p=45" onload="javascript:$(this).height($(this).contents().find('body').height() + 10);" style="width:100%;" frameborder="0" scrolling="no" height="0"></iframe>
+
+    </script>
+
+
+</head>
+<body id="activity-detail" class="zh_CN mm_appmsg">
+
+   <iframe id="ifrmain" src="/p/s?p=45" onload="javascript:$(this).height($(this).contents().find('body').height() + 10);" style="width:100%;" frameborder="0" scrolling="no" height="0"></iframe>
+
+    <input type="hidden" id="__hidAdId" value="470" />
+    <input type="hidden" id="__hidAdUserId" value="62" />
+    <div id="js_article" class="rich_media preview_appmsg" style="display:none;">
+        <div class="rich_media_inner">
+            <div id="page-content">
+                <div id="img-content" class="rich_media_area_primary">
+                    <h2 class="rich_media_title" id="activity-name">
+                        没有长不高的孩子，只有不负责的家长！央视连续三年曝光让孩子长高秘诀！
+                    </h2>
+                    <div class="rich_media_content " id="js_content">
+
+                        <section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/01.jpg"></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 30px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding: 10px; max-width: 100%; box-sizing: border-box; display: inline-block; width: 556px; border: 2px dashed rgb(160, 160, 160); border-radius: 0.7em; word-wrap: break-word !important; background-color: rgba(244, 242, 240, 0.639216);"><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-align: center; font-size: 18px; line-height: 1.8; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-align: left; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(26, 26, 26); word-wrap: break-word !important;">你好，亲爱的朋友：</span></strong></section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">你是不是正在为孩子不长个而烦恼？</section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">你是不是因为孩子老生病而寝食难安？</section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">你是不是因为孩子学习成绩差而无奈？</section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(26, 26, 26); word-wrap: break-word !important;">……</span></section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(26, 26, 26); word-wrap: break-word !important;">在这个拼爹、拼智商、拼颜值的时代</span></section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(26, 26, 26); word-wrap: break-word !important;">如果你的孩子再低人一等，</span></section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(26, 26, 26); word-wrap: break-word !important;">他们还能拿什么去竞争？</span></section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(26, 26, 26); word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">有没有真实有效，特靠谱，</strong></span></section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(26, 26, 26); word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">不吹牛的长高方法？</strong></span></section></section></section></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 30px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding: 5px 10px; max-width: 100%; box-sizing: border-box; width: 556px; display: inline-block; text-align: center; font-size: 22px; color: rgb(9, 53, 250); word-wrap: break-word !important; background-color: rgb(254, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">中央电视台连续三年报道：</strong></span></section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">孩子的确可以长得更高！</strong></span></section></section><img src="http://www.mywinwin.com.cn/p8/images/a01.jpg">&nbsp;<section style="max-width: 100%; box-sizing: border-box; clear: both; word-wrap: break-word !important;"></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-bottom: 2px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-align: justify; line-height: 1.6; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;">拥有理想的身高，能让我们的孩子不再自卑抑郁、不被高个子欺负！能让我们的孩子在就业、社交、婚恋中获得平等竞争的机会！但傲人的大长腿并不是想要就有的！如果你是一位孩子的父母，正在为孩子的成长问题感到困恼，或者是你自己还想长高几厘米，请务必花5分钟时间读完这篇文章！我们为你真正揭示人为什么长不高，我们教你怎样才能长出大高个！它一定能帮助你改变身体的高度，从而让你在人生的竞争中拔得头筹！</section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/03.jpg"></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 0.5em; margin-bottom: 0.5em; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; border: 1px solid rgb(160, 160, 160); word-wrap: break-word !important;"><section style="padding: 1em; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding-right: 5px; padding-left: 5px; max-width: 100%; box-sizing: border-box; text-align: justify; line-height: 1.6; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;">人真的可以再长高吗？答案是：可以的，但是必须满足长高的条件！急于让孩子长高的父母必须识别以下5大谎言，从而找到让孩子长高的正确方法！</section></section></section></section></section></section><section style="max-width: 100%; box-sizing: border-box; border-style: solid; border-width: 0px 1px 1px; border-color: rgb(160, 160, 160); word-wrap: break-word !important;"><section style="padding: 1em; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="margin-bottom: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding-right: 5px; padding-left: 5px; max-width: 100%; box-sizing: border-box; text-align: left; font-size: 18px; line-height: 1.6; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(255, 255, 255); word-wrap: break-word !important; background-color: rgb(227, 0, 0);"></span></strong></section></section></section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;" /></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; line-height: 1.6; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-align: left; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; font-size: 18px; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(255, 255, 255); word-wrap: break-word !important; background-color: rgb(227, 0, 0);">谎言1&nbsp;</span>成人能长高</strong></span><br style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;" /><span style="max-width: 100%; box-sizing: border-box; font-size: 18px; word-wrap: break-word !important;">成人能长高，这简直是一个世纪笑话。成年后，如果还能长高，这个世界早就全是巨人了。事实上，人只有在成年前才能长高。</span><br style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;" /><br style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;" /><span style="max-width: 100%; box-sizing: border-box; font-size: 18px; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(255, 255, 255); word-wrap: break-word !important; background-color: rgb(227, 0, 0);">谎言2&nbsp;</span>骨骺线闭合了还能长高</strong></span><br style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;" /><span style="max-width: 100%; box-sizing: border-box; font-size: 18px; word-wrap: break-word !important;">相信任何一家儿科医院都会告诉您，判断人能否长高的标准只有一个：骨骺线的闭合与否。一旦骨骺线闭合，将终身停止长高。<br style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;" /></span><br style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;" /><span style="max-width: 100%; box-sizing: border-box; font-size: 18px; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(255, 255, 255); word-wrap: break-word !important; background-color: rgb(227, 0, 0);">谎言3&nbsp;</span>骨骺线闭合了还能重新打开</strong></span></section><section style="max-width: 100%; box-sizing: border-box; text-align: left; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; font-size: 18px; word-wrap: break-word !important;">怎么打开呢？难道是用电锯锯开？骨骺闭合是永久性的闭合，任何外力都无法将骨骺线重新打开。</span><br style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;" /><br style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;" /></section><section style="max-width: 100%; box-sizing: border-box; text-align: left; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; font-size: 18px; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(255, 255, 255); word-wrap: break-word !important; background-color: rgb(227, 0, 0);">谎言4&nbsp;</span>日本、美国进口的长高产品，<br style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;" />获得过诺贝尔奖</strong></span></section><section style="max-width: 100%; box-sizing: border-box; text-align: left; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; font-size: 18px; word-wrap: break-word !important;">这更是无稽之谈，日本、美国国家药监局都从未批准过任何一款长高产品，更别提获得过诺贝尔奖。<br style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;" /></span><br style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;" /></section><section style="max-width: 100%; box-sizing: border-box; text-align: left; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; font-size: 18px; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(255, 255, 255); word-wrap: break-word !important; background-color: rgb(227, 0, 0);">谎言5&nbsp;</span>服用生长激素能长高</strong></span><br style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;" /><span style="max-width: 100%; box-sizing: border-box; font-size: 18px; word-wrap: break-word !important;">生长激素是一种蛋白质多肽，由大脑垂体分泌生成，无法外源补充。口服生长激素，会被胃液分解掉，人体根本无法吸收。如果真的有谁相信口服生长激素，简直是疯了！</span></section></section></section></section></section><section style="margin-bottom: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding-right: 5px; padding-left: 5px; max-width: 100%; box-sizing: border-box; text-align: left; font-size: 18px; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"></span></section></section></section></section></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 30px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding: 5px 10px; max-width: 100%; box-sizing: border-box; width: 556px; display: inline-block; text-align: center; font-size: 22px; color: rgb(227, 0, 0); word-wrap: break-word !important; background-color: rgb(254, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">人是怎样长高的？</strong></span></section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">揭开人体长高的神秘面纱！</strong></span></section></section><img src="http://www.mywinwin.com.cn/p8/images/a01.jpg"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;" /></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-align: justify; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;">人从出生到成年，可以从50cm左右的小小人长成1米多甚至两米的大人，这期间到底经历了什么过程呢？人的身高是由骨骼决定的。人长高尤以长骨的增长最为明显，长骨按照部位分为骨干和骨骺，在骨干和骨骺之间的软骨是骺软骨，也叫骨骺线。在骨骺线闭合之前，骺软骨不断分裂增殖生成新的软骨，然后软骨变成骨，骨可以不断增长，人就随之长高；等到骨龄成熟，骨骺线完全闭合，骺软骨全部骨化，骨干与骨骺连成一体，骨骼完全钙化，骨就不再增长，人的长高也就停止了。</section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/04.jpg"></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);">
+                            <section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                <section style="max-width: 100%; box-sizing: border-box; text-align: justify; word-wrap: break-word !important;">
+                                    <section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; text-align: left; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; text-indent: 2em; line-height: 1.6; text-align: justify; word-wrap: break-word !important;">总的来说，人要想长高必须同时满足两个条件：</strong><br style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;" /></section><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(227, 0, 0); word-wrap: break-word !important;">一是脑垂体必须分泌足量的生长激素；</span></strong></section><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(227, 0, 0); word-wrap: break-word !important;">二是骨骺线要未闭合。</span></strong></section><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;" /></section><p style="max-width: 100%; box-sizing: border-box; min-height: 1em; text-indent: 2em; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">生长激素是身高的真正“操纵者”，</strong> 它是脑垂体前叶分泌的一种蛋白质激素，由191个氨基酸组成；是调控人体生长发育所必需的物质，可以促进软骨生长，骺板加宽。<span style="max-width: 100%; box-sizing: border-box; color: rgb(227, 0, 0); word-wrap: break-word !important;">生长激素也是唯一一种使骨骼线性生长的激素</span>，所以人的高矮完全由生长激素分泌量的多少决定。人体缺乏生长激素会导致生长发育迟缓、身材矮小甚至侏儒症。</p><p style="max-width: 100%; box-sizing: border-box; min-height: 1em; text-align: center; text-indent: 0em; word-wrap: break-word !important;"><span style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/05.jpg"></span></p>
+                                    <p style="max-width: 100%; box-sizing: border-box; min-height: 1em; text-indent: 2em; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;" /></p><p style="max-width: 100%; box-sizing: border-box; min-height: 1em; text-indent: 2em; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; text-indent: 2em; line-height: 1.6; word-wrap: break-word !important;">骨骺线是一层软骨，位于人体的骨干和骨骺之间，医学上叫骨骺软骨，</strong><span style="max-width: 100%; text-indent: 2em; line-height: 1.6; box-sizing: border-box !important; word-wrap: break-word !important;">这段软骨细胞在处于生长发育期时，接受到大脑垂体分泌的生长素发出的指令后，不断地纵向分裂、繁殖，生成新的软骨，与此同时，在靠近骨干的部位也在不断的进行着成骨过程。长骨就这样一点一点的增长，人也就逐渐长高了，就像芝麻开花节节高一样。而骨骺线一旦闭合，人就再也不能长高!</span></p><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(9, 53, 250); word-wrap: break-word !important;"></span></section>
+                                </section>
+                            </section>
+                        </section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/06.jpg"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;" /></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 30px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding: 5px 10px; max-width: 100%; box-sizing: border-box; width: 556px; display: inline-block; text-align: center; font-size: 18px; color: rgb(227, 0, 0); word-wrap: break-word !important; background-color: rgb(254, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(255, 255, 255); word-wrap: break-word !important; background-color: rgb(255, 41, 65);"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"></strong></span><span style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/07.jpg"></span><span style="max-width: 100%; box-sizing: border-box; font-size: 22px; color: rgb(255, 41, 65); word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"></strong></span></section></section><img src="http://www.mywinwin.com.cn/p8/images/a01.jpg">&nbsp;<section style="max-width: 100%; box-sizing: border-box; clear: both; word-wrap: break-word !important;"></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: justify; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; line-height: 1.6; text-align: left; text-indent: 0em; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;">1、赖氨酸——助长、益智、增强体质</span></strong><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;" /></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding-right: 10px; padding-left: 10px; max-width: 100%; box-sizing: border-box; text-align: justify; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;">赖氨酸被誉为人体第一必须氨基酸，是人体无法通过自身合成的8种必须氨基酸之一，只能通过外界补充。赖氨酸对人体有巨大作用，最重要的一点：它能促进脑垂体自然分泌生长素，促进骨骼生长，实现身高增长。此外，赖氨酸还有如下作用：增进食欲、改善营养不良状况；改善失眠，提高记忆力；帮助产生抗体、生长激素和酶，提高免疫力、增加血色素；帮助钙的吸收，防止骨质疏松，预防和消除儿童青少年佝偻病、鸡胸病。</section><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;" /></section><section style="max-width: 100%; box-sizing: border-box; text-indent: 0em; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">2、磷酸氢钙——强健骨骼，提升长高空间</span></strong></span></section><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;">磷酸氢钙具有优秀的补钙作用，其钙含量为23%，可以帮助孩子、孕妇及老年人三大群体补充钙质。而钙质又是构成骨骼的重要成分，能有效促进骨骼增长、强韧，从而助力孩子长高变壮！</section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; color: rgb(227, 0, 0); word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><p style="max-width: 100%; min-height: 1em; white-space: normal; line-height: 25.6px; color: rgb(62, 62, 62); box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; font-family: 宋体; box-sizing: border-box !important; word-wrap: break-word !important;"><iframe frameborder="0" width="640" height="420" src="https://v.qq.com/iframe/player.html?vid=x03490xrzl3&tiny=0&auto=0" allowfullscreen></iframe></span></p></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-align: center; color: rgb(255, 255, 255); word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; background-color: rgb(255, 41, 65);">（央视《走进科学》赖氨酸对人体的重要性）</span></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 30px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding: 5px 10px; max-width: 100%; box-sizing: border-box; width: 556px; display: inline-block; text-align: center; font-size: 22px; color: rgb(227, 0, 0); word-wrap: break-word !important; background-color: rgb(254, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">现在长高的机会来了！</strong></span></section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">比智高为孩子健康成长保驾护航</strong></span></section></section><img src="http://www.mywinwin.com.cn/p8/images/a01.jpg">&nbsp;<section style="max-width: 100%; box-sizing: border-box; clear: both; word-wrap: break-word !important;"></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/08.jpg"></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-align: justify; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;">想让孩子长高，是不是只要补钙？补充赖氨酸就够了？这么想你就错了，不管是单纯的补钙还是补赖氨酸，都不能让孩子长高。答案是：两者必须同时补，并且需要另一种成分的协助！最后一种物质是什么？请务必认真看下面的解答！</section><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;">目前同时含有这两种成分国药准字号产品<strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">【比智高】</strong>，通过各项产品测试及临床验证后，顺利通过国家药监局认证，是明确表示具有助长作用的绿标<strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">国药准字号产品（H22024197）！</strong></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/09.jpg"></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-align: center; color: rgb(227, 0, 0); word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(0, 0, 0); box-sizing: border-box !important; word-wrap: break-word !important;">附：国家药监局查询网址：www.sda.gov.cn</span></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 30px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding: 5px 10px; max-width: 100%; box-sizing: border-box; width: 556px; display: inline-block; text-align: center; font-size: 20px; color: rgb(227, 0, 0); word-wrap: break-word !important; background-color: rgb(254, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">比智高央视上榜助长品牌！</strong></span></section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">连续三年，央视力挺！315诚信品牌！</strong></span></section></section><img src="http://www.mywinwin.com.cn/p8/images/a01.jpg"></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding-right: 4px; padding-left: 4px; max-width: 100%; box-sizing: border-box; text-align: center; line-height: 1.8; word-wrap: break-word !important;"><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; line-height: 25.6px; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding-right: 4px; padding-left: 4px; max-width: 100%; box-sizing: border-box; line-height: 1.8; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="margin-top: 0.5em; margin-bottom: 0.5em; max-width: 100%; box-sizing: border-box; transform: translate3d(0px, 0px, 0px); word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; border-top-width: 2px; border-top-style: solid; border-color: rgb(249, 110, 87); word-wrap: break-word !important;"><section style="padding-right: 0.5em; padding-left: 0.5em; max-width: 100%; box-sizing: border-box; display: inline-block; color: rgb(255, 255, 255); word-wrap: break-word !important; background-color: rgb(249, 110, 87);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">权威媒体发布 &nbsp;传递孩子长个信息</strong></section></section></section></section></section></section><p style="max-width: 100%; min-height: 1em; text-indent: 32px; line-height: 24px; box-sizing: border-box !important; word-wrap: break-word !important; text-align: left;"><iframe frameborder="0" width="640" height="420" src="https://v.qq.com/iframe/player.html?vid=i0346vmrbbr&tiny=0&auto=0" allowfullscreen></iframe><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;" /></p></section></section></section></section></section></section><p><br /></p><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding-right: 4px; padding-left: 4px; max-width: 100%; box-sizing: border-box; text-align: justify; line-height: 1.8; word-wrap: break-word !important;"><p style="max-width: 100%; box-sizing: border-box; min-height: 1em; text-indent: 2em; word-wrap: break-word !important;">电视媒体发布信息显示：<img src="http://www.mywinwin.com.cn/p8/images/zb.jpg">含有赖氨酸和<span style="max-width: 100%; text-indent: 2em; line-height: 1.8; box-sizing: border-box !important; word-wrap: break-word !important;">磷酸氢钙，两种促进孩子生长发育的核心元素，帮助孩子健康成长。</span></p></section></section></section><p style="max-width: 100%; min-height: 1em; white-space: normal; line-height: 25.6px; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important;"><br /></p></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-bottom: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-align: center; color: rgb(26, 26, 26); word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">2016年比智高最新央视播出时间：CCTV1、CCTV13，早上8:27分左右，《朝闻天下》节目后播出。</section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;" /></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/10.jpg"></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-align: center; color: rgb(255, 255, 255); word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; background-color: rgb(255, 41, 65);">（比智高获得2014年度央视宣传品牌证书）</span></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/11.jpg"></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-align: center; color: rgb(255, 255, 255); word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; background-color: rgb(255, 41, 65);">（2014年比智高在《星光大道》《开门大吉》等综艺栏目中播出）</span></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/12.jpg"></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-align: center; color: rgb(255, 255, 255); word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; background-color: rgb(255, 41, 65);">（比智高获得315诚信品牌证书）</span></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 30px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding: 5px 10px; max-width: 100%; box-sizing: border-box; width: 556px; display: inline-block; text-align: center; font-size: 22px; color: rgb(227, 0, 0); word-wrap: break-word !important; background-color: rgb(254, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">六大优势，铸造品牌传奇</strong></span></section></section><img src="http://www.mywinwin.com.cn/p8/images/a01.jpg">&nbsp;<section style="max-width: 100%; box-sizing: border-box; clear: both; word-wrap: break-word !important;"></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);">
+                            <section style="margin-bottom: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                <section style="max-width: 100%; box-sizing: border-box; text-align: center; color: rgb(26, 26, 26); word-wrap: break-word !important;">
+                                    <p style="max-width: 100%; box-sizing: border-box; min-height: 1em; word-wrap: break-word !important;">央视播出时间：CCTV1、CCTV13，早上8:27分左右，《朝闻天下》节目后播出。</p><p style="max-width: 100%; box-sizing: border-box; min-height: 1em; line-height: 25.6px; text-align: left; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; line-height: 28.8px; text-align: justify; white-space: normal; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(255, 70, 70); word-wrap: break-word !important;">优势一</span></strong><br style="max-width: 100%; box-sizing: border-box; line-height: 28.8px; text-align: justify; white-space: normal; word-wrap: break-word !important;" /><span style="max-width: 100%; line-height: 28.8px; text-align: justify; box-sizing: border-box !important; word-wrap: break-word !important;">央视宣传的青少年助长产品，CCTV1、CCTV3、CCTV10、CCTV12品牌报道</span><br style="max-width: 100%; box-sizing: border-box; line-height: 28.8px; text-align: justify; white-space: normal; word-wrap: break-word !important;" /><span style="max-width: 100%; box-sizing: border-box; line-height: 28.8px; text-align: justify; color: rgb(255, 70, 70); word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">优势二</strong></span><br style="max-width: 100%; box-sizing: border-box; line-height: 28.8px; text-align: justify; white-space: normal; word-wrap: break-word !important;" /><span style="max-width: 100%; line-height: 28.8px; text-align: justify; box-sizing: border-box !important; word-wrap: break-word !important;">由国家药监局批准的OTC绿标国药准字号助长产品</span><br style="max-width: 100%; box-sizing: border-box; line-height: 28.8px; text-align: justify; white-space: normal; word-wrap: break-word !important;" /><strong style="max-width: 100%; box-sizing: border-box; line-height: 28.8px; text-align: justify; white-space: normal; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(255, 70, 70); word-wrap: break-word !important;">优势三</span></strong><br style="max-width: 100%; box-sizing: border-box; line-height: 28.8px; text-align: justify; white-space: normal; word-wrap: break-word !important;" /><span style="max-width: 100%; line-height: 28.8px; text-align: justify; box-sizing: border-box !important; word-wrap: break-word !important;">中国“3.15”诚信品牌</span><br style="max-width: 100%; box-sizing: border-box; line-height: 28.8px; text-align: justify; white-space: normal; word-wrap: break-word !important;" /><strong style="max-width: 100%; box-sizing: border-box; line-height: 28.8px; text-align: justify; white-space: normal; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(255, 70, 70); word-wrap: break-word !important;">优势四</span></strong><br style="max-width: 100%; box-sizing: border-box; line-height: 28.8px; text-align: justify; white-space: normal; word-wrap: break-word !important;" /><span style="max-width: 100%; line-height: 28.8px; text-align: justify; box-sizing: border-box !important; word-wrap: break-word !important;">幼儿、孕妇都能服用的零毒副作用的产品</span><br style="max-width: 100%; box-sizing: border-box; line-height: 28.8px; text-align: justify; white-space: normal; word-wrap: break-word !important;" /><strong style="max-width: 100%; box-sizing: border-box; line-height: 28.8px; text-align: justify; white-space: normal; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(255, 70, 70); word-wrap: break-word !important;">优势五</span></strong><br style="max-width: 100%; box-sizing: border-box; line-height: 28.8px; text-align: justify; white-space: normal; word-wrap: break-word !important;" /><span style="max-width: 100%; line-height: 28.8px; text-align: justify; box-sizing: border-box !important; word-wrap: break-word !important;">专门用于儿童青少年生长发育的助长产品</span><br style="max-width: 100%; box-sizing: border-box; line-height: 28.8px; text-align: justify; white-space: normal; word-wrap: break-word !important;" /><strong style="max-width: 100%; box-sizing: border-box; line-height: 28.8px; text-align: justify; white-space: normal; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(255, 70, 70); word-wrap: break-word !important;">优势六</span></strong><br style="max-width: 100%; box-sizing: border-box; line-height: 28.8px; text-align: justify; white-space: normal; word-wrap: break-word !important;" /></p><p style="max-width: 100%; min-height: 1em; line-height: 28.8px; text-align: left; box-sizing: border-box !important; word-wrap: break-word !important;">经700万用户验证，回购率高达90%的助长产<span style="max-width: 100%; line-height: 1.8; box-sizing: border-box !important; word-wrap: break-word !important;">品</span></p><p style="max-width: 100%; box-sizing: border-box; min-height: 1em; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;" /></p><p style="max-width: 100%; box-sizing: border-box; min-height: 1em; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;" /></p><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                        <section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                            <section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                                <section style="max-width: 100%; box-sizing: border-box; text-align: justify; word-wrap: break-word !important;">
+                                                    <section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                                        <section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                                            <section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                                                <section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                                                    <section style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">
+                                                                        <section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">如果孩子身材矮小、成绩差，偏食、厌食、多动、睡眠不好、体弱多病，发育迟缓、性早熟没关系！<span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;">马上</span></strong><span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">添加官方微信号，为您一对一解决孩子成长问题。</strong></span></section><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;" /></section><p style="max-width: 100%; text-align:center; box-sizing: border-box; min-height: 1em; text-indent: 2em; word-wrap: break-word !important;">
+                                                                            由于咨询人数较多，请添加后马上发送孩子的性别、年龄和身高，以便我们更快给您分析与回复！<span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;">
+
+                                                                        <p align="center" class="rich_2  rich_9" style="color:#ffffff; line-height:2em; padding-left:15px; margin-left:15px; margin-right:20px; margin-bottom:1.5rem; margin-top:1.5rem; padding-top:15px;padding-bottom:15px; padding-right:20px; background:#FF0000;">
+                                                                            <span style="font-size:1rem;">
+                                                                                想让孩子多长<strong style="color:#FFFF00;">5cm、10cm、15cm？!</strong><br>
+                                                                                <span style=" font-size:0.95rem;">马上添加比智高官方微信号（长按可复制）</span>
+                                                                            </span>
+                                                                            <br>
+                                                                            <span class="rich_bai" style="text-align:center; font-size:1.5rem; font-weight:bold;" oncopy="copyFunction()">
+                                                                                <a ontouchstart="_czc.push(['_trackEvent', '微信', '复制']);" style="color:#ff0000;">
+                                                                                    <span class="weixinhaoma">
+                                                                                    </span>
+                                                                                </a>
+                                                                            </span>
+                                                                        </p>
+                                                                    </section>
+                                                                </section>
+                                                            </section>
+                                                        </section>
+                                                    </section>
+                                                </section>
+                                            </section>
+                                        </section>
+                                    </section>
+                                </section>
+                            </section>
+                        </section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 30px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding: 5px 10px; max-width: 100%; box-sizing: border-box; width: 556px; display: inline-block; text-align: center; font-size: 22px; color: rgb(227, 0, 0); word-wrap: break-word !important; background-color: rgb(254, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">这是一个真实的故事：</strong></section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">别让身高毁了我们的孩子！</strong></section></section><img src="http://www.mywinwin.com.cn/p8/images/a01.jpg">&nbsp;<section style="max-width: 100%; box-sizing: border-box; clear: both; word-wrap: break-word !important;"></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-bottom: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding-right: 5px; padding-left: 5px; max-width: 100%; box-sizing: border-box; text-align: justify; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;">现实中的朋友，有一个活泼可爱的儿子，夫妻双方都不矮。因为忙于事业，他们根本无暇顾及孩子的成长，孩子发育比较缓慢，不怎么吃东西，营养跟不上，成绩经常倒数几名，并没有很重视！慢慢地孩子和他们的交流少了，经常在学校遭受高个子孩子的欺负，并给他取各种绰号：小矮人，矮冬瓜.....慢慢地，孩子变得异常抑郁，不愿意抬头看人，亲戚去了也不愿意开口说一句话。</section><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;">后来孩子的身高一直不长，眼看落下别人越来越多。他们才开始重视，此时孩子已经17岁，医生的结论彻底打破了他们的心理防线：孩子的骨骺已经闭合了，基本不存在长高的可能了。孩子的身高被永远定格在了163cm。</section><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;">后来这对夫妻跑遍了全国十多家知名医院，但这个结果依然没有改变。他们现在见人就说：是他们亏欠了孩子，如果时光再能退回去，他们宁愿不挣钱，也要给孩子一个快乐的童年。</section><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(26, 26, 26); word-wrap: break-word !important;">但现在再说这些有什么用呢？……</span></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);">
+                            <section style="max-width: 100%; box-sizing: border-box; text-align: center; transform: translate3d(0px, 0px, 0px); word-wrap: break-word !important;">
+                                <section style="padding: 0.5em; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; color: rgb(227, 0, 0); font-size: 19.2px; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">给孩子最后一个长高的机会吧！</strong></section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">成长的关键期只有十几年</strong></section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">错过了，谁也不能再挽回</strong></section></section></section></section></section>
+                            </section>
+                        </section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: -20px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding-right: 10px; padding-left: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; text-align: justify; word-wrap: break-word !important;">什么是成长关键期？对孩子来说，从出生到骨骺线闭合之前都是成长的关键期，这个成长期决定了孩子的身体发育（身高、智力、体质）和心理发育，尤其对孩子的身高和智力影响更大，过了成长关键期，孩子的身高和智力基本定型，成人后再如何努力也将无济于事。现实中多少名人因为身高问题成为大众茶余饭后的谈资笑料，他们想要成功，付出更是普通人的10倍以上，这条辛酸的路不要让孩子再走了……</section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 20px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><span style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/13.jpg"></span></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; color: rgb(26, 26, 26); text-align: center; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">【错过关键期还能长高吗？别逗了……真的可以的话，这些明星还甘于人群中、荧幕上“低人一等”吗？】</section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;" /></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 0.5em; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><section style="padding: 8px; max-width: 100%; box-sizing: border-box; display: inline-block; border-radius: 0.5em; word-wrap: break-word !important; background-color: rgb(227, 0, 0);"><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; color: rgb(255, 255, 255); word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; font-size: 22px; word-wrap: break-word !important;">矮小:</span></strong></section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">带给孩子的摧残不仅是身体上的，更是心理上的！</section></section></section></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-bottom: 0.5em; max-width: 100%; box-sizing: border-box; text-align: center; line-height: 10px; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; width: 0px; border-top-width: 10px; border-top-style: solid; border-top-color: rgb(227, 0, 0); display: inline-block; vertical-align: top; word-wrap: break-word !important; border-left-width: 6px !important; border-left-style: solid !important; border-left-color: transparent !important; border-right-width: 6px !important; border-right-style: solid !important; border-right-color: transparent !important;"></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/14.jpg"></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);">
+                            <p style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; min-height: 1em; text-align: center; word-wrap: break-word !important;"><span style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/15.jpg"></span></p>
+                            <p style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; min-height: 1em; text-align: center; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;" /></p>
+                        </section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 0.5em; margin-bottom: 0.5em; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="margin-top: 0.5em; margin-bottom: 0.5em; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: rgb(249, 110, 87); word-wrap: break-word !important;"></section><section style="margin: auto; max-width: 100%; box-sizing: border-box; width: 0px; border-top-width: 1em; border-top-style: solid; border-top-color: rgb(249, 110, 87); word-wrap: break-word !important; border-left-width: 0.8em !important; border-left-style: solid !important; border-left-color: transparent !important; border-right-width: 0.8em !important; border-right-style: solid !important; border-right-color: transparent !important;"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;" /></section></section></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);">
+                            <section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding-right: 10px; padding-left: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; text-align: justify; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; line-height: 25.6px; text-indent: 2em; word-wrap: break-word !important;"></section></strong></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; line-height: 25.6px; word-wrap: break-word !important;">
+                                <section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                    <section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                        <p style="max-width: 100%; box-sizing: border-box; min-height: 1em; text-indent: 2em; text-align: justify; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"></strong></p><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; line-height: 25.6px; word-wrap: break-word !important;">
+                                            <section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                                <section style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">
+                                                    <p style="max-width: 100%; box-sizing: border-box; min-height: 1em; text-indent: 2em; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"></strong></strong></p><p style="max-width: 100%; min-height: 1em; text-indent: 2em; box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">如果孩子身材矮小、成绩差，偏食、厌食、多动、睡眠不好、体弱多病，发育迟缓、性早熟没关系！<span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;">马上添加官方微信号，为您一对一解决孩子成长问题。</span></strong></p><p style="max-width: 100%; min-height: 1em; text-indent: 2em; box-sizing: border-box !important; word-wrap: break-word !important;">
+                                                        <span style="max-width: 100%; line-height: 25.6px; text-indent: 2em; box-sizing: border-box !important; word-wrap: break-word !important;">
+                                                            由于咨询人数较多，请添加后马上发送孩子的性别、年龄和身高，以便我们更快给您分析与回复！<span style="max-width: 100%; line-height: 25.6px; text-indent: 2em; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;">
+
+                                                            </span>
+                                                        </span>
+                                                    </p><p style="max-width: 100%; min-height: 1em; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important;">
+
+                                                    <p style="max-width: 100%; min-height: 1em; text-align: center; box-sizing: border-box !important; word-wrap: break-word !important;"><br /></p>
+                                                    <p align="center" class="rich_2  rich_9" style="color:#ffffff; line-height:2em; padding-left:15px; margin-left:15px; margin-right:20px; margin-bottom:1.5rem; margin-top:1.5rem; padding-top:15px;padding-bottom:15px; padding-right:20px; background:#FF0000;">
+                                                        <span style="font-size:1rem;">
+                                                            想让孩子多长<strong style="color:#FFFF00;">5cm、10cm、15cm？!</strong><br>
+                                                            <span style=" font-size:0.95rem;">马上添加比智高官方微信号（长按可复制）</span>
+                                                        </span>
+                                                        <br>
+                                                        <span class="rich_bai" style="text-align:center; font-size:1.5rem; font-weight:bold;" oncopy="copyFunction()">
+                                                            <a ontouchstart="_czc.push(['_trackEvent', '微信', '复制']);" style="color:#ff0000;">
+                                                                <span class="weixinhaoma">
+                                                                </span>
+                                                            </a>
+                                                        </span>
+                                                    </p>
+                                                </section>
+                                            </section>
+                                        </section>
+                                    </section>
+                                </section>
+                            </section>
+                        </section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 30px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding: 5px 10px; max-width: 100%; box-sizing: border-box; width: 556px; display: inline-block; text-align: center; font-size: 22px; color: rgb(227, 0, 0); word-wrap: break-word !important; background-color: rgb(254, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; line-height: 25.6px; word-wrap: break-word !important;">先天不足后天来补</strong><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;" /></section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">8类人群还能长高</strong></section></section><img src="http://www.mywinwin.com.cn/p8/images/a01.jpg"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;" /></section></section><p><span style="color: rgb(62, 62, 62); text-align: justify; font-size: 18px; line-height: 1.8;">&nbsp;</span><span style="text-align: justify; font-size: 18px; line-height: 1.8;  max-width: 100%; box-sizing: border-box; color: rgb(255, 255, 255); word-wrap: break-word !important; background-color: rgb(227, 0, 0);">&nbsp;1.</span><span style="color: rgb(62, 62, 62); text-align: justify; font-size: 18px; line-height: 1.8;">&nbsp;&nbsp;</span><strong style="color: rgb(62, 62, 62); text-align: justify; font-size: 18px; line-height: 1.8; white-space: normal; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">家族遗传型矮小</strong><span style="color: rgb(62, 62, 62); text-align: justify; font-size: 18px; line-height: 1.8;">：父母个子矮，有遗传因素的；</span><br /></p><section style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; font-size: 18px; line-height: 1.8; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">&nbsp;<span style="max-width: 100%; box-sizing: border-box; color: rgb(255, 255, 255); word-wrap: break-word !important; background-color: rgb(227, 0, 0);">&nbsp;2.</span>&nbsp;&nbsp;<strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">生长迟缓型矮小</strong>：生长速度和身高相对矮于同龄人的；</section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">&nbsp;<span style="max-width: 100%; box-sizing: border-box; color: rgb(255, 255, 255); word-wrap: break-word !important; background-color: rgb(227, 0, 0);">&nbsp;3.</span>&nbsp;&nbsp;<strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">性早熟型矮小</strong>：第二性征提前出现的；</section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">&nbsp;<span style="max-width: 100%; box-sizing: border-box; color: rgb(255, 255, 255); word-wrap: break-word !important; background-color: rgb(227, 0, 0);">&nbsp;4.</span>&nbsp;&nbsp;<strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">营养过剩型矮小</strong>：体重超标，横向生长的；</section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">&nbsp;<span style="max-width: 100%; box-sizing: border-box; color: rgb(255, 255, 255); word-wrap: break-word !important; background-color: rgb(227, 0, 0);">&nbsp;5.</span>&nbsp;&nbsp;<strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">营养不良型矮小</strong>：挑食、厌食、偏食，身材单薄，发育迟缓的；</section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">&nbsp;<span style="max-width: 100%; box-sizing: border-box; color: rgb(255, 255, 255); word-wrap: break-word !important; background-color: rgb(227, 0, 0);">&nbsp;6.</span>&nbsp;&nbsp;<strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">大脑疲劳型矮小</strong>：长期用脑过度、睡眠时间不足，缺乏运动的；</section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">&nbsp;<span style="max-width: 100%; box-sizing: border-box; color: rgb(255, 255, 255); word-wrap: break-word !important; background-color: rgb(227, 0, 0);">&nbsp;7.</span>&nbsp;&nbsp;<strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">发育停滞型矮小</strong>：青春期过早结束，生长高峰期一直没有出现的；</section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">&nbsp;<span style="max-width: 100%; box-sizing: border-box; color: rgb(255, 255, 255); word-wrap: break-word !important; background-color: rgb(227, 0, 0);">&nbsp;8.</span>&nbsp;&nbsp;<strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">疾病型矮小</strong>：骨代谢、内分泌等不明疾病引发的矮小；</section><p style="max-width: 100%; box-sizing: border-box; min-height: 1em; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;" /></p></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-align: justify; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">【比智高科普知识】</strong>有人说比智高是药品，对孩子会不会有副作用？没有！比智高是绿标OTC产品，代表了产品是绿色无毒副作用级别！安全可靠性高！</section><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">比智高真的有效吗？在这里给你透露个秘密：</strong></section><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;">作为OTC药品，一定经过大量的临床验证，有严格的适应症，治疗疾病有疗效，才能通过国家药品食品监督管理局审查批准，才能上市！而作为食品的保健品，则没有任何治疗的作用，不需要经过临床验证，仅仅检验污染物、细菌等卫生指标，合格就可以上市销售。</section><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;">人生病后，只有吃药才能解决问题！孩子生长发育迟缓、身高矮小，这在儿科里面都是病！既然生病了你还不赶紧给孩子治疗吗？</section><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;">想要不花冤枉钱，想要确保疗效，所以消费者在选择产品时，最好选择国家食品药品监督管理局批准的标有“OTC”（非处方药）字样的药品。</section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;" /></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/16.jpg"></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding-right: 10px; padding-left: 10px; max-width: 100%; box-sizing: border-box; letter-spacing: 0px; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;" /></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 0.5em; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><section style="padding: 8px; max-width: 100%; box-sizing: border-box; display: inline-block; border-radius: 0.5em; word-wrap: break-word !important; background-color: rgb(227, 0, 0);"><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; color: rgb(255, 255, 255); font-size: 18px; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">妈妈放心，孩子开心</strong></section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">他们使用比智高后都长高了</strong></section></section></section></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-bottom: 0.5em; max-width: 100%; box-sizing: border-box; text-align: center; line-height: 10px; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; width: 0px; border-top-width: 10px; border-top-style: solid; border-top-color: rgb(227, 0, 0); display: inline-block; vertical-align: top; word-wrap: break-word !important; border-left-width: 6px !important; border-left-style: solid !important; border-left-color: transparent !important; border-right-width: 6px !important; border-right-style: solid !important; border-right-color: transparent !important;"></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 0.5em; margin-bottom: 0.5em; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; border: 1px solid rgb(160, 160, 160); word-wrap: break-word !important;"><section style="padding: 1em; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/17.jpg"></span></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/18.jpg"></span></section></section></section></section><section style="max-width: 100%; box-sizing: border-box; border-style: solid; border-width: 0px 1px 1px; border-color: rgb(160, 160, 160); word-wrap: break-word !important;"><section style="padding: 1em; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/19.jpg"></span></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/20.jpg"></span></section></section></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; color: rgb(26, 26, 26); text-align: justify; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;">这样的案例仅仅是冰山一角，像他们的事迹，实在是太多了，这一切都源于比智高10年来对青少年儿童生长发育的专注！700万用户的深切信赖！<br style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;" /></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 30px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding: 5px 10px; max-width: 100%; box-sizing: border-box; width: 556px; display: inline-block; text-align: center; font-size: 22px; color: rgb(227, 0, 0); word-wrap: break-word !important; background-color: rgb(254, 255, 255);"><p style="max-width: 100%; box-sizing: border-box; min-height: 1em; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"></strong></p><section style="max-width: 100%; box-sizing: border-box; line-height: 35.2px; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">没有长不高的孩子，</strong><strong style="max-width: 100%; box-sizing: border-box; line-height: 35.2px; word-wrap: break-word !important;">只有不负责任的家长！</strong></section><p style="max-width: 100%; box-sizing: border-box; min-height: 1em; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; line-height: 1.6; word-wrap: break-word !important;">遗传不能决定一切，</strong><strong style="max-width: 100%; box-sizing: border-box; line-height: 1.6; word-wrap: break-word !important;">后天发育才是身高的主宰</strong></p></section><img src="http://www.mywinwin.com.cn/p8/images/a01.jpg">&nbsp;<section style="max-width: 100%; box-sizing: border-box; clear: both; word-wrap: break-word !important;"></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding-right: 10px; padding-left: 10px; max-width: 100%; box-sizing: border-box; color: rgb(26, 26, 26); word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">各位父母，快来看看你家孩子能长多高？</strong></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding-right: 10px; padding-left: 10px; max-width: 100%; box-sizing: border-box; text-align: justify; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">2015年11月，世界卫生组织WHO发布了亚洲人最新身高预测公式。这个公式是由世界卫生组织根据亚洲人的特点，<span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;">经过大量的数据调研制定并推广使用的身高预测公式，准确度几乎接近100%。</span><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(227, 0, 0); word-wrap: break-word !important;"></span></strong></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/21.jpg"></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);">
+                            <section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                <section style="padding-right: 10px; padding-left: 10px; max-width: 100%; box-sizing: border-box; text-align: justify; word-wrap: break-word !important;">
+                                    <p style="max-width: 100%; box-sizing: border-box; min-height: 1em; text-indent: 2em; word-wrap: break-word !important;">也就是说如果一个男孩，父亲的身高是180厘米，母亲的身高是160厘米，那么他的理论身高就是（180+160+13）/2=176.5厘米，然后将自身成长值7.5厘米计算在内，那么这个孩子最终的身高是169cm-184cm之间，也就是说孩子的成长环境不佳，成长潜力没有被挖掘，孩子的升高将定格在169厘米，而在成长充分的前提下，孩子可以长到184厘米。</p><p style="max-width: 100%; min-height: 1em; text-indent: 2em; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;">也就是说：后天潜力能否被充分挖掘，会给孩子最终的身高带来15厘米的差距！</span></p><p style="max-width: 100%; min-height: 1em; box-sizing: border-box !important; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;" /></p><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; color: rgb(26, 26, 26); word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">如果你或者你的孩子个子矮小，没关系！比智高能让你拥有高个子！</strong></span></section><p style="max-width: 100%; box-sizing: border-box; min-height: 1em; text-align: center; word-wrap: break-word !important;"><span style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/22.jpg"></span></p>
+                                    <p style="max-width: 100%; box-sizing: border-box; min-height: 1em; text-align: center; word-wrap: break-word !important;"><span style="max-width: 100%; font-family: 宋体; box-sizing: border-box !important; word-wrap: break-word !important; background-color: rgb(255, 41, 65);"><strong style="max-width: 100%; box-sizing: border-box; color: rgb(255, 255, 255); line-height: 25.6px; white-space: normal; word-wrap: break-word !important;">比智高2014、2015代言人易建联！</strong></span></p>
+                                </section>
+                            </section>
+                        </section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);">
+                            <section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                <section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                    <section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                        <section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                            <section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                                <section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                                    <section style="max-width: 100%; box-sizing: border-box; text-align: justify; word-wrap: break-word !important;">
+                                                        <p style="max-width: 100%; box-sizing: border-box; min-height: 1em; text-indent: 2em; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;" /></p><p style="max-width: 100%; box-sizing: border-box; min-height: 1em; text-indent: 2em; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">如果孩子身材矮小、成绩差，偏食、厌食、多动、睡眠不好、体弱多病，发育迟缓、性早熟没关系！<span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;">马上添加官方微信号，为您一对一解决孩子成长问题。</span></strong></p><p style="max-width: 100%; box-sizing: border-box; min-height: 1em; text-indent: 2em; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;"></span></strong></p><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                                            <section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                                                <section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                                                    <section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                                                        <section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                                                            <section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                                                                <section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                                                                    <section style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">
+                                                                                        <p style="max-width: 100%; box-sizing: border-box; min-height: 1em; text-indent: 2em; word-wrap: break-word !important;">
+                                                                                            <span style="max-width: 100%; text-indent: 2em; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;">由于咨询人数较多，请添加后马上发送孩子的性别、年龄和身高，以便我们更快给您分析与回复！</span><span style="max-width: 100%; text-indent: 2em; line-height: 25.6px; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;">
+
+                                                                                            </span>
+                                                                                        </p><p style="max-width: 100%; min-height: 1em; box-sizing: border-box !important; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;" /></p><p style="text-align:center">
+
+
+                                                                                        </p><p style="max-width: 100%; min-height: 1em; box-sizing: border-box !important; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;" /></p>
+                                                                                        <p align="center" class="rich_2  rich_9" style="color:#ffffff; line-height:2em; padding-left:15px; margin-left:15px; margin-right:20px; margin-bottom:1.5rem; margin-top:1.5rem; padding-top:15px;padding-bottom:15px; padding-right:20px; background:#FF0000;">
+                                                                                            <span style="font-size:1rem;">
+                                                                                                想让孩子多长<strong style="color:#FFFF00;">5cm、10cm、15cm？!</strong><br>
+                                                                                                <span style=" font-size:0.95rem;">马上添加比智高官方微信号（长按可复制）</span>
+                                                                                            </span>
+                                                                                            <br>
+                                                                                            <span class="rich_bai" style="text-align:center; font-size:1.5rem; font-weight:bold;" oncopy="copyFunction()">
+                                                                                                <a ontouchstart="_czc.push(['_trackEvent', '微信', '复制']);" style="color:#ff0000;">
+                                                                                                    <span class="weixinhaoma">
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                            </span>
+                                                                                        </p>
+                                                                                    </section>
+                                                                                </section>
+                                                                            </section>
+                                                                        </section>
+                                                                    </section>
+                                                                </section>
+                                                            </section>
+                                                        </section>
+                                                    </section>
+                                                </section>
+                                            </section>
+                                        </section>
+                                    </section>
+                                </section>
+                            </section>
+                        </section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-align: center; color: rgb(26, 26, 26); word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">比智高已经刷爆媒体圈，各大排行榜名列第一</strong></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/23.jpg"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;" /></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding-right: 10px; padding-left: 10px; max-width: 100%; box-sizing: border-box; text-align: justify; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-indent: 2em; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">CCTV1，CCTV3，CCTV10，CCTV12，河北卫视、安徽卫视、广西卫视、四川卫视、西藏卫视、中国教育台、山东教育台……太多了</span>，</span>全国的媒体圈都是比智高品牌报道！全国老百姓都在选择比智高！比智高，中国青少年儿童成长领军品牌，请认准比智高品牌，孩子用的，一定要用有效的、放心的！</section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 30px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding: 5px 10px; max-width: 100%; box-sizing: border-box; width: 556px; display: inline-block; text-align: center; font-size: 22px; color: rgb(227, 0, 0); word-wrap: break-word !important; background-color: rgb(254, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; line-height: 1.6; word-wrap: break-word !important;">爱我比智高，助长中国梦！</strong></span><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;" /></section></section><img src="http://www.mywinwin.com.cn/p8/images/a01.jpg">&nbsp;<section style="max-width: 100%; box-sizing: border-box; clear: both; word-wrap: break-word !important;"></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/24.jpg"></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-align: center; color: rgb(255, 255, 255); word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; background-color: rgb(255, 41, 65);"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">英壮老师、央视主持陈超，共同助力比智高！</strong></span><span style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; background-color: rgb(227, 0, 0);"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;" /></strong></span></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/25.jpg"></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-align: center; color: rgb(255, 255, 255); word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; background-color: rgb(255, 41, 65);"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">句号老师！谢谢您老的信任！</strong></span></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/26.jpg"></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; color: rgb(255, 255, 255); word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; background-color: rgb(255, 41, 65);"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">《黄飞鸿》里面的梁宽、比智高形象大使——莫少聪，为全国儿童青少年加油！</strong></span><span style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; background-color: rgb(227, 0, 0);"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;" /></strong></span></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/27.jpg"></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-align: center; color: rgb(255, 255, 255); word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; background-color: rgb(255, 41, 65);"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">《大宅门》主题曲演唱者胡晓晴老师，倾情演唱《比智高之歌》。</strong></span></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; text-align: center; word-wrap: break-word !important;"><img src="http://www.mywinwin.com.cn/p8/images/28.jpg"></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; text-align: center; color: rgb(255, 255, 255); word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; background-color: rgb(255, 41, 65);"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">比智高2014、2015代言人易建联！</strong></span></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 30px; margin-bottom: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="padding: 5px 10px; max-width: 100%; box-sizing: border-box; width: 556px; display: inline-block; text-align: center; font-size: 22px; color: rgb(227, 0, 0); word-wrap: break-word !important; background-color: rgb(254, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">改变身体的高度，</strong></span></section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">成就人生的高度！</strong></span></section><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">我们相信没有长不高的孩子！</strong></span></section></section><img src="http://www.mywinwin.com.cn/p8/images/a01.jpg">&nbsp;</section></section><ul class=" list-paddingleft-2" style="list-style-type: square;"><li><p style="max-width: 100%; min-height: 1em; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">0-3岁：孩子长的快，孩子身体棒，孩子不生病。</span></p></li><li><p style="max-width: 100%; min-height: 1em; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">4-6岁：智、动、体全面发育，让孩子从小建立自信，个子高，在哪都是焦点。</span></p></li><li><p style="max-width: 100%; min-height: 1em; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">7-12岁：抓住孩子成长发育关键期，让孩子天天都在长。</span></p></li><li><p style="max-width: 100%; min-height: 1em; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"></span><span style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">13-18岁：青春期了，绝对不能错过的时间！让孩子长出修长美腿，拥有帅气高个，成就人生高度！</span></p></li></ul><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; display: inline-block; vertical-align: top; width: 489.266px; word-wrap: break-word !important;"><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="margin-top: 10px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"></section></section></section></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);"><section style="margin-top: 0.5em; margin-bottom: 0.5em; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="margin-top: 0.5em; margin-bottom: 0.5em; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="max-width: 100%; box-sizing: border-box; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: rgb(249, 110, 87); word-wrap: break-word !important;"></section><section style="margin: auto; max-width: 100%; box-sizing: border-box; width: 0px; border-top-width: 1em; border-top-style: solid; border-top-color: rgb(249, 110, 87); word-wrap: break-word !important; border-left-width: 0.8em !important; border-left-style: solid !important; border-left-color: transparent !important; border-right-width: 0.8em !important; border-right-style: solid !important; border-right-color: transparent !important;"></section></section></section></section></section></section><section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; color: rgb(62, 62, 62); font-size: 16px; line-height: 25.6px; white-space: normal; word-wrap: break-word !important; background-color: rgb(255, 255, 255);">
+                            <section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                <section style="padding-right: 10px; padding-left: 10px; max-width: 100%; box-sizing: border-box; text-align: justify; word-wrap: break-word !important;">
+                                    <p style="max-width: 100%; min-height: 1em; text-indent: 2em; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;"></span></p><p style="max-width: 100%; box-sizing: border-box; min-height: 1em; line-height: 25.6px; text-indent: 2em; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">如果孩子身材矮小、成绩差，偏食、厌食、多动、睡眠不好、体弱多病，发育迟缓、性早熟没关系！<span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;">马上添加官方微信号，为您一对一解决孩子成长问题。</span></strong></p><p style="max-width: 100%; box-sizing: border-box; min-height: 1em; line-height: 25.6px; text-indent: 2em; word-wrap: break-word !important;"><strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"><span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;"></span></strong></p><p style="max-width: 100%; min-height: 1em; box-sizing: border-box !important; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;" /></p><section style="max-width: 100%; box-sizing: border-box; line-height: 25.6px; word-wrap: break-word !important;">
+                                        <section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                            <section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                                <section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                                    <section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                                        <section powered-by="xiumi.us" style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                                            <section style="max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">
+                                                                <section style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">
+                                                                    <p style="max-width: 100%; box-sizing: border-box; min-height: 1em; text-indent: 2em; word-wrap: break-word !important;">
+                                                                        <span style="max-width: 100%; text-indent: 2em; line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;">由于咨询人数较多，请添加后马上发送孩子的性别、年龄和身高，以便我们更快给您分析与回复！</span><span style="max-width: 100%; text-indent: 2em; line-height: 25.6px; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important;">
+
+                                                                        </span>
+                                                                    </p><p style="max-width: 100%; min-height: 1em; box-sizing: border-box !important; word-wrap: break-word !important;"><br style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;" /></p><p style="text-align:center">
+
+
+                                                                    </p>
+                                                                    <p style="max-width: 100%; min-height: 1em; box-sizing: border-box !important; word-wrap: break-word !important;">&nbsp;<br /></p>
+
+                                                                    <p align="center" class="rich_2  rich_9" style="color:#ffffff; line-height:2em; padding-left:15px; margin-left:15px; margin-right:20px; margin-bottom:1.5rem; margin-top:1.5rem; padding-top:15px;padding-bottom:15px; padding-right:20px; background:#FF0000;">
+                                                                        <span style="font-size:1rem;">
+                                                                            想让孩子多长<strong style="color:#FFFF00;">5cm、10cm、15cm？!</strong><br>
+                                                                            <span style=" font-size:0.95rem;">马上添加比智高官方微信号（长按可复制）</span>
+                                                                        </span>
+                                                                        <br>
+                                                                        <span class="rich_bai" style="text-align:center; font-size:1.5rem; font-weight:bold;" oncopy="copyFunction()">
+                                                                            <a ontouchstart="_czc.push(['_trackEvent', '微信', '复制']);" style="color:#ff0000;">
+                                                                                <span class="weixinhaoma">
+                                                                                </span>
+                                                                            </a>
+                                                                        </span>
+                                                                    </p>
+                                                                </section>
+                                                            </section>
+                                                        </section>
+                                                    </section>
+                                                </section>
+                                            </section>
+                                        </section>
+                                    </section>
+                                </section>
+                            </section>
+                        </section>
+                    </div>
+
+
+
+                    <div style="text-align:center; line-height:25px;">
+                        <br>
+                        <p>
+                            <br>
+                            版权所有：    攀枝花佳家菜电子商务有限公司
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+
+                        </p>
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="ad" style="position:fixed; width:220px; top:50px; right:10%; border:solid 1px #ccc;padding-left:10px; padding-right:10px; padding-bottom:10px; padding-top:10px;">
+
+
+                    <p style="font-size:2em;color:#E33209;font-weight:900; text-align:center">增高秘籍</p>
+                    <p style="font-size:1.1em;color:#E33209; text-align:center">微信扫描下方二维码</p>
+
+
+                    <p align="center" class="rich_2  rich_9" style="color:#ffffff; line-height:2em; padding-left:15px; margin-left:15px; margin-right:20px; margin-bottom:1.5rem; margin-top:1.5rem; padding-top:15px;padding-bottom:15px; padding-right:20px; background:#FF0000;">
+                        <span style="font-size:1rem;">
+                            想让孩子多长<strong style="color:#FFFF00;">5cm、10cm、15cm？!</strong><br>
+                            <span style=" font-size:0.95rem;">马上添加比智高官方微信号（长按可复制）</span>
+                        </span>
+                        <br>
+
+
+                        <span class="rich_bai" style="text-align:center; font-size:1.5rem; font-weight:bold;" oncopy="copyFunction()">
+
+                            <a ontouchstart="_czc.push(['_trackEvent', '微信', '复制']);" style="color:#ff0000;">
+                                <span class="weixinhaoma">
+                                </span>
+                            </a>
+                        </span><br>
+
+                    </p>
+
+                </div>
+
+                <div style="position: fixed;bottom: 0;background: #eee;border-top: 1px solid #ccc;font-size: 16px;padding:5px;z-index:9999;width: 100%;">
+                    <table cellpadding="0" cellspacing="0" border="0">
+                        <tbody>
+                            <tr>
+                                <td><div style="background: #fff; border:#ccc 1px solid; padding: 5px; margin-top: -20px; overflow: hidden;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/wx-pic.jpg" width="50px" style="float:left;"></div></td>
+                                <td style="padding-left:7px;">
+                                    微信号：<font class="statistics02" style="background:#ff0000;color:#fff; font-weight:bold;"><span class="manxing statistics02" oncopy="copyFunction()"> <a ontouchstart="_czc.push(['_trackEvent', '微信', '复制']);" style="color:#ffffff;"><span class="weixinhaoma wxbutton">bzg337</span></a> </span></font><br>
+                                    长按复制 添加官方微信！
+
+                                </td>
+                                <td style="padding-left:5px;"><a href="javascript:window.location.href='weixin://'" style="background: #3c9f0e;color: #fff;border-radius: 12px;height: 40px;line-height: 40px;text-align: center;box-shadow: 0 1px 3px 0 #000;display:block;width:100px;">去微信&gt;</a></td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div id="wechatBox" class="wechatBox" onClick="closeP()" style="display: none;"></div>
+                <div id="wechat" class="wechat" style="display: none;background: #E1E4E6;">
+                    <p style="float: right; margin-top: -20px; padding-right: 5px; color: red" onClick="closeP()">关闭</p>
+                    <p class="p8" style="clear: both">第一步：长按微信号复制↓↓↓↓</p>
+                    <p class="wxid">
+                        <span onClick="wechat_32(32)" style="background: yellow; color: red;">
+                            <span class="weixinhaoma">
+                            </span>
+                        </span>
+                    </p>
+                    <p class="p8" style="clear: both">第二步：复制微信后，点击下面文字↓↓↓↓</p>
+                    <p class="p2">
+                        <a href="weixin://" onClick="PIWI_SUBMIT.Weixin_Open()">
+                            <font color="#ff0000" style="font-size: 20px;">打开微信添加</font>
+                        </a>
+                    </p>
+                </div>
+                <script type="text/javascript">
+                    function closeP() {
+                        var wx = document.getElementById("wechat");
+                        var wxb = document.getElementById("wechatBox");
+                        wx.style.display = "none";
+                        wxb.style.display = "none";
+                    }
+                    function popup() {
+                        var wx = document.getElementById("wechat");
+
+                        var wxb = document.getElementById("wechatBox");
+
+                        wx.style.display = "block";
+
+                        wxb.style.display = "block";
+
+                        //addlog();
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html> 

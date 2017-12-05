@@ -1,0 +1,9 @@
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\WinIIS\bin\Debug\WinIIS.exe.config
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\WinIIS\bin\Debug\WinIIS.exe
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\WinIIS\bin\Debug\WinIIS.pdb
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\WinIIS\bin\Debug\Microsoft.Web.Administration.dll
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\WinIIS\obj\Debug\WinIIS.Form1.resources
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\WinIIS\obj\Debug\WinIIS.Properties.Resources.resources
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\WinIIS\obj\Debug\WinIIS.csproj.GenerateResource.Cache
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\WinIIS\obj\Debug\WinIIS.exe
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\WinIIS\obj\Debug\WinIIS.pdb

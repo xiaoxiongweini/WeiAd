@@ -18,3 +18,4 @@ C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\WeTest\bin\Debug\WeTest.pdb
 C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\WeTest\bin\Debug\Newtonsoft.Json.dll
 C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\WeTest\obj\Debug\WeTest.exe
 C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\WeTest\obj\Debug\WeTest.pdb
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\WeTest\obj\Debug\WeTest.csprojResolveAssemblyReference.cache

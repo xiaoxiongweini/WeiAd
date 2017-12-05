@@ -30,6 +30,5 @@ C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\TestAdUrl\bin\Debug\TestAdUrl.exe.con
 C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\TestAdUrl\bin\Debug\TestAdUrl.exe
 C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\TestAdUrl\bin\Debug\TestAdUrl.pdb
 C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\TestAdUrl\bin\Debug\Newtonsoft.Json.dll
-C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\TestAdUrl\obj\Debug\TestAdUrl.csprojResolveAssemblyReference.cache
 C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\TestAdUrl\obj\Debug\TestAdUrl.exe
 C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\TestAdUrl\obj\Debug\TestAdUrl.pdb
