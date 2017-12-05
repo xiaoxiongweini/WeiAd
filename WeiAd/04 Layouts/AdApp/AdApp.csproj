@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -592,6 +593,15 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="html\bytqw.html" />
+    <Content Include="html\byuc1.html" />
+    <Content Include="html\byw1 - 副本.html" />
+    <Content Include="html\byw1.html" />
+    <Content Include="html\byw2.html" />
+    <Content Include="html\byw3 - 副本.html" />
+    <Content Include="html\byw3.html" />
+    <Content Include="html\byw4 - 副本.html" />
+    <Content Include="html\byw4.html" />
+    <Content Include="html\byw5.html" />
     <Content Include="html\by_zlq.html" />
     <Content Include="html\zg360.html" />
     <Content Include="html\zg361.html" />
@@ -599,14 +609,27 @@
     <Content Include="html\zgc.html" />
     <Content Include="html\zgiqy - 副本.html" />
     <Content Include="html\zgiqy.html" />
+    <Content Include="html\zgmy - 副本 %282%29.html" />
+    <Content Include="html\zgmy - 副本.html" />
     <Content Include="html\zgmy.html" />
+    <Content Include="html\zgmy1 - 副本.html" />
     <Content Include="html\zgmy1.html" />
     <Content Include="html\zgmy_.html" />
+    <Content Include="html\zgmy_1.html" />
+    <Content Include="html\zgmy_2.html" />
     <Content Include="html\zgqtt.html" />
     <Content Include="html\zgwy1 - 副本.htm" />
     <Content Include="html\zgwy1.htm" />
+    <Content Include="html\zgwy1_1201.htm" />
+    <Content Include="html\zgwy1_shenhe.htm" />
     <Content Include="html\zgwy2.html" />
     <Content Include="html\zgwy3.html" />
+    <Content Include="html\zgwy4.html" />
+    <Content Include="html\zgwy4_1201.html" />
+    <Content Include="html\zgwy5.html" />
+    <Content Include="html\zgwy6.html" />
+    <Content Include="html\zg_d.htm" />
+    <Content Include="html\zg_jcl.html" />
     <Content Include="Resources\Template\by.txt" />
     <Content Include="Resources\Template\bywap.txt" />
     <Content Include="Resources\Template\nk1.txt" />
@@ -634,6 +657,7 @@
     <Content Include="Content\qb\tvp.player_v2_mobile.js" />
     <Content Include="Content\qb\apprecommend.js" />
     <Content Include="Content\qb\toutiao-track-log.js" />
+    <Content Include="html\zgwy1.htm——" />
     <None Include="Properties\PublishProfiles\adapp.pubxml" />
     <Content Include="Resources\Config\SysTypes\products.json" />
     <Content Include="Resources\Config\SysTypes\keywords.json" />
