@@ -34,3 +34,14 @@ C:\Projects\WeiAd\05 Win\LoadAdPage\obj\Debug\LoadAdPage.csproj.GenerateResource
 C:\Projects\WeiAd\05 Win\LoadAdPage\obj\Debug\LoadAdPage.csproj.CoreCompileInputs.cache
 C:\Projects\WeiAd\05 Win\LoadAdPage\obj\Debug\LoadAdPage.exe
 C:\Projects\WeiAd\05 Win\LoadAdPage\obj\Debug\LoadAdPage.pdb
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\05 Win\LoadAdPage\bin\Debug\LoadAdPage.exe.config
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\05 Win\LoadAdPage\bin\Debug\LoadAdPage.exe
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\05 Win\LoadAdPage\bin\Debug\LoadAdPage.pdb
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\05 Win\LoadAdPage\bin\Debug\Newtonsoft.Json.dll
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\05 Win\LoadAdPage\obj\Debug\LoadAdPage.csprojResolveAssemblyReference.cache
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\05 Win\LoadAdPage\obj\Debug\LoadAdPage.Form1.resources
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\05 Win\LoadAdPage\obj\Debug\LoadAdPage.Properties.Resources.resources
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\05 Win\LoadAdPage\obj\Debug\LoadAdPage.WebFrm.resources
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\05 Win\LoadAdPage\obj\Debug\LoadAdPage.csproj.GenerateResource.Cache
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\05 Win\LoadAdPage\obj\Debug\LoadAdPage.exe
+C:\gitbub\weitang\weiadsourcetree\weiad\WeiAd\05 Win\LoadAdPage\obj\Debug\LoadAdPage.pdb
