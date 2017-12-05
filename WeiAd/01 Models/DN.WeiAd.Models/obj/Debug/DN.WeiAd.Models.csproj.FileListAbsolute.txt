@@ -67,3 +67,9 @@ C:\Projects\WeiAd\01 Models\DN.WeiAd.Models\obj\Debug\DN.WeiAd.Models.csprojReso
 C:\Projects\WeiAd\01 Models\DN.WeiAd.Models\obj\Debug\DN.WeiAd.Models.csproj.CoreCompileInputs.cache
 C:\Projects\WeiAd\01 Models\DN.WeiAd.Models\obj\Debug\DN.WeiAd.Models.dll
 C:\Projects\WeiAd\01 Models\DN.WeiAd.Models\obj\Debug\DN.WeiAd.Models.pdb
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\01 Models\DN.WeiAd.Models\bin\Debug\DN.WeiAd.Models.dll
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\01 Models\DN.WeiAd.Models\bin\Debug\DN.WeiAd.Models.pdb
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\01 Models\DN.WeiAd.Models\bin\Debug\Newtonsoft.Json.dll
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\01 Models\DN.WeiAd.Models\obj\Debug\DN.WeiAd.Models.csprojResolveAssemblyReference.cache
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\01 Models\DN.WeiAd.Models\obj\Debug\DN.WeiAd.Models.dll
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\01 Models\DN.WeiAd.Models\obj\Debug\DN.WeiAd.Models.pdb

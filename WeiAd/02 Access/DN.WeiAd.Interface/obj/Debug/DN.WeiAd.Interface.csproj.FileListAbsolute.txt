@@ -75,3 +75,11 @@ C:\Projects\WeiAd\02 Access\DN.WeiAd.Interface\obj\Debug\DN.WeiAd.Interface.cspr
 C:\Projects\WeiAd\02 Access\DN.WeiAd.Interface\obj\Debug\DN.WeiAd.Interface.csproj.CoreCompileInputs.cache
 C:\Projects\WeiAd\02 Access\DN.WeiAd.Interface\obj\Debug\DN.WeiAd.Interface.dll
 C:\Projects\WeiAd\02 Access\DN.WeiAd.Interface\obj\Debug\DN.WeiAd.Interface.pdb
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\02 Access\DN.WeiAd.Interface\bin\Debug\DN.WeiAd.Interface.dll
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\02 Access\DN.WeiAd.Interface\bin\Debug\DN.WeiAd.Interface.pdb
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\02 Access\DN.WeiAd.Interface\bin\Debug\DN.WeiAd.Models.dll
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\02 Access\DN.WeiAd.Interface\bin\Debug\Newtonsoft.Json.dll
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\02 Access\DN.WeiAd.Interface\bin\Debug\DN.WeiAd.Models.pdb
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\02 Access\DN.WeiAd.Interface\obj\Debug\DN.WeiAd.Interface.csprojResolveAssemblyReference.cache
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\02 Access\DN.WeiAd.Interface\obj\Debug\DN.WeiAd.Interface.dll
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\02 Access\DN.WeiAd.Interface\obj\Debug\DN.WeiAd.Interface.pdb
