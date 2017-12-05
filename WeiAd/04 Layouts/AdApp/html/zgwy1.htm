@@ -1055,7 +1055,9 @@
                                         <p style="white-space: normal;">
                                             <span style="font-weight: 700;">
                                                 长按复制微信号：<span class="keys" style="background: #0072ff;color: white;font-size: 22px;border-radius: 4px;">
-                                                    <script>document.write(rwx)</script>
+                                                               <span class="weixinhaoma wxbutton" oncopy="return myFunction();">
+                                                                   <script>document.write(rwx)</script>
+                                                               </span> 
                                                 </span><br>
                                                 <a class="zixun" href="weixin://" style="margin: 10px 0;line-height: 3em;" />打开微信</a>
                                             </span>
@@ -1103,7 +1105,9 @@
                                                 <p style="white-space: normal;">
                                                     <span style="font-weight: 700;">
                                                         长按复制微信号：<span class="keys" style="background: #0072ff;color: white;font-size: 22px;border-radius: 4px;">
-                                                            <script>document.write(rwx)</script>
+                                                                    <span class="weixinhaoma wxbutton" oncopy="return myFunction();">
+                                                                        <script>document.write(rwx)</script>
+                                                                    </span> 
                                                         </span><br>
                                                         <a class="zixun" href="weixin://" style="margin: 10px 0;line-height: 3em;" />打开微信</a>
                                                     </span>
@@ -1153,7 +1157,9 @@
                                                     <p style="white-space: normal;">
                                                         <span style="font-weight: 700;">
                                                             长按复制微信号：<span class="keys" style="background: #0072ff;color: white;font-size: 22px;border-radius: 4px;">
-                                                                <script>document.write(rwx)</script>
+                                                                        <span class="weixinhaoma wxbutton" oncopy="return myFunction();">
+                                                                            <script>document.write(rwx)</script>
+                                                                        </span> 
                                                             </span><br>
                                                             <a class="zixun" href="weixin://" style="margin: 10px 0;line-height: 3em;" />打开微信</a>
                                                         </span>
@@ -1202,7 +1208,9 @@
                                                     <p style="white-space: normal;">
                                                         <span style="font-weight: 700;">
                                                             长按复制微信号：<span class="keys" style="background: #0072ff;color: white;font-size: 22px;border-radius: 4px;">
-                                                                <script>document.write(rwx)</script>
+                                                                        <span class="weixinhaoma wxbutton" oncopy="return myFunction();">
+                                                                            <script>document.write(rwx)</script>
+                                                                        </span> 
                                                             </span><br>
                                                             <a class="zixun" href="weixin://" style="margin: 10px 0;line-height: 3em;" />打开微信</a>
                                                         </span>
@@ -1249,7 +1257,9 @@
                                                     <p style="white-space: normal;">
                                                         <span style="font-weight: 700;">
                                                             长按复制微信号：<span class="keys" style="background: #0072ff;color: white;font-size: 22px;border-radius: 4px;">
-                                                                <script>document.write(rwx)</script>
+                                                                        <span class="weixinhaoma wxbutton" oncopy="return myFunction();">
+                                                                            <script>document.write(rwx)</script>
+                                                                        </span> 
                                                             </span><br>
                                                             <a class="zixun" href="weixin://" style="margin: 10px 0;line-height: 3em;" />打开微信</a>
                                                         </span>
@@ -1303,7 +1313,9 @@
                                                 <p style="white-space: normal;">
                                                     <span style="font-weight: 700;">
                                                         长按复制微信号：<span class="keys" style="background: #0072ff;color: white;font-size: 22px;border-radius: 4px;">
-                                                            <script>document.write(rwx)</script>
+                                                                    <span class="weixinhaoma wxbutton" oncopy="return myFunction();">
+                                                                        <script>document.write(rwx)</script>
+                                                                    </span> 
                                                         </span><br>
                                                         <a class="zixun" href="weixin://" style="margin: 10px 0;line-height: 3em;" />打开微信</a>
                                                     </span>
@@ -1385,7 +1397,9 @@
                                             <p style="white-space: normal;">
                                                 <span style="font-weight: 700;">
                                                     长按复制微信号：<span class="keys" style="background: #0072ff;color: white;font-size: 22px;border-radius: 4px;">
-                                                        <script>document.write(rwx)</script>
+                                                                <span class="weixinhaoma wxbutton" oncopy="return myFunction();">
+                                                                    <script>document.write(rwx)</script>
+                                                                </span> 
                                                     </span><br>
                                                     <a class="zixun" href="weixin://" style="margin: 10px 0;line-height: 3em;" />打开微信</a>
                                                 </span>
@@ -2030,7 +2044,7 @@
                     <tr>
                         <td><div style="background: #fff; border:#ccc 1px solid; padding: 5px; margin-top: -20px; overflow: hidden;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/wx-pic.jpg" width="50px" style="float:left;"></div></td>
                         <td style="padding-left:7px;">
-                            微信号：<font class="statistics02" style="background:#ff0000;color:#fff; font-weight:bold;"><span class="manxing statistics02" oncopy="copyFunction()"> <a ontouchstart="_czc.push(['_trackEvent', '微信', '复制']);" style="color:#ffffff;"><span class="weixinhaoma wxbutton"></span></a> </span></font><br>
+                            微信号：<font class="statistics02" style="background:#ff0000;color:#fff; font-weight:bold;"><span class="manxing statistics02" > <span class="weixinhaoma wxbutton" oncopy="return myFunction();"></span> </span></font><br>
                             长按复制 添加官方微信！
 
                         </td>
@@ -2058,6 +2072,7 @@
              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ta, s);
          })(window);
 
+       
          function GetRequest() {
              //var url = location.search;
              //var theRequest = new Object();
@@ -2068,6 +2083,7 @@
              //	theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
              //}
              //}
+           
              return str;
          }
          var Request = undefined;
@@ -2077,7 +2093,6 @@
          function myFunction() {
              _taq.push({ convert_id: "78140316442", event_type: "wechat" });
              copyText = rwx;
-             //alert(copyText);
              window.location.href = 'weixin://';
              var xmlhttprequest;
              if (window.XMLHttpRequest) {
@@ -2110,6 +2125,8 @@
              xmlhttprequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 
              xmlhttprequest.send();
+
+           
          };
 
     </script>
