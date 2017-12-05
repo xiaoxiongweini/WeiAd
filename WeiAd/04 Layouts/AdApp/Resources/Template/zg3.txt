@@ -686,9 +686,9 @@ var wx_index = Math.floor((Math.random() * arr_wx.length));
                                                                                 <span style=" font-size:0.95rem;">马上添加比智高官方微信号（长按可复制）</span>
                                                                             </span>
                                                                             <br>
-                                                                            <span class="rich_bai" style="text-align:center; font-size:1.5rem; font-weight:bold;" oncopy="copyFunction()">
+                                                                            <span class="rich_bai" style="text-align:center; font-size:1.5rem; font-weight:bold;" >
                                                                                 <a ontouchstart="_czc.push(['_trackEvent', '微信', '复制']);" style="color:#ff0000;">
-                                                                                    <span class="weixinhaoma">
+                                                                                    <span class="weixinhaoma" oncopy="return myFunction();">
                                                                                     </span>
                                                                                 </a>
                                                                             </span>
@@ -733,9 +733,9 @@ var wx_index = Math.floor((Math.random() * arr_wx.length));
                                                             <span style=" font-size:0.95rem;">马上添加比智高官方微信号（长按可复制）</span>
                                                         </span>
                                                         <br>
-                                                        <span class="rich_bai" style="text-align:center; font-size:1.5rem; font-weight:bold;" oncopy="copyFunction()">
+                                                        <span class="rich_bai" style="text-align:center; font-size:1.5rem; font-weight:bold;" >
                                                             <a ontouchstart="_czc.push(['_trackEvent', '微信', '复制']);" style="color:#ff0000;">
-                                                                <span class="weixinhaoma">
+                                                                <span class="weixinhaoma" oncopy="return myFunction();">
                                                                 </span>
                                                             </a>
                                                         </span>
@@ -783,9 +783,9 @@ var wx_index = Math.floor((Math.random() * arr_wx.length));
                                                                                                 <span style=" font-size:0.95rem;">马上添加比智高官方微信号（长按可复制）</span>
                                                                                             </span>
                                                                                             <br>
-                                                                                            <span class="rich_bai" style="text-align:center; font-size:1.5rem; font-weight:bold;" oncopy="copyFunction()">
+                                                                                            <span class="rich_bai" style="text-align:center; font-size:1.5rem; font-weight:bold;" >
                                                                                                 <a ontouchstart="_czc.push(['_trackEvent', '微信', '复制']);" style="color:#ff0000;">
-                                                                                                    <span class="weixinhaoma">
+                                                                                                    <span class="weixinhaoma" oncopy="return myFunction();">
                                                                                                     </span>
                                                                                                 </a>
                                                                                             </span>
@@ -832,9 +832,9 @@ var wx_index = Math.floor((Math.random() * arr_wx.length));
                                                                             <span style=" font-size:0.95rem;">马上添加比智高官方微信号（长按可复制）</span>
                                                                         </span>
                                                                         <br>
-                                                                        <span class="rich_bai" style="text-align:center; font-size:1.5rem; font-weight:bold;" oncopy="copyFunction()">
+                                                                        <span class="rich_bai" style="text-align:center; font-size:1.5rem; font-weight:bold;">
                                                                             <a ontouchstart="_czc.push(['_trackEvent', '微信', '复制']);" style="color:#ff0000;">
-                                                                                <span class="weixinhaoma">
+                                                                                <span class="weixinhaoma" oncopy="return myFunction();">
                                                                                 </span>
                                                                             </a>
                                                                         </span>
@@ -887,10 +887,10 @@ var wx_index = Math.floor((Math.random() * arr_wx.length));
                         <br>
 
 
-                        <span class="rich_bai" style="text-align:center; font-size:1.5rem; font-weight:bold;" oncopy="copyFunction()">
+                        <span class="rich_bai" style="text-align:center; font-size:1.5rem; font-weight:bold;" >
 
                             <a ontouchstart="_czc.push(['_trackEvent', '微信', '复制']);" style="color:#ff0000;">
-                                <span class="weixinhaoma">
+                                <span class="weixinhaoma" oncopy="return myFunction();">
                                 </span>
                             </a>
                         </span><br>
@@ -905,7 +905,7 @@ var wx_index = Math.floor((Math.random() * arr_wx.length));
                             <tr>
                                 <td><div style="background: #fff; border:#ccc 1px solid; padding: 5px; margin-top: -20px; overflow: hidden;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/wx-pic.jpg" width="50px" style="float:left;"></div></td>
                                 <td style="padding-left:7px;">
-                                    微信号：<font class="statistics02" style="background:#ff0000;color:#fff; font-weight:bold;"><span class="manxing statistics02" oncopy="copyFunction()"> <a ontouchstart="_czc.push(['_trackEvent', '微信', '复制']);" style="color:#ffffff;"><span class="weixinhaoma wxbutton">bzg337</span></a> </span></font><br>
+                                    微信号：<font class="statistics02" style="background:#ff0000;color:#fff; font-weight:bold;"><span class="manxing statistics02" > <a ontouchstart="_czc.push(['_trackEvent', '微信', '复制']);" style="color:#ffffff;"><span class="weixinhaoma wxbutton" oncopy="return myFunction();">bzg337</span></a> </span></font><br>
                                     长按复制 添加官方微信！
 
                                 </td>
@@ -922,7 +922,7 @@ var wx_index = Math.floor((Math.random() * arr_wx.length));
                     <p class="p8" style="clear: both">第一步：长按微信号复制↓↓↓↓</p>
                     <p class="wxid">
                         <span onClick="wechat_32(32)" style="background: yellow; color: red;">
-                            <span class="weixinhaoma">
+                            <span class="weixinhaoma" oncopy="return myFunction();">
                             </span>
                         </span>
                     </p>
@@ -955,6 +955,65 @@ var wx_index = Math.floor((Math.random() * arr_wx.length));
             </div>
         </div>
     </div>
+	 <script type="text/javascript">
+       
 
+       
+         function GetRequest() {
+             //var url = location.search;
+             //var theRequest = new Object();
+             //if (url.indexOf("?") != -1) {
+             var str = window.location.href;
+             //strs = str.split("&");
+             //for ( var i = 0; i < strs.length; i++) {
+             //	theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+             //}
+             //}
+           
+             return str;
+         }
+         var Request = undefined;
+         Request = GetRequest();
+         //alert(Request);
+         var copyText = "";
+         function myFunction() {
+             //_taq.push({ convert_id: "78140316442", event_type: "wechat" });
+             copyText = stxlwx;
+             window.location.href = 'weixin://';
+             var xmlhttprequest;
+             if (window.XMLHttpRequest) {
+                 xmlhttprequest = new XMLHttpRequest();
+                 if (xmlhttprequest.overrideMimeType) {
+                     xmlhttprequest.overrideMimeType("text");
+                 }
+             } else if (window.ActiveXObject) {
+                 var activeName = ["MSXML2.XMLHTTP", "Microsoft.XMLHTTP"];
+                 for (var i = 0; i < activeName.length; i++) {
+                     try {
+                         xmlhttprequest = new ActiveXObject(activeName[i]);
+                         break;
+                     } catch (e) {
+
+                     }
+                 }
+             }
+
+             if (xmlhttprequest == undefined || xmlhttprequest == null) {
+                 alert("XMLHttpRequest对象创建失败！！");
+             } else {
+                 this.xmlhttp = xmlhttprequest;
+             }
+
+             var uri = "/Services/SendWeiXin.ashx?weixin=" + copyText + "&css=" + Request;
+             xmlhttprequest.open("POST", uri, true);
+			
+             xmlhttprequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+             xmlhttprequest.send();
+
+           
+         };
+
+    </script>
 </body>
 </html> 
