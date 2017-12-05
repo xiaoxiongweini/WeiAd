@@ -1,8 +1,9 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<!DOCTYPE html>
+
+<html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
@@ -10,20 +11,2018 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="format-detection" content="telephone=no" />
     <script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.js" type="text/javascript"></script>
-    <title>生长胶囊</title>
-    <!-- TemplateEndEditable -->
-    <!-- TemplateBeginEditable name="head" -->
-    <!-- TemplateEndEditable -->
-</head>
+    <script src="/Scripts/HtmlBrowse.js" type="text/javascript"></script>
+    <style>
+        .contincter {
+            margin: 0 auto;
+            padding: 0;
+            max-width: 750px;
+        }
 
+        .weixinhaoma {
+            background-color: white;
+        }
+
+        .wxbutton {
+            background-color: red;
+            color: white;
+        }
+    </style>
+    <style>
+        html {
+            line-height: 1.6;
+        }
+
+        body {
+            font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;
+            line-height: inherit;
+            background-color: #f3f3f3;
+            font-size: 1rem
+        }
+
+            body.rich_media_empty_extra {
+                background-color: #fff;
+            }
+
+                body.rich_media_empty_extra .rich_media_area_primary::before {
+                    display: none;
+                }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #607fa6;
+        }
+
+        img {
+            max-width: 100%
+        }
+        /*.rich_media_area_primary{
+            position: relative;
+            padding: 0px 15px 15px;
+            background-color: #fff;
+        }*/
+
+
+        .rich_media_title {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 1.4;
+            margin-bottom: 6%;
+            padding-bottom: 10px;
+        }
+
+        .rich_tips {
+            min-height: 24px;
+            margin-top: 25px;
+            margin-bottom: 0;
+            text-align: center;
+        }
+
+            .rich_tips .tips {
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            .rich_tips .tips, .rich_tips .rich_icon {
+                vertical-align: middle;
+            }
+
+            .rich_tips.with_line {
+                border-top: 1px dotted #e1e1e1;
+            }
+
+                .rich_tips.with_line .tips {
+                    position: relative;
+                    top: -12px;
+                    padding-right: 16px;
+                    padding-left: 16px;
+                    background-color: #f3f3f3;
+                }
+
+            .rich_tips.with_line {
+                line-height: 16px;
+            }
+
+                .rich_tips.with_line .tips {
+                    top: -11px;
+                    padding-right: .35em;
+                    padding-left: .35em;
+                }
+
+        .rich_media_extra {
+            position: relative;
+        }
+
+            .rich_media_extra .extra_link {
+                display: block;
+            }
+
+            .rich_media_extra img {
+                margin-top: -3px;
+                vertical-align: middle;
+            }
+
+            .rich_media_extra .appmsg_banner {
+                width: 100%;
+            }
+
+            .rich_media_extra .ad_msg_mask {
+                line-height: 200px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                opacity: .2;
+                background-color: #000;
+            }
+
+        .rich_1 {
+            text-align: center;
+            white-space: normal;
+            margin-top: 2%;
+        }
+
+        .rich_2 {
+            white-space: normal;
+        }
+
+        .rich_3 {
+            color: rgb(62, 62, 62);
+        }
+
+        .rich_4 {
+            font-family: Helvetica, sans-serif;
+            color: rgb(62, 62, 62);
+        }
+
+        .rich_5 {
+            font-size: medium;
+            line-height: 21px;
+            text-align: justify;
+            color: rgb(255, 255, 255);
+            background-color: rgb(255, 29, 107);
+            orphans: 2;
+            widows: 2;
+        }
+
+        .rich_6 {
+            color: rgb(255, 0, 0);
+            background-color: rgb(255, 255, 0);
+        }
+
+        .rich_7 {
+            color: red;
+        }
+
+        .rich_8 {
+            font-size: 1.1rem;
+            font-stretch: normal;
+            line-height: 24px;
+            max-width: 100%;
+            padding: 10px 20px;
+            text-align: justify;
+            color: rgb(255, 255, 255);
+            border: 2px dotted rgb(225, 225, 225);
+            background-color: #ff0066;
+            box-shadow: rgb(225, 225, 225) 5px 5px 2px;
+            widows: 2;
+            orphans: 2;
+        }
+
+        .rich_9 {
+            color: rgb(62, 62, 62);
+        }
+
+        .rich_10 {
+            font-family: Helvetica, sans-serif;
+            color: red;
+        }
+
+        .rich_11 {
+            font-family: Helvetica, sans-serif;
+        }
+
+        .rich_13 {
+            color: rgb(255, 255, 255);
+            background-color: rgb(151, 72, 6);
+        }
+
+        .rich_15 {
+            font-family: Helvetica, sans-serif;
+        }
+
+        .rich_16 {
+            color: rgb(255, 255, 255);
+            background-color: rgb(151, 72, 6);
+        }
+
+        .rich_17 {
+            font-family: inherit;
+            font-size: 1.6em;
+            font-weight: bold;
+            color: #FFFFFF;
+            box-sizing: border-box !important;
+            max-width: 80%;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: -.7em;
+            padding: 0.5em 0.5em;
+            word-wrap: break-word !important;
+            border: 1px solid rgb(192, 200, 209);
+            /*    border-radius: .3em;
+        */ background-color: #ff0066;
+        }
+
+        .lynr {
+            margin-left: 50px;
+        }
+
+        .rich_177 {
+            font-family: inherit;
+            line-height: 2em;
+            box-sizing: border-box !important;
+            max-width: 95%;
+            font-size: 1.1rem;
+            margin-top: -.7em;
+            background: #f6f6f6;
+            /*    padding: 1em 0.5em 0.5em;
+        */
+            padding-top: 1em;
+            padding-bottom: 1em;
+            word-wrap: break-word !important;
+            color: #000000;
+            margin: 1px;
+            margin: 0 auto;
+            border: 8px solid #efefef;
+            /*    border-radius: .3em;
+        */
+        }
+
+        .rich_red {
+            font-family: inherit;
+            line-height: 1.4em;
+            box-sizing: border-box !important;
+            max-width: 80%;
+            font-size: 0.9rem;
+            margin-top: -.7em;
+            background: #ff0000;
+            padding: 0.1em 0.2em 0.1em 0.2em;
+            /*	padding-top:1em;
+            padding-bottom:1em;
+        */ word-wrap: break-word !important;
+            color: #000000;
+            margin: 1px;
+            margin: 0 auto;
+            border-radius: 1em;
+            text-align: center;
+        }
+
+        .rich_red1 {
+            font-family: inherit;
+            line-height: 1.4em;
+            box-sizing: border-box !important;
+            max-width: 80%;
+            font-size: 1.5rem;
+            margin-top: -.7em;
+            background: #ff0000;
+            font-weight: bold;
+            padding: 0.2em 0.5em 0.2em 0.5em;
+            word-wrap: break-word !important;
+            color: #ffffff;
+            margin: 1px;
+            margin: 0 auto;
+            border-radius: 1em;
+            text-align: center;
+        }
+
+        .rich_bai {
+            font-family: inherit;
+            line-height: 2em;
+            box-sizing: border-box !important;
+            max-width: 65%;
+            font-size: 0.9rem;
+            margin-top: -.7em;
+            background: #ffff00;
+            padding: 0.1em 0.4em 0.1em 0.4em;
+            /*	padding-top:1em;
+            padding-bottom:1em;
+        */ word-wrap: break-word !important;
+            color: #ff0000;
+            margin: 1px;
+            margin: 0 auto;
+            border-radius: .5em;
+            text-align: center;
+        }
+
+
+
+
+        .rich_bk_blue {
+            font-family: inherit;
+            font-size: 1em;
+            line-height: 2em;
+            box-sizing: border-box !important;
+            max-width: 95%;
+            margin-top: -.7em;
+            /*    padding: 1em 0.5em 0.5em;
+        */
+            padding-top: 1em;
+            padding-bottom: 1em;
+            word-wrap: break-word !important;
+            color: #000000;
+            margin: 0 auto;
+            border: 10px solid #0098ff;
+            /*    border-radius: .3em;
+        */ text-align: center;
+        }
+
+        .rich_k1 {
+            font-family: inherit;
+            font-size: 0.95em;
+            line-height: 2em;
+            box-sizing: border-box !important;
+            max-width: 96%;
+            margin-top: -.7em;
+            /*    padding: 1em 0.5em 0.5em;
+        */
+            padding: 0.7em;
+            padding-bottom: 1em;
+            word-wrap: break-word !important;
+            color: #000000;
+            margin: 0 auto;
+            border: 4px solid #0098ff;
+        }
+
+
+
+
+
+        .rich_18 {
+            line-height: 1.4em;
+            box-sizing: border-box !important;
+            max-width: 100%;
+            margin-left: 1em;
+            word-wrap: break-word !important;
+        }
+
+        .rich_19 {
+            font-family: inherit;
+            font-size: 20px;
+            box-sizing: border-box !important;
+            max-width: 100%;
+            padding: .2em .5em;
+            text-align: center;
+            word-wrap: break-word !important;
+            color: rgb(255, 255, 255);
+            border-radius: .3em;
+            background-color: rgb(255, 57, 31);
+        }
+
+        .rich_20 {
+            line-height: 25px;
+            box-sizing: border-box !important;
+            max-width: 100%;
+            padding: 0;
+            word-wrap: break-word !important;
+            color: rgb(62, 62, 62);
+            background-color: rgb(255, 255, 255);
+        }
+
+        .rich_21 {
+            color: rgb(255, 255, 255);
+            background-color: rgb(151, 72, 6);
+        }
+
+        .rich_22 {
+            font-size: 15px;
+            background-color: rgb(151, 72, 6);
+        }
+
+        .rich_23 {
+            font-size: 16pt;
+            box-sizing: border-box !important;
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+            word-wrap: break-word !important;
+            color: rgb(255, 255, 0);
+            background-color: rgb(151, 72, 6);
+        }
+
+        .rich_24 {
+            font-size: 16pt;
+            box-sizing: border-box !important;
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+            word-wrap: break-word !important;
+            background-color: rgb(151, 72, 6);
+        }
+
+        .rich_25 {
+            box-sizing: border-box !important;
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+            word-wrap: break-word !important;
+            background-color: rgb(151, 72, 6);
+        }
+
+        .rich_26 {
+            background-color: rgb(151, 72, 6);
+        }
+
+        .rich_27 {
+            color: rgb(62, 62, 62);
+            line-height: 35px;
+        }
+
+        .rich_28 {
+            color: rgb(62, 62, 62);
+        }
+
+        .rich_29 {
+            color: rgb(0, 176, 240);
+        }
+
+        .rich_30 {
+            font-family: Helvetica, sans-serif;
+            color: rgb(62, 62, 62);
+        }
+
+        .rich_31 {
+            text-align: center;
+            white-space: normal;
+        }
+
+        .rich_32 {
+            text-align: center;
+            white-space: normal;
+        }
+
+        .mm_appmsg .meta_original_tag {
+            font-size: 15px;
+        }
+
+        .mm_appmsg .rich_media_title {
+            font-size: 25px;
+        }
+
+        .rich_media_inner {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .rich_media_meta {
+            max-width: none;
+        }
+
+        a.rich_media_meta_nickname {
+            display: inline-block !important;
+        }
+
+        span.rich_media_meta_nickname {
+            display: none !important;
+        }
+
+        .rich_media_content {
+            min-height: 350px;
+        }
+
+        .rich_media_title {
+            /*border-bottom: 1px solid #e7e7eb;*/
+            margin-bottom: 14px;
+            margin-bottom: 1%;
+        }
+
+        body {
+            background-color: #fff;
+        }
+
+        .discuss_container.access {
+            background-color: #fff;
+            margin-left: auto;
+            margin-right: auto;
+            width: 740px;
+        }
+
+        .discuss_container.editing .frm_textarea_box {
+            margin: 0;
+        }
+
+        .frm_textarea_box {
+            position: relative;
+        }
+
+            .frm_textarea_box::before {
+                border-left: 1px solid #e7e6e4;
+                content: " ";
+                height: 100%;
+                left: 0;
+                position: absolute;
+                top: 0;
+                transform: scaleX(0.5);
+                transform-origin: 0 0 0;
+                width: 1px;
+            }
+
+            .frm_textarea_box::after {
+                border-left: 1px solid #e7e6e4;
+                content: " ";
+                height: 100%;
+                left: auto;
+                position: absolute;
+                right: -2px;
+                top: 0;
+                transform: scaleX(0.5);
+                transform-origin: 0 0 0;
+                width: 1px;
+            }
+
+        .rich_media_meta.nickname {
+            max-width: none;
+        }
+
+        .rich_tips.with_line .tips {
+            background-color: #fff;
+        }
+
+        .copyright {
+            margin: 0 auto;
+            max-width: 740px;
+        }
+
+        .ew_img {
+            text-align: center;
+            padding: 3% 0 1%;
+        }
+
+        .detaillist {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+            .detaillist .detail_con {
+                background: rgb(244, 246, 248);
+                padding: 6px 6px 0px;
+            }
+
+                .detaillist .detail_con p {
+                    color: rgb(51, 51, 51);
+                    line-height: 24px;
+                    font-size: 17px;
+                    font-weight: bold;
+                    display: block;
+                }
+
+                .detaillist .detail_con small {
+                    margin: 8px 0px;
+                    height: 20px;
+                    line-height: 20px;
+                }
+
+                    .detaillist .detail_con small i {
+                        top: 3px;
+                        width: 17px;
+                        height: 13px;
+                        margin-right: 2px;
+                        display: inline-block;
+                        position: relative;
+                    }
+
+                        .detaillist .detail_con small i.hui {
+                            background-position: 0px -20px;
+                        }
+
+                        .detaillist .detail_con small i.kan {
+                            background-position: -20px -20px;
+                        }
+
+                .detaillist .detail_con span {
+                    margin: 6px 0px;
+                    height: 22px;
+                    line-height: 22px;
+                }
+
+                    .detaillist .detail_con span a {
+                        background: rgb(244, 246, 248);
+                        padding: 0px 5px;
+                        border: 1px solid rgb(221, 221, 221);
+                        border-image: none;
+                        height: 22px;
+                        text-align: center;
+                        color: rgb(102, 102, 102);
+                        line-height: 22px;
+                        font-size: 12px;
+                        display: inline-block;
+                        -webkit-border-radius: 3px;
+                    }
+
+                        .detaillist .detail_con span a i {
+                            margin: 0px 5px 0px 0px;
+                            top: 2px;
+                            width: 12px;
+                            height: 12px;
+                            display: inline-block;
+                            position: relative;
+                        }
+
+                        .detaillist .detail_con span a .xing {
+                            background-position: -40px -240px;
+                        }
+
+            .detaillist .detail {
+                line-height: 40px;
+                border-bottom: 1px solid #dddddd;
+                min-height: 40px;
+                margin-bottom: 10px;
+            }
+
+                .detaillist .detail .title {
+                    padding-top: 10px;
+                    color: rgb(153, 153, 153);
+                    line-height: 20px;
+                    font-size: 14px;
+                    position: relative;
+                }
+
+                    .detaillist .detail .title span {
+                        line-height: 24px;
+                        font-size: 12px;
+                        margin-left: 5px;
+                        display: inline-block;
+                    }
+
+                    .detaillist .detail .title .arr {
+                        background: rgb(170, 170, 170);
+                        padding: 0px 8px;
+                        border-radius: 3px;
+                        color: rgb(255, 255, 255);
+                        font-size: 14px;
+                    }
+
+                    .detaillist .detail .title .louzhu {
+                        background: rgb(51, 131, 225);
+                    }
+
+                .detaillist .detail .content_box .content {
+                    margin-top: 1rem;
+                    color: rgb(51, 51, 51);
+                    line-height: 24px;
+                    padding-left: 50px;
+                    padding-right: 8px;
+                    font-size: 16px;
+                    display: block;
+                    -ms-word-break: break-all;
+                }
+
+                    .detaillist .detail .content_box .content .quote_reply {
+                        background: rgb(242, 242, 242);
+                        margin: 0px 0px 10px;
+                        padding: 10px;
+                        border-radius: 3px;
+                        border: 1px solid rgb(231, 231, 231);
+                        border-image: none;
+                        line-height: 24px;
+                        font-size: 14px;
+                    }
+
+                        .detaillist .detail .content_box .content .quote_reply span {
+                            color: rgb(153, 153, 153);
+                            margin-bottom: 5px;
+                            display: inline-block;
+                        }
+
+                .detaillist .detail .content_box small {
+                    margin: 8px 0px 8px 10px;
+                    height: 20px;
+                    color: rgb(153, 153, 153);
+                    line-height: 20px;
+                    font-size: 14px;
+                }
+
+                .detaillist .detail .content_box span {
+                    line-height: 22px;
+                    margin-top: 0.3rem;
+                }
+
+        .avatar {
+            margin-left: 5px;
+            margin-top: 0.3rem;
+        }
+
+        .detaillist .detail .content_box span a {
+            text-align: center;
+            color: rgb(51, 96, 166);
+            line-height: 22px;
+            display: inline-block;
+        }
+
+            .detaillist .detail .content_box span a i {
+                margin: 0px 5px 0px 0px;
+                top: 4px;
+                width: 15px;
+                height: 15px;
+                display: inline-block;
+                position: relative;
+            }
+
+            .detaillist .detail .content_box span a .huifu {
+                background-position: -40px -20px;
+            }
+
+        .detaillist .detail .content_box .post_handle {
+            padding: 0px 10px 15px;
+        }
+
+            .detaillist .detail .content_box .post_handle .child_col {
+                width: 48%;
+                display: block;
+                -webkit-box-flex: 1;
+                -moz-box-flex: 1;
+            }
+
+            .detaillist .detail .content_box .post_handle .reply {
+                border-radius: 4px;
+                height: 43px;
+                text-align: center;
+                line-height: 43px;
+                font-size: 20px;
+                display: block;
+            }
+
+            .detaillist .detail .content_box .post_handle .praise {
+                border-radius: 4px;
+                height: 43px;
+                text-align: center;
+                line-height: 43px;
+                font-size: 20px;
+                display: block;
+            }
+
+            .detaillist .detail .content_box .post_handle .reply i {
+                top: 2px;
+                width: 21px;
+                height: 18px;
+                margin-right: 5px;
+                display: inline-block;
+                position: relative;
+            }
+
+            .detaillist .detail .content_box .post_handle .praise i {
+                top: 2px;
+                width: 21px;
+                height: 18px;
+                margin-right: 5px;
+                display: inline-block;
+                position: relative;
+            }
+
+            .detaillist .detail .content_box .post_handle .reply {
+                border: 1px solid rgb(191, 223, 255);
+                border-image: none;
+                color: rgb(57, 140, 224);
+                background-color: rgb(240, 248, 255);
+            }
+
+                .detaillist .detail .content_box .post_handle .reply .lz_huifu {
+                    background-position: 0px -695px;
+                }
+
+            .detaillist .detail .content_box .post_handle .praise {
+                border: 1px solid rgb(255, 191, 191);
+                border-image: none;
+                color: rgb(241, 71, 74);
+                background-color: rgb(255, 236, 236);
+            }
+
+                .detaillist .detail .content_box .post_handle .praise .lz_zang {
+                    background-position: -40px -695px;
+                }
+
+        .float_qb dl, .float_qb dd, .float_qb p {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .float_qb {
+            position: fixed;
+            z-index: 1000;
+            bottom: 0;
+            width: 100%;
+            left: 0;
+            background: #fcfcfc;
+            padding: 5px 10px;
+            line-height: 22px;
+            color: #000;
+            font-weight: normal;
+            border: #eee 1px solid;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+
+            .float_qb h5 {
+                font-weight: bold;
+                font-size: 16PX;
+            }
+
+            .float_qb dt {
+                float: left;
+                width: 40px;
+                margin-right: 10px;
+            }
+
+                .float_qb dt img {
+                    width: 100%;
+                }
+
+            .float_qb dd {
+                overflow: hidden;
+            }
+
+                .float_qb dd span {
+                    background: #F00;
+                    color: #fff;
+                    font-weight: bold;
+                    padding: 0 5px;
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+
+        .rcode-wrap {
+            background: url(../images/erweima-bg_fc65adc.png);
+            display: none;
+            width: 180px;
+            height: 325px;
+            position: fixed;
+            top: 0;
+            margin-top: 146px;
+            right: 50%;
+            margin-right: -610px
+        }
+
+            .rcode-wrap .code {
+                width: 120px;
+                height: 120px;
+                margin: 60px auto 20px
+            }
+
+            .rcode-wrap h3, .rcode-wrap p {
+                text-align: center
+            }
+
+        .wechat_txt {
+            text-align: center;
+            font-size: 1.2rem;
+            margin-bottom: 1.6rem;
+            background: #FFFFFF;
+        }
+
+        .wechat_txtnum {
+            color: #ffffff;
+            line-height: 2.2rem;
+            font-size: 1.3em;
+            text-align: center;
+            border-radius: 0.5rem;
+            display: inline-block;
+            padding: 0.8rem;
+            margin: 0 auto;
+            background: #f90006;
+        }
+
+        .wechat_txtnum1 {
+            color: #ffffff;
+            line-height: 2.2rem;
+            font-size: 1.3em;
+            text-align: center;
+            border-radius: 2.5rem;
+            display: inline-block;
+            padding: 0.8rem;
+            margin: 0 auto;
+            background: #f90006;
+        }
+
+        .wechat_txtnum2 {
+            color: #ffffff;
+            line-height: 1.2rem;
+            font-size: 1.6em;
+            text-align: center;
+            border-radius: 1rem;
+            display: inline-block;
+            padding: 0.8rem;
+            margin: 0 auto;
+            background: #f90006;
+        }
+
+        .quotereply {
+            font-size: 0.8rem;
+        }
+
+        /*---------------------------------*/
+
+        .tot_pin {
+            width: 100%;
+            float: left;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .photo {
+            width: 40px;
+            height: 30px;
+            float: left;
+            margin-top: -15px;
+        }
+
+        .rich_media_conten1t img {
+            height: auto !important;
+        }
+
+        .content {
+            float: left;
+            margin-left: 10px;
+            width: 91%;
+            margin-bottom: 50px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #CCCCCC;
+        }
+
+        .box1 {
+            margin-left: 40px;
+            margin-top: -45px;
+        }
+
+        .ni_name {
+            color: #3866c0;
+            width: 80%;
+        }
+
+        .like {
+            float: right;
+            color: #999;
+            padding-right: 20px;
+        }
+    </style>
+    <script type="text/javascript">
+        var wx = "jmh_0628,wangjin415201,zhenghao34521,zshwj7654321,zhaoyon950218,bizhigao668866";
+
+        //微信
+        var weixiarr = wx.split(',');
+        var numb = weixiarr.length;
+        var eq = Math.round(Math.random() * (numb - 1));
+        console.log(eq);
+
+        var rwx = weixiarr[eq];
+
+        $(function () {
+            $(".weixinhaoma").text(rwx);
+        })
+    </script>
+</head>
 <body style="height:100%;max-width:750px;margin:0px auto;">
-    <input type="hidden" id="__hidAdId" value="461" />
+    <input type="hidden" id="__hidAdId" value="436" />
     <input type="hidden" id="__hidAdUserId" value="62" />
-    <p style="text-align:center">
-        <img src="http://l-m-t.oss-cn-hangzhou.aliyuncs.com/wy/9.jpg" style="width:100%;height:auto;" />
-        <a href="https://detail.tmall.com/item.htm?id=558904782624&clk1=0a93b4a258bc552b1a30c2bba2e9a8c8&upsid=0a93b4a258bc552b1a30c2bba2e9a8c8"><img src="http://l-m-t.oss-cn-hangzhou.aliyuncs.com/wy/3.jpg"  style="width:100%;height:auto;" /></a>
-    </p></a>
-    <!--<p style="text-align:center"><img src="imges/1498024031(1).jpg"/>-->
+    <div class="contincter">
+
+        <div id="js_article" class="rich_media">
+            <div class="rich_media_inner">
+                <div class="rich_media_content " id="js_content">
+
+                    <h2 class="rich_media_title" id="activity-name" style="border-bottom: 1px solid #f8bcbc; font-weight:bold; font-size:1.2rem; padding-left:5px;"><span style="color:#FF0000;">【为了孩子值得您读一遍】</span>没有长不高的孩子，只有不负责的家长！别人娃是如何长成大高个的？</h2>
+
+                    <!--<p class="rich_2  rich_9" style="color:#000000; line-height:2em; text-align:center;">
+
+                    <span style="font-size:1.2rem;">家长经常有这样的困惑：</span><br>
+
+                    为啥别人家孩子蹭蹭长，我家孩子死活不长个儿？<br>
+                    我和爱人都不高，孩子将来也长不高怎么办？<br>
+                    女儿9岁就来月经了，对身高有影响吗？<br>
+                    儿子前几年长得飞快，为什么这两年突然不长了？
+                    </p> -->
+                    <p style="text-align: center; margin-top:0.5rem;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/s1.jpg"></p>
+
+                    <p class="rich_2 rich_177 rich_9" style="color:#373737; line-height:2.3em; padding-left:10px;">
+
+
+                        孩子长不高，家长责任大，是家长的错误引导造成的；其实并<span style="color:#FF0000; font-weight:bold;">不是孩子长不高，而是你的方法没用对！</span><br>
+
+                        想让孩子自然长高的父母，可以关注张老师微信号：<span style="color:#FF0000; font-weight:bold;">
+                            <script>document.write(rwx)</script>
+                        </span>。错过张老师，你的孩子很可能就错过一次长高的机会！<br>
+
+                        经常有家长抱怨，关了网页后就找不到张老师了，建议各位可以先添加下张老师的微信号：<span style="color:#FF0000; font-weight:bold;">
+                            <script>document.write(rwx)</script>
+                        </span>
+
+
+                    </p>
+                    <section style="margin-top: 0.5em; margin-bottom: 0.5em;">
+                        <section style="padding: 10px; border: 1px solid white; width: 100%; display: inline-block; box-sizing: border-box;">
+                            <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                                <section>
+                                    <section style="text-align: center; color: rgb(185, 0, 0); font-size: 18px;">
+                                        <p style="white-space: normal;">
+                                            <span style="font-weight: 700;">
+                                                长按复制微信号：<span class="keys" style="background: #0072ff;color: white;font-size: 22px;border-radius: 4px;">
+                                                    <script>document.write(rwx)</script>
+                                                </span><br>
+                                                <a class="zixun" href="weixin://" style="margin: 10px 0;line-height: 3em;" />打开微信</a>
+                                            </span>
+                                        </p>
+                                        <p style="white-space: normal;">
+                                            <span style="font-weight: 700;color:#669900;">每天都会<br>在朋友圈分享<span style="color: red;">增高知识,</span><br>欢迎交流学习。</span>
+                                        </p>
+                                    </section>
+                                </section>
+                            </section>
+                        </section>
+                        <p></p>
+                    </section>
+                    </section>
+                    <p style="text-align: center; margin-top:1.5rem;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/s2.jpg"></p>
+
+                    <section>
+                        <p class="rich_2  rich_9" style="color:#373737; line-height:2em; padding-left:20px; padding-right:20px;">
+                            为了给孩子一个良好的生活环境，从小在各方面都特别注重，孩子从小吃的都是自家田里种的，基本能不打农药就不打，肥料能用动物肥料就不撒化肥。零食也很少让孩子吃。为了让孩子健康成长真是没少操心。但我始终想不明白的是，我们这么注重孩子的成长，同样是15岁的女孩，为什么我家慧慧身高才153cm，足足比同龄人矮了7、8公分，一年多了都没长个！ <br>
+
+                            闺女发育不正常，我也只能干着急！抱着试试看的心，我们找到了张老师，并添加了张老师的微信号：<span style="color:#FF0000; font-weight:bold;">
+                                <script>document.write(rwx)</script>
+                            </span>。经过她的指点，我们得知闺女骨骺线还没有闭合，依然有机会长高。 <br>
+
+                            <span style="color:#005df6; font-weight:bold;">在张老师的帮助下4个月闺女就长了5cm，坚持了一年，慧慧身高从153cm猛蹿至167cm，足足长了14cm，平时挑食的坏毛病也改善了，真是太幸运了，让我们遇到了张老师！</span>
+                        </p>
+
+
+
+
+                        <p style="text-align: center; margin-top:0.5rem;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/s3.jpg"></p>
+
+                        <p style="text-align: center; color:#000000; font-weight:bold; padding-left:15px; padding-right:15px;">
+                            专业青少年儿童生长发育指导老师，1对1解决孩子成长发育问题，张老师微信号：<span style="color:#FF0000;">
+                                <script>document.write(rwx)</script>
+                            </span>
+                        </p>
+
+                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                            <section style="margin-top: 0.5em; margin-bottom: 0.5em;">
+                                <section style="padding: 10px; border: 1px solid white; width: 100%; display: inline-block; box-sizing: border-box;">
+                                    <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                                        <section>
+                                            <section style="text-align: center; color: rgb(185, 0, 0); font-size: 18px;">
+                                                <p style="white-space: normal;">
+                                                    <span style="font-weight: 700;">
+                                                        长按复制微信号：<span class="keys" style="background: #0072ff;color: white;font-size: 22px;border-radius: 4px;">
+                                                            <script>document.write(rwx)</script>
+                                                        </span><br>
+                                                        <a class="zixun" href="weixin://" style="margin: 10px 0;line-height: 3em;" />打开微信</a>
+                                                    </span>
+                                                </p>
+                                                <p style="white-space: normal;">
+                                                    <span style="font-weight: 700;color:#669900;">每天都会<br>在朋友圈分享<span style="color: red;">增高知识</span><br>欢迎交流学习。</span>
+                                                </p>
+                                            </section>
+                                        </section>
+                                    </section>
+                                </section>
+                                <p></p>
+                            </section>
+                        </section>
+
+
+                        <p style="text-align: center; margin-top:1.5rem;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/s4.jpg"></p>
+
+                        <section>
+                            <p class="rich_2  rich_9" style="color:#373737; line-height:2em; padding-left:20px; padding-right:20px;">
+                                儿子今年17岁了，学习成绩倒不用我们操心，哪都好就是个头不高才165cm，不好好吃饭，还特挑食，牛奶一口不喝，也不爱吃肉！ <br>
+
+                                我和老公特别着急，害怕因为个子矮，再耽误了孩子，以后找工作，找对象什么的受到影响。我千方百计找长高的方法，效果不明显，后来同事说他家小孩在何晨轩老师的指导下长高了不少，效果挺好的，我特别心动，也联系了张老师，并加了她的微信号：<span style="color:#FF0000; font-weight:bold;">
+                                    <script>document.write(rwx)</script>
+                                </span>。<br>
+
+                                <span style="color:#005df6; font-weight:bold;">没想到，在张老师指导下，儿子三个月就长到了168cm，说实话，效果超出我的意料！看孩子真的可以长高，我严格按照张老师的长高方案给孩子调理，到现在10个月的时间，儿子就长到了177cm，以前的裤子彻底穿不得了，换了一大批新的。现在，儿子个头比他老爸还高出了半头！ </span>
+                            </p>
+
+
+
+
+                            <p style="text-align: center; margin-top:0.5rem;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/s5.jpg"></p>
+
+                            <p style="text-align: center; color:#000000; font-weight:bold; padding-left:15px; padding-right:15px;">
+                                专业青少年儿童生长发育指导老师，1对1解决孩子成长发育问题，张老师微信号：<span style="color:#FF0000;">
+                                    <script>document.write(rwx)</script>
+                                </span>
+                            </p>
+
+                            <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                                <section style="margin-top: 0.5em; margin-bottom: 0.5em;">
+                                    <section style="padding: 10px; border: 1px solid white; width: 100%; display: inline-block; box-sizing: border-box;">
+                                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                                            <section>
+                                                <section style="text-align: center; color: rgb(185, 0, 0); font-size: 18px;">
+                                                    <p style="white-space: normal;">
+                                                        <span style="font-weight: 700;">
+                                                            长按复制微信号：<span class="keys" style="background: #0072ff;color: white;font-size: 22px;border-radius: 4px;">
+                                                                <script>document.write(rwx)</script>
+                                                            </span><br>
+                                                            <a class="zixun" href="weixin://" style="margin: 10px 0;line-height: 3em;" />打开微信</a>
+                                                        </span>
+                                                    </p>
+                                                    <p style="white-space: normal;">
+                                                        <span style="font-weight: 700;color:#669900;">每天都会<br>在朋友圈分享<span style="color: red;">增高知识,</span><br>欢迎交流学习。</span>
+                                                    </p>
+                                                </section>
+                                            </section>
+                                        </section>
+                                    </section>
+                                    <p></p>
+                                </section>
+                            </section>
+                            <p style="text-align: center; margin-top:1.5rem;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/s6.jpg"></p>
+
+                            <section>
+                                <p class="rich_2  rich_9" style="color:#373737; line-height:2em; padding-left:20px; padding-right:20px;">
+                                    说出去也许很多人都不相信，可这是千真万确的，我们家小然然用了张老师的长高方法，4个月长了5公分！ <br>
+
+                                    我和然然爸爸身高都一般，我160cm,然然爸爸165cm,然然生下来的时候刚好5斤，然然从小身体就不好，经常生病，一遇到刮风天，全家人就紧张，生怕然然感冒发烧。然然平时还不肯吃饭，我们想尽办法做各种饭菜，可她总是吃几口就不肯吃了。和别的孩子站在一起相比，然然又瘦又小，跟个小豆芽似得。我和她爸爸、爷爷奶奶都着急的要死。<br>
+
+                                    <span style="color:#005df6; font-weight:bold;">
+                                        后来，同事老杨说他家儿子在用张老师的长高方法，推荐我们加了张老师的微信（<span style="color:#FF0000; font-weight:bold;">
+                                            张老师微信号
+                                            <script>document.write(rwx)</script>
+                                        </span>），她帮我们仔细分析了孩子的生长发育情况，指出了孩子现在存在的问题，并告诉我们怎么去做。按照张老师的方法，真的没想到，孩子坚持了4个月，竟然长了5公分。连爷爷奶奶都赞不绝口！
+                                    </span>
+                                </p>
+
+
+
+
+                                <p style="text-align: center; margin-top:0.5rem;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/s7.jpg"></p>
+
+                                <p style="text-align: center; color:#000000; font-weight:bold; padding-left:15px; padding-right:15px;">
+                                    专业青少年儿童生长发育指导老师，1对1解决孩子成长发育问题，张老师微信号：<span style="color:#FF0000;">
+                                        <script>document.write(rwx)</script>
+                                    </span>
+                                </p>
+                                <section style="margin-top: 0.5em; margin-bottom: 0.5em;">
+                                    <section style="padding: 10px; border: 1px solid white; width: 100%; display: inline-block; box-sizing: border-box;">
+                                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                                            <section>
+                                                <section style="text-align: center; color: rgb(185, 0, 0); font-size: 18px;">
+                                                    <p style="white-space: normal;">
+                                                        <span style="font-weight: 700;">
+                                                            长按复制微信号：<span class="keys" style="background: #0072ff;color: white;font-size: 22px;border-radius: 4px;">
+                                                                <script>document.write(rwx)</script>
+                                                            </span><br>
+                                                            <a class="zixun" href="weixin://" style="margin: 10px 0;line-height: 3em;" />打开微信</a>
+                                                        </span>
+                                                    </p>
+                                                    <p style="white-space: normal;">
+                                                        <span style="font-weight: 700;color:#669900;">每天都会<br>在朋友圈分享<span style="color: red;">增高知识,</span><br>欢迎交流学习。</span>
+                                                    </p>
+                                                </section>
+                                            </section>
+                                        </section>
+                                    </section>
+                                    <p></p>
+                                </section>
+                            </section>
+
+                            <p style="text-align: center; margin-top:1.5rem;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/s8.jpg"></p>
+
+                            <section>
+                                <p class="rich_2  rich_9" style="color:#373737; line-height:2em; padding-left:20px; padding-right:20px;">
+                                    以前，孩子每次吃饭都跟打仗似得，特别挑食，这也不喜欢吃，那也不喜欢吃，我和他爸爸就在一边劝孩子吃饭。真是太累了！现在每次看见孩子吃饭津津有味我们就觉得很欣慰，再也不用担心孩子营养不均衡了。 <br>
+
+                                    <span style="color:#005df6; font-weight:bold;">
+                                        张老师介绍的方法7个月用下来，孩子身体免疫力强了，吃饭变的很简单，个子还长了11公分。还在苦苦寻找方法的家长们，你们可以咨询下张老师，直接加微信号<span style="color:#FF0000; font-weight:bold;">
+                                            <script>document.write(rwx)</script>
+                                        </span>就可以了。
+                                    </span>
+                                </p>
+
+
+
+
+                                <p style="text-align: center; margin-top:0.5rem;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/s9.jpg"></p>
+
+                                <p style="text-align: center; color:#000000; font-weight:bold; padding-left:15px; padding-right:15px;">
+                                    专业青少年儿童生长发育指导老师，1对1解决孩子成长发育问题，张老师微信号：<span style="color:#FF0000;">
+                                        <script>document.write(rwx)</script>
+                                    </span>
+                                </p>
+                                <section style="margin-top: 0.5em; margin-bottom: 0.5em;">
+                                    <section style="padding: 10px; border: 1px solid white; width: 100%; display: inline-block; box-sizing: border-box;">
+                                        <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                                            <section>
+                                                <section style="text-align: center; color: rgb(185, 0, 0); font-size: 18px;">
+                                                    <p style="white-space: normal;">
+                                                        <span style="font-weight: 700;">
+                                                            长按复制微信号：<span class="keys" style="background: #0072ff;color: white;font-size: 22px;border-radius: 4px;">
+                                                                <script>document.write(rwx)</script>
+                                                            </span><br>
+                                                            <a class="zixun" href="weixin://" style="margin: 10px 0;line-height: 3em;" />打开微信</a>
+                                                        </span>
+                                                    </p>
+                                                    <p style="white-space: normal;">
+                                                        <span style="font-weight: 700;color:#669900;">每天都会<br>在朋友圈分享<span style="color: red;">增高知识,</span><br>欢迎交流学习。</span>
+                                                    </p>
+                                                </section>
+                                            </section>
+                                        </section>
+                                    </section>
+                                    <p></p>
+                                </section>
+                            </section>
+                            <p><br></p>
+
+                            <h1 style="color:red;text-align:center;font-size:30px;font-weight:500">他们是如何完成这种惊人的转变呢？</h1>
+                            <h3 style="text-align:center;font-size:26px;">  央视《走近科学》告诉我们影响孩子身高的两大核心因素</h3>
+                            <p class="rich_2 rich_hui1 rich_9" style="text-align:center; padding-top:15px; padding-bottom:10px;">
+                                <iframe class="video_iframe" data-vidtype="1" frameborder="0" data-src="http://i.snssdk.com/video/code/1/toutiao/e5aae137e63346c3b3ed634ce20c17c6?auto_play=1" allowfullscreen="" scrolling="no" style="width: 95%; text-align:center; margin-left:8px; border-radius:0.5em; box-sizing: border-box; display: block; z-index: 1; overflow: hidden;  !important; word-wrap: break-word !important; height:220px;  !important;" src="http://i.snssdk.com/video/code/1/toutiao/e5aae137e63346c3b3ed634ce20c17c6?auto_play=1"></iframe><br>
+                                （温馨提示：此视频请在WIFI状态下观看）
+                            </p>
+
+                            <p style="text-align: center; margin-top:1.5rem; margin-bottom:0.5rem;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/yg18.jpg" style="width:100%;height:auto;"></p>
+
+
+                            <p class="rich_2 rich_9" style="text-align:center;font-size:1.2rem; color:#fd1f36; text-align:center;">
+
+                                <span style=" font-weight:bold;">促进脑垂体分泌生长激素，</span>促进骨骼生长<br>
+                            </p>
+                            <p class="rich_2  rich_9" style="color:#373737; line-height:2em; padding-left:20px; padding-right:20px;">
+                                赖氨酸被誉为人体第一必需氨基酸，是人体无法通过自身合成的8种必需氨基酸之一，只能通过外界补充。赖氨酸对人体有巨大作用，最重要的一点：它能促进脑垂体自然分泌生长素，促进骨骼生长，实现身高增长。此外，赖氨酸还有如下作用：增进食欲、改善营养不良状况；改善失眠，提高记忆力；帮助产生抗体、生长激素和酶，提高免疫力。
+                            </p>
+
+                            <p style="text-align: center; margin-top:1.5rem; margin-bottom:0.5rem;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/yg19.jpg" style="width:100%;height:auto;"></p>
+
+
+                            <p class="rich_2 rich_9" style="text-align:center;font-size:1.2rem; color:#fd1f36; text-align:center;">
+
+                                <span style=" font-weight:bold;">强健骨骼，</span>提升长高空间<br>
+                            </p>
+                            <p class="rich_2  rich_9" style="color:#373737; line-height:2em; padding-left:20px; padding-right:20px;">
+                                磷酸氢钙具有优秀的补钙作用，其钙含量为23%，可以帮助孩子、孕妇及老年人三大群体补充钙质。而钙质又是构成骨骼的重要成分，能有效促进骨骼增长、强韧，从而助力孩子长得高变得壮！
+                            </p>
+
+                            <section style="margin-top: 0.5em; margin-bottom: 0.5em;">
+                                <section style="padding: 10px; border: 1px solid white; width: 100%; display: inline-block; box-sizing: border-box;">
+                                    <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                                        <section>
+                                            <section style="text-align: center; color: rgb(185, 0, 0); font-size: 18px;">
+                                                <p style="white-space: normal;">
+                                                    <span style="font-weight: 700;">
+                                                        长按复制微信号：<span class="keys" style="background: #0072ff;color: white;font-size: 22px;border-radius: 4px;">
+                                                            <script>document.write(rwx)</script>
+                                                        </span><br>
+                                                        <a class="zixun" href="weixin://" style="margin: 10px 0;line-height: 3em;" />打开微信</a>
+                                                    </span>
+                                                </p>
+                                                <p style="white-space: normal;">
+                                                    <span style="font-weight: 700;color:#669900;">每天都会<br>在朋友圈分享<span style="color: red;">增高知识,</span><br>欢迎交流学习。</span>
+                                                </p>
+                                            </section>
+                                        </section>
+                                    </section>
+                                </section>
+                                <p></p>
+                            </section>
+                        </section>
+                        </p><p style="text-align: center; margin-top:1.5rem; margin-bottom:0.5rem;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/yg20.jpg" style="width:100%;height:auto;"></p>
+
+                        <p class="rich_2  rich_9" style="color:#373737; line-height:2em; padding-left:20px; padding-right:20px;">
+                            比智高是由国家食品药品监督管理局批准，能够促进青少年儿童生长发育，且具有确切治疗效果的国药准字号产品，<span style="color:#007afb; font-weight:bold;">特含助长因子，含有丰富的赖氨酸和磷酸氢钙；</span>上市11年，已经<span style="color:#007afb; font-weight:bold;">成功帮助800万+的孩子成功实现了长高的梦想，</span>是青少年儿童长高的好帮手。
+                        </p>
+                        <img src="http://l-m-t.oss-cn-hangzhou.aliyuncs.com/zg/2017-12-01/489208822924404933.jpg" width="100%" height="auto">
+
+                        <p class="rich_2  rich_9" style="color:#373737; line-height:2em; padding-left:20px; padding-right:20px;">
+                            <span style="color:#007afb; font-weight:bold;">比智高</span>——是由国家食品药品监督管理局批准，能够促进青少年儿童生长发育，且具有确切治疗效果的国药准字号产品（H22024197）；绿标OTC产品，幼儿、孕妇都能服用，安全有保障；
+                        </p>
+
+                        <p class="rich_2  rich_9" style="color:#373737; line-height:2em; padding-left:20px; padding-right:20px;">
+                            <span style="color:#007afb; font-weight:bold;">比智高</span>——2014年、2015年，由国际篮球巨星易建联倾情代言；
+                        </p>
+                        <p class="rich_2  rich_9" style="color:#373737; line-height:2em; padding-left:20px; padding-right:20px;">
+                            <span style="color:#007afb; font-weight:bold;">比智高</span>——荣膺2014年央视年度宣传品牌；2014-2015年中央电视台《星光大道》、《开门大吉》栏目强力推荐；
+                        </p>
+                        <p class="rich_2  rich_9" style="color:#373737; line-height:2em; padding-left:20px; padding-right:20px;">
+                            <span style="color:#007afb; font-weight:bold;">比智高</span>——荣获中国3.15诚信品牌；
+                        </p>
+                        <p class="rich_2  rich_9" style="color:#373737; line-height:2em; padding-left:20px; padding-right:20px;">
+                            <span style="color:#007afb; font-weight:bold;">比智高</span>——2016年强势登陆CCTV-1综合频道、CCTV-13新闻频道。
+                        </p>
+                        <p class="rich_2  rich_9" style="color:#373737; line-height:2em; padding-left:20px; padding-right:20px;">
+                            <span style="color:#007afb; font-weight:bold;">比智高</span>——2017年独家冠名《音乐公开课》；强势合作《食尚大转盘》；CCTV1、CCTV7、CCTV15品牌报道。
+                        </p>
+
+
+                        <p class="rich_2 rich_hui1 rich_9" style="text-align:center; padding-top:15px; padding-bottom:10px;">
+                            <iframe class="video_iframe" data-vidtype="1" frameborder="0" data-src="http://i.snssdk.com/video/code/1/toutiao/a8a040c9c679455c976d6b26d892dbb5?auto_play=1" allowfullscreen="" scrolling="no" style="width: 95%; text-align:center; margin-left:8px; border-radius:0.5em; box-sizing: border-box; display: block; z-index: 1; overflow: hidden;  !important; word-wrap: break-word !important; height:170px;  !important;" src="http://i.snssdk.com/video/code/1/toutiao/a8a040c9c679455c976d6b26d892dbb5?auto_play=1"></iframe><br>
+                            （温馨提示：此视频请在WIFI状态下观看）
+                        </p>
+
+                        <p class="rich_2  rich_9" style="color:#373737; line-height:2em; padding-top:20px; padding-left:20px; padding-right:20px; text-align:center;">
+                            2014年、2015年，国际篮球巨星易建联倾情代言比智高
+                        </p>
+
+                        <p class="rich_2 rich_bull3 rich_9" style=" font-size:2rem;text-align:center; margin-bottom:20px; ">
+
+                            改变<span style="color:#fcff00;">身体的高度</span><br>
+
+                            成就<span style="color:#fcff00;">人生的高度</span><br>
+                            <span style="font-size:1.4rem;">— 我们相信没有长不高的孩子 —</span>
+                        </p>
+
+
+                        <p class="rich_2  rich_9" style="color:#373737; line-height:2em; padding-left:20px; padding-right:20px;">
+                            <span style="color:#007afb; font-weight:bold;">0-3岁：</span>孩子长的快，孩子身体棒，孩子不生病。
+                        </p>
+                        <p class="rich_2  rich_9" style="color:#373737; line-height:2em; padding-left:20px; padding-right:20px;">
+                            <span style="color:#007afb; font-weight:bold;">4-6岁：</span>智、动、体全面发育，让孩子从小建立自信，个子高，在哪都是焦点。
+                        </p>
+                        <p class="rich_2  rich_9" style="color:#373737; line-height:2em; padding-left:20px; padding-right:20px;">
+                            <span style="color:#007afb; font-weight:bold;">7-12岁：</span>抓住孩子成长发育关键期，让孩子天天都在长。
+                        </p>
+                        <p class="rich_2  rich_9" style="color:#373737; line-height:2em; padding-left:20px; padding-right:20px;">
+                            <span style="color:#007afb; font-weight:bold;">13-18岁：</span>青春期了，绝对不能错过的时间！让孩子长出修长美腿，拥有帅气高个，成就人生高度！
+                        </p>
+
+                        <section style="margin-top: 0.5em; margin-bottom: 0.5em;">
+                            <section style="padding: 10px; border: 1px solid white; width: 100%; display: inline-block; box-sizing: border-box;">
+                                <section style="padding: 0px; border: 0px currentColor; box-sizing: border-box;" class="">
+                                    <section>
+                                        <section style="text-align: center; color: rgb(185, 0, 0); font-size: 18px;">
+                                            <p style="white-space: normal;">
+                                                <span style="font-weight: 700;">
+                                                    长按复制微信号：<span class="keys" style="background: #0072ff;color: white;font-size: 22px;border-radius: 4px;">
+                                                        <script>document.write(rwx)</script>
+                                                    </span><br>
+                                                    <a class="zixun" href="weixin://" style="margin: 10px 0;line-height: 3em;" />打开微信</a>
+                                                </span>
+                                            </p>
+                                            <p style="white-space: normal;">
+                                                <span style="font-weight: 700;color:#669900;">每天都会<br>在朋友圈分享<span style="color: red;">增高知识,</span><br>欢迎交流学习。</span>
+                                            </p>
+                                        </section>
+                                    </section>
+                                </section>
+                            </section>
+                            <p></p>
+                        </section>
+                    </section>
+                    <p style="text-align: center; margin-top:1rem; margin:auto; height:auto;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/s10.jpg"></p>
+
+                    <br>
+                    <div class="rich_media_conten1t pinglun" style="font-size: 15px;">
+                        <br>
+
+                        <div class="tot_pin">
+
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/37.jpg" class="photo"></span>
+
+                            <span class="content">
+
+                                <div class="borde box1 ">
+                                    <span class="ni_name">上善若水</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>20</span></span><br>
+                                    <span class="box2">虽然还没有咨询过，但是看张老师还是挺专业的，想帮孩子长高可以试试。</span> <br>
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+
+                        </div>
+                        <div class="tot_pin ">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/38.jpg" class="photo"></span> <span class="content">
+                                <div class="borde box1 ">
+                                    <span class="ni_name">Mr. Wang</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>24</span></span><br>
+                                    <span class="box2">看到矮父母也能养出高儿子，我也有信心了，希望能在老师的帮助下，孩子也能长出大高个。</span> <br>
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin ">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/39.jpg" class="photo"></span> <span class="content">
+                                <div class="borde box1 ">
+                                    <span class="ni_name">心中有太阳</span> <span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp; <span>58</span></span><br>
+                                    <span class="box2">老师真的能让孩子长高吗？我的孩子也有些偏矮，试了很多方法不管用，都愁死了。</span> <br>
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <!--<div class="tot_pin"> <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/40.jpg" class="photo"></span> <span class="content">
+                                        <div class="borde box1 "><span class="ni_name">禅悟</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>65</span></span><br>
+                                          <span class="box2">家长一定要留意孩子的身高，如果身高比同龄孩子差的多，就得及时干预，我一个朋友的孩子，就是干预太晚了，把孩子耽误了，女孩才153cm，以后可咋办啊。</span> <br>
+                                          <span class="ni_name"><script type="text/javascript">
+                        var d = new Date();
+                        document.write(d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate()+'');
+                        </script></span> <br>
+                                          </div>
+                                        </span> </div> -->
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/41.jpg" class="photo"></span> <span class="content">
+                                <div class="borde box1">
+                                    <span class="ni_name">禅悟</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>301</span></span><br>
+                                    <span class="box2">家长一定要留意孩子的身高，如果身高比同龄孩子差的多，就得及时干预，我一个朋友的孩子，就是干预太晚了，把孩子耽误了，女孩才153cm，以后可咋办啊。</span> <br>
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/42.jpg" class="photo"></span> <span class="content">
+                                <div class="borde box1 ">
+                                    <span class="ni_name">紫色的云</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>22</span></span><br>
+                                    <span class="box2">孩子挑食、厌食真是影响长个，我家孩子以前挑食，长个慢，后来在张老师的指导下，挑食的毛病改善了，个子也长高了，感谢张老师。</span> <br>
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/43.jpg" class="photo"></span> <span class="content">
+                                <div class="borde box1 ">
+                                    <span class="ni_name">赶海的小海螺</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>87</span></span><br>
+                                    <span class="box2">我家孩子上高一了，170cm，我觉得男孩还是有点偏矮，还能长高吗？</span> <br>
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/44.jpg" class="photo"></span> <span class="content">
+                                <div class="borde box1">
+                                    <span class="ni_name">Jenny</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>34</span></span><br>
+                                    <span class="box2">我家孩子偏矮，张老师帮忙调了一个多月，还没长高，但吃饭比以前能吃了，张老师说，能吃饭就是好现象，再调理一段时间就能长高了，期待ing！</span> <br>
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/45.jpg" class="photo"></span> <span class="content">
+                                <div class="borde box1 ">
+                                    <span class="ni_name">深海的蓝</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>167</span></span><br>
+                                    <span class="box2">孩子长多高是天生的，老师指导就能长高？我才不相信这一套呢！</span> <br>
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/46.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">灰太狼爱红太狼</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>239</span></span><br>
+
+                                    <span class="box2">我家孩子长得慢，一直坐在第一排，咨询了张老师后，按照她的方法调理，真的见效了，个子长高不少，成绩也提高了，座位现在排第三排了。</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+
+
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/47.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">春江花月夜</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>239</span></span><br>
+
+                                    <span class="box2">我和孩子他爸都不高，特别担心孩子长不高，还好遇到了张老师，在她的帮助下，孩子长高了不少，比他爸高半头。终于摆脱了矮个的烦恼！真的非常感谢张老师。</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/48.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">天凉好个秋</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>79</span></span><br>
+
+                                    <span class="box2">以前总是奇怪，为什么同样的父母生出来的孩子，个子都不一样，原来先天占70%，后天还占30%呢，要好好吃饭、好好睡觉，好好运动才能长高！学习了，感谢张老师答疑解惑。</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/49.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">A和B</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>158</span></span><br>
+
+                                    <span class="box2">我小的时候，是因为吃不上饭，营养不良才长不高的，现在生活条件这么好了，怎么还有那么多孩子长不高？问题出在哪里呢？</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/50.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">懒洋洋的猫</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>527</span></span><br>
+
+                                    <span class="box2">是朋友介绍我认识张老师的，通过沟通，感觉张老师很专业，很有耐心，我决定让她帮我女儿指导一下，孩子才10岁，已经来月经了，情绪低落，我着急死了。希望张老师能帮我女儿摆脱烦恼。</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/51.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">花好月圆</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>32</span></span><br>
+
+                                    <span class="box2">我女儿一直想做模特，但身高差3公分，当时很着急，用了很多方法不管用。有幸认识了张老师，在她的指导下，女儿又长高了5公分，现在已经是个专业模特了，借这个地方，表达一下对张老师的感谢。</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/52.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">麻团的妈</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>14</span></span><br>
+
+                                    <span class="box2">除了微信，张老师还有别的联系方式吗？我加了她，没反应，是不是太忙了？</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/53.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">阿加阿加</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>16</span></span><br>
+
+                                    <span class="box2">我爸妈个子都不矮，我还没长过我妈妈，说多了都是泪啊，为什么没让我早点看到这篇文章！</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/54.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">羊小欠娜娜</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>71</span></span><br>
+
+                                    <span class="box2">遗传的个矮也能长高？？？？？这方法真有这么神？？</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/55.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">好心有好报</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>52</span></span><br>
+
+                                    <span class="box2">为什么都想长高呢？矮子也挺好啊，这样世界才多彩多样！</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/56.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">一氾</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>68</span></span><br>
+
+                                    <span class="box2">孩子身高可以突破遗传的，林书豪人家父母都168cm，他长到191cm。我一个邻居他妈妈只有155cm，他爸爸173cm，他长到185cm，还在长呢。</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/57.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">Cici</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>37</span></span><br>
+
+                                    <span class="box2">张老师的方法安全吗？有用过的家长反馈一下。有效是一方面，安全性也很重要。</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/58.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">嬅時代</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>58</span></span><br>
+
+                                    <span class="box2">我儿子在张老师的帮助下长高了，不但长高了，成绩还提高了，没有发现副作用。</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/59.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">Cici</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>64</span></span><br>
+
+                                    <span class="box2">张老师的方法安全吗？有用过的家长反馈一下。有效是一方面，安全性也很重要。</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/60.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">小屁兔</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>102</span></span><br>
+
+                                    <span class="box2">已经19岁的男孩，还能长高吗，张老师的方法还能用吗？</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/61.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">一叶扁舟</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>75</span></span><br>
+
+                                    <span class="box2">这方法真的那么管用吗？我正为儿子不长高发愁呢~~</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/62.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">吹海风的菇凉</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>31</span></span><br>
+
+                                    <span class="box2">我家孩子早产，从小身体就比别的孩子矮小，俗话说，先天不足后天补，不知道怎么补才能赶上别的孩子？</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/63.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">喵星人</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>47</span></span><br>
+
+                                    <span class="box2">个子矮的烦恼太多了，我是深受其害，经常被取笑，找对象的时候，谈了好几个都嫌我矮，后来找了现在的老婆才结婚。但老婆一直担心女儿遗传我的矮，天天给孩子补营养，但是效果不明显。后来遇到了张老师，在她的指导下，身高慢慢赶上来了，现在15岁了，身高160cm，我已经知足了，感谢张老师。</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/64.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">Wen 香</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>371</span></span><br>
+
+                                    <span class="box2">我现在19岁了，男，170cm，我还有机会长高吗？170，好尴尬的数字，好想再长5cm。</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/65.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">八月桂花</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>36</span></span><br>
+
+                                    <span class="box2">有的孩子就是晚长吧？我之前一直坐第一排，到初三才开始长。我一个同学一直坐第一排，高中才开始长，大学还蹿高了几公分，现在175cm，比一般的男同学都高。</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/66.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">叮叮咚</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>186</span></span><br>
+
+                                    <span class="box2">感谢张老师，赶上了最后一波长高的关键期，要是再晚一年，就没机会长高了！</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/67.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">起个不一样的名字</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>134</span></span><br>
+
+                                    <span class="box2">我们老家有句俗话，二十三蹿一蹿，这句话耽误了好几个孩子！</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/68.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">葉子</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>92</span></span><br>
+
+                                    <span class="box2">真的管用吗？？反正之前我给孩子喝过中药、买过拉伸器啥的没啥效果，都不敢轻易相信了……</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/69.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">冰雪人</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>83</span></span><br>
+
+                                    <span class="box2">张老师指导三个月，我女儿就长高了4公分，真的太感谢了！</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/70.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">南瓜车</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>47</span></span><br>
+
+                                    <span class="box2">父母矮的孩子真能长高吗？我爸妈都不高，我一直偏矮，谁来救救我！</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/71.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">谦谦君子</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>58</span></span><br>
+
+                                    <span class="box2">只是在说用了张老师的方法长高，具体是什么方法啊？没有具体的介绍啊！</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/72.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">Merry</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>63</span></span><br>
+
+                                    <span class="box2">我在美国，张老师的方法能远程指导吗？女儿的个子也不高，想让她长高点。</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tot_pin">
+                            <span class="photo"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/73.jpg" class="photo"></span> <span class="content">
+
+                                <div class="borde box1">
+                                    <span class="ni_name">喵……</span><span class="like"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/sfsd.jpg" name="zambia" style="width:25px; height:25px">&nbsp;<span>37</span></span><br>
+
+                                    <span class="box2">我家孩子在学校，每次体检都不达标，孩子在学校被同学起外号，叫小土豆。我真替孩子着急。后来朋友介绍我加了张老师微信，在张老师的指导下，孩子身高追上了不少。很感谢张老师。</span> <br>
+
+                                    <span class="ni_name">
+                                        <script type="text/javascript">
+                                            var d = new Date();
+                                            document.write(d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate() + '');
+                                        </script>
+                                    </span> <br>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                    <div style="text-align:center; line-height:25px; font-size:14px; color:#666666;">版权所有：深圳市韩护科技有限公司</div>
+                    <div style="text-align:center; line-height:25px; font-size:14px; color:#666666;">ICP:粤ICP备17004031号-1</div>
+
+
+                    </section>
+                    </section></section></section>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div style="position: fixed;bottom: 0;background: #eee;border-top: 1px solid #ccc;font-size: 16px;padding:5px;z-index:9999;width: 100%;">
+            <table cellpadding="0" cellspacing="0" border="0">
+                <tbody>
+                    <tr>
+                        <td><div style="background: #fff; border:#ccc 1px solid; padding: 5px; margin-top: -20px; overflow: hidden;"><img src="http://jmtu.oss-cn-shanghai.aliyuncs.com/zg1/wx-pic.jpg" width="50px" style="float:left;"></div></td>
+                        <td style="padding-left:7px;">
+                            微信号：<font class="statistics02" style="background:#ff0000;color:#fff; font-weight:bold;"><span class="manxing statistics02" oncopy="copyFunction()"> <a ontouchstart="_czc.push(['_trackEvent', '微信', '复制']);" style="color:#ffffff;"><span class="weixinhaoma wxbutton"></span></a> </span></font><br>
+                            长按复制 添加官方微信！
+
+                        </td>
+                        <td style="padding-left:5px;"><a href="javascript:window.location.href='weixin://'" style="background: #3c9f0e;color: #fff;border-radius: 12px;height: 40px;line-height: 40px;text-align: center;box-shadow: 0 1px 3px 0 #000;display:block;width:100px;">去微信&gt;</a></td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 
 </body>
 </html>
