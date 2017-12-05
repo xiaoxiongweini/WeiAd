@@ -55,3 +55,5 @@ WeiAd/04 Layouts/AdApp/bin/Microsoft.AI.DependencyCollector.xml
 WeiAd/04 Layouts/AdApp/bin/EntityFramework.xml
 WeiAd/04 Layouts/AdApp/bin/EntityFramework.SqlServer.xml
 WeiAd/02 Access/DN.WeiAd.MsSqlAccess/obj/Debug/DN.WeiAd.MsSqlAccess.csproj.FileListAbsolute.txt
+WeiAd/04 Layouts/WebApp/obj/Debug/WebApp.csproj.FileListAbsolute.txt
+WeiAd/04 Layouts/AdApp/obj/Debug/AdApp.csproj.FileListAbsolute.txt
