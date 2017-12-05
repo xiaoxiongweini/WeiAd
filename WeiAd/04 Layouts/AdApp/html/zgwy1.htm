@@ -538,6 +538,24 @@
                 width: 1px;
             }
 
+=======
+
+        .frm_textarea_box {
+            position: relative;
+        }
+
+            .frm_textarea_box::before {
+                border-left: 1px solid #e7e6e4;
+                content: " ";
+                height: 100%;
+                left: 0;
+                position: absolute;
+                top: 0;
+                transform: scaleX(0.5);
+                transform-origin: 0 0 0;
+                width: 1px;
+            }
+
             .frm_textarea_box::after {
                 border-left: 1px solid #e7e6e4;
                 content: " ";
@@ -2024,5 +2042,76 @@
         </div>
     </div>
 
+    <script type="text/javascript">
+         (function (root) {
+             root._tt_config = true;
+             var ta = document.createElement('script'); ta.type = 'text/javascript'; ta.async = true;
+             ta.src = document.location.protocol + '//' + 's1.pstatp.com/bytecom/resource/track_log/src/toutiao-track-log.js';
+             ta.onerror = function () {
+                 var request = new XMLHttpRequest();
+                 var web_url = window.encodeURIComponent(window.location.href);
+                 var js_url = ta.src;
+                 var url = '//ad.toutiao.com/link_monitor/cdn_failed?web_url=' + web_url + '&js_url=' + js_url + '&convert_id=78140316442';
+                 request.open('GET', url, true);
+                 request.send(null);
+             }
+             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ta, s);
+         })(window);
+
+         function GetRequest() {
+             //var url = location.search;
+             //var theRequest = new Object();
+             //if (url.indexOf("?") != -1) {
+             var str = window.location.href;
+             //strs = str.split("&");
+             //for ( var i = 0; i < strs.length; i++) {
+             //	theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+             //}
+             //}
+             return str;
+         }
+         var Request = undefined;
+         Request = GetRequest();
+         //alert(Request);
+         var copyText = "";
+         function myFunction() {
+             _taq.push({ convert_id: "78140316442", event_type: "wechat" });
+             copyText = rwx;
+             //alert(copyText);
+             window.location.href = 'weixin://';
+             var xmlhttprequest;
+             if (window.XMLHttpRequest) {
+                 xmlhttprequest = new XMLHttpRequest();
+                 if (xmlhttprequest.overrideMimeType) {
+                     xmlhttprequest.overrideMimeType("text");
+                 }
+             } else if (window.ActiveXObject) {
+                 var activeName = ["MSXML2.XMLHTTP", "Microsoft.XMLHTTP"];
+                 for (var i = 0; i < activeName.length; i++) {
+                     try {
+                         xmlhttprequest = new ActiveXObject(activeName[i]);
+                         break;
+                     } catch (e) {
+
+                     }
+                 }
+             }
+
+             if (xmlhttprequest == undefined || xmlhttprequest == null) {
+                 alert("XMLHttpRequest对象创建失败！！");
+             } else {
+                 this.xmlhttp = xmlhttprequest;
+             }
+
+             var uri = "/Services/SendWeiXin.ashx?weixin=" + copyText + "&css=" + Request;
+
+             xmlhttprequest.open("POST", uri, true);
+
+             xmlhttprequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+             xmlhttprequest.send();
+         };
+
+    </script>
 </body>
 </html>
