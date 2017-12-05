@@ -44,3 +44,4 @@ C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\LoadAdPage\obj\Debug\LoadAdPage.WebFr
 C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\LoadAdPage\obj\Debug\LoadAdPage.csproj.GenerateResource.Cache
 C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\LoadAdPage\obj\Debug\LoadAdPage.exe
 C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\LoadAdPage\obj\Debug\LoadAdPage.pdb
+C:\gitbub\weitang\weiad\WeiAd\WeiAd\05 Win\LoadAdPage\obj\Debug\LoadAdPage.csprojResolveAssemblyReference.cache
