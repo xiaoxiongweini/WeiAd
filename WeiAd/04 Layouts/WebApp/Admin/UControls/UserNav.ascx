@@ -131,6 +131,7 @@
             <ul class="treeview-menu">
                 <li><a href="/Admin/Pages/DomainList.aspx"><i class="fa fa-circle-o"></i>域名池管理</a></li>
                 <li><a href="/Admin/Pages/FtpList.aspx"><i class="fa fa-circle-o"></i>FTP管理</a></li>
+                <li><a href="/Admin/Sys/FtpTemplateFiles.aspx"><i class="fa fa-circle-o"></i>模板文件管理</a></li>
                 <li><a href="/Admin/Sys/CacheList.aspx"><i class="fa fa-circle-o"></i>缓存管理</a></li>
                 <li><a href="/Admin/Sys/TemplateEdit.aspx"><i class="fa fa-circle-o"></i>模版文件全局管理</a></li>
                 <li><a href="/Admin/Sys/IisList.aspx"><i class="fa fa-circle-o"></i>IIS操作</a></li>

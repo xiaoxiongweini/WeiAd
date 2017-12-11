@@ -1,0 +1,11 @@
+C:\Projects\HtmlEditorTool\HtmlEditor\WebTools\bin\Debug\netcoreapp2.0\WebTools.deps.json
+C:\Projects\HtmlEditorTool\HtmlEditor\WebTools\bin\Debug\netcoreapp2.0\WebTools.runtimeconfig.json
+C:\Projects\HtmlEditorTool\HtmlEditor\WebTools\bin\Debug\netcoreapp2.0\WebTools.runtimeconfig.dev.json
+C:\Projects\HtmlEditorTool\HtmlEditor\WebTools\bin\Debug\netcoreapp2.0\WebTools.dll
+C:\Projects\HtmlEditorTool\HtmlEditor\WebTools\bin\Debug\netcoreapp2.0\WebTools.pdb
+C:\Projects\HtmlEditorTool\HtmlEditor\WebTools\obj\Debug\netcoreapp2.0\WebTools.csprojResolveAssemblyReference.cache
+C:\Projects\HtmlEditorTool\HtmlEditor\WebTools\obj\Debug\netcoreapp2.0\WebTools.csproj.CoreCompileInputs.cache
+C:\Projects\HtmlEditorTool\HtmlEditor\WebTools\obj\Debug\netcoreapp2.0\WebTools.AssemblyInfoInputs.cache
+C:\Projects\HtmlEditorTool\HtmlEditor\WebTools\obj\Debug\netcoreapp2.0\WebTools.AssemblyInfo.cs
+C:\Projects\HtmlEditorTool\HtmlEditor\WebTools\obj\Debug\netcoreapp2.0\WebTools.dll
+C:\Projects\HtmlEditorTool\HtmlEditor\WebTools\obj\Debug\netcoreapp2.0\WebTools.pdb

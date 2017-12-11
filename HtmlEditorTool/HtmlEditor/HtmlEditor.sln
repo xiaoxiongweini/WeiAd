@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlEditor", "HtmlEditor\HtmlEditor.csproj", "{ED656AB0-3C39-427C-AA83-BB35C0A17B6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{A62AD612-9851-43F0-BE82-6582ACC7DBEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI.Tests", "WebAPI.Tests\WebAPI.Tests.csproj", "{8AE2A7BF-11B8-4ED0-B1F9-0D81ADDFAB73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED656AB0-3C39-427C-AA83-BB35C0A17B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED656AB0-3C39-427C-AA83-BB35C0A17B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED656AB0-3C39-427C-AA83-BB35C0A17B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED656AB0-3C39-427C-AA83-BB35C0A17B6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A62AD612-9851-43F0-BE82-6582ACC7DBEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A62AD612-9851-43F0-BE82-6582ACC7DBEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A62AD612-9851-43F0-BE82-6582ACC7DBEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A62AD612-9851-43F0-BE82-6582ACC7DBEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AE2A7BF-11B8-4ED0-B1F9-0D81ADDFAB73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AE2A7BF-11B8-4ED0-B1F9-0D81ADDFAB73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AE2A7BF-11B8-4ED0-B1F9-0D81ADDFAB73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AE2A7BF-11B8-4ED0-B1F9-0D81ADDFAB73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F2D9ADC-FDFA-471A-BDDF-47B8031C2B37}
+	EndGlobalSection
+EndGlobal

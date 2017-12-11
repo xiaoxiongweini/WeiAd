@@ -1,0 +1,794 @@
+-------------start 2017-12-08 21:20:03-------------/Login.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017-12-08 21:20:03-------------
+-------------start 2017-12-08 21:20:04-------------/Admin/Index.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017-12-08 21:20:04-------------
+-------------start 2017-12-08 21:20:19-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017-12-08 21:20:19-------------
+-------------start 2017-12-08 21:20:23-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017-12-08 21:20:23-------------
+-------------start 2017-12-08 21:20:23-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdQcodeInfo  WHERE 1=1  
+-------------end 2017-12-08 21:20:23-------------
+-------------start 2017-12-08 21:20:23-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdQcodeInfo  WHERE 1=1  
+-------------end 2017-12-08 21:20:23-------------
+-------------start 2017-12-08 21:20:23-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdUserPage  WHERE 1=1  
+-------------end 2017-12-08 21:20:23-------------
+-------------start 2017-12-08 21:20:24-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdUserPage  WHERE 1=1  
+-------------end 2017-12-08 21:20:24-------------
+-------------start 2017-12-08 21:20:27-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017-12-08 21:20:27-------------
+-------------start 2017-12-08 21:20:27-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017-12-08 21:20:27-------------
+-------------start 2017-12-08 21:20:38-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017-12-08 21:20:38-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdUserPage  WHERE 1=1  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='50803b34.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdUserPage  WHERE 1=1  AND [PageName]='50803b34.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [Id]='26'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM ArticleInfo  WHERE 1=1  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='a68b62c5.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdUserPage  WHERE 1=1  AND [PageName]='a68b62c5.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [Id]='28'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='cacab755.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdUserPage  WHERE 1=1  AND [PageName]='cacab755.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [Id]='148'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='e85eba31.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdUserPage  WHERE 1=1  AND [PageName]='e85eba31.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [Id]='148'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='64ff86d8.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdUserPage  WHERE 1=1  AND [PageName]='64ff86d8.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [Id]='143'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='7fa47f28.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='949c722e.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='47256b56.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='2d67d201.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='15138c12.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='cb00d1cf.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='721f6ed6.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='5551d78d.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='fb4f0bf1.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='401aa310.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='fdf1b155.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='bdf92854.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='5d29d9ca.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='9f59cf96.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='e20294d6.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='513c19ae.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='11ba3f28.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='25461009.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='9e8ea3bc.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='ed1f8b36.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='44021d1f.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='cd79dbb9.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='69baea76.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='bd8ecadc.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='072bb917.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='0f2a1858.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='4cdd8335.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='a7289000.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:39-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='78ede439.html'  
+-------------end 2017-12-08 21:20:39-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='4317fa3a.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='3e7cfba6.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='8b297723.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='cb1b37e0.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='0c9ceacc.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='9ca0c46e.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='4c57480c.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='3e6af1a6.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='affd2d68.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='d046eace.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='18bedcec.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='fda57417.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='760a273e.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='b156e19d.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='fe9f2414.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='254c8712.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='9cdb6902.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='6ab5e0e7.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='05deb406.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='c3aa04ad.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='841b8e3d.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='6ba2599f.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='5ec55271.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='6ec5b872.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='45d91488.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='6520da7c.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='6200e498.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='dabf852a.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='a4913f14.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='3e9115d4.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='9ce1e4b1.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='bde1e85c.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='774544ca.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='72a0d5c7.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='e07ab028.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='aa8b9e96.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='9e5926f1.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='4a6655d5.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='fbdc6d75.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='d1e554fc.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='11cb7f0e.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='114da387.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='eda0bb32.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='214e0db5.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='41e00c82.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='a54e9a72.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='4b1e1e43.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='919ab9dd.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:40-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='8d3ed175.html'  
+-------------end 2017-12-08 21:20:40-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='2474ef4a.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='5b79cc47.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='30bdadb3.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='55df7b1a.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='0a056fa2.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='51afa913.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='7d076f66.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='ee9d56f2.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='561f67ac.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='bcb43099.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='14876407.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='18051c6a.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='2aa4d7fe.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='569072ee.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='90f1ad43.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='9bb41e64.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='aecc6306.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='21622b27.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='2bef5b73.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='5f5b96fa.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='8b7614f6.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='20f819f3.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='85cf9c64.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='57e1cdf3.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='ed4f895b.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='079493e0.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='9623ef0c.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='91d6cc89.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='e6368192.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='85f527cb.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='8f11f2e9.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='0be846e8.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='fa17f352.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='cc6c9005.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='421b10b6.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='e44d66f4.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='13c9a818.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='939f2c89.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='7f569a2f.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='37c59421.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:41-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='abfa9366.html'  
+-------------end 2017-12-08 21:20:41-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='fc73ae57.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='8670ee35.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='1f94dd89.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='2caeab3a.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='4b286431.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='606cb84b.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='831a0cc0.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='ecfb8bbb.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='e1168dd7.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='68b74934.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='aedfb500.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='40639346.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='3e04de1e.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='301a1bae.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='d605ab10.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='ca385b0f.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='18ac1d5a.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='5f75b05d.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='084d35e3.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='4fbdabd4.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='a18671d2.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='1b4aee11.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='ab2344b0.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='01520b7b.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='d45ff310.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='b52e5ce8.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='c75c0b24.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='55b5ec6d.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='4e6f60d6.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='4cfa30ac.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='8cb946ac.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='3c30e701.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='20c2fe59.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='cf03c6c0.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='88a22ba5.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='ce920e05.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='790d0c38.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='452d4f82.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='5de6502e.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='16f958a5.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='e3314b30.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='2c558c0f.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='8d686b15.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='52b3137f.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:42-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='3b7c093c.html'  
+-------------end 2017-12-08 21:20:42-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='740c5827.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='180cf596.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='7be8e13d.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='726ca0cf.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='b1551f9b.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='3034ec09.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='d97638a2.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='8b4a2f72.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='10350458.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='66e52dab.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='edd6e8b2.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='009debc9.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='f70759fc.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='e069b0d6.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='a78b7381.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='0b72edc4.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='2a26d112.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='b8a04afa.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='3339c833.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='5d584f36.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='44726c96.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='5f3269e3.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='757d989c.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='3dbf70b3.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='38dd6539.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='558e3d82.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='7ceb3cc5.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='2de5966b.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='ef98b917.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='678a0d06.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='9b1933d1.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='bfd618c7.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='ae02fa5d.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='50169643.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='475e3db7.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='ed4cd37b.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='a3803caa.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='6049a9d0.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='37748d23.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='2ea417f3.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='630bf50a.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='5d9ac71f.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='1243a517.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='3ca33543.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='ca49f80e.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='af7204cb.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:43-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='86d392e8.html'  
+-------------end 2017-12-08 21:20:43-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='833aacd7.html'  
+-------------end 2017-12-08 21:20:44-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='2880067f.html'  
+-------------end 2017-12-08 21:20:44-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='b1dd3437.html'  
+-------------end 2017-12-08 21:20:44-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='eb445d52.html'  
+-------------end 2017-12-08 21:20:44-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='562894e5.html'  
+-------------end 2017-12-08 21:20:44-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='20613ac1.html'  
+-------------end 2017-12-08 21:20:44-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='4f395b50.html'  
+-------------end 2017-12-08 21:20:44-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='c1b442e9.html'  
+-------------end 2017-12-08 21:20:44-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='b13630a5.html'  
+-------------end 2017-12-08 21:20:44-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='3d3a4ae2.html'  
+-------------end 2017-12-08 21:20:44-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='98355293.html'  
+-------------end 2017-12-08 21:20:44-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='c61cf916.html'  
+-------------end 2017-12-08 21:20:44-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='85e5cbac.html'  
+-------------end 2017-12-08 21:20:44-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='a6317c7c.html'  
+-------------end 2017-12-08 21:20:44-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='d16437f5.html'  
+-------------end 2017-12-08 21:20:44-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='712e6307.html'  
+-------------end 2017-12-08 21:20:44-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='780fb680.html'  
+-------------end 2017-12-08 21:20:44-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='16a3152a.html'  
+-------------end 2017-12-08 21:20:44-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='a579470d.html'  
+-------------end 2017-12-08 21:20:44-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='fd2d6cc1.html'  
+-------------end 2017-12-08 21:20:44-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='1f1cbd56.html'  
+-------------end 2017-12-08 21:20:44-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='0c133595.html'  
+-------------end 2017-12-08 21:20:44-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='3ac77ec5.html'  
+-------------end 2017-12-08 21:20:44-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='b743c108.html'  
+-------------end 2017-12-08 21:20:44-------------
+-------------start 2017-12-08 21:20:44-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [ViewPage]='02263d3e.html'  
+-------------end 2017-12-08 21:20:44-------------

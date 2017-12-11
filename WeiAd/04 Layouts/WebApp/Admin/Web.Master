@@ -109,7 +109,7 @@
             <!-- Content Wrapper. Contains page content -->
             <div class="content-wrapper">
                 <div>
-                    <asp:ContentPlaceHolder ID="miniContent" runat="server">
+                    <asp:ContentPlaceHolder ID="miniContent" runat="server">222
                     </asp:ContentPlaceHolder>
                 </div>
             </div>
