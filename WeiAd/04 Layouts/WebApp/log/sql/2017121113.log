@@ -1,0 +1,44 @@
+-------------start 2017-12-11 13:04:22-------------/Admin/Sys/FtpTemplateFiles.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017-12-11 13:04:22-------------
+-------------start 2017-12-11 13:04:31-------------/Admin/Pages/DomainList.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017-12-11 13:04:31-------------
+-------------start 2017-12-11 13:04:42-------------/Admin/Pages/DomainList.aspx
+SELECT TOP 10 * FROM [DomainInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [DomainInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017-12-11 13:04:42-------------
+-------------start 2017-12-11 13:06:24-------------/Login.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017-12-11 13:06:24-------------
+-------------start 2017-12-11 13:06:27-------------/Admin/Index.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017-12-11 13:06:27-------------
+-------------start 2017-12-11 13:06:33-------------/Admin/Pages/FtpList.aspx
+SELECT TOP 10 * FROM [FtpInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [FtpInfo]  WHERE 1=1  )  
+-------------end 2017-12-11 13:06:33-------------
+-------------start 2017-12-11 13:06:36-------------/Admin/Sys/FtpTemplateFiles.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017-12-11 13:06:36-------------
+-------------start 2017-12-11 13:08:21-------------/Login.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017-12-11 13:08:21-------------
+-------------start 2017-12-11 13:08:26-------------/Admin/Index.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017-12-11 13:08:26-------------
+-------------start 2017-12-11 13:08:33-------------/Admin/Pages/FtpList.aspx
+SELECT TOP 10 * FROM [FtpInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [FtpInfo]  WHERE 1=1  )  
+-------------end 2017-12-11 13:08:33-------------
+-------------start 2017-12-11 13:08:37-------------/Admin/Sys/FtpTemplateFiles.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017-12-11 13:08:37-------------
+-------------start 2017-12-11 13:08:58-------------/Admin/Pages/FtpList.aspx
+SELECT TOP 10 * FROM [FtpInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [FtpInfo]  WHERE 1=1  )  
+-------------end 2017-12-11 13:08:58-------------
+-------------start 2017-12-11 13:10:54-------------/Admin/Pages/FtpList.aspx
+SELECT TOP 10 * FROM [FtpInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [FtpInfo]  WHERE 1=1  )  
+-------------end 2017-12-11 13:10:54-------------

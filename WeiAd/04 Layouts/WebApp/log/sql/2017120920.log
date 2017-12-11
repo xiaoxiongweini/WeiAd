@@ -1,0 +1,26 @@
+-------------start 2017-12-09 20:39:06-------------/Login.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017-12-09 20:39:06-------------
+-------------start 2017-12-09 20:39:08-------------/Admin/Index.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017-12-09 20:39:08-------------
+-------------start 2017-12-09 20:39:31-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017-12-09 20:39:31-------------
+-------------start 2017-12-09 20:39:36-------------/Admin/Pages/FtpList.aspx
+SELECT TOP 10 * FROM [FtpInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [FtpInfo]  WHERE 1=1  )  
+-------------end 2017-12-09 20:39:36-------------
+-------------start 2017-12-09 20:39:40-------------/Admin/Vir/VirAdBrowseList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017-12-09 20:39:40-------------
+-------------start 2017-12-09 20:39:40-------------/Admin/Vir/VirAdBrowseList.aspx
+SELECT TOP 10 * FROM [VirAdBrowse]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [VirAdBrowse]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017-12-09 20:39:40-------------
+-------------start 2017-12-09 20:39:47-------------/Admin/Pages/FtpList.aspx
+SELECT TOP 10 * FROM [FtpInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [FtpInfo]  WHERE 1=1  )  
+-------------end 2017-12-09 20:39:47-------------
+-------------start 2017-12-09 20:39:48-------------/Admin/Pages/DomainList.aspx
+SELECT TOP 10 * FROM [DomainInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [DomainInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017-12-09 20:39:48-------------

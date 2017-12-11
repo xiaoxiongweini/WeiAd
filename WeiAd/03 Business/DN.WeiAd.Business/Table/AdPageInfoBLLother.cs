@@ -353,6 +353,31 @@ namespace DN.WeiAd.Business
             return list;
         }
 
+        /// <summary>
+        /// 获所有模板详情
+        /// </summary>
+        /// <returns></returns>
+        public List<templatefiledetail> GetTemplateDetail()
+        {
+            string path = HttpContext.Current.Server.MapPath("/Resources/Template");
+            List<templatefiledetail> list = new List<templatefiledetail>();
+
+            var flist = Directory.GetFiles(path);
+            foreach (var item in flist)
+            {
+                templatefiledetail template = new templatefiledetail();
+                System.IO.FileInfo file = new System.IO.FileInfo(item);
+                template.filename = file.Name;
+                template.fcreattime = file.LastWriteTime;
+                template.filesize = (File.ReadAllBytes(item).Length)/1024.00;
+                template.filepath = path + "/" + file.Name;
+                template.Extension = file.Extension;
+                list.Add(template);
+                
+            }
+            return list;
+        }
+
         private string GetTemplateFile(string templname)
         {
             if (string.IsNullOrEmpty(templname))
@@ -789,5 +814,13 @@ namespace DN.WeiAd.Business
             }
         }
         #endregion
+    }
+
+    public class templatefiledetail {
+        public string filename { get; set; }
+        public DateTime fcreattime { get; set; }
+        public double filesize { get; set; }
+        public string filepath { get; set; }
+        public string Extension { get; set; }
     }
 }

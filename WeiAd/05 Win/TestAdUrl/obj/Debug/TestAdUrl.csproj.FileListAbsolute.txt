@@ -23,6 +23,7 @@ C:\Projects\WeiAd\05 Win\TestAdUrl\bin\Debug\TestAdUrl.exe.config
 C:\Projects\WeiAd\05 Win\TestAdUrl\bin\Debug\TestAdUrl.exe
 C:\Projects\WeiAd\05 Win\TestAdUrl\bin\Debug\TestAdUrl.pdb
 C:\Projects\WeiAd\05 Win\TestAdUrl\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\WeiAd\05 Win\TestAdUrl\obj\Debug\TestAdUrl.csprojResolveAssemblyReference.cache
 C:\Projects\WeiAd\05 Win\TestAdUrl\obj\Debug\TestAdUrl.csproj.CoreCompileInputs.cache
 C:\Projects\WeiAd\05 Win\TestAdUrl\obj\Debug\TestAdUrl.exe
 C:\Projects\WeiAd\05 Win\TestAdUrl\obj\Debug\TestAdUrl.pdb

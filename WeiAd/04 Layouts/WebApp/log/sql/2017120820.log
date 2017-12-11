@@ -1,0 +1,71 @@
+-------------start 2017-12-08 20:08:30-------------/Login.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017-12-08 20:08:30-------------
+-------------start 2017-12-08 20:08:31-------------/Admin/Index.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017-12-08 20:08:31-------------
+-------------start 2017-12-08 20:19:24-------------/Login.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017-12-08 20:19:24-------------
+-------------start 2017-12-08 20:19:25-------------/Admin/Index.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017-12-08 20:19:25-------------
+-------------start 2017-12-08 20:22:44-------------/Login.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017-12-08 20:22:44-------------
+-------------start 2017-12-08 20:22:47-------------/Admin/Index.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017-12-08 20:22:47-------------
+-------------start 2017-12-08 20:25:05-------------/Login.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017-12-08 20:25:05-------------
+-------------start 2017-12-08 20:25:08-------------/Admin/Index.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017-12-08 20:25:08-------------
+-------------start 2017-12-08 20:27:44-------------/Login.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017-12-08 20:27:44-------------
+-------------start 2017-12-08 20:27:45-------------/Admin/Index.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017-12-08 20:27:45-------------
+-------------start 2017-12-08 20:28:05-------------/Admin/Vir/VirAdBrowseList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017-12-08 20:28:05-------------
+-------------start 2017-12-08 20:28:06-------------/Admin/Vir/VirAdBrowseList.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017-12-08 20:28:06-------------
+-------------start 2017-12-08 20:28:06-------------/Admin/Vir/VirAdBrowseList.aspx
+SELECT TOP 10 * FROM [VirAdBrowse]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [VirAdBrowse]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017-12-08 20:28:06-------------
+-------------start 2017-12-08 20:28:37-------------/Admin/Pages/DomainList.aspx
+SELECT TOP 10 * FROM [DomainInfo]  WHERE 1=1  AND Id NOT IN (SELECT TOP 0 Id FROM [DomainInfo]  WHERE 1=1   order by  id desc )   order by  id desc 
+-------------end 2017-12-08 20:28:37-------------
+-------------start 2017-12-08 20:35:59-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  AND [IsDel]='0'  
+-------------end 2017-12-08 20:35:59-------------
+-------------start 2017-12-08 20:35:59-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdQcodeInfo  WHERE 1=1  
+-------------end 2017-12-08 20:35:59-------------
+-------------start 2017-12-08 20:35:59-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdQcodeInfo  WHERE 1=1  
+-------------end 2017-12-08 20:35:59-------------
+-------------start 2017-12-08 20:36:00-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017-12-08 20:36:00-------------
+-------------start 2017-12-08 20:36:00-------------/Admin/Sys/TemplateEdit.aspx
+SELECT * FROM AdPageInfo  WHERE 1=1  
+-------------end 2017-12-08 20:36:00-------------
+-------------start 2017-12-08 20:58:56-------------/Login.aspx?ReturnUrl=%2fAdmin%2fPages%2fFtpTemplateFiles.aspx
+SELECT * FROM AccountInfo  WHERE 1=1  AND [UserName]='admin' 
+ 
+-------------end 2017-12-08 20:58:56-------------
