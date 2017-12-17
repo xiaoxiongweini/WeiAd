@@ -45,3 +45,4 @@ C:\Projects\HtmlEditorTool\HtmlEditor\WebAPI\bin\Microsoft.AI.Web.xml
 C:\Projects\HtmlEditorTool\HtmlEditor\WebAPI\obj\Release\WebAPI.csproj.CoreCompileInputs.cache
 C:\Projects\HtmlEditorTool\HtmlEditor\WebAPI\obj\Release\WebAPI.dll
 C:\Projects\HtmlEditorTool\HtmlEditor\WebAPI\obj\Release\WebAPI.pdb
+C:\Projects\HtmlEditorTool\HtmlEditor\WebAPI\obj\Release\WebAPI.csprojResolveAssemblyReference.cache

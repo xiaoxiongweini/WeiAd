@@ -1,0 +1,10 @@
+C:\Projects\HtmlEditorTool\HtmlEditor\HtmlEditor\bin\Release\HtmlEditor.exe.config
+C:\Projects\HtmlEditorTool\HtmlEditor\HtmlEditor\bin\Release\HtmlEditor.exe
+C:\Projects\HtmlEditorTool\HtmlEditor\HtmlEditor\bin\Release\HtmlEditor.pdb
+C:\Projects\HtmlEditorTool\HtmlEditor\HtmlEditor\obj\Release\HtmlEditor.Form1.resources
+C:\Projects\HtmlEditorTool\HtmlEditor\HtmlEditor\obj\Release\HtmlEditor.Properties.Resources.resources
+C:\Projects\HtmlEditorTool\HtmlEditor\HtmlEditor\obj\Release\HtmlEditor.csproj.GenerateResource.Cache
+C:\Projects\HtmlEditorTool\HtmlEditor\HtmlEditor\obj\Release\HtmlEditor.csproj.CoreCompileInputs.cache
+C:\Projects\HtmlEditorTool\HtmlEditor\HtmlEditor\obj\Release\HtmlEditor.exe
+C:\Projects\HtmlEditorTool\HtmlEditor\HtmlEditor\obj\Release\HtmlEditor.pdb
+C:\Projects\HtmlEditorTool\HtmlEditor\HtmlEditor\obj\Release\HtmlEditor.csprojResolveAssemblyReference.cache

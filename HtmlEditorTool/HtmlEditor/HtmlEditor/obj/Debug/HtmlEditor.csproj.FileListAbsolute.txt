@@ -7,4 +7,3 @@ C:\Projects\HtmlEditorTool\HtmlEditor\HtmlEditor\obj\Debug\HtmlEditor.csproj.Gen
 C:\Projects\HtmlEditorTool\HtmlEditor\HtmlEditor\obj\Debug\HtmlEditor.csproj.CoreCompileInputs.cache
 C:\Projects\HtmlEditorTool\HtmlEditor\HtmlEditor\obj\Debug\HtmlEditor.exe
 C:\Projects\HtmlEditorTool\HtmlEditor\HtmlEditor\obj\Debug\HtmlEditor.pdb
-C:\Projects\HtmlEditorTool\HtmlEditor\HtmlEditor\obj\Debug\HtmlEditor.csprojResolveAssemblyReference.cache

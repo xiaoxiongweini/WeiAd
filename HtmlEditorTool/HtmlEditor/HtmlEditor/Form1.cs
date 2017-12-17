@@ -23,30 +23,17 @@ namespace HtmlEditor
         private void button1_Click(object sender, EventArgs e)
         {
             string url = UrlTextBox.Text.ToString();
-            if (url == "") {
-                MessageBox.Show("请输入URL地址!");
-            }
-           string filename= url.Substring(url.LastIndexOf('/') + 1, url.Length - url.LastIndexOf('/')-1);
-            
-            string wechatid = weichatID.Text.ToString();
-            if (wechatid == "")
+            string filename = url.Substring(url.LastIndexOf('/') + 1, url.Length - url.LastIndexOf('/') - 1);
+            FileInfo file = new FileInfo(System.AppDomain.CurrentDomain.BaseDirectory + "/Files/" + filename);
+            if (!file.Exists)
             {
-                MessageBox.Show("请输入要替换的微信ID!");
+                MessageBox.Show("文件不存在!");
             }
-            string htmlcontent = Web.WebHandler.GetHtmlStr(url, "utf-8");
-     
-            Regex r = new Regex("(?<=var wx = \").*?(?=\";)", RegexOptions.IgnoreCase);
-            string result = r.Replace(htmlcontent, wechatid);
-
-            // 生成文件
-            Log(result, filename);
-
-           
             ProgressBar progressBar = new ProgressBar();
             Upload_Request2("http://api.bbphz.cn/service/generate.ashx",
                 System.AppDomain.CurrentDomain.BaseDirectory + "/Files/" + filename, filename, progressBar);
 
-
+            MessageBox.Show("文件上传成功！");
         }
 
 
@@ -166,13 +153,13 @@ namespace HtmlEditor
             try
             {
                 //string filename = DateTime.Now.ToString("yyyyMMdd") + ".txt";
-
                 if (!Directory.Exists(System.AppDomain.CurrentDomain.BaseDirectory + "/Files/")) {
                     Directory.CreateDirectory(System.AppDomain.CurrentDomain.BaseDirectory + "/Files/");
                 }
-
-
-                FileInfo file = new FileInfo(System.AppDomain.CurrentDomain.BaseDirectory +"/Files/"+ filename); //如果是web程序，这个的变成Http什么的
+                FileInfo file = new FileInfo(System.AppDomain.CurrentDomain.BaseDirectory +"/Files/"+ filename);
+                if (file.Exists) {
+                    file.Delete();
+                 };
                 StreamWriter sw = null;
                 if (!file.Exists)
                 {
@@ -194,6 +181,75 @@ namespace HtmlEditor
             }
         }
 
+        // 分析
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string url = UrlTextBox.Text.ToString();
+            if (url == "")
+            {
+                MessageBox.Show("请输入URL地址!");
+            }
+            string htmlcontent = Web.WebHandler.GetHtmlStr(url, "utf-8");
+            Regex r = new Regex("(?<=var wx = \").*?(?=\";)", RegexOptions.IgnoreCase);
+            Regex rtel = new Regex("(?<=var tel = \").*?(?=\";)", RegexOptions.IgnoreCase);
+            weichatID.Text = r.Match(htmlcontent).Value;
+            TelTextBOX.Text = rtel.Match(htmlcontent).Value;
+            MessageBox.Show("分析结束!");
+        }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            string url = UrlTextBox.Text.ToString();
+            if (url == "")
+            {
+                MessageBox.Show("请输入URL地址!");
+            }
+           string filename = url.Substring(url.LastIndexOf('/') + 1, url.Length - url.LastIndexOf('/') - 1);
+
+            string wechatid = NewWechatID.Text.ToString();
+            if (wechatid == "")
+            {
+                MessageBox.Show("请输入要替换的微信ID!");
+            }
+            string telid = NewTelID.Text.ToString();
+            //if (telid == "")
+            //{
+            //    MessageBox.Show("请输入要替换的手机ID!");
+            //}
+            string htmlcontent = Web.WebHandler.GetHtmlStr(url,Encoding.Default.ToString());
+
+            Regex r = new Regex("(?<=var wx = \").*?(?=\";)", RegexOptions.IgnoreCase);
+            string result = r.Replace(htmlcontent, wechatid);
+            Regex rtel = new Regex("(?<=var tel = \").*?(?=\";)", RegexOptions.IgnoreCase);
+            result = rtel.Replace(result, telid);
+            // 生成文件
+            Log(result, filename);
+            MessageBox.Show("生成文件成功!");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            string url = UrlTextBox.Text.ToString();
+            if (url == "")
+            {
+                MessageBox.Show("请输入URL地址!");
+            }
+            string filename = url.Substring(url.LastIndexOf('/') + 1, url.Length - url.LastIndexOf('/') - 1);
+            FileInfo file = new FileInfo(System.AppDomain.CurrentDomain.BaseDirectory + "/Files/" + filename);
+            if (!file.Exists) {
+                MessageBox.Show("文件不存在!");
+            }
+            else
+            {
+                string generateFile = System.IO.File.ReadAllText(System.AppDomain.CurrentDomain.BaseDirectory + "/Files/" + filename);
+                Regex r = new Regex("(?<=var wx = \").*?(?=\";)", RegexOptions.IgnoreCase);
+                Regex rtel = new Regex("(?<=var tel = \").*?(?=\";)", RegexOptions.IgnoreCase);
+                ResultWeChat.Text = r.Match(generateFile).Value;
+                ResultTel.Text = rtel.Match(generateFile).Value;
+                MessageBox.Show("检测完成!");
+            }
+        }
+
+    
     }
 }
